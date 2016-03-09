@@ -3,7 +3,7 @@
 		"name":"SN2009ks",
 		"aliases":[
 			"SN2009ks",
-			"PS10909006"
+			"PS1-0909006"
 		],
 		"sources":[
 			{
@@ -13,27 +13,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"CBET 2012",
 				"url":"http://www.cbat.eps.harvard.edu/cbet/002000/CBET002012.txt",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -45,7 +45,7 @@
 		"dec":[
 			{
 				"value":"+01:11:05.4",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -56,8 +56,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"2009/07/23",
-				"source":"2,3"
+				"value":"2009/09/22",
+				"source":"2"
 			}
 		],
 		"discoverer":[
@@ -67,19 +67,27 @@
 			},
 			{
 				"value":"CRTS",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+01:11:05",
 				"source":"1"
+			},
+			{
+				"value":"+01:11:05.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"22:15:48",
 				"source":"1"
+			},
+			{
+				"value":"22:15:48.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -114,24 +122,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"2009/09/21",
+				"value":"2009/09/22",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:15:48.06",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.28",
-				"source":"1,4"
+				"source":"1,2"
 			},
 			{
 				"value":"0.29",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -139,7 +147,14 @@
 				"timeunit":"MJD",
 				"time":"55095.5",
 				"magnitude":"21.1",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"55096.0",
+				"band":"r",
+				"magnitude":"21.1",
+				"source":"2"
 			}
 		]
 	}
