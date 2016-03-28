@@ -83,11 +83,18 @@
 		"dec":[
 			{
 				"value":"+00:12:25.6",
-				"source":"1"
+				"source":"1",
+				"unit":"floatdegrees"
 			},
 			{
 				"value":"+00:12:26.0",
-				"source":"2,3,4,5"
+				"source":"2",
+				"unit":"nospace"
+			},
+			{
+				"value":"-00:12:26.0",
+				"source":"3,4,5",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -115,17 +122,19 @@
 		"galdec":[
 			{
 				"value":"+00:12:26",
-				"source":"2"
+				"source":"2",
+				"unit":"nospace"
 			},
 			{
-				"value":"+00:12:26.0",
+				"value":"-00:12:26.0",
 				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"01:47:42",
-				"source":"2"
+				"source":"2",
+				"unit":"nospace"
 			},
 			{
 				"value":"01:47:42.00",
@@ -138,16 +147,11 @@
 				"source":"2"
 			}
 		],
-		"hvel":[
-			{
-				"value":"77500",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"1620",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -177,18 +181,29 @@
 		"ra":[
 			{
 				"value":"01:47:42.768",
-				"source":"1"
+				"source":"1",
+				"unit":"floatdegrees"
 			},
 			{
 				"value":"01:47:42.80",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.303",
 				"error":"0.005",
-				"source":"1"
+				"source":"1",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"77500",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -198,7 +213,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"26.023",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.570",
 				"source":"1"
 			},
@@ -208,7 +223,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.628",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.968",
 				"source":"1"
 			},
@@ -218,7 +233,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.533",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.834",
 				"source":"1"
 			},
@@ -228,7 +243,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.130",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.874",
 				"source":"1"
 			},
@@ -238,7 +253,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.309",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.694",
 				"source":"1"
 			},
@@ -248,7 +263,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.337",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.570",
 				"source":"1"
 			},
@@ -258,7 +273,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"25.629",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.090",
 				"source":"1"
 			},
@@ -268,7 +283,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.219",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.767",
 				"source":"1"
 			},
@@ -278,7 +293,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.273",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.837",
 				"source":"1"
 			},
@@ -288,7 +303,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.858",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.867",
 				"source":"1"
 			},
@@ -298,7 +313,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.813",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.648",
 				"source":"1"
 			},
@@ -308,7 +323,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"26.658",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.220",
 				"source":"1"
 			},
@@ -318,7 +333,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.961",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.623",
 				"source":"1"
 			},
@@ -328,7 +343,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.102",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.613",
 				"source":"1"
 			},
@@ -338,7 +353,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.598",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.759",
 				"source":"1"
 			},
@@ -348,7 +363,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.623",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.299",
 				"source":"1"
 			},
@@ -358,7 +373,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.815",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.509",
 				"source":"1"
 			},
@@ -368,7 +383,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.031",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"2.415",
 				"source":"1"
 			},
@@ -378,7 +393,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.658",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.832",
 				"source":"1"
 			},
@@ -388,7 +403,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.923",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.246",
 				"source":"1"
 			},
@@ -398,7 +413,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"26.561",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.082",
 				"source":"1"
 			},
@@ -408,7 +423,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"26.058",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.799",
 				"source":"1"
 			},
@@ -418,7 +433,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"24.342",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.689",
 				"source":"1"
 			},
@@ -428,7 +443,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"27.890",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.536",
 				"source":"1"
 			},
@@ -438,7 +453,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.870",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.057",
 				"source":"1"
 			},
@@ -448,7 +463,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.307",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.659",
 				"source":"1"
 			},
@@ -458,7 +473,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.914",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.801",
 				"source":"1"
 			},
@@ -468,7 +483,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.785",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.594",
 				"source":"1"
 			},
@@ -478,7 +493,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"23.908",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.871",
 				"source":"1"
 			},
@@ -488,7 +503,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.648",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.189",
 				"source":"1"
 			},
@@ -498,7 +513,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.315",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.655",
 				"source":"1"
 			},
@@ -508,7 +523,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.675",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.745",
 				"source":"1"
 			},
@@ -518,7 +533,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"24.077",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.505",
 				"source":"1"
 			},
@@ -528,7 +543,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"23.665",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.676",
 				"source":"1"
 			},
@@ -538,7 +553,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.467",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.610",
 				"source":"1"
 			},
@@ -548,7 +563,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.916",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.523",
 				"source":"1"
 			},
@@ -558,7 +573,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.426",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.949",
 				"source":"1"
 			},
@@ -568,7 +583,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.917",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.464",
 				"source":"1"
 			},
@@ -578,7 +593,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"26.335",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.521",
 				"source":"1"
 			},
@@ -588,7 +603,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.436",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.594",
 				"source":"1"
 			},
@@ -598,7 +613,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.609",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.449",
 				"source":"1"
 			},
@@ -608,7 +623,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.862",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.299",
 				"source":"1"
 			},
@@ -618,7 +633,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.907",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.413",
 				"source":"1"
 			},
@@ -628,7 +643,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.421",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.644",
 				"source":"1"
 			},
@@ -638,7 +653,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"26.486",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.289",
 				"source":"1"
 			},
@@ -648,7 +663,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.343",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.656",
 				"source":"1"
 			},
@@ -658,7 +673,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.332",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.277",
 				"source":"1"
 			},
@@ -668,7 +683,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.886",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.419",
 				"source":"1"
 			},
@@ -678,7 +693,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"26.364",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.404",
 				"source":"1"
 			},
@@ -688,7 +703,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.415",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.557",
 				"source":"1"
 			},
@@ -698,7 +713,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.677",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.487",
 				"source":"1"
 			},
@@ -708,7 +723,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.273",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.260",
 				"source":"1"
 			},
@@ -718,7 +733,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.888",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.465",
 				"source":"1"
 			},
@@ -728,7 +743,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.738",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.538",
 				"source":"1"
 			},
@@ -738,7 +753,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.091",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.541",
 				"source":"1"
 			},
@@ -748,7 +763,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.258",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.374",
 				"source":"1"
 			},
@@ -758,7 +773,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.114",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.549",
 				"source":"1"
 			},
@@ -768,7 +783,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.757",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.547",
 				"source":"1"
 			},
@@ -778,7 +793,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.662",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.485",
 				"source":"1"
 			},
@@ -788,7 +803,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"26.303",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.737",
 				"source":"1"
 			},
@@ -798,7 +813,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"24.186",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.737",
 				"source":"1"
 			},
@@ -808,7 +823,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"24.540",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.747",
 				"source":"1"
 			},
@@ -818,7 +833,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.862",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.806",
 				"source":"1"
 			},
@@ -828,7 +843,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.346",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.531",
 				"source":"1"
 			},
@@ -838,7 +853,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.969",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.374",
 				"source":"1"
 			},
@@ -848,7 +863,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.597",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.830",
 				"source":"1"
 			},
@@ -858,7 +873,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"26.075",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.468",
 				"source":"1"
 			},
@@ -868,7 +883,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.635",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"2.366",
 				"source":"1"
 			},
@@ -878,7 +893,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.753",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.965",
 				"source":"1"
 			},
@@ -888,7 +903,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.623",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.753",
 				"source":"1"
 			},
@@ -898,7 +913,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"27.318",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.782",
 				"source":"1"
 			},
@@ -908,7 +923,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"23.978",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.826",
 				"source":"1"
 			},
@@ -918,7 +933,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.253",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.532",
 				"source":"1"
 			},
@@ -928,7 +943,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"26.316",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.994",
 				"source":"1"
 			},
@@ -938,7 +953,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.866",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.471",
 				"source":"1"
 			},
@@ -948,7 +963,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.800",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.302",
 				"source":"1"
 			},
@@ -958,7 +973,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.697",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"4.750",
 				"source":"1"
 			},
@@ -968,7 +983,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.717",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.035",
 				"source":"1"
 			},
@@ -978,7 +993,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"24.610",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"2.702",
 				"source":"1"
 			},
@@ -988,7 +1003,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.246",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.087",
 				"source":"1"
 			},
@@ -998,7 +1013,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"26.000",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.405",
 				"source":"1"
 			},
@@ -1008,7 +1023,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"26.937",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.718",
 				"source":"1"
 			},
@@ -1018,7 +1033,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.672",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.855",
 				"source":"1"
 			},
@@ -1028,7 +1043,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"26.869",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.598",
 				"source":"1"
 			},
@@ -1038,7 +1053,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.043",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.834",
 				"source":"1"
 			},
@@ -1048,7 +1063,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.051",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.742",
 				"source":"1"
 			},
@@ -1058,7 +1073,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.615",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.830",
 				"source":"1"
 			},
@@ -1068,7 +1083,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.652",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.782",
 				"source":"1"
 			},
@@ -1078,7 +1093,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.902",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.114",
 				"source":"1"
 			},
@@ -1088,7 +1103,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.481",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.818",
 				"source":"1"
 			},
@@ -1098,7 +1113,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.661",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.828",
 				"source":"1"
 			},
@@ -1108,7 +1123,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"26.472",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.748",
 				"source":"1"
 			},
@@ -1118,7 +1133,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.192",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.931",
 				"source":"1"
 			},
@@ -1128,7 +1143,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"24.193",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.824",
 				"source":"1"
 			},
@@ -1138,7 +1153,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.953",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.412",
 				"source":"1"
 			},
@@ -1148,7 +1163,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.158",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.613",
 				"source":"1"
 			},
@@ -1158,7 +1173,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"25.413",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.883",
 				"source":"1"
 			},
@@ -1168,7 +1183,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.939",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.430",
 				"source":"1"
 			},
@@ -1178,7 +1193,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"24.768",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.518",
 				"source":"1"
 			},
@@ -1188,7 +1203,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.813",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.840",
 				"source":"1"
 			},
@@ -1198,7 +1213,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.160",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.598",
 				"source":"1"
 			},
@@ -1208,7 +1223,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.945",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.226",
 				"source":"1"
 			},
@@ -1218,7 +1233,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.889",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.745",
 				"source":"1"
 			},
@@ -1228,7 +1243,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"23.717",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.707",
 				"source":"1"
 			},
@@ -1238,7 +1253,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.081",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.773",
 				"source":"1"
 			},
@@ -1248,7 +1263,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.846",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.758",
 				"source":"1"
 			},
@@ -1258,7 +1273,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.732",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.541",
 				"source":"1"
 			},
@@ -1268,7 +1283,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.738",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.731",
 				"source":"1"
 			},
@@ -1278,7 +1293,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.663",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.452",
 				"source":"1"
 			},
@@ -1288,7 +1303,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.453",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.223",
 				"source":"1"
 			},
@@ -1298,7 +1313,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.295",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.853",
 				"source":"1"
 			},
@@ -1308,7 +1323,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.571",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.838",
 				"source":"1"
 			},
@@ -1318,7 +1333,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.287",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.598",
 				"source":"1"
 			},
@@ -1328,7 +1343,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.364",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.556",
 				"source":"1"
 			},
@@ -1338,7 +1353,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.211",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.557",
 				"source":"1"
 			},
@@ -1348,7 +1363,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.932",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.442",
 				"source":"1"
 			},
@@ -1358,7 +1373,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.672",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.446",
 				"source":"1"
 			},
@@ -1368,7 +1383,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"26.442",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.399",
 				"source":"1"
 			},
@@ -1378,7 +1393,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.817",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.414",
 				"source":"1"
 			},
@@ -1388,7 +1403,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.676",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.275",
 				"source":"1"
 			},
@@ -1398,7 +1413,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.703",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.856",
 				"source":"1"
 			},
@@ -1408,7 +1423,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"26.240",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.540",
 				"source":"1"
 			},
@@ -1418,7 +1433,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.026",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.783",
 				"source":"1"
 			},
@@ -1428,7 +1443,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.443",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.572",
 				"source":"1"
 			},
@@ -1438,7 +1453,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.431",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.724",
 				"source":"1"
 			},
@@ -1448,7 +1463,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.087",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.712",
 				"source":"1"
 			},
@@ -1458,7 +1473,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"24.684",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.503",
 				"source":"1"
 			},
@@ -1468,7 +1483,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.982",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.864",
 				"source":"1"
 			},
@@ -1478,7 +1493,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.871",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.284",
 				"source":"1"
 			},
@@ -1488,7 +1503,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.899",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.693",
 				"source":"1"
 			},
@@ -1498,7 +1513,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.920",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.553",
 				"source":"1"
 			},
@@ -1508,7 +1523,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.320",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.809",
 				"source":"1"
 			},
@@ -1518,7 +1533,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.767",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.588",
 				"source":"1"
 			},
@@ -1528,7 +1543,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"23.517",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.377",
 				"source":"1"
 			},
@@ -1538,7 +1553,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.605",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.095",
 				"source":"1"
 			},
@@ -1548,7 +1563,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.547",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.465",
 				"source":"1"
 			},
@@ -1558,7 +1573,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.209",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.528",
 				"source":"1"
 			},
@@ -1568,7 +1583,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.293",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.990",
 				"source":"1"
 			},
@@ -1578,7 +1593,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"25.818",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.517",
 				"source":"1"
 			},
@@ -1588,7 +1603,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"27.035",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.412",
 				"source":"1"
 			},
@@ -1598,7 +1613,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.169",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.028",
 				"source":"1"
 			},
@@ -1608,7 +1623,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"26.771",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.353",
 				"source":"1"
 			},
@@ -1618,7 +1633,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.215",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.556",
 				"source":"1"
 			},
@@ -1628,7 +1643,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.256",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.567",
 				"source":"1"
 			},
@@ -1638,7 +1653,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"23.809",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.879",
 				"source":"1"
 			},
@@ -1648,7 +1663,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.700",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.405",
 				"source":"1"
 			},
@@ -1658,7 +1673,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.403",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.510",
 				"source":"1"
 			},
@@ -1668,7 +1683,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"25.164",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.770",
 				"source":"1"
 			},
@@ -1678,7 +1693,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.853",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.570",
 				"source":"1"
 			},
@@ -1688,7 +1703,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.892",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.322",
 				"source":"1"
 			},
@@ -1698,7 +1713,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.804",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.605",
 				"source":"1"
 			},
@@ -1708,7 +1723,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"25.623",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.510",
 				"source":"1"
 			},
@@ -1718,7 +1733,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"26.446",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.659",
 				"source":"1"
 			},
@@ -1728,7 +1743,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.762",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.727",
 				"source":"1"
 			},
@@ -1738,7 +1753,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.081",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.705",
 				"source":"1"
 			},
@@ -1748,7 +1763,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"26.520",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.493",
 				"source":"1"
 			},
@@ -1758,7 +1773,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"23.789",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.762",
 				"source":"1"
 			},
@@ -1768,7 +1783,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.377",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.779",
 				"source":"1"
 			},
@@ -1778,7 +1793,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"25.694",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.332",
 				"source":"1"
 			},
@@ -1788,7 +1803,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.598",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.599",
 				"source":"1"
 			},
@@ -1798,7 +1813,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"23.854",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.936",
 				"source":"1"
 			},
@@ -1808,7 +1823,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"24.088",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.635",
 				"source":"1"
 			},
@@ -1818,7 +1833,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"22.540",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.519",
 				"source":"1"
 			},
@@ -1828,7 +1843,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.589",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.450",
 				"source":"1"
 			},
@@ -1838,7 +1853,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.235",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.168",
 				"source":"1"
 			},
@@ -1848,7 +1863,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"23.589",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.583",
 				"source":"1"
 			},
@@ -1858,7 +1873,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"24.287",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"5.261",
 				"source":"1"
 			},
@@ -1868,7 +1883,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"24.241",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.359",
 				"source":"1"
 			},
@@ -1878,7 +1893,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"28.710",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.738",
 				"source":"1"
 			},
@@ -1888,7 +1903,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"22.974",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.499",
 				"source":"1"
 			},
@@ -1898,7 +1913,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"22.142",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.272",
 				"source":"1"
 			},
@@ -1908,7 +1923,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.253",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"3.276",
 				"source":"1"
 			},
@@ -1918,7 +1933,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.024",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.841",
 				"source":"1"
 			},
@@ -1928,7 +1943,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"22.294",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.327",
 				"source":"1"
 			},
@@ -1938,7 +1953,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"22.297",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.185",
 				"source":"1"
 			},
@@ -1948,7 +1963,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"22.084",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.171",
 				"source":"1"
 			},
@@ -1958,7 +1973,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"24.719",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.769",
 				"source":"1"
 			},
@@ -1968,7 +1983,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.799",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.432",
 				"source":"1"
 			},
@@ -1978,7 +1993,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"22.318",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.153",
 				"source":"1"
 			},
@@ -1994,7 +2009,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"21.906",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.113",
 				"source":"1"
 			},
@@ -2004,7 +2019,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"21.769",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.131",
 				"source":"1"
 			},
@@ -2014,7 +2029,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.539",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.441",
 				"source":"1"
 			},
@@ -2024,7 +2039,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.088",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.699",
 				"source":"1"
 			},
@@ -2034,7 +2049,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"22.329",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.126",
 				"source":"1"
 			},
@@ -2044,7 +2059,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"22.074",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.181",
 				"source":"1"
 			},
@@ -2054,7 +2069,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"21.988",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.241",
 				"source":"1"
 			},
@@ -2064,7 +2079,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.630",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.627",
 				"source":"1"
 			},
@@ -2074,7 +2089,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"23.164",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.107",
 				"source":"1"
 			},
@@ -2084,7 +2099,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"22.807",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.235",
 				"source":"1"
 			},
@@ -2094,7 +2109,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"21.918",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.127",
 				"source":"1"
 			},
@@ -2104,7 +2119,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"21.871",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.182",
 				"source":"1"
 			},
@@ -2114,7 +2129,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"22.860",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.641",
 				"source":"1"
 			},
@@ -2124,7 +2139,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"22.011",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.664",
 				"source":"1"
 			},
@@ -2134,7 +2149,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"22.345",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.129",
 				"source":"1"
 			},
@@ -2144,7 +2159,7 @@
 				"band":"r",
 				"system":"SDSS",
 				"magnitude":"22.036",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.117",
 				"source":"1"
 			},
@@ -2154,7 +2169,7 @@
 				"band":"i",
 				"system":"SDSS",
 				"magnitude":"22.266",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.200",
 				"source":"1"
 			},
@@ -2164,7 +2179,7 @@
 				"band":"u",
 				"system":"SDSS",
 				"magnitude":"25.090",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"1.276",
 				"source":"1"
 			},
@@ -2174,7 +2189,7 @@
 				"band":"z",
 				"system":"SDSS",
 				"magnitude":"21.767",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.460",
 				"source":"1"
 			},
@@ -2184,7 +2199,7 @@
 				"band":"g",
 				"system":"SDSS",
 				"magnitude":"22.606",
-				"instrument":"SDSS",
+				"telescope":"SDSS",
 				"e_magnitude":"0.141",
 				"source":"1"
 			}

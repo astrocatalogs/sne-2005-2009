@@ -108,7 +108,8 @@
 		"dec":[
 			{
 				"value":"-19:28:25.8",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7",
+				"unit":"nospace"
 			}
 		],
 		"discover":[
@@ -138,7 +139,8 @@
 		"galdec":[
 			{
 				"value":"-19:28:23",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"-19:28:23.0",
@@ -148,7 +150,8 @@
 		"galra":[
 			{
 				"value":"09:59:19",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"09:59:19.00",
@@ -169,20 +172,11 @@
 				"source":"5"
 			}
 		],
-		"hvel":[
-			{
-				"value":"3634",
-				"source":"1"
-			},
-			{
-				"value":"3621",
-				"source":"4"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"54.14",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -212,13 +206,23 @@
 		"ra":[
 			{
 				"value":"09:59:18.48",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.01212",
-				"source":"13"
+				"source":"1,13",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"3621",
+				"source":"4",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -27159,7 +27163,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"54172.25",
 				"filename":"SN07al_070313_g01_BAA_IM.dat",
@@ -53737,7 +53742,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: BC",
+				"instrument":"BC",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54173.09",
 				"filename":"SN07al_070314_b01_DUP_BC.dat",
@@ -102178,7 +102184,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: BC",
+				"instrument":"BC",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54178.10",
 				"filename":"SN07al_070319_b01_DUP_BC.dat",
@@ -154579,7 +154586,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: BC",
+				"instrument":"BC",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54185.15",
 				"filename":"SN07al_070326_b01_DUP_BC.dat",

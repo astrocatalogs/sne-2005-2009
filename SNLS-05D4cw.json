@@ -89,7 +89,8 @@
 		"dec":[
 			{
 				"value":"-17:44:19.560",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -104,16 +105,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"92400",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"2080",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -143,13 +139,23 @@
 		"ra":[
 			{
 				"value":"22:14:50.080",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.375",
-				"source":"1,7,8"
+				"source":"1,7,8",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"92400",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -676,7 +682,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"53590.0",
 				"filename":"snonly_05D4cw_950_Balland_etal_09.dat",

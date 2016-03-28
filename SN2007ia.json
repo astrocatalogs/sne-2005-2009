@@ -44,7 +44,13 @@
 		"dec":[
 			{
 				"value":"+00:06:08.9",
-				"source":"1,2,3,4"
+				"source":"1",
+				"unit":"nospace"
+			},
+			{
+				"value":"-00:06:08.9",
+				"source":"2,3,4",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -72,17 +78,19 @@
 		"galdec":[
 			{
 				"value":"+00:06:08",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
-				"value":"+00:06:08.0",
+				"value":"-00:06:08.0",
 				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"03:43:10",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
 				"value":"03:43:10.00",
@@ -99,16 +107,11 @@
 				"source":"2"
 			}
 		],
-		"hvel":[
-			{
-				"value":"36000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"630",
-				"source":"D"
+				"source":"D",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -138,13 +141,23 @@
 		"ra":[
 			{
 				"value":"03:43:10.06",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.13",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4",
+				"kind":"host"
+			}
+		],
+		"velocity":[
+			{
+				"value":"36000",
+				"source":"D",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[

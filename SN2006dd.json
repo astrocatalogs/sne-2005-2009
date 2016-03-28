@@ -106,11 +106,13 @@
 		"dec":[
 			{
 				"value":"-37:12:13.0",
-				"source":"1,2"
+				"source":"1,2",
+				"unit":"nospace"
 			},
 			{
 				"value":"-37:12:13.2",
-				"source":"3,4"
+				"source":"3,4",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -138,7 +140,8 @@
 		"galdec":[
 			{
 				"value":"-37:12:27",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
 				"value":"-37:12:29.7",
@@ -148,7 +151,8 @@
 		"galra":[
 			{
 				"value":"03:22:42",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
 				"value":"03:22:41.74",
@@ -161,17 +165,12 @@
 				"source":"1,2,3,4"
 			}
 		],
-		"hvel":[
-			{
-				"value":"1806",
-				"source":"1"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"12.6",
 				"error":"0.6",
-				"source":"2"
+				"source":"2",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -201,17 +200,27 @@
 		"ra":[
 			{
 				"value":"03:22:41.62",
-				"source":"1,2"
+				"source":"1,2",
+				"unit":"nospace"
 			},
 			{
 				"value":"03:22:41.64",
-				"source":"3,4"
+				"source":"3,4",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00587",
 				"source":"9"
+			}
+		],
+		"velocity":[
+			{
+				"value":"1806",
+				"source":"1",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -232,7 +241,8 @@
 		"spectra":[
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"53907.42",
 				"filename":"SN06dd_060621_b01_BAA_IM.dat",
@@ -34520,7 +34530,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54005.36",
 				"filename":"SN06dd_060927_b01_DUP_WF.dat",
@@ -41684,7 +41695,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"HIL: BC",
+				"instrument":"BC",
+				"telescope":"HIL",
 				"timeunit":"MJD",
 				"time":"54044.31",
 				"filename":"SN06dd_061104_b01_HIL_BC.dat",
@@ -46204,7 +46216,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54055.23",
 				"filename":"SN06dd_061116_b01_DUP_WF.dat",
@@ -53368,7 +53381,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"NTT: EM",
+				"instrument":"EM",
+				"telescope":"NTT",
 				"timeunit":"MJD",
 				"time":"54106.16",
 				"filename":"SN06dd_070106_b01_NTT_EM.dat",
@@ -57380,7 +57394,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"NTT: EM",
+				"instrument":"EM",
+				"telescope":"NTT",
 				"timeunit":"MJD",
 				"time":"54106.18",
 				"filename":"SN06dd_070106_g01_NTT_EM.dat",
@@ -64864,7 +64879,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"NTT: EM",
+				"instrument":"EM",
+				"telescope":"NTT",
 				"timeunit":"MJD",
 				"time":"54106.18",
 				"filename":"SN06dd_070106_r01_NTT_EM.dat",
@@ -70076,7 +70092,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: BC",
+				"instrument":"BC",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54113.15",
 				"filename":"SN06dd_070113_b01_DUP_BC.dat",

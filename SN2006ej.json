@@ -187,11 +187,13 @@
 		"dec":[
 			{
 				"value":"-09:00:56.59",
-				"source":"3"
+				"source":"3",
+				"unit":"degrees"
 			},
 			{
 				"value":"-09:00:56.6",
-				"source":"6,7,8,9"
+				"source":"6,7,8,9",
+				"unit":"nospace"
 			}
 		],
 		"discover":[
@@ -221,7 +223,8 @@
 		"galdec":[
 			{
 				"value":"-09:00:52",
-				"source":"6"
+				"source":"6",
+				"unit":"nospace"
 			},
 			{
 				"value":"-09:00:30.0",
@@ -231,7 +234,8 @@
 		"galra":[
 			{
 				"value":"00:39:00",
-				"source":"6"
+				"source":"6",
+				"unit":"nospace"
 			},
 			{
 				"value":"00:39:01.00",
@@ -248,21 +252,12 @@
 				"source":"6,7,8,9"
 			}
 		],
-		"hvel":[
-			{
-				"value":"6077",
-				"source":"1"
-			},
-			{
-				"value":"6121",
-				"source":"6"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"91",
 				"error":"8",
-				"source":"7"
+				"source":"7",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -292,13 +287,23 @@
 		"ra":[
 			{
 				"value":"00:38:59.77",
-				"source":"3,6,7,8,9"
+				"source":"3,6,7,8,9",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.019333",
-				"source":"3"
+				"source":"3",
+				"kind":"cmb"
+			}
+		],
+		"velocity":[
+			{
+				"value":"6121",
+				"source":"6",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -307,7 +312,7 @@
 				"time":"53972.36",
 				"band":"B",
 				"magnitude":"15.99700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01200",
 				"source":"2"
 			},
@@ -316,7 +321,7 @@
 				"time":"53972.36",
 				"band":"I",
 				"magnitude":"16.03300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01800",
 				"source":"2"
 			},
@@ -325,7 +330,7 @@
 				"time":"53972.36",
 				"band":"R",
 				"magnitude":"15.87200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01200",
 				"source":"2"
 			},
@@ -334,7 +339,7 @@
 				"time":"53972.36",
 				"band":"V",
 				"magnitude":"16.05700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01200",
 				"source":"2"
 			},
@@ -349,7 +354,7 @@
 				"time":"53974.42",
 				"band":"I",
 				"magnitude":"16.05300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02800",
 				"source":"2"
 			},
@@ -358,7 +363,7 @@
 				"time":"53974.42",
 				"band":"R",
 				"magnitude":"15.77200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01600",
 				"source":"2"
 			},
@@ -367,7 +372,7 @@
 				"time":"53974.42",
 				"band":"V",
 				"magnitude":"15.88600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -376,7 +381,7 @@
 				"time":"53975.43",
 				"band":"B",
 				"magnitude":"15.88700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01300",
 				"source":"2"
 			},
@@ -385,7 +390,7 @@
 				"time":"53975.43",
 				"band":"I",
 				"magnitude":"16.12200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01700",
 				"source":"2"
 			},
@@ -394,7 +399,7 @@
 				"time":"53975.43",
 				"band":"R",
 				"magnitude":"15.76300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01200",
 				"source":"2"
 			},
@@ -403,7 +408,7 @@
 				"time":"53975.43",
 				"band":"V",
 				"magnitude":"15.90300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01100",
 				"source":"2"
 			},
@@ -443,8 +448,9 @@
 				"timeunit":"MJD",
 				"time":"53979.23385",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"15.821",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.007",
 				"source":"3"
 			},
@@ -452,8 +458,9 @@
 				"timeunit":"MJD",
 				"time":"53979.23385",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"15.827",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.006",
 				"source":"3"
 			},
@@ -461,8 +468,9 @@
 				"timeunit":"MJD",
 				"time":"53979.23385",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"16.471",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.007",
 				"source":"3"
 			},
@@ -470,8 +478,9 @@
 				"timeunit":"MJD",
 				"time":"53979.23385",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"15.802",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.006",
 				"source":"3"
 			},
@@ -479,8 +488,9 @@
 				"timeunit":"MJD",
 				"time":"53979.23385",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"16.681",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.012",
 				"source":"3"
 			},
@@ -488,8 +498,9 @@
 				"timeunit":"MJD",
 				"time":"53980.20104",
 				"band":"H",
+				"system":"CSP",
 				"magnitude":"16.831",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.062",
 				"source":"3"
 			},
@@ -497,8 +508,9 @@
 				"timeunit":"MJD",
 				"time":"53980.20104",
 				"band":"J",
+				"system":"CSP",
 				"magnitude":"16.704",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.025",
 				"source":"3"
 			},
@@ -506,8 +518,9 @@
 				"timeunit":"MJD",
 				"time":"53980.20104",
 				"band":"Y",
+				"system":"CSP",
 				"magnitude":"16.801",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.020",
 				"source":"3"
 			},
@@ -515,8 +528,9 @@
 				"timeunit":"MJD",
 				"time":"53981.19990",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"16.071",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.008",
 				"source":"3"
 			},
@@ -524,8 +538,9 @@
 				"timeunit":"MJD",
 				"time":"53981.19990",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"15.881",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -533,8 +548,9 @@
 				"timeunit":"MJD",
 				"time":"53981.19990",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"15.927",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.007",
 				"source":"3"
 			},
@@ -542,8 +558,9 @@
 				"timeunit":"MJD",
 				"time":"53981.19990",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"16.582",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -551,8 +568,9 @@
 				"timeunit":"MJD",
 				"time":"53981.19990",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"15.903",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -560,8 +578,9 @@
 				"timeunit":"MJD",
 				"time":"53981.19990",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"16.898",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.014",
 				"source":"3"
 			},
@@ -578,7 +597,7 @@
 				"time":"53984.40",
 				"band":"B",
 				"magnitude":"16.36600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -587,7 +606,7 @@
 				"time":"53984.40",
 				"band":"I",
 				"magnitude":"16.61400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03600",
 				"source":"2"
 			},
@@ -596,7 +615,7 @@
 				"time":"53984.40",
 				"band":"R",
 				"magnitude":"16.11700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02300",
 				"source":"2"
 			},
@@ -605,7 +624,7 @@
 				"time":"53984.40",
 				"band":"V",
 				"magnitude":"16.14600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01800",
 				"source":"2"
 			},
@@ -613,8 +632,9 @@
 				"timeunit":"MJD",
 				"time":"53986.16548",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"16.551",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.011",
 				"source":"3"
 			},
@@ -622,8 +642,9 @@
 				"timeunit":"MJD",
 				"time":"53986.16548",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"16.156",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -631,8 +652,9 @@
 				"timeunit":"MJD",
 				"time":"53986.16548",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"16.319",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -640,8 +662,9 @@
 				"timeunit":"MJD",
 				"time":"53986.16548",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"17.078",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.011",
 				"source":"3"
 			},
@@ -649,8 +672,9 @@
 				"timeunit":"MJD",
 				"time":"53986.16548",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"16.286",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -658,8 +682,9 @@
 				"timeunit":"MJD",
 				"time":"53986.16548",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"17.582",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.028",
 				"source":"3"
 			},
@@ -692,7 +717,7 @@
 				"time":"53995.34",
 				"band":"B",
 				"magnitude":"17.81400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.07400",
 				"source":"2"
 			},
@@ -701,7 +726,7 @@
 				"time":"53995.34",
 				"band":"I",
 				"magnitude":"16.49000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03300",
 				"source":"2"
 			},
@@ -710,7 +735,7 @@
 				"time":"53995.34",
 				"band":"R",
 				"magnitude":"16.47300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02400",
 				"source":"2"
 			},
@@ -719,7 +744,7 @@
 				"time":"53995.34",
 				"band":"V",
 				"magnitude":"16.77800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -727,8 +752,9 @@
 				"timeunit":"MJD",
 				"time":"53998.14956",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"18.042",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.013",
 				"source":"3"
 			},
@@ -736,8 +762,9 @@
 				"timeunit":"MJD",
 				"time":"53998.14956",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"17.014",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -745,8 +772,9 @@
 				"timeunit":"MJD",
 				"time":"53998.14956",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"17.627",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.007",
 				"source":"3"
 			},
@@ -754,8 +782,9 @@
 				"timeunit":"MJD",
 				"time":"53998.14956",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"16.889",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -763,8 +792,9 @@
 				"timeunit":"MJD",
 				"time":"53998.14956",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"16.654",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.006",
 				"source":"3"
 			},
@@ -772,8 +802,9 @@
 				"timeunit":"MJD",
 				"time":"53998.14956",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"19.251",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.041",
 				"source":"3"
 			},
@@ -781,8 +812,9 @@
 				"timeunit":"MJD",
 				"time":"53999.16494",
 				"band":"H",
+				"system":"CSP",
 				"magnitude":"16.704",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.038",
 				"source":"3"
 			},
@@ -790,8 +822,9 @@
 				"timeunit":"MJD",
 				"time":"53999.16494",
 				"band":"J",
+				"system":"CSP",
 				"magnitude":"17.267",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.038",
 				"source":"3"
 			},
@@ -799,8 +832,9 @@
 				"timeunit":"MJD",
 				"time":"53999.16494",
 				"band":"Y",
+				"system":"CSP",
 				"magnitude":"16.263",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.016",
 				"source":"3"
 			},
@@ -809,7 +843,7 @@
 				"time":"53999.32",
 				"band":"B",
 				"magnitude":"18.17000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.07400",
 				"source":"2"
 			},
@@ -818,7 +852,7 @@
 				"time":"53999.32",
 				"band":"I",
 				"magnitude":"16.48600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03600",
 				"source":"2"
 			},
@@ -827,7 +861,7 @@
 				"time":"53999.32",
 				"band":"V",
 				"magnitude":"17.11200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03300",
 				"source":"2"
 			},
@@ -851,8 +885,9 @@
 				"timeunit":"MJD",
 				"time":"54000.16079",
 				"band":"H",
+				"system":"CSP",
 				"magnitude":"16.487",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.049",
 				"source":"3"
 			},
@@ -860,8 +895,9 @@
 				"timeunit":"MJD",
 				"time":"54000.16079",
 				"band":"J",
+				"system":"CSP",
 				"magnitude":"17.137",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.062",
 				"source":"3"
 			},
@@ -869,8 +905,9 @@
 				"timeunit":"MJD",
 				"time":"54000.16079",
 				"band":"Y",
+				"system":"CSP",
 				"magnitude":"16.215",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.016",
 				"source":"3"
 			},
@@ -878,8 +915,9 @@
 				"timeunit":"MJD",
 				"time":"54001.09067",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"18.330",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.014",
 				"source":"3"
 			},
@@ -887,8 +925,9 @@
 				"timeunit":"MJD",
 				"time":"54001.09067",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"17.258",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.011",
 				"source":"3"
 			},
@@ -896,8 +935,9 @@
 				"timeunit":"MJD",
 				"time":"54001.09067",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"17.938",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -905,8 +945,9 @@
 				"timeunit":"MJD",
 				"time":"54001.09067",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"16.981",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.012",
 				"source":"3"
 			},
@@ -914,8 +955,9 @@
 				"timeunit":"MJD",
 				"time":"54001.09067",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"16.867",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -923,8 +965,9 @@
 				"timeunit":"MJD",
 				"time":"54001.09067",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"19.416",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.048",
 				"source":"3"
 			},
@@ -933,7 +976,7 @@
 				"time":"54002.35",
 				"band":"B",
 				"magnitude":"18.52100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03600",
 				"source":"2"
 			},
@@ -942,7 +985,7 @@
 				"time":"54002.35",
 				"band":"I",
 				"magnitude":"16.72700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02400",
 				"source":"2"
 			},
@@ -951,7 +994,7 @@
 				"time":"54002.35",
 				"band":"R",
 				"magnitude":"16.97700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02000",
 				"source":"2"
 			},
@@ -960,7 +1003,7 @@
 				"time":"54002.35",
 				"band":"V",
 				"magnitude":"17.41300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02000",
 				"source":"2"
 			},
@@ -968,8 +1011,9 @@
 				"timeunit":"MJD",
 				"time":"54003.09822",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"18.490",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.016",
 				"source":"3"
 			},
@@ -977,8 +1021,9 @@
 				"timeunit":"MJD",
 				"time":"54003.09822",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"17.448",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -986,8 +1031,9 @@
 				"timeunit":"MJD",
 				"time":"54003.09822",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"18.128",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.010",
 				"source":"3"
 			},
@@ -995,8 +1041,9 @@
 				"timeunit":"MJD",
 				"time":"54003.09822",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"17.158",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.009",
 				"source":"3"
 			},
@@ -1004,8 +1051,9 @@
 				"timeunit":"MJD",
 				"time":"54003.09822",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"17.055",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.007",
 				"source":"3"
 			},
@@ -1013,8 +1061,9 @@
 				"timeunit":"MJD",
 				"time":"54003.09822",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"19.601",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.069",
 				"source":"3"
 			},
@@ -1023,7 +1072,7 @@
 				"time":"54005.30",
 				"band":"B",
 				"magnitude":"18.78200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.07100",
 				"source":"2"
 			},
@@ -1032,7 +1081,7 @@
 				"time":"54005.30",
 				"band":"I",
 				"magnitude":"16.98600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03200",
 				"source":"2"
 			},
@@ -1041,7 +1090,7 @@
 				"time":"54005.30",
 				"band":"R",
 				"magnitude":"17.22400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02800",
 				"source":"2"
 			},
@@ -1050,7 +1099,7 @@
 				"time":"54005.30",
 				"band":"V",
 				"magnitude":"17.62900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02300",
 				"source":"2"
 			},
@@ -1074,8 +1123,9 @@
 				"timeunit":"MJD",
 				"time":"54008.07491",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"18.807",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.019",
 				"source":"3"
 			},
@@ -1083,8 +1133,9 @@
 				"timeunit":"MJD",
 				"time":"54008.07491",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"17.766",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.011",
 				"source":"3"
 			},
@@ -1092,8 +1143,9 @@
 				"timeunit":"MJD",
 				"time":"54008.07491",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"18.411",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.010",
 				"source":"3"
 			},
@@ -1101,8 +1153,9 @@
 				"timeunit":"MJD",
 				"time":"54008.07491",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"17.564",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.010",
 				"source":"3"
 			},
@@ -1110,8 +1163,9 @@
 				"timeunit":"MJD",
 				"time":"54008.07491",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"17.402",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.010",
 				"source":"3"
 			},
@@ -1119,8 +1173,9 @@
 				"timeunit":"MJD",
 				"time":"54008.07491",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"19.930",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.086",
 				"source":"3"
 			},
@@ -1129,7 +1184,7 @@
 				"time":"54008.38",
 				"band":"B",
 				"magnitude":"18.86400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06100",
 				"source":"2"
 			},
@@ -1138,7 +1193,7 @@
 				"time":"54008.38",
 				"band":"I",
 				"magnitude":"17.26200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03100",
 				"source":"2"
 			},
@@ -1147,7 +1202,7 @@
 				"time":"54008.38",
 				"band":"R",
 				"magnitude":"17.43400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03800",
 				"source":"2"
 			},
@@ -1156,7 +1211,7 @@
 				"time":"54008.38",
 				"band":"V",
 				"magnitude":"17.87800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03000",
 				"source":"2"
 			},
@@ -1204,8 +1259,9 @@
 				"timeunit":"MJD",
 				"time":"54012.07198",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"18.905",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.043",
 				"source":"3"
 			},
@@ -1213,8 +1269,9 @@
 				"timeunit":"MJD",
 				"time":"54012.07198",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"17.911",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.016",
 				"source":"3"
 			},
@@ -1222,8 +1279,9 @@
 				"timeunit":"MJD",
 				"time":"54012.07198",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"18.587",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.023",
 				"source":"3"
 			},
@@ -1231,8 +1289,9 @@
 				"timeunit":"MJD",
 				"time":"54012.07198",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"17.820",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.016",
 				"source":"3"
 			},
@@ -1240,8 +1299,9 @@
 				"timeunit":"MJD",
 				"time":"54012.07198",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"17.588",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.013",
 				"source":"3"
 			},
@@ -1249,8 +1309,9 @@
 				"timeunit":"MJD",
 				"time":"54012.07198",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"19.843",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.112",
 				"source":"3"
 			},
@@ -1258,8 +1319,9 @@
 				"timeunit":"MJD",
 				"time":"54017.22351",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"19.025",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.056",
 				"source":"3"
 			},
@@ -1267,8 +1329,9 @@
 				"timeunit":"MJD",
 				"time":"54017.22351",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"18.121",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.028",
 				"source":"3"
 			},
@@ -1276,8 +1339,9 @@
 				"timeunit":"MJD",
 				"time":"54017.22351",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"18.635",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.031",
 				"source":"3"
 			},
@@ -1285,8 +1349,9 @@
 				"timeunit":"MJD",
 				"time":"54017.22351",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"18.053",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.037",
 				"source":"3"
 			},
@@ -1294,8 +1359,9 @@
 				"timeunit":"MJD",
 				"time":"54017.22351",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"17.773",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.025",
 				"source":"3"
 			},
@@ -1303,8 +1369,9 @@
 				"timeunit":"MJD",
 				"time":"54017.22351",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"20.097",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.157",
 				"source":"3"
 			},
@@ -1313,7 +1380,7 @@
 				"time":"54017.32",
 				"band":"B",
 				"magnitude":"19.07000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.18000",
 				"source":"2"
 			},
@@ -1322,7 +1389,7 @@
 				"time":"54017.32",
 				"band":"I",
 				"magnitude":"17.79400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.05800",
 				"source":"2"
 			},
@@ -1331,7 +1398,7 @@
 				"time":"54017.32",
 				"band":"R",
 				"magnitude":"17.77700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03300",
 				"source":"2"
 			},
@@ -1340,7 +1407,7 @@
 				"time":"54017.32",
 				"band":"V",
 				"magnitude":"18.20100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.05500",
 				"source":"2"
 			},
@@ -1348,8 +1415,9 @@
 				"timeunit":"MJD",
 				"time":"54018.18458",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"19.091",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.032",
 				"source":"3"
 			},
@@ -1357,8 +1425,9 @@
 				"timeunit":"MJD",
 				"time":"54018.18458",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"18.151",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.015",
 				"source":"3"
 			},
@@ -1366,8 +1435,9 @@
 				"timeunit":"MJD",
 				"time":"54018.18458",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"18.705",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.018",
 				"source":"3"
 			},
@@ -1375,8 +1445,9 @@
 				"timeunit":"MJD",
 				"time":"54018.18458",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"18.135",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.013",
 				"source":"3"
 			},
@@ -1384,8 +1455,9 @@
 				"timeunit":"MJD",
 				"time":"54018.18458",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"17.835",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.010",
 				"source":"3"
 			},
@@ -1393,8 +1465,9 @@
 				"timeunit":"MJD",
 				"time":"54018.18458",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"20.099",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.100",
 				"source":"3"
 			},
@@ -1419,7 +1492,7 @@
 				"time":"54020.27",
 				"band":"B",
 				"magnitude":"19.36800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.13700",
 				"source":"2"
 			},
@@ -1428,7 +1501,7 @@
 				"time":"54020.27",
 				"band":"I",
 				"magnitude":"18.05800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.07200",
 				"source":"2"
 			},
@@ -1437,7 +1510,7 @@
 				"time":"54020.27",
 				"band":"R",
 				"magnitude":"17.88100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04200",
 				"source":"2"
 			},
@@ -1446,7 +1519,7 @@
 				"time":"54020.27",
 				"band":"V",
 				"magnitude":"18.23300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04000",
 				"source":"2"
 			},
@@ -1470,8 +1543,9 @@
 				"timeunit":"MJD",
 				"time":"54025.12643",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"19.135",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.018",
 				"source":"3"
 			},
@@ -1479,8 +1553,9 @@
 				"timeunit":"MJD",
 				"time":"54025.12643",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"18.352",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.014",
 				"source":"3"
 			},
@@ -1488,8 +1563,9 @@
 				"timeunit":"MJD",
 				"time":"54025.12643",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"18.809",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.013",
 				"source":"3"
 			},
@@ -1497,8 +1573,9 @@
 				"timeunit":"MJD",
 				"time":"54025.12643",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"18.408",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.016",
 				"source":"3"
 			},
@@ -1506,8 +1583,9 @@
 				"timeunit":"MJD",
 				"time":"54025.12643",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"18.089",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.012",
 				"source":"3"
 			},
@@ -1515,8 +1593,9 @@
 				"timeunit":"MJD",
 				"time":"54025.12643",
 				"band":"u",
+				"system":"CSP",
 				"magnitude":"20.352",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.088",
 				"source":"3"
 			},
@@ -1525,7 +1604,7 @@
 				"time":"54025.35",
 				"band":"B",
 				"magnitude":"19.29900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.08900",
 				"source":"2"
 			},
@@ -1534,7 +1613,7 @@
 				"time":"54025.35",
 				"band":"I",
 				"magnitude":"18.09400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06600",
 				"source":"2"
 			},
@@ -1543,7 +1622,7 @@
 				"time":"54025.35",
 				"band":"R",
 				"magnitude":"18.06300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04300",
 				"source":"2"
 			},
@@ -1552,7 +1631,7 @@
 				"time":"54025.35",
 				"band":"V",
 				"magnitude":"18.45000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06700",
 				"source":"2"
 			},
@@ -1561,7 +1640,7 @@
 				"time":"54030.25",
 				"band":"B",
 				"magnitude":"19.27900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.08100",
 				"source":"2"
 			},
@@ -1570,7 +1649,7 @@
 				"time":"54030.25",
 				"band":"I",
 				"magnitude":"18.38900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.07500",
 				"source":"2"
 			},
@@ -1579,7 +1658,7 @@
 				"time":"54030.25",
 				"band":"R",
 				"magnitude":"18.24700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.05100",
 				"source":"2"
 			},
@@ -1588,7 +1667,7 @@
 				"time":"54030.25",
 				"band":"V",
 				"magnitude":"18.54900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.05500",
 				"source":"2"
 			},
@@ -1596,8 +1675,9 @@
 				"timeunit":"MJD",
 				"time":"54040.10499",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"19.417",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.037",
 				"source":"3"
 			},
@@ -1605,8 +1685,9 @@
 				"timeunit":"MJD",
 				"time":"54040.10499",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"18.703",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.021",
 				"source":"3"
 			},
@@ -1614,8 +1695,9 @@
 				"timeunit":"MJD",
 				"time":"54040.10499",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"19.012",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.021",
 				"source":"3"
 			},
@@ -1623,8 +1705,9 @@
 				"timeunit":"MJD",
 				"time":"54040.10499",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"19.094",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.027",
 				"source":"3"
 			},
@@ -1632,8 +1715,9 @@
 				"timeunit":"MJD",
 				"time":"54040.10499",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"18.597",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.016",
 				"source":"3"
 			},
@@ -1649,8 +1733,9 @@
 				"timeunit":"MJD",
 				"time":"54046.23950",
 				"band":"B",
+				"system":"CSP",
 				"magnitude":"19.473",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.078",
 				"source":"3"
 			},
@@ -1658,8 +1743,9 @@
 				"timeunit":"MJD",
 				"time":"54046.23950",
 				"band":"V",
+				"system":"CSP",
 				"magnitude":"18.885",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.042",
 				"source":"3"
 			},
@@ -1667,8 +1753,9 @@
 				"timeunit":"MJD",
 				"time":"54046.23950",
 				"band":"g",
+				"system":"CSP",
 				"magnitude":"19.157",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.040",
 				"source":"3"
 			},
@@ -1676,8 +1763,9 @@
 				"timeunit":"MJD",
 				"time":"54046.23950",
 				"band":"i",
+				"system":"CSP",
 				"magnitude":"19.344",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.063",
 				"source":"3"
 			},
@@ -1685,8 +1773,9 @@
 				"timeunit":"MJD",
 				"time":"54046.23950",
 				"band":"r",
+				"system":"CSP",
 				"magnitude":"18.816",
-				"instrument":"CSP",
+				"observatory":"LCO",
 				"e_magnitude":"0.029",
 				"source":"3"
 			},
@@ -58842,7 +58931,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54004.12",
 				"filename":"SN06ej_060926_b01_DUP_WF.dat",
@@ -66006,7 +66096,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"NTT: EM",
+				"instrument":"EM",
+				"telescope":"NTT",
 				"timeunit":"MJD",
 				"time":"54013.07",
 				"filename":"SN06ej_061005_g01_NTT_EM.dat",
@@ -73490,7 +73581,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54019.10",
 				"filename":"SN06ej_061011_b01_DUP_WF.dat",
@@ -80654,7 +80746,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"HIL: BC",
+				"instrument":"BC",
+				"telescope":"HIL",
 				"timeunit":"MJD",
 				"time":"54031.27",
 				"filename":"SN06ej_061022_b01_HIL_BC.dat",

@@ -79,7 +79,8 @@
 		"dec":[
 			{
 				"value":"+02:14:26.160",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -94,16 +95,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"111000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"2740",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -133,13 +129,23 @@
 		"ra":[
 			{
 				"value":"10:02:16.999",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.474",
-				"source":"1,6,7"
+				"source":"1,6,7",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"111000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -450,7 +456,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"53404.0",
 				"filename":"snonly_05D2bv_764_Balland_etal_09.dat",

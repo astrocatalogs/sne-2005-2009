@@ -68,11 +68,13 @@
 		"dec":[
 			{
 				"value":"-17:14:46.3",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"nospace"
 			},
 			{
 				"value":"-17:14:48.4",
-				"source":"4,5"
+				"source":"4,5",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -100,7 +102,8 @@
 		"galdec":[
 			{
 				"value":"-17:15:12",
-				"source":"2"
+				"source":"2",
+				"unit":"nospace"
 			},
 			{
 				"value":"-17:15:10.7",
@@ -110,7 +113,8 @@
 		"galra":[
 			{
 				"value":"14:42:24",
-				"source":"2"
+				"source":"2",
+				"unit":"nospace"
 			},
 			{
 				"value":"14:42:23.90",
@@ -123,17 +127,12 @@
 				"source":"2,3,4,5"
 			}
 		],
-		"hvel":[
-			{
-				"value":"2885",
-				"source":"2"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"24",
 				"error":"6",
-				"source":"3"
+				"source":"3",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -163,17 +162,27 @@
 		"ra":[
 			{
 				"value":"14:42:24.55",
-				"source":"2"
+				"source":"2",
+				"unit":"nospace"
 			},
 			{
 				"value":"14:42:23.85",
-				"source":"3,4,5"
+				"source":"3,4,5",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00935",
 				"source":"8"
+			}
+		],
+		"velocity":[
+			{
+				"value":"2885",
+				"source":"2",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -1067,7 +1076,8 @@
 		"spectra":[
 			{
 				"deredshifted":true,
-				"instrument":"CLA: LD",
+				"instrument":"LD",
+				"telescope":"CLA",
 				"timeunit":"MJD",
 				"time":"54870.33",
 				"filename":"SN09Y_090208_b01_CLA_LD.dat",
@@ -12539,7 +12549,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"NTT: EF",
+				"instrument":"EF",
+				"telescope":"NTT",
 				"timeunit":"MJD",
 				"time":"54871.32",
 				"filename":"SN09Y_090209_b01_NTT_EF.dat",
@@ -16567,7 +16578,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"CLA: LD",
+				"instrument":"LD",
+				"telescope":"CLA",
 				"timeunit":"MJD",
 				"time":"54871.33",
 				"filename":"SN09Y_090209_b01_CLA_LD.dat",
@@ -28039,7 +28051,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"NTT: EF",
+				"instrument":"EF",
+				"telescope":"NTT",
 				"timeunit":"MJD",
 				"time":"54871.34",
 				"filename":"SN09Y_090209_r01_NTT_EF.dat",
@@ -32091,7 +32104,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"CLA: LD",
+				"instrument":"LD",
+				"telescope":"CLA",
 				"timeunit":"MJD",
 				"time":"54871.35",
 				"filename":"SN09Y_090209_b02_CLA_LD.dat",
@@ -46559,7 +46573,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"54873.37",
 				"filename":"SN09Y_090211_b01_BAA_IM.dat",
@@ -51759,7 +51774,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"54873.37",
 				"filename":"SN09Y_090211_r01_BAA_IM.dat",
@@ -58959,7 +58975,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"54878.39",
 				"filename":"SN09Y_090216_b01_BAA_IM.dat",
@@ -64159,7 +64176,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"54878.39",
 				"filename":"SN09Y_090216_r01_BAA_IM.dat",
@@ -71359,7 +71377,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54885.34",
 				"filename":"SN09Y_090223_b01_DUP_WF.dat",
@@ -78523,7 +78542,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54886.38",
 				"filename":"SN09Y_090224_b01_DUP_WF.dat",
@@ -85687,7 +85707,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54887.38",
 				"filename":"SN09Y_090225_b01_DUP_WF.dat",
@@ -92851,7 +92872,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54888.39",
 				"filename":"SN09Y_090226_b01_DUP_WF.dat",
@@ -100015,7 +100037,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"54905.41",
 				"filename":"SN09Y_090315_b01_BAA_IM.dat",
@@ -105215,7 +105238,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"BAA: IM",
+				"instrument":"IM",
+				"telescope":"BAA",
 				"timeunit":"MJD",
 				"time":"54905.41",
 				"filename":"SN09Y_090315_r01_BAA_IM.dat",
@@ -112415,7 +112439,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: WF",
+				"instrument":"WF",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54919.34",
 				"filename":"SN09Y_090329_b01_DUP_WF.dat",
@@ -119579,7 +119604,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: BC",
+				"instrument":"BC",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54939.33",
 				"filename":"SN09Y_090418_b01_DUP_BC.dat",
@@ -127783,7 +127809,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"DUP: BC",
+				"instrument":"BC",
+				"telescope":"DUP",
 				"timeunit":"MJD",
 				"time":"54943.32",
 				"filename":"SN09Y_090422_b01_DUP_BC.dat",
@@ -135987,7 +136014,8 @@
 			},
 			{
 				"deredshifted":true,
-				"instrument":"CLA: LD",
+				"instrument":"LD",
+				"telescope":"CLA",
 				"timeunit":"MJD",
 				"time":"54952.33",
 				"filename":"SN09Y_090501_b01_CLA_LD.dat",
