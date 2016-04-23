@@ -2,7 +2,8 @@
 	"SN2009nn":{
 		"name":"SN2009nn",
 		"aliases":[
-			"SN2009nn"
+			"SN2009nn",
+			"PTF10ts"
 		],
 		"sources":[
 			{
@@ -27,12 +28,17 @@
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
 				"alias":"4",
 				"secondary":true
+			},
+			{
+				"name":"1205.2338v1",
+				"url":"http://arxiv.org/pdf/1205.2338.pdf",
+				"alias":"5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2"
+				"source":"2,5,4"
 			},
 			{
 				"value":"IIn",
@@ -51,6 +57,11 @@
 				"value":"+13:55:09.0",
 				"source":"1,2,3,4",
 				"unit":"degrees"
+			},
+			{
+				"value":"+13:55:08.3",
+				"source":"5,4",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -67,6 +78,10 @@
 			{
 				"value":"ROTSE",
 				"source":"3,4"
+			},
+			{
+				"value":"PTF",
+				"source":"5,4"
 			}
 		],
 		"host":[
@@ -76,7 +91,7 @@
 			},
 			{
 				"value":"PGC 169532",
-				"source":"2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"hostdec":[
@@ -134,12 +149,17 @@
 				"value":"12:33:56.42",
 				"source":"1,2,3,4",
 				"unit":"hours"
+			},
+			{
+				"value":"12:33:56.40",
+				"source":"5,4",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.046",
-				"source":"2,3,4",
+				"source":"2,3,4,5",
 				"kind":"host"
 			}
 		],
