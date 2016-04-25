@@ -3,6 +3,7 @@
 		"name":"SN1667A",
 		"aliases":[
 			"SN1667A",
+			"SNCasA",
 			"Cassiopeia A",
 			"G111.7-02.1",
 			"MWSNR 111.7-02.1",
@@ -10,88 +11,101 @@
 		],
 		"sources":[
 			{
+				"name":"Krause et al. (2008)",
+				"url":"http://adsabs.harvard.edu/abs/2008Sci...320.1195K",
+				"bibcode":"2008Sci...320.1195K",
+				"alias":"1"
+			},
+			{
 				"name":"WikiPedia",
 				"url":"http://en.wikipedia.org/wiki/Cassiopeia_A",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"2",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"Green (2014)",
 				"url":"http://adsabs.harvard.edu/abs/2014BASI...42...47G",
 				"bibcode":"2014BASI...42...47G",
-				"alias":"3"
+				"alias":"5"
 			},
 			{
 				"name":"Galactic SNRs",
 				"url":"https://www.mrao.cam.ac.uk/surveys/snrs/snrs.data.html",
-				"alias":"4"
+				"alias":"6"
 			},
 			{
 				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"5"
-			},
+				"alias":"7"
+			}
+		],
+		"claimedtype":[
 			{
-				"name":"Krause et al. (2008)",
-				"url":"http://adsabs.harvard.edu/abs/2008Sci...320.1195K",
-				"bibcode":"2008Sci...320.1195K",
-				"alias":"6"
+				"value":"IIb",
+				"source":"1,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+58:48:42.0",
-				"source":"1,2",
+				"source":"2,3",
 				"unit":"degrees"
 			},
 			{
 				"value":"+58:48",
-				"source":"3,4",
+				"source":"5,6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2007/11/09",
-				"source":"D,5,6"
+				"source":"D,1,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"unknown",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		],
 		"host":[
 			{
 				"value":"Milky Way",
-				"source":"1,2,3,4"
+				"source":"2,3,5,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:23:27.9",
-				"source":"1,2",
+				"source":"2,3",
 				"unit":"hours"
 			},
 			{
 				"value":"23:23:26",
-				"source":"3,4",
+				"source":"5,6",
 				"unit":"hours"
 			}
 		],
 		"spectra":[
 			{
+				"instrument":"Subaru - FOCAS",
 				"u_time":"MJD",
-				"time":"54413",
+				"time":"54413.0",
 				"filename":"CasA_20071109_4764_9880_00.dat",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"4764.37",
@@ -3750,7 +3764,7 @@
 						"5.134399811e-18"
 					]
 				],
-				"source":"5,6"
+				"source":"1,4"
 			}
 		]
 	}
