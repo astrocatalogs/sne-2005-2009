@@ -3,7 +3,8 @@
 		"name":"SN2009cb",
 		"aliases":[
 			"SN2009cb",
-			"CSS090319:125916+271641"
+			"CSS090319:125916+271641",
+			"PTF09as"
 		],
 		"sources":[
 			{
@@ -41,13 +42,23 @@
 				"alias":"6"
 			},
 			{
+				"name":"2016arXiv160408207D",
+				"url":"http://adsabs.harvard.edu/abs/2016arXiv160408207D",
+				"bibcode":"2016arXiv160408207D",
+				"alias":"7"
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"url":"http://adsabs.harvard.edu/abs/2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"7"
+				"alias":"8"
 			}
 		],
 		"claimedtype":[
+			{
+				"value":"SLSN-I",
+				"source":"7"
+			},
 			{
 				"value":"Ia",
 				"source":"1,2"
@@ -55,7 +66,7 @@
 		],
 		"comovingdist":[
 			{
-				"value":"800",
+				"value":"789.5",
 				"source":"D",
 				"unit":"Mpc"
 			}
@@ -69,6 +80,11 @@
 			{
 				"value":"+27:16:41.16",
 				"source":"5,6",
+				"unit":"degrees"
+			},
+			{
+				"value":"+27:16:40.58",
+				"source":"7",
 				"unit":"degrees"
 			}
 		],
@@ -91,8 +107,9 @@
 		"ebv":[
 			{
 				"value":"0.008",
-				"error":"0.0007",
-				"source":"7"
+				"source":"7,8",
+				"kind":"spectroscopic",
+				"error":"0.0007"
 			}
 		],
 		"host":[
@@ -131,15 +148,15 @@
 		],
 		"lumdist":[
 			{
-				"value":"960",
+				"value":"936.9",
 				"source":"D",
-				"kind":"host",
+				"kind":"spectroscopic",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-21",
+				"value":"-20.55",
 				"source":"D"
 			}
 		],
@@ -157,8 +174,8 @@
 		],
 		"maxdate":[
 			{
-				"value":"2009/03/19",
-				"source":"D,5,6"
+				"value":"2009/03/24",
+				"source":"7"
 			}
 		],
 		"ra":[
@@ -171,20 +188,25 @@
 				"value":"12:59:15.84",
 				"source":"5,6",
 				"unit":"hours"
+			},
+			{
+				"value":"12:59:15.864",
+				"source":"7",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.19",
-				"source":"1,2",
-				"kind":"host"
+				"value":"0.1867",
+				"source":"7",
+				"kind":"spectroscopic"
 			}
 		],
 		"velocity":[
 			{
-				"value":"52000",
+				"value":"50820",
 				"source":"D",
-				"kind":"host",
+				"kind":"spectroscopic",
 				"unit":"km/s"
 			}
 		],
