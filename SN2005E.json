@@ -6,53 +6,54 @@
 		],
 		"sources":[
 			{
+				"name":"Perets et al. (2010)",
+				"bibcode":"2010Natur.465..322P",
+				"alias":"1"
+			},
+			{
 				"name":"CCCP",
 				"url":"https://webhome.weizmann.ac.il/home/iair/sc_cccp.html",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"2",
+				"alias":"3",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
-				"name":"IAUC 8465",
+				"name":"Green (2005)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08400/08465.html#Item1",
-				"alias":"4"
+				"bibcode":"2005IAUC.8465....3G",
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
-			},
-			{
-				"name":"Perets et al. (2010)",
-				"bibcode":"2010Natur.465..322P",
-				"alias":"7"
-			},
-			{
-				"name":"Foley et al. (2009)",
-				"bibcode":"2009AJ....138..376F",
-				"alias":"8"
 			},
 			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"9",
+				"alias":"8",
 				"secondary":true
+			},
+			{
+				"name":"Foley et al. (2009)",
+				"bibcode":"2009AJ....138..376F",
+				"alias":"9"
 			},
 			{
 				"name":"Superfit",
@@ -69,15 +70,19 @@
 		"claimedtype":[
 			{
 				"value":"Ib/c",
-				"source":"2,3"
+				"source":"3,4"
 			},
 			{
 				"value":"Ib",
-				"source":"4,5,8,9"
+				"source":"5,6,8,9"
+			},
+			{
+				"value":"Ic",
+				"source":"8,9"
 			},
 			{
 				"value":"Ib-Ca",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"comovingdist":[
@@ -90,20 +95,20 @@
 		"dec":[
 			{
 				"value":"+01:05:55.0",
-				"source":"2,3,4,5",
+				"source":"3,4,5,6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/01/13",
-				"source":"2,3,4,5"
+				"source":"3,4,5,6,8,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"2,4,5"
+				"source":"3,5,6"
 			}
 		],
 		"ebv":[
@@ -116,30 +121,30 @@
 		"host":[
 			{
 				"value":"NGC 1032",
-				"source":"2,3,4,5"
+				"source":"3,4,5,6,8,9"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+01:05:36",
-				"source":"2",
+				"source":"3",
 				"unit":"degrees"
 			},
 			{
 				"value":"+01:05:37.4",
-				"source":"3",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:39:24",
-				"source":"2",
+				"source":"3",
 				"unit":"hours"
 			},
 			{
 				"value":"02:39:23.69",
-				"source":"3",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -159,48 +164,53 @@
 		"maxappmag":[
 			{
 				"value":"16.8",
-				"source":"D,3"
+				"source":"D,5,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/01/13",
-				"source":"D,3"
+				"source":"D,5,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"02:39:14.34",
-				"source":"2,3,4,5",
+				"source":"3,4,5,6",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.008986",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"velocity":[
 			{
 				"value":"2651",
-				"source":"2",
+				"source":"3",
 				"kind":"host",
 				"unit":"km/s"
 			}
 		],
 		"photometry":[
 			{
-				"time":"53383.0",
-				"u_time":"MJD",
-				"magnitude":"16.8",
-				"source":"3"
-			},
-			{
 				"time":"53383.5",
 				"u_time":"MJD",
 				"magnitude":"16.8",
-				"source":"4,5"
+				"source":"5,6"
+			},
+			{
+				"time":"53391.10",
+				"u_time":"MJD",
+				"frequency":"8.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"11.0",
+				"e_fluxdensity":"53.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
 			}
 		],
 		"spectra":[
@@ -9447,6 +9457,7 @@
 				"source":"10"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"53385.4",
@@ -64512,7 +64523,7 @@
 						"0.0160241"
 					]
 				],
-				"source":"7,6"
+				"source":"1,7"
 			},
 			{
 				"u_time":"MJD",
