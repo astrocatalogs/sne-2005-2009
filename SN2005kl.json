@@ -1,9 +1,6 @@
 {
 	"SN2005kl":{
 		"name":"SN2005kl",
-		"aliases":[
-			"SN2005kl"
-		],
 		"sources":[
 			{
 				"name":"Bianco et al. (2014)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -61,35 +60,48 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"11",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"12"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2005kl",
+				"source":"1,2,3,5,4,6,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"2,3,4,5,6"
+				"source":"2,3,5,4,6"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"15.42",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+39:23:03.5",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/11/22",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"discoverer":[
@@ -99,20 +111,20 @@
 			},
 			{
 				"value":"CROSS",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.022",
 				"error":"0.0003",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4369",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -151,31 +163,31 @@
 		"maxabsmag":[
 			{
 				"value":"-12",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.85",
-				"source":"D,1"
+				"source":"1,11"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/11/25",
-				"source":"D,1"
+				"source":"1,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:24:35.68",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -198,7 +210,7 @@
 				"time":"53695.5",
 				"u_time":"MJD",
 				"magnitude":"14.6",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"53699.48431",
@@ -6126,7 +6138,7 @@
 				"time":53699.0,
 				"filename":"sn2005kl-20051125.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3490.0000",
@@ -16801,7 +16813,7 @@
 						"1.9941279"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			},
 			{
 				"deredshifted":false,
@@ -16810,7 +16822,7 @@
 				"time":53711.0,
 				"filename":"sn2005kl-20051207.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3495.0000",
@@ -27485,7 +27497,7 @@
 						"1.3286695"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			},
 			{
 				"deredshifted":false,
@@ -27495,7 +27507,7 @@
 				"time":53773.0,
 				"filename":"sn2005kl-20060207-mmt.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3600.0000",
@@ -37146,7 +37158,7 @@
 						"0.015505933"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -55313,7 +55325,7 @@
 						"770.8515"
 					]
 				],
-				"source":"9,6"
+				"source":"6,9"
 			},
 			{
 				"deredshifted":false,
@@ -55323,7 +55335,7 @@
 				"time":53858.0,
 				"filename":"sn2005kl-20060503-mmt.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3700.",
@@ -73498,7 +73510,7 @@
 						"770.8515"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			}
 		]
 	}

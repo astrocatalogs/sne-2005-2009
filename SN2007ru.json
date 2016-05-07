@@ -1,9 +1,6 @@
 {
 	"SN2007ru":{
 		"name":"SN2007ru",
-		"aliases":[
-			"SN2007ru"
-		],
 		"sources":[
 			{
 				"name":"Bianco et al. (2014)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -51,43 +50,56 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2007ru",
+				"source":"1,2,3,5,4,6,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"3,4,5"
-			},
-			{
-				"value":"Ic P",
-				"source":"2"
+				"source":"3,5,4"
 			},
 			{
 				"value":"Ic-BL",
 				"source":"6"
+			},
+			{
+				"value":"Ic P",
+				"source":"2"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"68.192",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+43:35:34.1",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2007/11/27",
-				"source":"3,4,5"
+				"source":"3,5,4"
 			}
 		],
 		"discoverer":[
@@ -97,20 +109,20 @@
 			},
 			{
 				"value":"Italian Supernovae Search Project",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.2217",
 				"error":"0.0046",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 12381",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -140,26 +152,26 @@
 		"lumdist":[
 			{
 				"value":"69.246",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.632",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.57",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxdate":[
@@ -171,7 +183,7 @@
 		"ra":[
 			{
 				"value":"23:07:23.19",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -194,7 +206,7 @@
 				"time":"54430.5",
 				"u_time":"MJD",
 				"magnitude":"15.9",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"54439.08466",
@@ -905,7 +917,7 @@
 				"time":54437.0,
 				"filename":"sn2007ru-20071203.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3476.0000",
@@ -11632,7 +11644,7 @@
 						"0.49863744"
 					]
 				],
-				"source":"8"
+				"source":"8,7"
 			},
 			{
 				"deredshifted":false,
@@ -11641,7 +11653,7 @@
 				"time":54440.0,
 				"filename":"sn2007ru-20071206.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3474.0000",
@@ -22376,7 +22388,7 @@
 						"0.54882747"
 					]
 				],
-				"source":"8"
+				"source":"8,7"
 			},
 			{
 				"deredshifted":false,
@@ -22386,7 +22398,7 @@
 				"time":54476.0,
 				"filename":"sn2007ru-20080111-mmt.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3206.0000",
@@ -33045,7 +33057,7 @@
 						"0.12133686"
 					]
 				],
-				"source":"8"
+				"source":"8,7"
 			}
 		]
 	}

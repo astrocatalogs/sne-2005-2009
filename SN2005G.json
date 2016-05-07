@@ -1,9 +1,6 @@
 {
 	"SN2005G":{
 		"name":"SN2005G",
-		"aliases":[
-			"SN2005G"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -56,60 +55,72 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"10",
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"10"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"11",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"12"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2005G",
+				"source":"1,2,3,5,4,6,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,10,1"
+				"source":"2,3,5,4,6,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"101.9",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+04:46:44.3",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/01/14",
-				"source":"2,3,4,5,10,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"2,4,5"
+				"source":"2,5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0209",
 				"error":"0.0008",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 8690",
-				"source":"1,2,3,4,5,10"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -139,7 +150,7 @@
 		"lumdist":[
 			{
 				"value":"104.2",
-				"source":"D",
+				"source":"11",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -147,25 +158,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18.59",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.5",
-				"source":"D,3"
+				"source":"3,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/01/14",
-				"source":"D,3"
+				"source":"3,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:44:32.79",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -195,7 +206,7 @@
 				"time":"53384.5",
 				"u_time":"MJD",
 				"magnitude":"16.5",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"spectra":[
@@ -14604,7 +14615,7 @@
 						"0.126478"
 					]
 				],
-				"source":"10,1"
+				"source":"1"
 			},
 			{
 				"instrument":"Ekar - AFOSC",
@@ -31584,7 +31595,7 @@
 						"4.6425553e-17"
 					]
 				],
-				"source":"9"
+				"source":"10,7,9"
 			}
 		]
 	}

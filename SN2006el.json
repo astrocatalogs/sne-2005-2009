@@ -1,9 +1,6 @@
 {
 	"SN2006el":{
 		"name":"SN2006el",
-		"aliases":[
-			"SN2006el"
-		],
 		"sources":[
 			{
 				"name":"Drout et al. (2011)",
@@ -16,8 +13,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -39,8 +37,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
 				"secondary":true
 			},
@@ -56,25 +55,38 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2006el",
+				"source":"1,2,3,4,6,5,7,9"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"II",
-				"source":"4"
-			},
-			{
 				"value":"IIb",
 				"source":"3,5,6,7"
+			},
+			{
+				"value":"II",
+				"source":"4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"75",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
@@ -101,7 +113,7 @@
 			{
 				"value":"0.0975",
 				"error":"0.0012",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -141,7 +153,7 @@
 		"lumdist":[
 			{
 				"value":"76",
-				"source":"D",
+				"source":"10",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -149,19 +161,19 @@
 		"maxabsmag":[
 			{
 				"value":"-16",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.31",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxdate":[
@@ -1574,7 +1586,7 @@
 				"time":53980.0,
 				"filename":"sn2006el-20060902.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3476.0000",
@@ -12297,7 +12309,7 @@
 						"0.23093358"
 					]
 				],
-				"source":"9"
+				"source":"8,9"
 			},
 			{
 				"deredshifted":false,
@@ -12306,7 +12318,7 @@
 				"time":53994.0,
 				"filename":"sn2006el-20060916.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3477.0000",
@@ -23025,7 +23037,7 @@
 						"0.19865403"
 					]
 				],
-				"source":"9"
+				"source":"8,9"
 			},
 			{
 				"deredshifted":false,
@@ -23034,7 +23046,7 @@
 				"time":53995.0,
 				"filename":"sn2006el-20060917.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3474.0000",
@@ -33757,7 +33769,7 @@
 						"0.16987520"
 					]
 				],
-				"source":"9"
+				"source":"8,9"
 			},
 			{
 				"deredshifted":false,
@@ -33766,7 +33778,7 @@
 				"time":53996.0,
 				"filename":"sn2006el-20060918.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3476.0000",
@@ -44485,7 +44497,7 @@
 						"0.20768131"
 					]
 				],
-				"source":"9"
+				"source":"8,9"
 			},
 			{
 				"deredshifted":false,
@@ -44494,7 +44506,7 @@
 				"time":53997.0,
 				"filename":"sn2006el-20060919.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3478.0000",
@@ -55213,7 +55225,7 @@
 						"0.16465980"
 					]
 				],
-				"source":"9"
+				"source":"8,9"
 			},
 			{
 				"deredshifted":false,
@@ -55222,7 +55234,7 @@
 				"time":54000.0,
 				"filename":"sn2006el-20060922.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3475.0000",
@@ -65941,7 +65953,7 @@
 						"0.15857169"
 					]
 				],
-				"source":"9"
+				"source":"8,9"
 			},
 			{
 				"deredshifted":false,
@@ -65950,7 +65962,7 @@
 				"time":54001.0,
 				"filename":"sn2006el-20060923.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3478.0000",
@@ -76669,7 +76681,7 @@
 						"0.091004141"
 					]
 				],
-				"source":"9"
+				"source":"8,9"
 			}
 		]
 	}

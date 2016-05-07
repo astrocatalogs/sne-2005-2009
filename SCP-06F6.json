@@ -1,9 +1,6 @@
 {
 	"SCP-06F6":{
 		"name":"SCP-06F6",
-		"aliases":[
-			"SCP-06F6"
-		],
 		"sources":[
 			{
 				"name":"Quimby et al. (2011)",
@@ -11,50 +8,64 @@
 				"alias":"1"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"2",
+				"secondary":true
+			},
+			{
 				"name":"Barbary et al. (2009)",
 				"bibcode":"2009ApJ...690.1358B",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Supernova Cosmology Project",
 				"url":"http://supernova.lbl.gov/2009ClusterSurvey/",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"4",
+				"bibcode":"2012PASP..124..668Y",
+				"alias":"5",
 				"secondary":true
+			}
+		],
+		"alias":[
+			{
+				"value":"SCP-06F6",
+				"source":"2,3,4,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"SLSN-I",
-				"source":"1,4"
+				"source":"1,5"
 			},
 			{
 				"value":"non-Ia",
-				"source":"3",
+				"source":"4",
 				"kind":"spectroscopic"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"3841",
-				"source":"D",
+				"source":"2",
 				"unit":"Mpc"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/12/12",
-				"source":"D,2"
+				"source":"3,2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"8409",
-				"source":"D",
+				"source":"2",
 				"kind":"spectroscopic",
 				"unit":"Mpc"
 			}
@@ -62,38 +73,38 @@
 		"maxabsmag":[
 			{
 				"value":"-23.58",
-				"source":"D"
+				"source":"2"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.04",
-				"source":"D,2"
+				"source":"3,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"z",
-				"source":"D,2"
+				"source":"3,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/05/21",
-				"source":"D,2"
+				"source":"3,2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"1.189",
-				"source":"3,4",
+				"source":"4,5",
 				"kind":"spectroscopic"
 			}
 		],
 		"velocity":[
 			{
 				"value":"196300",
-				"source":"D",
+				"source":"2",
 				"kind":"spectroscopic",
 				"unit":"km/s"
 			}
@@ -105,7 +116,7 @@
 				"band":"i",
 				"magnitude":"26.515",
 				"e_magnitude":"0",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53716.1",
@@ -113,7 +124,7 @@
 				"band":"z",
 				"magnitude":"27.222",
 				"e_magnitude":"0",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53738.7",
@@ -121,7 +132,7 @@
 				"band":"i",
 				"magnitude":"27.509",
 				"e_magnitude":"0",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53738.7",
@@ -129,7 +140,7 @@
 				"band":"z",
 				"magnitude":"26.733",
 				"e_magnitude":"0.857",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53764.6",
@@ -137,7 +148,7 @@
 				"band":"z",
 				"magnitude":"26.185",
 				"e_magnitude":"0.524",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53787.2",
@@ -145,7 +156,7 @@
 				"band":"i",
 				"magnitude":"23.395",
 				"e_magnitude":"0.025",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53787.2",
@@ -153,7 +164,7 @@
 				"band":"z",
 				"magnitude":"23.201",
 				"e_magnitude":"0.04",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53813.7",
@@ -161,7 +172,7 @@
 				"band":"i",
 				"magnitude":"22.012",
 				"e_magnitude":"0.012",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53813.7",
@@ -169,7 +180,7 @@
 				"band":"z",
 				"magnitude":"22.089",
 				"e_magnitude":"0.016",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53829.6",
@@ -177,7 +188,7 @@
 				"band":"i",
 				"magnitude":"21.593",
 				"e_magnitude":"0.01",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53829.6",
@@ -185,7 +196,7 @@
 				"band":"z",
 				"magnitude":"21.585",
 				"e_magnitude":"0.011",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53847",
@@ -193,7 +204,7 @@
 				"band":"i",
 				"magnitude":"21.274",
 				"e_magnitude":"0.008",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53847",
@@ -201,7 +212,7 @@
 				"band":"z",
 				"magnitude":"21.246",
 				"e_magnitude":"0.009",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53876.8",
@@ -209,7 +220,7 @@
 				"band":"i",
 				"magnitude":"21.077",
 				"e_magnitude":"0.009",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53876.8",
@@ -217,7 +228,7 @@
 				"band":"z",
 				"magnitude":"21.04",
 				"e_magnitude":"0.008",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53889.3",
@@ -225,7 +236,7 @@
 				"band":"i",
 				"magnitude":"21.249",
 				"e_magnitude":"0.006",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53889.3",
@@ -233,7 +244,7 @@
 				"band":"z",
 				"magnitude":"21.134",
 				"e_magnitude":"0.008",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53914.4",
@@ -241,7 +252,7 @@
 				"band":"i",
 				"magnitude":"21.581",
 				"e_magnitude":"0.211",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53914.4",
@@ -249,7 +260,7 @@
 				"band":"z",
 				"magnitude":"21.37",
 				"e_magnitude":"0.189",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53970.3",
@@ -257,7 +268,7 @@
 				"band":"i",
 				"magnitude":"24.158",
 				"e_magnitude":"0.368",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"53970.3",
@@ -265,7 +276,7 @@
 				"band":"z",
 				"magnitude":"23.080",
 				"upperlimit":true,
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"spectra":[
@@ -12270,7 +12281,7 @@
 						"3.64715616e-19"
 					]
 				],
-				"source":"2,4"
+				"source":"5,3"
 			},
 			{
 				"instrument":"VLT-UT1 - FORS2",
@@ -17389,7 +17400,7 @@
 						"2.199651093e-18"
 					]
 				],
-				"source":"2,4"
+				"source":"5,3"
 			},
 			{
 				"instrument":"Keck1 - LRIS",
@@ -50208,7 +50219,7 @@
 						"3.246263697e-18"
 					]
 				],
-				"source":"2,4"
+				"source":"5,3"
 			}
 		]
 	}

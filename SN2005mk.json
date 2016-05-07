@@ -1,10 +1,6 @@
 {
 	"SN2005mk":{
 		"name":"SN2005mk",
-		"aliases":[
-			"SN2005mk",
-			"SDSS-II 10297"
-		],
 		"sources":[
 			{
 				"name":"D'Andrea et al. (2010)",
@@ -12,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -46,15 +43,32 @@
 				"alias":"7"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"8",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"8"
+				"alias":"9"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2005mk",
+				"source":"1,2,3,5,4,6"
+			},
+			{
+				"value":"SDSS-II 10297",
+				"source":"1"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			},
 			{
 				"value":"II P",
@@ -91,14 +105,14 @@
 			},
 			{
 				"value":"-00:49:58.9",
-				"source":"3,4,5",
+				"source":"3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/11/08",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"discoverer":[
@@ -108,14 +122,14 @@
 			},
 			{
 				"value":"SDSS",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0504",
 				"error":"0.001",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"host":[
@@ -151,7 +165,7 @@
 		"lumdist":[
 			{
 				"value":"723.9",
-				"source":"D",
+				"source":"8",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -159,19 +173,19 @@
 		"maxabsmag":[
 			{
 				"value":"-18.39",
-				"source":"D"
+				"source":"8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.91",
-				"source":"D,1"
+				"source":"1,8"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"D,1"
+				"source":"1,8"
 			}
 		],
 		"maxdate":[
@@ -193,7 +207,7 @@
 			},
 			{
 				"value":"22:42:40.64",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -208,7 +222,7 @@
 		"velocity":[
 			{
 				"value":"41040",
-				"source":"D",
+				"source":"8",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}
@@ -1688,7 +1702,7 @@
 				"time":"53681.5",
 				"u_time":"MJD",
 				"magnitude":"21.9",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"53685.176003",

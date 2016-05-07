@@ -1,10 +1,6 @@
 {
 	"SN2005ir":{
 		"name":"SN2005ir",
-		"aliases":[
-			"SN2005ir",
-			"SDSS-II 7876"
-		],
 		"sources":[
 			{
 				"name":"Holtzman et al. (2008)",
@@ -28,8 +24,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
 				"secondary":true
 			},
@@ -107,9 +104,26 @@
 				"alias":"19"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"20",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"20"
+				"alias":"21"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2005ir",
+				"source":"1,2,3,5,6,8,7,9"
+			},
+			{
+				"value":"SDSS-II 7876",
+				"source":"1"
 			}
 		],
 		"claimedtype":[
@@ -121,7 +135,7 @@
 		"comovingdist":[
 			{
 				"value":"225",
-				"source":"10,9",
+				"source":"9,10",
 				"unit":"Mpc"
 			},
 			{
@@ -131,12 +145,12 @@
 			},
 			{
 				"value":"306",
-				"source":"12,9,13",
+				"source":"9,12,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"307",
-				"source":"14,9",
+				"source":"9,14",
 				"unit":"Mpc"
 			},
 			{
@@ -232,7 +246,7 @@
 			{
 				"value":"0.0265",
 				"error":"0.0009",
-				"source":"20"
+				"source":"21"
 			}
 		],
 		"host":[
@@ -272,7 +286,7 @@
 		"lumdist":[
 			{
 				"value":"357.2",
-				"source":"D",
+				"source":"20",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -280,19 +294,19 @@
 		"maxabsmag":[
 			{
 				"value":"-19.36",
-				"source":"D"
+				"source":"20"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.4",
-				"source":"D,1"
+				"source":"20,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"D,1"
+				"source":"20,1"
 			}
 		],
 		"maxdate":[

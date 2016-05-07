@@ -1,9 +1,6 @@
 {
 	"SNLS-05D3km":{
 		"name":"SNLS-05D3km",
-		"aliases":[
-			"SNLS-05D3km"
-		],
 		"sources":[
 			{
 				"name":"Guy et al. (2010)",
@@ -27,8 +24,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
 				"secondary":true
 			},
@@ -38,19 +36,32 @@
 				"alias":"6"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"7",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"7"
+				"alias":"8"
+			}
+		],
+		"alias":[
+			{
+				"value":"SNLS-05D3km",
+				"source":"1,2,5"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"Ia?",
-				"source":"1"
-			},
-			{
 				"value":"Ia",
 				"source":"5"
+			},
+			{
+				"value":"Ia?",
+				"source":"1"
 			}
 		],
 		"comovingdist":[
@@ -92,13 +103,13 @@
 			{
 				"value":"0.0084",
 				"error":"0.0004",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"6500",
-				"source":"D",
+				"source":"7",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -106,25 +117,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.31",
-				"source":"D,1"
+				"source":"1,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"r",
-				"source":"D,1"
+				"source":"1,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/05/28",
-				"source":"D,1"
+				"source":"1,7"
 			}
 		],
 		"ra":[
@@ -148,7 +159,7 @@
 		"velocity":[
 			{
 				"value":"180000",
-				"source":"D",
+				"source":"7",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}
@@ -12797,7 +12808,7 @@
 						"5.55225e-19"
 					]
 				],
-				"source":"6,5"
+				"source":"5,6"
 			}
 		]
 	}

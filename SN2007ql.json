@@ -1,13 +1,11 @@
 {
 	"SN2007ql":{
 		"name":"SN2007ql",
-		"aliases":[
-			"SN2007ql"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -40,8 +38,9 @@
 				"alias":"6"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
 				"secondary":true
 			},
@@ -51,9 +50,22 @@
 				"alias":"8"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2007ql",
+				"source":"1,2,4,3,5,7"
 			}
 		],
 		"claimedtype":[
@@ -65,12 +77,12 @@
 		"comovingdist":[
 			{
 				"value":"839",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"947",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			}
 		],
@@ -106,7 +118,7 @@
 			{
 				"value":"0.0368",
 				"error":"0.0007",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
@@ -146,7 +158,7 @@
 		"lumdist":[
 			{
 				"value":"1200",
-				"source":"D",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -154,19 +166,19 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.6",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"maxdate":[
@@ -196,7 +208,7 @@
 		"velocity":[
 			{
 				"value":"61000",
-				"source":"D",
+				"source":"9",
 				"kind":"host",
 				"unit":"km/s"
 			}

@@ -1,9 +1,6 @@
 {
 	"SN2006eq":{
 		"name":"SN2006eq",
-		"aliases":[
-			"SN2006eq"
-		],
 		"sources":[
 			{
 				"name":"Carnegie Supernova Project",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -65,8 +63,9 @@
 				"alias":"11"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"12",
 				"secondary":true
 			},
@@ -82,15 +81,33 @@
 				"secondary":true
 			},
 			{
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"15"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"16",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"15"
+				"alias":"17"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2006eq",
+				"source":"1,2,3,5,4,6,12,14,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,12"
+				"source":"2,3,5,4,12"
 			}
 		],
 		"comovingdist":[
@@ -106,12 +123,12 @@
 			},
 			{
 				"value":"205",
-				"source":"9,6",
+				"source":"6,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"206",
-				"source":"10,6",
+				"source":"6,10",
 				"unit":"Mpc"
 			},
 			{
@@ -128,7 +145,7 @@
 			},
 			{
 				"value":"+01:13:41.2",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
@@ -145,14 +162,14 @@
 			},
 			{
 				"value":"SDSS Collaboration",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0416",
 				"error":"0.0004",
-				"source":"15"
+				"source":"17"
 			}
 		],
 		"host":[
@@ -192,7 +209,7 @@
 		"lumdist":[
 			{
 				"value":"221.83",
-				"source":"D",
+				"source":"16",
 				"kind":"cmb",
 				"unit":"Mpc"
 			}
@@ -200,25 +217,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18.12",
-				"source":"D"
+				"source":"16"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.61",
-				"source":"D,1"
+				"source":"1,16"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"D,1"
+				"source":"1,16"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/09/03",
-				"source":"D,1"
+				"source":"1,16"
 			}
 		],
 		"ra":[
@@ -229,7 +246,7 @@
 			},
 			{
 				"value":"21:28:37.13",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -253,7 +270,7 @@
 				"time":"53975.5",
 				"u_time":"MJD",
 				"magnitude":"18.7",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"53980.04130",
@@ -14799,7 +14816,7 @@
 						"1.3167693e-17"
 					]
 				],
-				"source":"14"
+				"source":"15,13,14"
 			},
 			{
 				"deredshifted":true,

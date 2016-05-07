@@ -1,10 +1,6 @@
 {
 	"SN2007nl":{
 		"name":"SN2007nl",
-		"aliases":[
-			"SN2007nl",
-			"SDSS-II 19222"
-		],
 		"sources":[
 			{
 				"name":"D'Andrea et al. (2010)",
@@ -12,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -46,8 +43,9 @@
 				"alias":"7"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
 				"secondary":true
 			},
@@ -57,15 +55,32 @@
 				"alias":"9"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2007nl",
+				"source":"1,2,3,5,4,6,8"
+			},
+			{
+				"value":"SDSS-II 19222",
+				"source":"1"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2,3,4,5,8"
+				"source":"2,3,5,4,8"
 			},
 			{
 				"value":"II P",
@@ -97,14 +112,14 @@
 			},
 			{
 				"value":"-00:04:03.5",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2007/10/13",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"discoverer":[
@@ -114,14 +129,14 @@
 			},
 			{
 				"value":"SDSS Collaboration",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0424",
 				"error":"0.0012",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -161,26 +176,26 @@
 		"lumdist":[
 			{
 				"value":"835.3",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.73",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.88",
-				"source":"D,1"
+				"source":"1,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"D,1"
+				"source":"1,10"
 			}
 		],
 		"maxdate":[
@@ -202,7 +217,7 @@
 			},
 			{
 				"value":"23:13:44.92",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -216,7 +231,7 @@
 		"velocity":[
 			{
 				"value":"46260",
-				"source":"D",
+				"source":"10",
 				"unit":"km/s"
 			}
 		],
@@ -625,7 +640,7 @@
 				"time":"54385.5",
 				"u_time":"MJD",
 				"magnitude":"21.8",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"54386.289990",
@@ -9924,7 +9939,7 @@
 						"-5.960866406e-19"
 					]
 				],
-				"source":"9,8"
+				"source":"8,9"
 			}
 		]
 	}

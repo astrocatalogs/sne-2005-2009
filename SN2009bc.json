@@ -1,142 +1,157 @@
 {
 	"SN2009bc":{
 		"name":"SN2009bc",
-		"aliases":[
-			"SN2009bc",
-			"PTF09h"
-		],
 		"sources":[
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"1",
+				"secondary":true
+			},
 			{
 				"name":"Maguire et al. (2014)",
 				"bibcode":"2014MNRAS.444.3258M",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"2",
+				"bibcode":"1989A&AS...81..421B",
+				"alias":"3",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Kasliwal et al. (2009)",
 				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/001700/CBET001732.txt",
 				"bibcode":"2009CBET.1732....1K",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"6",
+				"bibcode":"2012PASP..124..668Y",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"Maguire et al. (2014)",
 				"bibcode":"2014arXiv1408.1430M",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"8"
+				"alias":"9"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2009bc",
+				"source":"1,2,3,4,6,5,7"
+			},
+			{
+				"value":"PTF09h",
+				"source":"1,2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6"
+				"source":"3,4,5,6,7"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"520",
-				"source":"D",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+46:56:53.88",
-				"source":"1",
+				"source":"2",
 				"unit":"degrees"
 			},
 			{
 				"value":"+46:56:53.8",
-				"source":"2,3,4,5",
+				"source":"3,4,5,6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2009/03/17",
-				"source":"2,3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Kasliwal et al.",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"value":"PTF",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0596",
 				"error":"0.0035",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"host":[
 			{
 				"value":"A080047+4656",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"value":"SDSS J080047.24+465653.9",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+46:56:53",
-				"source":"2",
+				"source":"3",
 				"unit":"degrees"
 			},
 			{
 				"value":"+46:56:53.0",
-				"source":"3",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:00:47",
-				"source":"2",
+				"source":"3",
 				"unit":"hours"
 			},
 			{
 				"value":"08:00:47.00",
-				"source":"3",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"583",
-				"source":"D",
+				"source":"1",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -144,31 +159,31 @@
 		"maxabsmag":[
 			{
 				"value":"-18.6",
-				"source":"D"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.2",
-				"source":"D,3"
+				"source":"1,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,3"
+				"source":"1,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2009/03/19",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"ra":[
 			{
 				"value":"08:00:47.28",
-				"source":"1,2,3,4,5",
+				"source":"2,3,4,5,6",
 				"unit":"hours"
 			}
 		],
@@ -176,14 +191,14 @@
 			{
 				"value":"0.121",
 				"error":"0.001",
-				"source":"1,4,5,6",
+				"source":"2,5,6,7",
 				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
 				"value":"34100",
-				"source":"D",
+				"source":"1",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}
@@ -193,14 +208,14 @@
 				"time":"54906.5",
 				"u_time":"MJD",
 				"magnitude":"20.2",
-				"source":"4,5"
+				"source":"5,6"
 			},
 			{
 				"time":"54907.0",
 				"u_time":"MJD",
 				"band":"R",
 				"magnitude":"20.2",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"spectra":[
@@ -8835,7 +8850,7 @@
 						"3.982440343e-17"
 					]
 				],
-				"source":"7,6"
+				"source":"8,7"
 			}
 		]
 	}

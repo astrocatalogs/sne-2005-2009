@@ -1,9 +1,6 @@
 {
 	"SN2006oz":{
 		"name":"SN2006oz",
-		"aliases":[
-			"SN2006oz"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -17,8 +14,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -40,15 +38,29 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"8"
+				"alias":"9"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2006oz",
+				"source":"1,3,4,6,5,7"
 			}
 		],
 		"claimedtype":[
@@ -60,7 +72,7 @@
 		"comovingdist":[
 			{
 				"value":"1510",
-				"source":"D",
+				"source":"8",
 				"unit":"Mpc"
 			}
 		],
@@ -96,7 +108,7 @@
 			{
 				"value":"0.0403",
 				"error":"0.0006",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"host":[
@@ -132,32 +144,32 @@
 		"lumdist":[
 			{
 				"value":"2080",
-				"source":"D",
+				"source":"8",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-21.8",
-				"source":"D"
+				"source":"8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.8",
-				"source":"D,1,2"
+				"source":"1,2,8"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g_SDSS",
-				"source":"D,1,2"
+				"source":"1,2,8"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/11/28",
-				"source":"D,1,2"
+				"source":"1,2,8"
 			}
 		],
 		"ra":[
@@ -176,7 +188,7 @@
 		"velocity":[
 			{
 				"value":"92600",
-				"source":"D",
+				"source":"8",
 				"unit":"km/s"
 			}
 		],
@@ -8520,7 +8532,7 @@
 						"4.99986757e-18"
 					]
 				],
-				"source":"2,7"
+				"source":"7,2"
 			}
 		]
 	}

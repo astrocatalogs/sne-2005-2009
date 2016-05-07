@@ -1,128 +1,145 @@
 {
 	"SN2009kt":{
 		"name":"SN2009kt",
-		"aliases":[
-			"SN2009kt",
-			"PS1-0909010",
-			"PS10909010"
-		],
 		"sources":[
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"1",
+				"secondary":true
+			},
 			{
 				"name":"Rest et al. (2014)",
 				"bibcode":"2014ApJ...795...44R",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"2",
+				"bibcode":"1989A&AS...81..421B",
+				"alias":"3",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Rest et al. (2009)",
 				"url":"http://www.cbat.eps.harvard.edu/cbet/002000/CBET002012.txt",
 				"bibcode":"2009CBET.2012....1R",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2009kt",
+				"source":"1,2,3,4,6,5"
+			},
+			{
+				"value":"PS1-0909010",
+				"source":"1"
+			},
+			{
+				"value":"PS10909010",
+				"source":"5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,5"
+				"source":"2,3,4,5,6"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"1100",
-				"source":"D",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-04:04:44.08",
-				"source":"1",
+				"source":"2",
 				"unit":"degrees"
 			},
 			{
 				"value":"-04:04:44.1",
-				"source":"2,3,4,5",
+				"source":"3,4,5,6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2009/09/15",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Rest et al.",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"value":"CRTS",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0223",
 				"error":"0.0009",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
 			{
 				"value":"A022828-0404",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-04:04:44",
-				"source":"2",
+				"source":"3",
 				"unit":"degrees"
 			},
 			{
 				"value":"-04:04:44.0",
-				"source":"3",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:28:28",
-				"source":"2",
+				"source":"3",
 				"unit":"hours"
 			},
 			{
 				"value":"02:28:28.00",
-				"source":"3",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"1400",
-				"source":"D",
+				"source":"1",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -130,36 +147,36 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.5",
-				"source":"D,3"
+				"source":"1,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"r",
-				"source":"D,3"
+				"source":"1,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2009/09/30",
-				"source":"D,3"
+				"source":"1,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"02:28:28.368",
-				"source":"1",
+				"source":"2",
 				"unit":"hours"
 			},
 			{
 				"value":"02:28:28.37",
-				"source":"2,3,4,5",
+				"source":"3,4,5,6",
 				"unit":"hours"
 			}
 		],
@@ -167,14 +184,14 @@
 			{
 				"value":"0.27",
 				"error":"0.01",
-				"source":"1",
+				"source":"2",
 				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
 				"value":"70000",
-				"source":"D",
+				"source":"1",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}
@@ -184,14 +201,14 @@
 				"time":"55103.5",
 				"u_time":"MJD",
 				"magnitude":"21.5",
-				"source":"4,5"
+				"source":"5,6"
 			},
 			{
 				"time":"55104.0",
 				"u_time":"MJD",
 				"band":"r",
 				"magnitude":"21.5",
-				"source":"3"
+				"source":"4"
 			}
 		]
 	}

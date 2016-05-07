@@ -1,14 +1,11 @@
 {
 	"SN2009mb":{
 		"name":"SN2009mb",
-		"aliases":[
-			"SN2009mb",
-			"CSS091018:091109+195945"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -31,18 +28,31 @@
 			},
 			{
 				"name":"Drake et al. (2009)",
+				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
 				"bibcode":"2009ApJ...696..870D",
 				"alias":"5"
 			},
 			{
-				"name":"Catalina Sky Survey",
-				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
-				"alias":"6"
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"6",
+				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
 				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2009mb",
+				"source":"1,2,4,3,5"
+			},
+			{
+				"value":"CSS091018:091109+195945",
+				"source":"3"
 			}
 		],
 		"claimedtype":[
@@ -58,7 +68,7 @@
 		"comovingdist":[
 			{
 				"value":"657",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
@@ -70,7 +80,7 @@
 			},
 			{
 				"value":"+19:59:45.24",
-				"source":"5,6",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -134,7 +144,7 @@
 		"lumdist":[
 			{
 				"value":"758",
-				"source":"D",
+				"source":"6",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -142,25 +152,25 @@
 		"maxabsmag":[
 			{
 				"value":"-21",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.43",
-				"source":"D,5,6"
+				"source":"5,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"D,5,6"
+				"source":"5,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2009/10/18",
-				"source":"D,5,6"
+				"source":"5,6"
 			}
 		],
 		"ra":[
@@ -171,7 +181,7 @@
 			},
 			{
 				"value":"09:11:09.12",
-				"source":"5,6",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -185,7 +195,7 @@
 		"velocity":[
 			{
 				"value":"42600",
-				"source":"D",
+				"source":"6",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -198,7 +208,7 @@
 				"e_magnitude":"1.0",
 				"host":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53376.440002",
@@ -207,7 +217,7 @@
 				"magnitude":"19.9501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53376.480003",
@@ -216,7 +226,7 @@
 				"magnitude":"20.3193",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53376.520004",
@@ -225,7 +235,7 @@
 				"magnitude":"20.3426",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53376.560005",
@@ -234,7 +244,7 @@
 				"magnitude":"20.101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53402.439987",
@@ -243,7 +253,7 @@
 				"magnitude":"19.9988",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53402.479996",
@@ -252,7 +262,7 @@
 				"magnitude":"19.888901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53402.519989",
@@ -261,7 +271,7 @@
 				"magnitude":"19.975401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53402.559998",
@@ -270,7 +280,7 @@
 				"magnitude":"20.242399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53431.479996",
@@ -279,7 +289,7 @@
 				"magnitude":"20.279499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53431.559998",
@@ -288,7 +298,7 @@
 				"magnitude":"19.7012",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53438.439987",
@@ -297,7 +307,7 @@
 				"magnitude":"19.9522",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53438.479996",
@@ -306,7 +316,7 @@
 				"magnitude":"19.492599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53438.519989",
@@ -315,7 +325,7 @@
 				"magnitude":"20.2819",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53438.559998",
@@ -324,7 +334,7 @@
 				"magnitude":"20.301399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53444.439987",
@@ -333,7 +343,7 @@
 				"magnitude":"19.964399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53444.479996",
@@ -342,7 +352,7 @@
 				"magnitude":"19.7432",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53445.439987",
@@ -351,7 +361,7 @@
 				"magnitude":"19.820601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53445.479996",
@@ -360,7 +370,7 @@
 				"magnitude":"20.378799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53445.519989",
@@ -369,7 +379,7 @@
 				"magnitude":"20.294901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53445.559998",
@@ -378,7 +388,7 @@
 				"magnitude":"20.1269",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53462.439987",
@@ -387,7 +397,7 @@
 				"magnitude":"20.090099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53462.519989",
@@ -396,7 +406,7 @@
 				"magnitude":"20.971001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53462.559998",
@@ -405,7 +415,7 @@
 				"magnitude":"20.496201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53469.439987",
@@ -414,7 +424,7 @@
 				"magnitude":"20.148399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53469.479996",
@@ -423,7 +433,7 @@
 				"magnitude":"20.146799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53469.519989",
@@ -432,7 +442,7 @@
 				"magnitude":"20.140301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53469.559998",
@@ -441,7 +451,7 @@
 				"magnitude":"20.1388",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53481.439987",
@@ -450,7 +460,7 @@
 				"magnitude":"18.4792",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53481.479996",
@@ -459,7 +469,7 @@
 				"magnitude":"19.042601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53481.519989",
@@ -468,7 +478,7 @@
 				"magnitude":"19.0145",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53481.559998",
@@ -477,7 +487,7 @@
 				"magnitude":"18.955299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53491.439987",
@@ -486,7 +496,7 @@
 				"magnitude":"18.6924",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53491.479996",
@@ -495,7 +505,7 @@
 				"magnitude":"18.9907",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53491.519989",
@@ -504,7 +514,7 @@
 				"magnitude":"19.352301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53491.559998",
@@ -513,7 +523,7 @@
 				"magnitude":"19.855801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53655.440002",
@@ -522,7 +532,7 @@
 				"magnitude":"20.2661",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53655.47998",
@@ -531,7 +541,7 @@
 				"magnitude":"20.2771",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53655.519989",
@@ -540,7 +550,7 @@
 				"magnitude":"20.236",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53655.559998",
@@ -549,7 +559,7 @@
 				"magnitude":"20.2992",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53700.440002",
@@ -558,7 +568,7 @@
 				"magnitude":"20.627399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53700.47998",
@@ -567,7 +577,7 @@
 				"magnitude":"20.638",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53700.519989",
@@ -576,7 +586,7 @@
 				"magnitude":"18.6383",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53700.559998",
@@ -585,7 +595,7 @@
 				"magnitude":"20.6385",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53726.440002",
@@ -594,7 +604,7 @@
 				"magnitude":"20.425699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53726.47998",
@@ -603,7 +613,7 @@
 				"magnitude":"20.436899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53726.519989",
@@ -612,7 +622,7 @@
 				"magnitude":"19.669701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53726.559998",
@@ -621,7 +631,7 @@
 				"magnitude":"20.3482",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53732.440002",
@@ -630,7 +640,7 @@
 				"magnitude":"20.5833",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53732.47998",
@@ -639,7 +649,7 @@
 				"magnitude":"20.6542",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53732.519989",
@@ -648,7 +658,7 @@
 				"magnitude":"20.6586",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53732.559998",
@@ -657,7 +667,7 @@
 				"magnitude":"20.6887",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53739.440002",
@@ -666,7 +676,7 @@
 				"magnitude":"20.679701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53739.47998",
@@ -675,7 +685,7 @@
 				"magnitude":"20.689199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53739.519989",
@@ -684,7 +694,7 @@
 				"magnitude":"20.7036",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53739.559998",
@@ -693,7 +703,7 @@
 				"magnitude":"20.695",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53745.440002",
@@ -702,7 +712,7 @@
 				"magnitude":"20.260401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53745.47998",
@@ -711,7 +721,7 @@
 				"magnitude":"20.301001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53745.519989",
@@ -720,7 +730,7 @@
 				"magnitude":"20.3043",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53745.559998",
@@ -729,7 +739,7 @@
 				"magnitude":"20.505199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53754.440002",
@@ -738,7 +748,7 @@
 				"magnitude":"20.2572",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53754.47998",
@@ -747,7 +757,7 @@
 				"magnitude":"20.230301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53754.519989",
@@ -756,7 +766,7 @@
 				"magnitude":"20.2234",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53754.559998",
@@ -765,7 +775,7 @@
 				"magnitude":"20.2323",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53761.440002",
@@ -774,7 +784,7 @@
 				"magnitude":"20.7882",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53761.480042",
@@ -783,7 +793,7 @@
 				"magnitude":"20.810499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53761.52002",
@@ -792,7 +802,7 @@
 				"magnitude":"20.329599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53761.559998",
@@ -801,7 +811,7 @@
 				"magnitude":"20.0609",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53768.440002",
@@ -810,7 +820,7 @@
 				"magnitude":"20.770901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53768.480042",
@@ -819,7 +829,7 @@
 				"magnitude":"20.771601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53768.52002",
@@ -828,7 +838,7 @@
 				"magnitude":"20.773701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53768.559998",
@@ -837,7 +847,7 @@
 				"magnitude":"20.7794",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53788.440002",
@@ -846,7 +856,7 @@
 				"magnitude":"20.790199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53788.480042",
@@ -855,7 +865,7 @@
 				"magnitude":"20.778099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53788.52002",
@@ -864,7 +874,7 @@
 				"magnitude":"20.801701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53788.559998",
@@ -873,7 +883,7 @@
 				"magnitude":"20.7855",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53803.440002",
@@ -882,7 +892,7 @@
 				"magnitude":"19.8936",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53803.480042",
@@ -891,7 +901,7 @@
 				"magnitude":"19.921101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53803.52002",
@@ -900,7 +910,7 @@
 				"magnitude":"19.913799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53803.559998",
@@ -909,7 +919,7 @@
 				"magnitude":"19.920799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53844.440002",
@@ -918,7 +928,7 @@
 				"magnitude":"20.558599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53844.480042",
@@ -927,7 +937,7 @@
 				"magnitude":"20.5604",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53844.52002",
@@ -936,7 +946,7 @@
 				"magnitude":"20.5632",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53844.559998",
@@ -945,7 +955,7 @@
 				"magnitude":"20.5453",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53866.440002",
@@ -954,7 +964,7 @@
 				"magnitude":"18.683701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53866.480042",
@@ -963,7 +973,7 @@
 				"magnitude":"18.6835",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53866.52002",
@@ -972,7 +982,7 @@
 				"magnitude":"18.664301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53866.559998",
@@ -981,7 +991,7 @@
 				"magnitude":"18.6026",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53875.440002",
@@ -990,7 +1000,7 @@
 				"magnitude":"20.3001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53875.480042",
@@ -999,7 +1009,7 @@
 				"magnitude":"20.208799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53875.52002",
@@ -1008,7 +1018,7 @@
 				"magnitude":"20.2097",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53875.559998",
@@ -1017,7 +1027,7 @@
 				"magnitude":"20.242001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53881.440002",
@@ -1026,7 +1036,7 @@
 				"magnitude":"20.028799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53881.480042",
@@ -1035,7 +1045,7 @@
 				"magnitude":"19.908001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53881.52002",
@@ -1044,7 +1054,7 @@
 				"magnitude":"20.224199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53881.559998",
@@ -1053,7 +1063,7 @@
 				"magnitude":"20.333401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53903.440002",
@@ -1062,7 +1072,7 @@
 				"magnitude":"18.433701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53903.480042",
@@ -1071,7 +1081,7 @@
 				"magnitude":"18.498501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53903.52002",
@@ -1080,7 +1090,7 @@
 				"magnitude":"18.537399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"53903.559998",
@@ -1089,7 +1099,7 @@
 				"magnitude":"18.6115",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54029.440002",
@@ -1098,7 +1108,7 @@
 				"magnitude":"20.4142",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54029.480042",
@@ -1107,7 +1117,7 @@
 				"magnitude":"19.748199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54029.52002",
@@ -1116,7 +1126,7 @@
 				"magnitude":"20.5599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54029.559998",
@@ -1125,7 +1135,7 @@
 				"magnitude":"20.6045",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54054.440002",
@@ -1134,7 +1144,7 @@
 				"magnitude":"20.6259",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54054.480042",
@@ -1143,7 +1153,7 @@
 				"magnitude":"20.200701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54054.52002",
@@ -1152,7 +1162,7 @@
 				"magnitude":"20.6703",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54054.559998",
@@ -1161,7 +1171,7 @@
 				"magnitude":"20.672701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54081.440002",
@@ -1170,7 +1180,7 @@
 				"magnitude":"20.4203",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54081.480042",
@@ -1179,7 +1189,7 @@
 				"magnitude":"20.3853",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54081.52002",
@@ -1188,7 +1198,7 @@
 				"magnitude":"20.414",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54081.559998",
@@ -1197,7 +1207,7 @@
 				"magnitude":"20.4062",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54092.440002",
@@ -1206,7 +1216,7 @@
 				"magnitude":"20.716499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54092.480042",
@@ -1215,7 +1225,7 @@
 				"magnitude":"20.694201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54092.52002",
@@ -1224,7 +1234,7 @@
 				"magnitude":"20.6924",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54092.559998",
@@ -1233,7 +1243,7 @@
 				"magnitude":"20.6696",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54110.440002",
@@ -1242,7 +1252,7 @@
 				"magnitude":"20.193701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54110.480042",
@@ -1251,7 +1261,7 @@
 				"magnitude":"20.402201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54110.52002",
@@ -1260,7 +1270,7 @@
 				"magnitude":"20.450399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54110.559998",
@@ -1269,7 +1279,7 @@
 				"magnitude":"20.5128",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54116.440002",
@@ -1278,7 +1288,7 @@
 				"magnitude":"20.7666",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54116.480042",
@@ -1287,7 +1297,7 @@
 				"magnitude":"20.792601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54116.52002",
@@ -1296,7 +1306,7 @@
 				"magnitude":"20.330601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54116.559998",
@@ -1305,7 +1315,7 @@
 				"magnitude":"20.624901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54138.440002",
@@ -1314,7 +1324,7 @@
 				"magnitude":"20.1667",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54138.480042",
@@ -1323,7 +1333,7 @@
 				"magnitude":"20.2356",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54138.52002",
@@ -1332,7 +1342,7 @@
 				"magnitude":"19.465401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54138.559998",
@@ -1341,7 +1351,7 @@
 				"magnitude":"19.9352",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54140.440002",
@@ -1350,7 +1360,7 @@
 				"magnitude":"19.2391",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54140.480042",
@@ -1359,7 +1369,7 @@
 				"magnitude":"19.1798",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54140.52002",
@@ -1368,7 +1378,7 @@
 				"magnitude":"18.962999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54140.559998",
@@ -1377,7 +1387,7 @@
 				"magnitude":"18.331699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54144.440002",
@@ -1386,7 +1396,7 @@
 				"magnitude":"19.4937",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54144.480042",
@@ -1395,7 +1405,7 @@
 				"magnitude":"20.760099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54144.52002",
@@ -1404,7 +1414,7 @@
 				"magnitude":"19.7803",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54144.559998",
@@ -1413,7 +1423,7 @@
 				"magnitude":"19.658199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54156.440002",
@@ -1422,7 +1432,7 @@
 				"magnitude":"19.792299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54156.480042",
@@ -1431,7 +1441,7 @@
 				"magnitude":"20.300699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54156.52002",
@@ -1440,7 +1450,7 @@
 				"magnitude":"20.3496",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54156.559998",
@@ -1449,7 +1459,7 @@
 				"magnitude":"20.378",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54168.440002",
@@ -1458,7 +1468,7 @@
 				"magnitude":"20.510201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54168.480042",
@@ -1467,7 +1477,7 @@
 				"magnitude":"20.4816",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54168.52002",
@@ -1476,7 +1486,7 @@
 				"magnitude":"20.5194",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54168.559998",
@@ -1485,7 +1495,7 @@
 				"magnitude":"20.493799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54174.440002",
@@ -1494,7 +1504,7 @@
 				"magnitude":"20.817101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54174.480042",
@@ -1503,7 +1513,7 @@
 				"magnitude":"20.8377",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54174.52002",
@@ -1512,7 +1522,7 @@
 				"magnitude":"20.7616",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54174.559998",
@@ -1521,7 +1531,7 @@
 				"magnitude":"20.870701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54185.440002",
@@ -1530,7 +1540,7 @@
 				"magnitude":"20.268",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54185.480042",
@@ -1539,7 +1549,7 @@
 				"magnitude":"20.2801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54185.52002",
@@ -1548,7 +1558,7 @@
 				"magnitude":"19.522301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54185.559998",
@@ -1557,7 +1567,7 @@
 				"magnitude":"20.2847",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54197.440002",
@@ -1566,7 +1576,7 @@
 				"magnitude":"20.7232",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54197.480042",
@@ -1575,7 +1585,7 @@
 				"magnitude":"20.696199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54197.52002",
@@ -1584,7 +1594,7 @@
 				"magnitude":"20.7379",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54197.559998",
@@ -1593,7 +1603,7 @@
 				"magnitude":"20.679001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54205.440002",
@@ -1602,7 +1612,7 @@
 				"magnitude":"20.628799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54205.480042",
@@ -1611,7 +1621,7 @@
 				"magnitude":"20.6187",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54205.52002",
@@ -1620,7 +1630,7 @@
 				"magnitude":"20.632299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54205.559998",
@@ -1629,7 +1639,7 @@
 				"magnitude":"20.6145",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54231.440002",
@@ -1638,7 +1648,7 @@
 				"magnitude":"20.507799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54231.480042",
@@ -1647,7 +1657,7 @@
 				"magnitude":"20.499599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54231.52002",
@@ -1657,7 +1667,7 @@
 				"e_magnitude":"0.207162",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54231.559998",
@@ -1666,7 +1676,7 @@
 				"magnitude":"20.4685",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54380.440063",
@@ -1675,7 +1685,7 @@
 				"magnitude":"20.3881",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54380.47998",
@@ -1684,7 +1694,7 @@
 				"magnitude":"20.3727",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54380.52002",
@@ -1693,7 +1703,7 @@
 				"magnitude":"20.376699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54380.560059",
@@ -1702,7 +1712,7 @@
 				"magnitude":"20.415899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54394.440063",
@@ -1711,7 +1721,7 @@
 				"magnitude":"20.519899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54394.47998",
@@ -1720,7 +1730,7 @@
 				"magnitude":"20.5044",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54394.52002",
@@ -1729,7 +1739,7 @@
 				"magnitude":"20.490601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54394.560059",
@@ -1738,7 +1748,7 @@
 				"magnitude":"20.550301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54403.440063",
@@ -1747,7 +1757,7 @@
 				"magnitude":"20.1049",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54403.47998",
@@ -1756,7 +1766,7 @@
 				"magnitude":"19.6733",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54403.52002",
@@ -1765,7 +1775,7 @@
 				"magnitude":"20.1502",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54403.560059",
@@ -1774,7 +1784,7 @@
 				"magnitude":"20.167",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54410.440063",
@@ -1783,7 +1793,7 @@
 				"magnitude":"20.455099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54410.47998",
@@ -1792,7 +1802,7 @@
 				"magnitude":"20.2073",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54410.52002",
@@ -1801,7 +1811,7 @@
 				"magnitude":"20.3332",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54410.560059",
@@ -1810,7 +1820,7 @@
 				"magnitude":"20.160999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54421.440063",
@@ -1819,7 +1829,7 @@
 				"magnitude":"20.495701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54421.47998",
@@ -1828,7 +1838,7 @@
 				"magnitude":"20.368299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54421.52002",
@@ -1837,7 +1847,7 @@
 				"magnitude":"20.511299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54421.560059",
@@ -1846,7 +1856,7 @@
 				"magnitude":"20.557899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54437.440063",
@@ -1855,7 +1865,7 @@
 				"magnitude":"20.6947",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54437.47998",
@@ -1864,7 +1874,7 @@
 				"magnitude":"20.7535",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54437.52002",
@@ -1873,7 +1883,7 @@
 				"magnitude":"20.73",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54437.560059",
@@ -1882,7 +1892,7 @@
 				"magnitude":"20.758499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54454.440063",
@@ -1891,7 +1901,7 @@
 				"magnitude":"20.416901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54454.47998",
@@ -1900,7 +1910,7 @@
 				"magnitude":"20.420799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54454.52002",
@@ -1909,7 +1919,7 @@
 				"magnitude":"20.443399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54454.560059",
@@ -1918,7 +1928,7 @@
 				"magnitude":"20.4501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54464.440063",
@@ -1927,7 +1937,7 @@
 				"magnitude":"20.415001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54464.47998",
@@ -1936,7 +1946,7 @@
 				"magnitude":"20.4848",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54464.52002",
@@ -1945,7 +1955,7 @@
 				"magnitude":"20.472",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54464.560059",
@@ -1954,7 +1964,7 @@
 				"magnitude":"20.419399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54495.440063",
@@ -1963,7 +1973,7 @@
 				"magnitude":"20.630501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54495.47998",
@@ -1972,7 +1982,7 @@
 				"magnitude":"20.627399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54495.52002",
@@ -1981,7 +1991,7 @@
 				"magnitude":"20.6315",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54495.560059",
@@ -1990,7 +2000,7 @@
 				"magnitude":"20.620701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54506.440063",
@@ -1999,7 +2009,7 @@
 				"magnitude":"20.850401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54506.47998",
@@ -2008,7 +2018,7 @@
 				"magnitude":"20.830099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54506.52002",
@@ -2017,7 +2027,7 @@
 				"magnitude":"20.866899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54506.560059",
@@ -2026,7 +2036,7 @@
 				"magnitude":"20.8379",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54528.440063",
@@ -2035,7 +2045,7 @@
 				"magnitude":"20.379499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54528.47998",
@@ -2044,7 +2054,7 @@
 				"magnitude":"20.6413",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54528.52002",
@@ -2053,7 +2063,7 @@
 				"magnitude":"20.6199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54528.560059",
@@ -2062,7 +2072,7 @@
 				"magnitude":"20.6688",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54536.440063",
@@ -2071,7 +2081,7 @@
 				"magnitude":"20.6973",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54536.47998",
@@ -2080,7 +2090,7 @@
 				"magnitude":"20.731899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54536.52002",
@@ -2089,7 +2099,7 @@
 				"magnitude":"20.7027",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54536.560059",
@@ -2098,7 +2108,7 @@
 				"magnitude":"20.733601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54548.440063",
@@ -2107,7 +2117,7 @@
 				"magnitude":"20.0277",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54548.47998",
@@ -2116,7 +2126,7 @@
 				"magnitude":"19.998899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54548.52002",
@@ -2125,7 +2135,7 @@
 				"magnitude":"20.0172",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54548.560059",
@@ -2134,7 +2144,7 @@
 				"magnitude":"20.0182",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54564.440063",
@@ -2143,7 +2153,7 @@
 				"magnitude":"20.723801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54564.47998",
@@ -2152,7 +2162,7 @@
 				"magnitude":"20.825701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54564.52002",
@@ -2161,7 +2171,7 @@
 				"magnitude":"20.819",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54564.560059",
@@ -2170,7 +2180,7 @@
 				"magnitude":"20.8242",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54574.440063",
@@ -2179,7 +2189,7 @@
 				"magnitude":"19.759399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54574.47998",
@@ -2188,7 +2198,7 @@
 				"magnitude":"19.7806",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54574.52002",
@@ -2197,7 +2207,7 @@
 				"magnitude":"19.752701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54574.560059",
@@ -2206,7 +2216,7 @@
 				"magnitude":"19.727501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54581.440063",
@@ -2215,7 +2225,7 @@
 				"magnitude":"20.418501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54581.47998",
@@ -2224,7 +2234,7 @@
 				"magnitude":"20.389601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54581.52002",
@@ -2233,7 +2243,7 @@
 				"magnitude":"20.417299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54581.560059",
@@ -2242,7 +2252,7 @@
 				"magnitude":"20.4268",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54592.440063",
@@ -2251,7 +2261,7 @@
 				"magnitude":"20.437201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54592.47998",
@@ -2260,7 +2270,7 @@
 				"magnitude":"20.4571",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54592.52002",
@@ -2269,7 +2279,7 @@
 				"magnitude":"20.377199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54592.560059",
@@ -2278,7 +2288,7 @@
 				"magnitude":"20.4496",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54766.440063",
@@ -2287,7 +2297,7 @@
 				"magnitude":"20.497499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54766.47998",
@@ -2296,7 +2306,7 @@
 				"magnitude":"20.5079",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54766.52002",
@@ -2305,7 +2315,7 @@
 				"magnitude":"20.5324",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54766.560059",
@@ -2314,7 +2324,7 @@
 				"magnitude":"19.780199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54777.440063",
@@ -2323,7 +2333,7 @@
 				"magnitude":"19.852699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54777.47998",
@@ -2332,7 +2342,7 @@
 				"magnitude":"20.638201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54777.52002",
@@ -2341,7 +2351,7 @@
 				"magnitude":"20.6556",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54777.560059",
@@ -2350,7 +2360,7 @@
 				"magnitude":"20.619101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54792.440063",
@@ -2359,7 +2369,7 @@
 				"magnitude":"20.414301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54792.47998",
@@ -2368,7 +2378,7 @@
 				"magnitude":"20.212",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54792.52002",
@@ -2377,7 +2387,7 @@
 				"magnitude":"20.522699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54792.560059",
@@ -2386,7 +2396,7 @@
 				"magnitude":"20.0597",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54800.440063",
@@ -2395,7 +2405,7 @@
 				"magnitude":"20.876801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54800.47998",
@@ -2404,7 +2414,7 @@
 				"magnitude":"20.877501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54800.52002",
@@ -2413,7 +2423,7 @@
 				"magnitude":"20.884199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54800.560059",
@@ -2422,7 +2432,7 @@
 				"magnitude":"20.8866",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54820.440063",
@@ -2431,7 +2441,7 @@
 				"magnitude":"20.5228",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54820.47998",
@@ -2440,7 +2450,7 @@
 				"magnitude":"20.641199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54820.52002",
@@ -2449,7 +2459,7 @@
 				"magnitude":"20.2946",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54820.560059",
@@ -2458,7 +2468,7 @@
 				"magnitude":"20.037201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54848.440063",
@@ -2467,7 +2477,7 @@
 				"magnitude":"20.7241",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54848.47998",
@@ -2476,7 +2486,7 @@
 				"magnitude":"20.712999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54848.52002",
@@ -2485,7 +2495,7 @@
 				"magnitude":"20.2645",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54848.560059",
@@ -2494,7 +2504,7 @@
 				"magnitude":"20.719",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54857.440063",
@@ -2503,7 +2513,7 @@
 				"magnitude":"20.795799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54857.47998",
@@ -2512,7 +2522,7 @@
 				"magnitude":"20.6749",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54857.52002",
@@ -2521,7 +2531,7 @@
 				"magnitude":"20.6509",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54857.560059",
@@ -2530,7 +2540,7 @@
 				"magnitude":"20.381201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54876.440063",
@@ -2539,7 +2549,7 @@
 				"magnitude":"20.891199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54876.47998",
@@ -2548,7 +2558,7 @@
 				"magnitude":"20.822399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54876.52002",
@@ -2557,7 +2567,7 @@
 				"magnitude":"20.8204",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54876.560059",
@@ -2566,7 +2576,7 @@
 				"magnitude":"20.813601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54882.440063",
@@ -2576,7 +2586,7 @@
 				"e_magnitude":"0.300179",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54882.47998",
@@ -2585,7 +2595,7 @@
 				"magnitude":"20.997101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54882.52002",
@@ -2594,7 +2604,7 @@
 				"magnitude":"20.9748",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54882.560059",
@@ -2603,7 +2613,7 @@
 				"magnitude":"20.9984",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54906.440063",
@@ -2612,7 +2622,7 @@
 				"magnitude":"20.922501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54906.47998",
@@ -2621,7 +2631,7 @@
 				"magnitude":"20.8736",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54906.52002",
@@ -2630,7 +2640,7 @@
 				"magnitude":"20.903099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54906.560059",
@@ -2639,7 +2649,7 @@
 				"magnitude":"20.948999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54914.440063",
@@ -2648,7 +2658,7 @@
 				"magnitude":"20.729601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54914.47998",
@@ -2657,7 +2667,7 @@
 				"magnitude":"20.921",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54914.52002",
@@ -2666,7 +2676,7 @@
 				"magnitude":"20.921801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54914.560059",
@@ -2675,7 +2685,7 @@
 				"magnitude":"20.930599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54923.440063",
@@ -2684,7 +2694,7 @@
 				"magnitude":"20.3016",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54923.47998",
@@ -2693,7 +2703,7 @@
 				"magnitude":"20.354099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54923.52002",
@@ -2702,7 +2712,7 @@
 				"magnitude":"20.4014",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54923.560059",
@@ -2711,7 +2721,7 @@
 				"magnitude":"20.3724",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54939.440063",
@@ -2720,7 +2730,7 @@
 				"magnitude":"20.9237",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54939.47998",
@@ -2729,7 +2739,7 @@
 				"magnitude":"20.8878",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54939.52002",
@@ -2738,7 +2748,7 @@
 				"magnitude":"20.9139",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54939.560059",
@@ -2747,7 +2757,7 @@
 				"magnitude":"20.916",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54964.440063",
@@ -2756,7 +2766,7 @@
 				"magnitude":"20.8141",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54964.47998",
@@ -2765,7 +2775,7 @@
 				"magnitude":"20.799101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54964.52002",
@@ -2774,7 +2784,7 @@
 				"magnitude":"20.7876",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54964.560059",
@@ -2783,7 +2793,7 @@
 				"magnitude":"20.7777",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54977.440063",
@@ -2792,7 +2802,7 @@
 				"magnitude":"20.5044",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54977.47998",
@@ -2801,7 +2811,7 @@
 				"magnitude":"20.4771",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54977.52002",
@@ -2810,7 +2820,7 @@
 				"magnitude":"20.4499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54977.560059",
@@ -2820,7 +2830,7 @@
 				"e_magnitude":"0.197431",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54983.440063",
@@ -2830,7 +2840,7 @@
 				"e_magnitude":"0.16819",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54983.47998",
@@ -2839,7 +2849,7 @@
 				"magnitude":"20.0693",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54983.52002",
@@ -2848,7 +2858,7 @@
 				"magnitude":"20.062599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"54983.560059",
@@ -2857,7 +2867,7 @@
 				"magnitude":"20.0317",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55121.5",
@@ -2879,7 +2889,7 @@
 				"e_magnitude":"0.10719",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55122.47998",
@@ -2889,7 +2899,7 @@
 				"e_magnitude":"0.110353",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55122.52002",
@@ -2899,7 +2909,7 @@
 				"e_magnitude":"0.078758",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55122.560059",
@@ -2909,7 +2919,7 @@
 				"e_magnitude":"0.105989",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55128.440063",
@@ -2919,7 +2929,7 @@
 				"e_magnitude":"0.094774",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55128.47998",
@@ -2929,7 +2939,7 @@
 				"e_magnitude":"0.102944",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55128.52002",
@@ -2939,7 +2949,7 @@
 				"e_magnitude":"0.094641",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55128.560059",
@@ -2949,7 +2959,7 @@
 				"e_magnitude":"0.103779",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55146.440063",
@@ -2959,7 +2969,7 @@
 				"e_magnitude":"0.123",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55146.47998",
@@ -2969,7 +2979,7 @@
 				"e_magnitude":"0.117495",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55146.52002",
@@ -2979,7 +2989,7 @@
 				"e_magnitude":"0.119705",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55146.560059",
@@ -2989,7 +2999,7 @@
 				"e_magnitude":"0.125287",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55161.440063",
@@ -2999,7 +3009,7 @@
 				"e_magnitude":"0.102272",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55161.47998",
@@ -3009,7 +3019,7 @@
 				"e_magnitude":"0.103769",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55161.52002",
@@ -3019,7 +3029,7 @@
 				"e_magnitude":"0.108058",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55161.560059",
@@ -3029,7 +3039,7 @@
 				"e_magnitude":"0.118282",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55162.440063",
@@ -3039,7 +3049,7 @@
 				"e_magnitude":"0.108796",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55162.47998",
@@ -3049,7 +3059,7 @@
 				"e_magnitude":"0.091995",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55162.52002",
@@ -3059,7 +3069,7 @@
 				"e_magnitude":"0.094019",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55162.560059",
@@ -3069,7 +3079,7 @@
 				"e_magnitude":"0.102159",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55202.440063",
@@ -3079,7 +3089,7 @@
 				"e_magnitude":"0.083465",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55202.47998",
@@ -3089,7 +3099,7 @@
 				"e_magnitude":"0.095763",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55202.52002",
@@ -3099,7 +3109,7 @@
 				"e_magnitude":"0.102529",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55202.560059",
@@ -3109,7 +3119,7 @@
 				"e_magnitude":"0.097096",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55232.440063",
@@ -3119,7 +3129,7 @@
 				"e_magnitude":"0.103455",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55232.47998",
@@ -3129,7 +3139,7 @@
 				"e_magnitude":"0.107008",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55232.52002",
@@ -3139,7 +3149,7 @@
 				"e_magnitude":"0.093781",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55232.560059",
@@ -3149,7 +3159,7 @@
 				"e_magnitude":"0.113171",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55241.440063",
@@ -3159,7 +3169,7 @@
 				"e_magnitude":"0.096528",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55241.47998",
@@ -3169,7 +3179,7 @@
 				"e_magnitude":"0.118386",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55241.52002",
@@ -3179,7 +3189,7 @@
 				"e_magnitude":"0.116276",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55241.560059",
@@ -3189,7 +3199,7 @@
 				"e_magnitude":"0.108852",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55260.440063",
@@ -3199,7 +3209,7 @@
 				"e_magnitude":"0.11359",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55260.47998",
@@ -3209,7 +3219,7 @@
 				"e_magnitude":"0.088869",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55260.52002",
@@ -3219,7 +3229,7 @@
 				"e_magnitude":"0.111385",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55260.560059",
@@ -3229,7 +3239,7 @@
 				"e_magnitude":"0.088913",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55272.440063",
@@ -3239,7 +3249,7 @@
 				"e_magnitude":"0.112839",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55272.47998",
@@ -3249,7 +3259,7 @@
 				"e_magnitude":"0.116368",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55272.52002",
@@ -3259,7 +3269,7 @@
 				"e_magnitude":"0.140471",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55272.560059",
@@ -3269,7 +3279,7 @@
 				"e_magnitude":"0.112591",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55295.440063",
@@ -3279,7 +3289,7 @@
 				"e_magnitude":"0.109242",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55295.47998",
@@ -3289,7 +3299,7 @@
 				"e_magnitude":"0.134591",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55295.52002",
@@ -3299,7 +3309,7 @@
 				"e_magnitude":"0.139887",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55295.560059",
@@ -3309,7 +3319,7 @@
 				"e_magnitude":"0.211724",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55329.439941",
@@ -3319,7 +3329,7 @@
 				"e_magnitude":"0.115059",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55329.47998",
@@ -3329,7 +3339,7 @@
 				"e_magnitude":"0.120901",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55329.52002",
@@ -3339,7 +3349,7 @@
 				"e_magnitude":"0.179456",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55329.559814",
@@ -3349,7 +3359,7 @@
 				"e_magnitude":"0.118474",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55486.439941",
@@ -3359,7 +3369,7 @@
 				"e_magnitude":"0.158246",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55486.47998",
@@ -3369,7 +3379,7 @@
 				"e_magnitude":"0.185679",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55486.52002",
@@ -3378,7 +3388,7 @@
 				"magnitude":"20.4375",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55486.559814",
@@ -3388,7 +3398,7 @@
 				"e_magnitude":"0.290277",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55501.439941",
@@ -3398,7 +3408,7 @@
 				"e_magnitude":"0.186553",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55501.47998",
@@ -3408,7 +3418,7 @@
 				"e_magnitude":"0.214989",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55501.52002",
@@ -3417,7 +3427,7 @@
 				"magnitude":"20.6308",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55501.559814",
@@ -3427,7 +3437,7 @@
 				"e_magnitude":"0.263277",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55511.439941",
@@ -3437,7 +3447,7 @@
 				"e_magnitude":"0.181887",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55511.47998",
@@ -3447,7 +3457,7 @@
 				"e_magnitude":"0.210171",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55511.52002",
@@ -3456,7 +3466,7 @@
 				"magnitude":"20.873301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55511.559814",
@@ -3466,7 +3476,7 @@
 				"e_magnitude":"0.293591",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55531.439941",
@@ -3475,7 +3485,7 @@
 				"magnitude":"20.7115",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55531.47998",
@@ -3484,7 +3494,7 @@
 				"magnitude":"20.701099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55531.52002",
@@ -3494,7 +3504,7 @@
 				"e_magnitude":"0.221952",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55531.559814",
@@ -3504,7 +3514,7 @@
 				"e_magnitude":"0.125735",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55538.439941",
@@ -3513,7 +3523,7 @@
 				"magnitude":"20.9146",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55538.47998",
@@ -3522,7 +3532,7 @@
 				"magnitude":"20.9828",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55538.52002",
@@ -3532,7 +3542,7 @@
 				"e_magnitude":"0.175345",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55538.559814",
@@ -3541,7 +3551,7 @@
 				"magnitude":"20.9939",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55544.439941",
@@ -3551,7 +3561,7 @@
 				"e_magnitude":"0.289198",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55544.47998",
@@ -3560,7 +3570,7 @@
 				"magnitude":"20.878901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55544.52002",
@@ -3569,7 +3579,7 @@
 				"magnitude":"20.799999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55544.559814",
@@ -3578,7 +3588,7 @@
 				"magnitude":"20.9062",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55566.439941",
@@ -3587,7 +3597,7 @@
 				"magnitude":"20.966",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55566.47998",
@@ -3596,7 +3606,7 @@
 				"magnitude":"20.4079",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55566.52002",
@@ -3605,7 +3615,7 @@
 				"magnitude":"20.320101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55566.559814",
@@ -3615,7 +3625,7 @@
 				"e_magnitude":"0.249948",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55572.439941",
@@ -3624,7 +3634,7 @@
 				"magnitude":"20.9669",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55572.47998",
@@ -3633,7 +3643,7 @@
 				"magnitude":"20.961201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55572.52002",
@@ -3643,7 +3653,7 @@
 				"e_magnitude":"0.247387",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55572.559814",
@@ -3653,7 +3663,7 @@
 				"e_magnitude":"0.287426",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55585.439941",
@@ -3662,7 +3672,7 @@
 				"magnitude":"20.444599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55585.47998",
@@ -3671,7 +3681,7 @@
 				"magnitude":"20.437901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55585.52002",
@@ -3680,7 +3690,7 @@
 				"magnitude":"20.4205",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55585.559814",
@@ -3689,7 +3699,7 @@
 				"magnitude":"20.3899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55597.439941",
@@ -3699,7 +3709,7 @@
 				"e_magnitude":"0.108604",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55597.47998",
@@ -3709,7 +3719,7 @@
 				"e_magnitude":"0.092741",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55597.52002",
@@ -3719,7 +3729,7 @@
 				"e_magnitude":"0.125287",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55597.559814",
@@ -3729,7 +3739,7 @@
 				"e_magnitude":"0.095914",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55615.439941",
@@ -3739,7 +3749,7 @@
 				"e_magnitude":"0.214219",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55615.47998",
@@ -3748,7 +3758,7 @@
 				"magnitude":"20.8871",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55615.52002",
@@ -3757,7 +3767,7 @@
 				"magnitude":"20.9126",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55615.559814",
@@ -3767,7 +3777,7 @@
 				"e_magnitude":"0.250717",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55625.439941",
@@ -3776,7 +3786,7 @@
 				"magnitude":"20.9035",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55625.47998",
@@ -3786,7 +3796,7 @@
 				"e_magnitude":"0.152594",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55625.52002",
@@ -3795,7 +3805,7 @@
 				"magnitude":"20.9965",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55631.439941",
@@ -3805,7 +3815,7 @@
 				"e_magnitude":"0.293841",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55631.47998",
@@ -3814,7 +3824,7 @@
 				"magnitude":"20.875999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55631.52002",
@@ -3823,7 +3833,7 @@
 				"magnitude":"20.8249",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55631.559814",
@@ -3832,7 +3842,7 @@
 				"magnitude":"20.8645",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55646.439941",
@@ -3841,7 +3851,7 @@
 				"magnitude":"20.710699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55646.47998",
@@ -3850,7 +3860,7 @@
 				"magnitude":"20.843",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55646.52002",
@@ -3859,7 +3869,7 @@
 				"magnitude":"20.873301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55646.559814",
@@ -3868,7 +3878,7 @@
 				"magnitude":"20.878099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55656.439941",
@@ -3878,7 +3888,7 @@
 				"e_magnitude":"0.172295",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55656.47998",
@@ -3887,7 +3897,7 @@
 				"magnitude":"20.917299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55656.52002",
@@ -3896,7 +3906,7 @@
 				"magnitude":"20.925699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55656.559814",
@@ -3906,7 +3916,7 @@
 				"e_magnitude":"0.21494",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55682.439941",
@@ -3915,7 +3925,7 @@
 				"magnitude":"20.6572",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55682.47998",
@@ -3924,7 +3934,7 @@
 				"magnitude":"20.5497",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55682.52002",
@@ -3933,7 +3943,7 @@
 				"magnitude":"20.559299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55682.559814",
@@ -3942,7 +3952,7 @@
 				"magnitude":"20.5366",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55706.439941",
@@ -3951,7 +3961,7 @@
 				"magnitude":"20.5919",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55706.47998",
@@ -3960,7 +3970,7 @@
 				"magnitude":"20.612499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55706.52002",
@@ -3969,7 +3979,7 @@
 				"magnitude":"20.563999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55706.559814",
@@ -3978,7 +3988,7 @@
 				"magnitude":"20.5343",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55834.439941",
@@ -3987,7 +3997,7 @@
 				"magnitude":"20.455999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55834.47998",
@@ -3996,7 +4006,7 @@
 				"magnitude":"20.4657",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55834.52002",
@@ -4005,7 +4015,7 @@
 				"magnitude":"20.4492",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55834.559814",
@@ -4014,7 +4024,7 @@
 				"magnitude":"20.405001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55857.439941",
@@ -4023,7 +4033,7 @@
 				"magnitude":"20.6084",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55857.47998",
@@ -4032,7 +4042,7 @@
 				"magnitude":"20.6376",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55857.52002",
@@ -4041,7 +4051,7 @@
 				"magnitude":"20.554899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55857.559814",
@@ -4051,7 +4061,7 @@
 				"e_magnitude":"0.255159",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55888.439941",
@@ -4060,7 +4070,7 @@
 				"magnitude":"20.6395",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55888.47998",
@@ -4069,7 +4079,7 @@
 				"magnitude":"20.6385",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55888.52002",
@@ -4078,7 +4088,7 @@
 				"magnitude":"20.643999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55888.559814",
@@ -4087,7 +4097,7 @@
 				"magnitude":"20.678801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55919.439941",
@@ -4096,7 +4106,7 @@
 				"magnitude":"20.777399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55919.47998",
@@ -4105,7 +4115,7 @@
 				"magnitude":"20.8064",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55919.52002",
@@ -4114,7 +4124,7 @@
 				"magnitude":"20.8585",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55919.559814",
@@ -4123,7 +4133,7 @@
 				"magnitude":"20.8633",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55926.439941",
@@ -4132,7 +4142,7 @@
 				"magnitude":"20.999399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55926.47998",
@@ -4141,7 +4151,7 @@
 				"magnitude":"20.996799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55926.52002",
@@ -4150,7 +4160,7 @@
 				"magnitude":"20.9097",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55926.559814",
@@ -4159,7 +4169,7 @@
 				"magnitude":"20.9939",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55940.439941",
@@ -4168,7 +4178,7 @@
 				"magnitude":"20.4695",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55940.47998",
@@ -4177,7 +4187,7 @@
 				"magnitude":"20.4391",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55940.52002",
@@ -4186,7 +4196,7 @@
 				"magnitude":"20.434401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55940.559814",
@@ -4195,7 +4205,7 @@
 				"magnitude":"20.4109",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55947.47998",
@@ -4204,7 +4214,7 @@
 				"magnitude":"20.9792",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55968.439941",
@@ -4213,7 +4223,7 @@
 				"magnitude":"20.440399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55968.47998",
@@ -4222,7 +4232,7 @@
 				"magnitude":"20.4275",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55968.52002",
@@ -4231,7 +4241,7 @@
 				"magnitude":"20.428301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55968.559814",
@@ -4240,7 +4250,7 @@
 				"magnitude":"20.4147",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55986.439941",
@@ -4249,7 +4259,7 @@
 				"magnitude":"20.7362",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55986.47998",
@@ -4258,7 +4268,7 @@
 				"magnitude":"20.7379",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55986.52002",
@@ -4267,7 +4277,7 @@
 				"magnitude":"20.7383",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55986.559814",
@@ -4276,7 +4286,7 @@
 				"magnitude":"20.744699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55999.439941",
@@ -4285,7 +4295,7 @@
 				"magnitude":"20.889299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55999.47998",
@@ -4294,7 +4304,7 @@
 				"magnitude":"20.9053",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55999.52002",
@@ -4303,7 +4313,7 @@
 				"magnitude":"20.9223",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"55999.559814",
@@ -4313,7 +4323,7 @@
 				"e_magnitude":"0.286263",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56029.439941",
@@ -4322,7 +4332,7 @@
 				"magnitude":"20.7714",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56029.47998",
@@ -4331,7 +4341,7 @@
 				"magnitude":"20.7575",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56029.52002",
@@ -4340,7 +4350,7 @@
 				"magnitude":"20.7798",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56029.559814",
@@ -4349,7 +4359,7 @@
 				"magnitude":"20.3237",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56042.439941",
@@ -4358,7 +4368,7 @@
 				"magnitude":"20.695801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56042.47998",
@@ -4367,7 +4377,7 @@
 				"magnitude":"20.6905",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56042.52002",
@@ -4376,7 +4386,7 @@
 				"magnitude":"20.6397",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56042.559814",
@@ -4385,7 +4395,7 @@
 				"magnitude":"20.588499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56063.439941",
@@ -4394,7 +4404,7 @@
 				"magnitude":"20.801901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56063.47998",
@@ -4403,7 +4413,7 @@
 				"magnitude":"20.766701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56063.52002",
@@ -4412,7 +4422,7 @@
 				"magnitude":"20.7328",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56063.559814",
@@ -4421,7 +4431,7 @@
 				"magnitude":"20.726801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56295.439941",
@@ -4430,7 +4440,7 @@
 				"magnitude":"20.417601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56295.47998",
@@ -4439,7 +4449,7 @@
 				"magnitude":"20.4928",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56295.52002",
@@ -4448,7 +4458,7 @@
 				"magnitude":"20.325701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56295.559814",
@@ -4457,7 +4467,7 @@
 				"magnitude":"20.4519",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56308.439941",
@@ -4466,7 +4476,7 @@
 				"magnitude":"20.956301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56308.47998",
@@ -4475,7 +4485,7 @@
 				"magnitude":"20.990299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56308.52002",
@@ -4484,7 +4494,7 @@
 				"magnitude":"20.9461",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56308.559814",
@@ -4493,7 +4503,7 @@
 				"magnitude":"20.996901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56330.439941",
@@ -4502,7 +4512,7 @@
 				"magnitude":"20.995501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56330.47998",
@@ -4511,7 +4521,7 @@
 				"magnitude":"20.9538",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56330.52002",
@@ -4520,7 +4530,7 @@
 				"magnitude":"20.6245",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56330.559814",
@@ -4529,7 +4539,7 @@
 				"magnitude":"20.618999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56337.439941",
@@ -4538,7 +4548,7 @@
 				"magnitude":"20.997499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56337.47998",
@@ -4547,7 +4557,7 @@
 				"magnitude":"20.9751",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56337.52002",
@@ -4556,7 +4566,7 @@
 				"magnitude":"20.996099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56337.559814",
@@ -4565,7 +4575,7 @@
 				"magnitude":"20.9701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56341.439941",
@@ -4574,7 +4584,7 @@
 				"magnitude":"20.937201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56341.47998",
@@ -4583,7 +4593,7 @@
 				"magnitude":"20.961399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56341.52002",
@@ -4592,7 +4602,7 @@
 				"magnitude":"20.9622",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56341.559814",
@@ -4601,7 +4611,7 @@
 				"magnitude":"20.974899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56352.439941",
@@ -4610,7 +4620,7 @@
 				"magnitude":"20.3099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56352.47998",
@@ -4619,7 +4629,7 @@
 				"magnitude":"20.280001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56352.52002",
@@ -4628,7 +4638,7 @@
 				"magnitude":"20.276699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56352.559814",
@@ -4637,7 +4647,7 @@
 				"magnitude":"20.253201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56366.439941",
@@ -4646,7 +4656,7 @@
 				"magnitude":"20.9018",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56366.47998",
@@ -4655,7 +4665,7 @@
 				"magnitude":"20.9072",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56366.52002",
@@ -4664,7 +4674,7 @@
 				"magnitude":"20.941601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56366.559814",
@@ -4673,7 +4683,7 @@
 				"magnitude":"20.911301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56384.439941",
@@ -4682,7 +4692,7 @@
 				"magnitude":"20.492201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56384.47998",
@@ -4691,7 +4701,7 @@
 				"magnitude":"20.1429",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56384.52002",
@@ -4700,7 +4710,7 @@
 				"magnitude":"20.4153",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56384.559814",
@@ -4709,7 +4719,7 @@
 				"magnitude":"20.446301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56411.439941",
@@ -4718,7 +4728,7 @@
 				"magnitude":"20.567301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56411.47998",
@@ -4727,7 +4737,7 @@
 				"magnitude":"20.5336",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56411.52002",
@@ -4736,7 +4746,7 @@
 				"magnitude":"20.500099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56411.559814",
@@ -4745,7 +4755,7 @@
 				"magnitude":"20.471901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56590.439941",
@@ -4754,7 +4764,7 @@
 				"magnitude":"20.350201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56590.47998",
@@ -4763,7 +4773,7 @@
 				"magnitude":"20.370199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56590.52002",
@@ -4772,7 +4782,7 @@
 				"magnitude":"20.3473",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56590.559814",
@@ -4781,7 +4791,7 @@
 				"magnitude":"20.4086",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56597.439941",
@@ -4790,7 +4800,7 @@
 				"magnitude":"20.464899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56597.47998",
@@ -4799,7 +4809,7 @@
 				"magnitude":"20.493",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56597.52002",
@@ -4809,7 +4819,7 @@
 				"e_magnitude":"0.255322",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56597.559814",
@@ -4818,7 +4828,7 @@
 				"magnitude":"20.548401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56604.439941",
@@ -4827,7 +4837,7 @@
 				"magnitude":"20.653999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56604.47998",
@@ -4836,7 +4846,7 @@
 				"magnitude":"20.6838",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56604.52002",
@@ -4845,7 +4855,7 @@
 				"magnitude":"20.7066",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56604.559814",
@@ -4854,7 +4864,7 @@
 				"magnitude":"20.703699",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56624.439941",
@@ -4864,7 +4874,7 @@
 				"e_magnitude":"0.292226",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56624.47998",
@@ -4873,7 +4883,7 @@
 				"magnitude":"20.902",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56624.52002",
@@ -4882,7 +4892,7 @@
 				"magnitude":"20.9263",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56624.559814",
@@ -4891,7 +4901,7 @@
 				"magnitude":"20.9266",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56637.439941",
@@ -4900,7 +4910,7 @@
 				"magnitude":"20.7498",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56637.47998",
@@ -4909,7 +4919,7 @@
 				"magnitude":"20.7465",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56637.52002",
@@ -4918,7 +4928,7 @@
 				"magnitude":"20.6868",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56637.559814",
@@ -4927,7 +4937,7 @@
 				"magnitude":"20.748899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56650.439941",
@@ -4936,7 +4946,7 @@
 				"magnitude":"20.4888",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56650.47998",
@@ -4945,7 +4955,7 @@
 				"magnitude":"20.635401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56650.52002",
@@ -4954,7 +4964,7 @@
 				"magnitude":"20.628599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56650.559814",
@@ -4963,7 +4973,7 @@
 				"magnitude":"20.5951",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56666.439941",
@@ -4972,7 +4982,7 @@
 				"magnitude":"20.746201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56666.47998",
@@ -4981,7 +4991,7 @@
 				"magnitude":"20.691099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56666.52002",
@@ -4990,7 +5000,7 @@
 				"magnitude":"20.5833",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56666.559814",
@@ -4999,7 +5009,7 @@
 				"magnitude":"20.597099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56678.439941",
@@ -5008,7 +5018,7 @@
 				"magnitude":"20.254999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56678.47998",
@@ -5017,7 +5027,7 @@
 				"magnitude":"20.3643",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56678.52002",
@@ -5027,7 +5037,7 @@
 				"e_magnitude":"0.235999",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56678.559814",
@@ -5037,7 +5047,7 @@
 				"e_magnitude":"0.234534",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56685.439941",
@@ -5046,7 +5056,7 @@
 				"magnitude":"20.941401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56685.47998",
@@ -5055,7 +5065,7 @@
 				"magnitude":"20.9394",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56685.52002",
@@ -5064,7 +5074,7 @@
 				"magnitude":"20.9709",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56685.559814",
@@ -5073,7 +5083,7 @@
 				"magnitude":"20.941099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56692.439941",
@@ -5082,7 +5092,7 @@
 				"magnitude":"20.8354",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56692.47998",
@@ -5091,7 +5101,7 @@
 				"magnitude":"20.883101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56692.52002",
@@ -5100,7 +5110,7 @@
 				"magnitude":"20.8419",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56692.559814",
@@ -5109,7 +5119,7 @@
 				"magnitude":"20.8983",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56706.439941",
@@ -5118,7 +5128,7 @@
 				"magnitude":"20.1856",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56706.47998",
@@ -5127,7 +5137,7 @@
 				"magnitude":"19.716299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56706.52002",
@@ -5136,7 +5146,7 @@
 				"magnitude":"20.180599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56706.559814",
@@ -5145,7 +5155,7 @@
 				"magnitude":"20.3269",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56713.439941",
@@ -5154,7 +5164,7 @@
 				"magnitude":"20.9484",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56713.47998",
@@ -5163,7 +5173,7 @@
 				"magnitude":"20.947201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56713.52002",
@@ -5172,7 +5182,7 @@
 				"magnitude":"20.950701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56713.559814",
@@ -5181,7 +5191,7 @@
 				"magnitude":"20.880899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56720.439941",
@@ -5190,7 +5200,7 @@
 				"magnitude":"20.4221",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56720.47998",
@@ -5199,7 +5209,7 @@
 				"magnitude":"20.4897",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56720.52002",
@@ -5208,7 +5218,7 @@
 				"magnitude":"19.9958",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56720.559814",
@@ -5217,7 +5227,7 @@
 				"magnitude":"20.0238",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56736.439941",
@@ -5226,7 +5236,7 @@
 				"magnitude":"20.7178",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56736.47998",
@@ -5235,7 +5245,7 @@
 				"magnitude":"20.779499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56736.52002",
@@ -5244,7 +5254,7 @@
 				"magnitude":"20.7668",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56736.559814",
@@ -5253,7 +5263,7 @@
 				"magnitude":"20.802601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56745.439941",
@@ -5262,7 +5272,7 @@
 				"magnitude":"20.7763",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56745.47998",
@@ -5271,7 +5281,7 @@
 				"magnitude":"20.788601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56745.52002",
@@ -5280,7 +5290,7 @@
 				"magnitude":"20.7815",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56745.559814",
@@ -5289,7 +5299,7 @@
 				"magnitude":"20.723",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56751.439941",
@@ -5298,7 +5308,7 @@
 				"magnitude":"20.726101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56751.47998",
@@ -5307,7 +5317,7 @@
 				"magnitude":"20.7194",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56751.52002",
@@ -5316,7 +5326,7 @@
 				"magnitude":"20.718599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56751.559814",
@@ -5325,7 +5335,7 @@
 				"magnitude":"20.744499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56769.439941",
@@ -5334,7 +5344,7 @@
 				"magnitude":"20.6514",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56769.47998",
@@ -5343,7 +5353,7 @@
 				"magnitude":"20.4708",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56769.52002",
@@ -5352,7 +5362,7 @@
 				"magnitude":"20.703199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56769.559814",
@@ -5361,7 +5371,7 @@
 				"magnitude":"20.2073",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56780.439941",
@@ -5370,7 +5380,7 @@
 				"magnitude":"20.597799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56780.47998",
@@ -5379,7 +5389,7 @@
 				"magnitude":"20.582199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56780.52002",
@@ -5388,7 +5398,7 @@
 				"magnitude":"20.608",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56780.559814",
@@ -5397,7 +5407,7 @@
 				"magnitude":"20.580099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56808.439941",
@@ -5406,7 +5416,7 @@
 				"magnitude":"20.5597",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56808.47998",
@@ -5415,7 +5425,7 @@
 				"magnitude":"20.6141",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56808.52002",
@@ -5424,7 +5434,7 @@
 				"magnitude":"20.628099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56808.559814",
@@ -5433,7 +5443,7 @@
 				"magnitude":"20.623199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56943.439941",
@@ -5442,7 +5452,7 @@
 				"magnitude":"20.247101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56943.47998",
@@ -5451,7 +5461,7 @@
 				"magnitude":"20.2918",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56943.52002",
@@ -5460,7 +5470,7 @@
 				"magnitude":"20.305201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56943.559814",
@@ -5469,7 +5479,7 @@
 				"magnitude":"20.3048",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56954.439941",
@@ -5478,7 +5488,7 @@
 				"magnitude":"20.5823",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56954.47998",
@@ -5487,7 +5497,7 @@
 				"magnitude":"20.599899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56954.52002",
@@ -5496,7 +5506,7 @@
 				"magnitude":"20.6061",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56954.559814",
@@ -5505,7 +5515,7 @@
 				"magnitude":"20.600599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56981.439941",
@@ -5514,7 +5524,7 @@
 				"magnitude":"20.6525",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56981.47998",
@@ -5523,7 +5533,7 @@
 				"magnitude":"20.6558",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56981.52002",
@@ -5532,7 +5542,7 @@
 				"magnitude":"20.6828",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56981.559814",
@@ -5541,7 +5551,7 @@
 				"magnitude":"20.698099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56987.439941",
@@ -5550,7 +5560,7 @@
 				"magnitude":"20.6744",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56987.47998",
@@ -5559,7 +5569,7 @@
 				"magnitude":"20.6537",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56987.52002",
@@ -5568,7 +5578,7 @@
 				"magnitude":"20.6374",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56987.559814",
@@ -5577,7 +5587,7 @@
 				"magnitude":"20.6085",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56992.439941",
@@ -5586,7 +5596,7 @@
 				"magnitude":"20.763901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56992.47998",
@@ -5595,7 +5605,7 @@
 				"magnitude":"20.7694",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56992.52002",
@@ -5604,7 +5614,7 @@
 				"magnitude":"20.764799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"56992.559814",
@@ -5613,7 +5623,7 @@
 				"magnitude":"20.775299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57015.439941",
@@ -5622,7 +5632,7 @@
 				"magnitude":"20.715",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57015.47998",
@@ -5631,7 +5641,7 @@
 				"magnitude":"20.716",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57015.52002",
@@ -5640,7 +5650,7 @@
 				"magnitude":"20.7528",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57015.559814",
@@ -5649,7 +5659,7 @@
 				"magnitude":"20.7579",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57050.439941",
@@ -5658,7 +5668,7 @@
 				"magnitude":"20.882401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57050.47998",
@@ -5667,7 +5677,7 @@
 				"magnitude":"20.8559",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57050.52002",
@@ -5676,7 +5686,7 @@
 				"magnitude":"20.851299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57050.559814",
@@ -5685,7 +5695,7 @@
 				"magnitude":"20.815599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57065.439941",
@@ -5694,7 +5704,7 @@
 				"magnitude":"20.8162",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57065.47998",
@@ -5703,7 +5713,7 @@
 				"magnitude":"20.8286",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57065.52002",
@@ -5712,7 +5722,7 @@
 				"magnitude":"20.8279",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57065.559814",
@@ -5721,7 +5731,7 @@
 				"magnitude":"20.775299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57080.439941",
@@ -5730,7 +5740,7 @@
 				"magnitude":"20.405399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57080.47998",
@@ -5739,7 +5749,7 @@
 				"magnitude":"20.428801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57080.52002",
@@ -5749,7 +5759,7 @@
 				"e_magnitude":"0.23066",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57080.559814",
@@ -5758,7 +5768,7 @@
 				"magnitude":"20.4466",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57090.439941",
@@ -5767,7 +5777,7 @@
 				"magnitude":"20.371",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57090.47998",
@@ -5776,7 +5786,7 @@
 				"magnitude":"20.398399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57090.52002",
@@ -5785,7 +5795,7 @@
 				"magnitude":"20.391701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57090.559814",
@@ -5794,7 +5804,7 @@
 				"magnitude":"20.386299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57103.439941",
@@ -5803,7 +5813,7 @@
 				"magnitude":"20.816601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57103.47998",
@@ -5812,7 +5822,7 @@
 				"magnitude":"20.752701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57103.52002",
@@ -5821,7 +5831,7 @@
 				"magnitude":"20.8174",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57103.559814",
@@ -5830,7 +5840,7 @@
 				"magnitude":"20.8389",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57121.439941",
@@ -5839,7 +5849,7 @@
 				"magnitude":"20.801399",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57121.47998",
@@ -5848,7 +5858,7 @@
 				"magnitude":"20.7724",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57121.52002",
@@ -5857,7 +5867,7 @@
 				"magnitude":"20.7682",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57121.559814",
@@ -5866,7 +5876,7 @@
 				"magnitude":"20.7903",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57127.439941",
@@ -5875,7 +5885,7 @@
 				"magnitude":"20.777",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57127.47998",
@@ -5884,7 +5894,7 @@
 				"magnitude":"20.773701",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57127.52002",
@@ -5893,7 +5903,7 @@
 				"magnitude":"20.734501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57127.559814",
@@ -5902,7 +5912,7 @@
 				"magnitude":"20.123199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57154.439941",
@@ -5911,7 +5921,7 @@
 				"magnitude":"20.694799",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57154.47998",
@@ -5920,7 +5930,7 @@
 				"magnitude":"20.708099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57154.52002",
@@ -5929,7 +5939,7 @@
 				"magnitude":"20.688299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57154.559814",
@@ -5938,7 +5948,7 @@
 				"magnitude":"20.6915",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57307.439941",
@@ -5947,7 +5957,7 @@
 				"magnitude":"20.582899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57307.47998",
@@ -5956,7 +5966,7 @@
 				"magnitude":"20.580299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57307.52002",
@@ -5965,7 +5975,7 @@
 				"magnitude":"20.5984",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57307.559814",
@@ -5974,7 +5984,7 @@
 				"magnitude":"20.566099",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57332.439941",
@@ -5983,7 +5993,7 @@
 				"magnitude":"20.6961",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57332.47998",
@@ -5992,7 +6002,7 @@
 				"magnitude":"20.712601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57332.52002",
@@ -6001,7 +6011,7 @@
 				"magnitude":"20.721201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57332.559814",
@@ -6010,7 +6020,7 @@
 				"magnitude":"20.7146",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57340.439941",
@@ -6019,7 +6029,7 @@
 				"magnitude":"20.754499",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57340.47998",
@@ -6028,7 +6038,7 @@
 				"magnitude":"20.7684",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57340.52002",
@@ -6037,7 +6047,7 @@
 				"magnitude":"20.769199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57340.559814",
@@ -6046,7 +6056,7 @@
 				"magnitude":"20.756201",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57348.439941",
@@ -6055,7 +6065,7 @@
 				"magnitude":"20.894199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57348.47998",
@@ -6064,7 +6074,7 @@
 				"magnitude":"20.8887",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57348.52002",
@@ -6073,7 +6083,7 @@
 				"magnitude":"20.906",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57348.560059",
@@ -6082,7 +6092,7 @@
 				"magnitude":"20.924999",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57364.439941",
@@ -6091,7 +6101,7 @@
 				"magnitude":"20.657101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57364.47998",
@@ -6100,7 +6110,7 @@
 				"magnitude":"20.620501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57364.52002",
@@ -6109,7 +6119,7 @@
 				"magnitude":"20.637899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57364.560059",
@@ -6118,7 +6128,7 @@
 				"magnitude":"20.667601",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57374.439941",
@@ -6127,7 +6137,7 @@
 				"magnitude":"20.9252",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57374.47998",
@@ -6136,7 +6146,7 @@
 				"magnitude":"20.9107",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57374.52002",
@@ -6145,7 +6155,7 @@
 				"magnitude":"20.884199",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57374.560059",
@@ -6154,7 +6164,7 @@
 				"magnitude":"20.9007",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57387.439941",
@@ -6163,7 +6173,7 @@
 				"magnitude":"20.4788",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57387.47998",
@@ -6172,7 +6182,7 @@
 				"magnitude":"20.5294",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57387.52002",
@@ -6181,7 +6191,7 @@
 				"magnitude":"19.941299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57387.560059",
@@ -6190,7 +6200,7 @@
 				"magnitude":"20.1101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57401.439941",
@@ -6199,7 +6209,7 @@
 				"magnitude":"20.8671",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57401.47998",
@@ -6208,7 +6218,7 @@
 				"magnitude":"20.8657",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57401.52002",
@@ -6217,7 +6227,7 @@
 				"magnitude":"20.887899",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57401.560059",
@@ -6226,7 +6236,7 @@
 				"magnitude":"20.861401",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57416.439941",
@@ -6235,7 +6245,7 @@
 				"magnitude":"20.535299",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57416.47998",
@@ -6245,7 +6255,7 @@
 				"e_magnitude":"0.113059",
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57416.52002",
@@ -6254,7 +6264,7 @@
 				"magnitude":"20.549101",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57416.560059",
@@ -6263,7 +6273,7 @@
 				"magnitude":"20.550301",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57427.439941",
@@ -6272,7 +6282,7 @@
 				"magnitude":"20.909599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57427.47998",
@@ -6281,7 +6291,7 @@
 				"magnitude":"20.9981",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57427.52002",
@@ -6290,7 +6300,7 @@
 				"magnitude":"20.9519",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57427.560059",
@@ -6299,7 +6309,7 @@
 				"magnitude":"20.999599",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57434.439941",
@@ -6308,7 +6318,7 @@
 				"magnitude":"20.394501",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57434.47998",
@@ -6317,7 +6327,7 @@
 				"magnitude":"20.4212",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57434.52002",
@@ -6326,7 +6336,7 @@
 				"magnitude":"20.4245",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57434.560059",
@@ -6335,7 +6345,7 @@
 				"magnitude":"20.461901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57445.439941",
@@ -6344,7 +6354,7 @@
 				"magnitude":"20.5341",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57445.47998",
@@ -6353,7 +6363,7 @@
 				"magnitude":"20.535801",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57445.52002",
@@ -6362,7 +6372,7 @@
 				"magnitude":"20.5154",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57445.560059",
@@ -6371,7 +6381,7 @@
 				"magnitude":"20.516001",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57459.439941",
@@ -6380,7 +6390,7 @@
 				"magnitude":"20.8778",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57459.47998",
@@ -6389,7 +6399,7 @@
 				"magnitude":"20.801901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57459.52002",
@@ -6398,7 +6408,7 @@
 				"magnitude":"20.7925",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57459.560059",
@@ -6407,7 +6417,7 @@
 				"magnitude":"20.8172",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57482.439941",
@@ -6416,7 +6426,7 @@
 				"magnitude":"20.85",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57482.47998",
@@ -6425,7 +6435,7 @@
 				"magnitude":"20.843901",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57482.52002",
@@ -6434,7 +6444,7 @@
 				"magnitude":"20.864",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			},
 			{
 				"time":"57482.560059",
@@ -6443,7 +6453,7 @@
 				"magnitude":"20.8678",
 				"upperlimit":true,
 				"telescope":"Catalina Schmidt",
-				"source":"5,6"
+				"source":"5"
 			}
 		]
 	}
