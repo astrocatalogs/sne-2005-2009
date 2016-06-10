@@ -3,7 +3,8 @@
 		"name":"SN2007hb",
 		"sources":[
 			{
-				"name":"2000A&AS..143....9W",
+				"name":"SIMBAD astronomical database",
+				"url":"http://simbad.u-strasbg.fr/",
 				"bibcode":"2000A&AS..143....9W",
 				"alias":"1",
 				"secondary":true,
@@ -60,10 +61,18 @@
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
+				"name":"The Open Supernova Catalog",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"10",
+				"alias":"11",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
@@ -71,34 +80,36 @@
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"11",
+				"alias":"12",
 				"secondary":true
 			},
 			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
-				"alias":"12",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
+				"name":"2007ATel.1194....1B",
+				"bibcode":"2007ATel.1194....1B",
+				"alias":"13",
+				"reference":"Baltay et al. (2007)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13",
+				"alias":"14",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2007hb",
-				"source":"1,4,5,6,7,8,9,10,11"
+				"source":"1,4,5,6,7,8,9,10,11,12"
+			},
+			{
+				"value":"SNF20070824-017",
+				"source":"10,1"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,3,10"
+				"source":"1,3,3,11"
 			},
 			{
 				"value":"Ib/c",
@@ -108,20 +119,20 @@
 		"comovingdist":[
 			{
 				"value":"96.581",
-				"source":"12",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+29:14:14.3",
-				"source":"1,2",
+				"source":"1,2,13",
 				"unit":"degrees"
 			},
 			{
 				"value":"+29:14:13.9",
 				"source":"5,7,8,9",
-				"unit":"degrees"
+				"unit":"nospace"
 			},
 			{
 				"value":"+29:14:14.32",
@@ -149,7 +160,7 @@
 			{
 				"value":"0.0519",
 				"error":"0.0008",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"host":[
@@ -162,73 +173,71 @@
 			{
 				"value":"+29:14:03",
 				"source":"5",
-				"unit":"degrees"
+				"unit":"nospace"
 			},
 			{
 				"value":"+29:13:59.9",
-				"source":"9",
-				"unit":"degrees"
+				"source":"9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:08:34",
 				"source":"5",
-				"unit":"hours"
+				"unit":"nospace"
 			},
 			{
 				"value":"02:08:34.51",
-				"source":"9",
-				"unit":"hours"
+				"source":"9"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"98.699",
-				"source":"12",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-14.182",
-				"source":"12"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.79",
-				"source":"12,4"
+				"source":"10,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"12,4"
+				"source":"10,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2007/09/20",
-				"source":"12,4"
+				"source":"10,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"02:08:34.02",
-				"source":"1,2,6",
+				"source":"1,2,6,13",
 				"unit":"hours"
 			},
 			{
 				"value":"02:08:34.08",
 				"source":"5,7,8,9",
-				"unit":"hours"
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.021935",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"velocity":[
@@ -11210,7 +11219,7 @@
 						"0.080559626"
 					]
 				],
-				"source":"11,3"
+				"source":"12,3"
 			},
 			{
 				"deredshifted":false,
@@ -21883,7 +21892,7 @@
 						"0.012661252"
 					]
 				],
-				"source":"11,3"
+				"source":"12,3"
 			}
 		]
 	}
