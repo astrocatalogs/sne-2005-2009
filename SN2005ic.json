@@ -79,54 +79,66 @@
 				"secondary":true
 			},
 			{
+				"name":"2014arXiv1401.3317S",
+				"bibcode":"2014arXiv1401.3317S",
+				"alias":"13",
+				"reference":"Sako et al. (2014)"
+			},
+			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"13",
+				"alias":"14",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2011ApJS..192....1C",
 				"bibcode":"2011ApJS..192....1C",
-				"alias":"14",
+				"alias":"15",
 				"reference":"Conley et al. (2011)"
 			},
 			{
 				"name":"2011ApJ...740...92G",
 				"bibcode":"2011ApJ...740...92G",
-				"alias":"15",
+				"alias":"16",
 				"reference":"Gupta et al. (2011)"
 			},
 			{
 				"name":"2009ApJS..185...32K",
 				"bibcode":"2009ApJS..185...32K",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Kessler et al. (2009)"
 			},
 			{
 				"name":"2013MNRAS.433.2240G",
 				"bibcode":"2013MNRAS.433.2240G",
-				"alias":"17",
+				"alias":"18",
 				"reference":"Ganeshalingam, Li, & Filippenko (2013)"
 			},
 			{
 				"name":"2012ApJ...748..127F",
 				"bibcode":"2012ApJ...748..127F",
-				"alias":"18",
+				"alias":"19",
 				"reference":"Foley (2012)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"19",
+				"alias":"20",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"20",
+				"alias":"21",
 				"reference":"Schlafly & Finkbeiner (2011)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"22",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -136,7 +148,7 @@
 			},
 			{
 				"value":"SDSS-II SN 5844",
-				"source":"1,4,5,6"
+				"source":"1,4,5,6,12"
 			}
 		],
 		"claimedtype":[
@@ -148,37 +160,37 @@
 		"comovingdist":[
 			{
 				"value":"880",
-				"source":"13,12",
-				"unit":"Mpc"
-			},
-			{
-				"value":"938",
 				"source":"14,12",
 				"unit":"Mpc"
 			},
 			{
-				"value":"1110",
+				"value":"938",
 				"source":"15,12",
 				"unit":"Mpc"
 			},
 			{
-				"value":"1180",
+				"value":"1110",
 				"source":"16,12",
 				"unit":"Mpc"
 			},
 			{
-				"value":"1220",
+				"value":"1180",
 				"source":"17,12",
 				"unit":"Mpc"
 			},
 			{
-				"value":"1270",
+				"value":"1220",
 				"source":"18,12",
 				"unit":"Mpc"
 			},
 			{
+				"value":"1270",
+				"source":"19,12",
+				"unit":"Mpc"
+			},
+			{
 				"value":"1290",
-				"source":"16,12",
+				"source":"17,12",
 				"unit":"Mpc"
 			}
 		],
@@ -234,7 +246,7 @@
 			{
 				"value":"0.0928",
 				"error":"0.0044",
-				"source":"20"
+				"source":"21"
 			}
 		],
 		"host":[
@@ -244,7 +256,7 @@
 			},
 			{
 				"value":"SDSS J215108.63-005033.1",
-				"source":"13,12,14,15,16,17,18"
+				"source":"13,12,14,15,16,17,18,19"
 			}
 		],
 		"hostdec":[
@@ -272,27 +284,29 @@
 		"lumdist":[
 			{
 				"value":"1668",
-				"source":"19",
+				"source":"20,22,4",
 				"kind":"heliocentric",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.11",
-				"source":"19"
+				"source":"20,22,4",
+				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22",
-				"source":"19,4"
+				"source":"20,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"19,4"
+				"source":"20,4"
 			}
 		],
 		"maxdate":[
@@ -329,9 +343,10 @@
 		"velocity":[
 			{
 				"value":"79210",
-				"source":"19",
+				"source":"20,4",
 				"kind":"heliocentric",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		],
 		"photometry":[

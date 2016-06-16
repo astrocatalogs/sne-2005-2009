@@ -61,18 +61,36 @@
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"10",
+				"secondary":true
+			},
+			{
+				"name":"2014arXiv1401.3317S",
+				"bibcode":"2014arXiv1401.3317S",
+				"alias":"11",
+				"reference":"Sako et al. (2014)"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"10",
+				"alias":"12",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11",
+				"alias":"13",
 				"reference":"Schlafly & Finkbeiner (2011)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"14",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -82,7 +100,7 @@
 			},
 			{
 				"value":"SDSS-II SN 2744",
-				"source":"1,4"
+				"source":"1,4,10"
 			}
 		],
 		"claimedtype":[
@@ -93,8 +111,13 @@
 		],
 		"comovingdist":[
 			{
-				"value":"150",
-				"source":"10",
+				"value":"455",
+				"source":"11,10",
+				"unit":"Mpc"
+			},
+			{
+				"value":"488",
+				"source":"11,10",
 				"unit":"Mpc"
 			}
 		],
@@ -135,13 +158,17 @@
 			{
 				"value":"0.0464",
 				"error":"0.0012",
-				"source":"11"
+				"source":"13"
 			}
 		],
 		"host":[
 			{
 				"value":"A213900-0101",
 				"source":"5"
+			},
+			{
+				"value":"SN 2005hm",
+				"source":"11,10"
 			}
 		],
 		"hostdec":[
@@ -168,22 +195,23 @@
 		],
 		"lumdist":[
 			{
-				"value":"160",
-				"source":"10",
-				"kind":"spectroscopic",
-				"unit":"Mpc"
+				"value":"501",
+				"source":"12,14,11,10",
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-15",
-				"source":"10"
+				"value":"-17.9",
+				"source":"12,14,11,10",
+				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.6",
-				"source":"10,7,8"
+				"source":"12,7,8"
 			}
 		],
 		"maxdate":[
@@ -206,9 +234,12 @@
 		],
 		"redshift":[
 			{
-				"value":"0.035",
-				"source":"4",
-				"kind":"spectroscopic"
+				"value":"0.105",
+				"source":"11,10"
+			},
+			{
+				"value":"0.113",
+				"source":"11,10"
 			}
 		],
 		"velocity":[

@@ -73,30 +73,42 @@
 				"secondary":true
 			},
 			{
+				"name":"2014arXiv1401.3317S",
+				"bibcode":"2014arXiv1401.3317S",
+				"alias":"12",
+				"reference":"Sako et al. (2014)"
+			},
+			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"12",
+				"alias":"13",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2013MNRAS.433.2240G",
 				"bibcode":"2013MNRAS.433.2240G",
-				"alias":"13",
+				"alias":"14",
 				"reference":"Ganeshalingam, Li, & Filippenko (2013)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"14",
+				"alias":"15",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"15",
+				"alias":"16",
 				"reference":"Schlafly & Finkbeiner (2011)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"17",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -106,7 +118,7 @@
 			},
 			{
 				"value":"SDSS-II SN 5821",
-				"source":"1,4,5"
+				"source":"1,4,5,11"
 			}
 		],
 		"claimedtype":[
@@ -122,12 +134,12 @@
 		"comovingdist":[
 			{
 				"value":"1140",
-				"source":"12,11",
+				"source":"13,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1640",
-				"source":"13,11",
+				"source":"14,11",
 				"unit":"Mpc"
 			}
 		],
@@ -178,7 +190,7 @@
 			{
 				"value":"0.0711",
 				"error":"0.0043",
-				"source":"15"
+				"source":"16"
 			}
 		],
 		"host":[
@@ -188,7 +200,7 @@
 			},
 			{
 				"value":"SDSS J205019.95-004930.7",
-				"source":"12,11,13"
+				"source":"12,11,13,14"
 			}
 		],
 		"hostdec":[
@@ -216,27 +228,29 @@
 		"lumdist":[
 			{
 				"value":"2244",
-				"source":"14",
+				"source":"15,17,4",
 				"kind":"heliocentric",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.79",
-				"source":"14"
+				"source":"15,17,4",
+				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.97",
-				"source":"14,4"
+				"source":"15,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"14,4"
+				"source":"15,4"
 			}
 		],
 		"maxdate":[
@@ -273,9 +287,10 @@
 		"velocity":[
 			{
 				"value":"97380",
-				"source":"14",
+				"source":"15,4",
 				"kind":"heliocentric",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		],
 		"photometry":[

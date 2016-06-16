@@ -85,60 +85,72 @@
 				"secondary":true
 			},
 			{
+				"name":"2014arXiv1401.3317S",
+				"bibcode":"2014arXiv1401.3317S",
+				"alias":"14",
+				"reference":"Sako et al. (2014)"
+			},
+			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"14",
+				"alias":"15",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2011ApJ...740...92G",
 				"bibcode":"2011ApJ...740...92G",
-				"alias":"15",
+				"alias":"16",
 				"reference":"Gupta et al. (2011)"
 			},
 			{
 				"name":"2013MNRAS.433.2240G",
 				"bibcode":"2013MNRAS.433.2240G",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Ganeshalingam, Li, & Filippenko (2013)"
 			},
 			{
 				"name":"2012ApJ...748..127F",
 				"bibcode":"2012ApJ...748..127F",
-				"alias":"17",
+				"alias":"18",
 				"reference":"Foley (2012)"
 			},
 			{
 				"name":"2009ApJS..185...32K",
 				"bibcode":"2009ApJS..185...32K",
-				"alias":"18",
+				"alias":"19",
 				"reference":"Kessler et al. (2009)"
 			},
 			{
 				"name":"2013ApJ...763...88C",
 				"bibcode":"2013ApJ...763...88C",
-				"alias":"19",
+				"alias":"20",
 				"reference":"Campbell et al. (2013)"
 			},
 			{
 				"name":"2011ApJS..192....1C",
 				"bibcode":"2011ApJS..192....1C",
-				"alias":"20",
+				"alias":"21",
 				"reference":"Conley et al. (2011)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"21",
+				"alias":"22",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"22",
+				"alias":"23",
 				"reference":"Schlafly & Finkbeiner (2011)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"24",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -148,7 +160,7 @@
 			},
 			{
 				"value":"SDSS-II SN 7847",
-				"source":"1,4,5,6,7"
+				"source":"1,4,5,6,7,13"
 			}
 		],
 		"claimedtype":[
@@ -160,47 +172,47 @@
 		"comovingdist":[
 			{
 				"value":"588",
-				"source":"14,13",
-				"unit":"Mpc"
-			},
-			{
-				"value":"744",
 				"source":"15,13",
 				"unit":"Mpc"
 			},
 			{
-				"value":"801",
+				"value":"744",
 				"source":"16,13",
 				"unit":"Mpc"
 			},
 			{
-				"value":"814",
+				"value":"801",
 				"source":"17,13",
 				"unit":"Mpc"
 			},
 			{
-				"value":"815",
+				"value":"814",
 				"source":"18,13",
+				"unit":"Mpc"
+			},
+			{
+				"value":"815",
+				"source":"19,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"832",
-				"source":"18,13",
+				"source":"19,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"920",
-				"source":"19,13",
+				"source":"20,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"929",
-				"source":"19,13",
+				"source":"20,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1250",
-				"source":"20,13",
+				"source":"21,13",
 				"unit":"Mpc"
 			}
 		],
@@ -261,7 +273,7 @@
 			{
 				"value":"0.0227",
 				"error":"0.0008",
-				"source":"22"
+				"source":"23"
 			}
 		],
 		"host":[
@@ -271,7 +283,7 @@
 			},
 			{
 				"value":"SDSS J020950.32-000342.0",
-				"source":"14,13,15,16,17,18,19,20"
+				"source":"14,13,15,16,17,18,19,20,21"
 			}
 		],
 		"hostdec":[
@@ -307,27 +319,29 @@
 		"lumdist":[
 			{
 				"value":"1082",
-				"source":"21",
+				"source":"22,24,5",
 				"kind":"host",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.94",
-				"source":"21"
+				"source":"22,24,5",
+				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.23",
-				"source":"21,4"
+				"source":"22,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"21,4"
+				"source":"22,4"
 			}
 		],
 		"maxdate":[
@@ -369,9 +383,10 @@
 		"velocity":[
 			{
 				"value":"57040",
-				"source":"21",
+				"source":"22,5",
 				"kind":"host",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		],
 		"photometry":[

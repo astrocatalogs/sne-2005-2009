@@ -61,18 +61,36 @@
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"10",
+				"secondary":true
+			},
+			{
+				"name":"2014arXiv1401.3317S",
+				"bibcode":"2014arXiv1401.3317S",
+				"alias":"11",
+				"reference":"Sako et al. (2014)"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"10",
+				"alias":"12",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11",
+				"alias":"13",
 				"reference":"Schlafly & Finkbeiner (2011)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"14",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -82,7 +100,7 @@
 			},
 			{
 				"value":"SDSS-II SN 3818",
-				"source":"1,3,4"
+				"source":"1,3,4,10"
 			}
 		],
 		"claimedtype":[
@@ -97,8 +115,8 @@
 		],
 		"comovingdist":[
 			{
-				"value":"220.8",
-				"source":"10",
+				"value":"770",
+				"source":"11,10",
 				"unit":"Mpc"
 			}
 		],
@@ -149,7 +167,7 @@
 			{
 				"value":"0.0216",
 				"error":"0.0014",
-				"source":"11"
+				"source":"13"
 			}
 		],
 		"host":[
@@ -160,6 +178,10 @@
 			{
 				"value":"APMUKS(BJ) B005318.48+1407.6",
 				"source":"9"
+			},
+			{
+				"value":"SN 2005gi",
+				"source":"11,10"
 			}
 		],
 		"hostdec":[
@@ -187,27 +209,29 @@
 		"lumdist":[
 			{
 				"value":"231.9",
-				"source":"10",
+				"source":"12,14,3",
 				"kind":"heliocentric",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.14",
-				"source":"10"
+				"source":"12,14,3",
+				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.69",
-				"source":"10,3"
+				"source":"12,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"10,3"
+				"source":"12,3"
 			}
 		],
 		"maxdate":[
