@@ -91,79 +91,79 @@
 				"reference":"Hicken et al. (2009)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"15",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"15",
+				"alias":"16",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"17",
+				"alias":"18",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"18",
+				"alias":"19",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"19",
+				"alias":"20",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"20",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
 				"alias":"21",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2007H",
-				"source":"1,4,6,7,8,9,10,11,15,17"
+				"source":"1,4,6,7,8,9,10,11,16,18"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,6,7,8,9,10,15"
+				"source":"1,3,6,7,8,9,10,16"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"135",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"192",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"223",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			}
 		],
@@ -195,7 +195,8 @@
 			{
 				"value":"0.0338",
 				"error":"0.0011",
-				"source":"20"
+				"source":"20,21",
+				"derived":true
 			}
 		],
 		"host":[
@@ -213,62 +214,81 @@
 			},
 			{
 				"value":"LOSS J083502.19-082012.8",
-				"source":"12,11,13,14"
+				"source":"11,12,13,14"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-08:20:13",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-08:20:13.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"2.319",
+				"source":"1,10,2,20,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.454",
+				"source":"1,10,11,12,13,2,20,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:35:02",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:35:02.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"139",
-				"source":"19,21,12,11",
+				"value":"199",
+				"source":"11,12,13,15,20",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-16.8",
-				"source":"19,21,12,11",
+				"value":"-17.6",
+				"source":"11,12,13,15,20",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.92",
-				"source":"19,4,5"
+				"source":"20,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"19,4,5"
+				"source":"20,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2007/01/16",
-				"source":"19,4,5"
+				"source":"20,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -280,16 +300,12 @@
 		],
 		"redshift":[
 			{
-				"value":"0.0307",
-				"source":"12,11"
-			},
-			{
-				"value":"0.0438",
-				"source":"13,11"
+				"value":"0.0436",
+				"source":"11,12,13"
 			},
 			{
 				"value":"0.0426",
-				"source":"15"
+				"source":"16"
 			}
 		],
 		"velocity":[
@@ -11131,7 +11147,7 @@
 						"1.8875638e-16"
 					]
 				],
-				"source":"17"
+				"source":"18"
 			},
 			{
 				"deredshifted":false,
@@ -24540,7 +24556,7 @@
 						"1.2050545e-17"
 					]
 				],
-				"source":"17,16,18"
+				"source":"17,18,19"
 			}
 		]
 	}

@@ -89,7 +89,7 @@
 		"comovingdist":[
 			{
 				"value":"342.5",
-				"source":"9,11,4",
+				"source":"11,4,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -103,7 +103,7 @@
 			{
 				"value":"+10:29:05.64",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+10:29:05.50",
@@ -131,7 +131,8 @@
 			{
 				"value":"0.0518",
 				"error":"0.0014",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -148,38 +149,54 @@
 			{
 				"value":"+10:29:00.6",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+10:29:05",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+10:29:05.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"6.965",
+				"source":"1,2,4,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"10.72",
+				"source":"1,11,2,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"21:39:34.08",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"21:39:33",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"21:39:33.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"369.5",
-				"source":"9,11,4",
+				"source":"11,4,9",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -188,20 +205,22 @@
 		"maxabsmag":[
 			{
 				"value":"-18.84",
-				"source":"9,11,4",
+				"source":"11,4,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"9,2,7"
+				"source":"2,7,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/09/22",
-				"source":"9,2,7"
+				"source":"2,7,9",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -213,7 +232,7 @@
 			{
 				"value":"21:39:33.84",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

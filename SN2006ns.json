@@ -129,12 +129,12 @@
 		"comovingdist":[
 			{
 				"value":"820",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"845",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			}
 		],
@@ -152,17 +152,17 @@
 			{
 				"value":"+00:47:05.28",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:47:05.424",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:47:04.9704",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:47:05.39",
@@ -190,7 +190,8 @@
 			{
 				"value":"0.0471",
 				"error":"0.0023",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
@@ -200,39 +201,55 @@
 			},
 			{
 				"value":"SN 2006ns",
-				"source":"11,10"
+				"source":"10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:47:05.28",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:47:05",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:47:05.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.908",
+				"source":"1,14,2,4,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"3.22",
+				"source":"1,10,11,14,2,3,4,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"21:33:32.16",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"21:33:32",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"21:33:32.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -254,13 +271,15 @@
 		"maxappmag":[
 			{
 				"value":"20.42",
-				"source":"14,3"
+				"source":"14,3",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"14,3"
+				"source":"14,3",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -283,7 +302,7 @@
 			{
 				"value":"21:33:32.16",
 				"source":"4,5,3",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -10117,7 +10136,7 @@
 						"7.250654066e-18"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			}
 		]
 	}

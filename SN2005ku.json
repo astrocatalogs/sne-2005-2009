@@ -128,24 +128,24 @@
 				"reference":"Kelly et al. (2015)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"21",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"21",
+				"alias":"22",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"22",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
 				"alias":"23",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -171,32 +171,32 @@
 		"comovingdist":[
 			{
 				"value":"130",
-				"source":"15,13",
+				"source":"13,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"176",
-				"source":"16,13",
+				"source":"13,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"180",
-				"source":"18,13",
+				"source":"13,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"181",
-				"source":"19,13",
+				"source":"13,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"207.014",
-				"source":"20,13",
+				"source":"13,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"207.97",
-				"source":"20,13",
+				"source":"13,20",
 				"unit":"Mpc"
 			}
 		],
@@ -214,17 +214,17 @@
 			{
 				"value":"-00:00:49.32",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:00:49.356",
 				"source":"6",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:00:49.8744",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:00:49.30",
@@ -234,7 +234,7 @@
 			{
 				"value":"-00:00:49.3",
 				"source":"8,10,11,12",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:00:49.28",
@@ -262,7 +262,8 @@
 			{
 				"value":"0.0461",
 				"error":"0.0009",
-				"source":"22"
+				"source":"22,23",
+				"derived":true
 			}
 		],
 		"host":[
@@ -276,45 +277,61 @@
 			},
 			{
 				"value":"2MASX J22594265-0000478",
-				"source":"14,13,15,16,17,18,19,20"
+				"source":"13,14,15,16,17,18,19,20"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:00:48.96",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:00:49",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:00:49.0",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"1.11",
+				"source":"1,2,22,5",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.669",
+				"source":"1,13,15,2,22,4,5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:59:42.72",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"22:59:42",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:59:42.00",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"208.1",
-				"source":"21,23,4",
+				"source":"21,22,4",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -323,26 +340,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.99",
-				"source":"21,23,4",
+				"source":"21,22,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.6",
-				"source":"21,4"
+				"source":"22,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"21,4"
+				"source":"22,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/11/24",
-				"source":"21,4"
+				"source":"22,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -359,17 +379,17 @@
 			{
 				"value":"22:59:42.72",
 				"source":"5,6,7",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"22:59:42.48",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"22:59:42.61",
 				"source":"8,9,10,11,12",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

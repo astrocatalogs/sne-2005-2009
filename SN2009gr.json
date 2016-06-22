@@ -94,7 +94,7 @@
 			{
 				"value":"+19:07:05.88",
 				"source":"8",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -117,7 +117,8 @@
 			{
 				"value":"0.0469",
 				"error":"0.0011",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -130,40 +131,53 @@
 			{
 				"value":"+19:07:05",
 				"source":"3",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+19:07:05.0",
-				"source":"7"
+				"source":"7",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.276",
+				"source":"1,2,3,4,5,6,7,9",
+				"unit":"arcseconds",
+				"derived":true
 			}
 		],
 		"hostra":[
 			{
 				"value":"17:25:38",
 				"source":"3",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"17:25:38.00",
-				"source":"7"
+				"source":"7",
+				"unit":"hours"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.06",
-				"source":"9,8"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"9,8"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2009/05/27",
-				"source":"9,8"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -175,7 +189,7 @@
 			{
 				"value":"17:25:38.4",
 				"source":"8",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"photometry":[
@@ -3399,6 +3413,46 @@
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"19.993099",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.439941",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"19.955",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.47998",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"20.5023",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.52002",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"20.501301",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.560059",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"20.507799",
 				"upperlimit":true,
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",

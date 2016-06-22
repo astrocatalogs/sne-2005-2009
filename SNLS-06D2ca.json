@@ -84,12 +84,12 @@
 		"comovingdist":[
 			{
 				"value":"1990",
-				"source":"4,3",
+				"source":"3,4",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2130",
-				"source":"5,3",
+				"source":"3,5",
 				"unit":"Mpc"
 			}
 		],
@@ -115,19 +115,50 @@
 			{
 				"value":"0.0173",
 				"error":"0.0004",
-				"source":"9"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J095909.53+021808.5",
-				"source":"4,3,5"
+				"source":"3,4,5"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+02:18:08.5",
+				"source":"8",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.6911",
+				"source":"1,2,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"4.355",
+				"source":"1,2,3,4,5,6,7,8"
+			}
+		],
+		"hostra":[
+			{
+				"value":"09:59:09.53",
+				"source":"8",
+				"unit":"hours",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
 				"value":"3140",
-				"source":"8,10,2,6,7",
+				"source":"10,2,3,4,5,6,7,8",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -136,26 +167,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.5",
-				"source":"8,10,2,6,7",
+				"source":"10,2,3,4,5,6,7,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/02/25",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -168,22 +202,14 @@
 		"redshift":[
 			{
 				"value":"0.531",
-				"source":"2,6,7",
+				"source":"2,3,4,5,6,7",
 				"kind":"heliocentric"
-			},
-			{
-				"value":"0.513",
-				"source":"4,3"
-			},
-			{
-				"value":"0.556",
-				"source":"5,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"120000",
-				"source":"8,2,6,7",
+				"source":"2,3,4,5,6,7,8",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true

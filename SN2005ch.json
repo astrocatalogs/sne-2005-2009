@@ -91,74 +91,74 @@
 				"reference":"Weyant et al. (2014)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"15",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"15",
+				"alias":"16",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"17",
+				"alias":"18",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"18",
+				"alias":"19",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"19",
+				"alias":"20",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"20",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
 				"alias":"21",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2005ch",
-				"source":"1,4,5,6,7,8,9,10,15,17"
+				"source":"1,4,5,6,7,8,9,10,16,18"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,5,6,7,8,9,15"
+				"source":"1,3,4,5,6,7,8,9,16"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"110",
-				"source":"11,10,12,13",
+				"source":"10,11,12,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"116",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			}
 		],
@@ -171,7 +171,7 @@
 			{
 				"value":"+01:59:35.376",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:59:35.70",
@@ -199,13 +199,14 @@
 			{
 				"value":"0.0309",
 				"error":"0.001",
-				"source":"20"
+				"source":"20,21",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"APMUKS(BJ) B141934.25+021314.0",
-				"source":"4,11,10,12,13,14"
+				"source":"4,10,11,12,13,14"
 			},
 			{
 				"value":"A142206+0159",
@@ -216,28 +217,44 @@
 			{
 				"value":"+01:59:35",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:59:35.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"11.57",
+				"source":"1,2,20,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.008",
+				"source":"1,10,11,12,13,16,2,20,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:22:06",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"14:22:06.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"120",
-				"source":"19,21,4,15",
+				"source":"15,16,20,4",
 				"kind":"spectroscopic",
 				"unit":"Mpc",
 				"derived":true
@@ -246,20 +263,22 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"19,21,4,15",
+				"source":"15,16,20,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.5",
-				"source":"19,7,8"
+				"source":"20,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/06/15",
-				"source":"19,7,8"
+				"source":"20,7,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -271,21 +290,21 @@
 			{
 				"value":"14:22:06.72",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.027",
 				"error":"0.005",
-				"source":"4,15",
+				"source":"4,16",
 				"kind":"spectroscopic"
 			}
 		],
 		"velocity":[
 			{
 				"value":"8000",
-				"source":"19,4,15",
+				"source":"16,20,4",
 				"kind":"spectroscopic",
 				"unit":"km/s",
 				"derived":true
@@ -13975,7 +13994,7 @@
 						"1.7682986e-17"
 					]
 				],
-				"source":"17,16,18"
+				"source":"17,18,19"
 			}
 		]
 	}

@@ -102,7 +102,7 @@
 		"comovingdist":[
 			{
 				"value":"800",
-				"source":"9,11,4,6,7,8",
+				"source":"11,4,6,7,8,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -139,7 +139,8 @@
 			{
 				"value":"0.0129",
 				"error":"0.0006",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -152,28 +153,44 @@
 			{
 				"value":"+35:35:29",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+35:35:29.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"3.601",
+				"source":"1,2,4,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"11.74",
+				"source":"1,11,2,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:26:23",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"14:26:23.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"960",
-				"source":"9,11,4,6,7,8",
+				"source":"11,4,6,7,8,9",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -182,20 +199,22 @@
 		"maxabsmag":[
 			{
 				"value":"-22",
-				"source":"9,11,4,6,7,8",
+				"source":"11,4,6,7,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.8",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2007/03/05",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -215,7 +234,7 @@
 		"velocity":[
 			{
 				"value":"52000",
-				"source":"9,4,6,7,8",
+				"source":"4,6,7,8,9",
 				"kind":"host",
 				"unit":"km/s",
 				"derived":true

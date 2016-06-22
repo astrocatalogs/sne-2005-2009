@@ -153,49 +153,49 @@
 		"alias":[
 			{
 				"value":"SN2005mc",
-				"source":"1,4,5,6,8,9,2,10,11,12,18,20"
+				"source":"1,4,5,6,8,9,10,2,11,12,18,20"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,8,9,2,10,11,18,4"
+				"source":"1,3,8,9,10,2,11,18,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"82.3",
-				"source":"13,12",
+				"source":"12,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"109",
-				"source":"14,12",
+				"source":"12,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"110",
-				"source":"15,12",
+				"source":"12,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"115",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"119",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"124",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"128",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			}
 		],
@@ -214,7 +214,7 @@
 		"discoverdate":[
 			{
 				"value":"2005/12/23",
-				"source":"8,9,2,10,11,4"
+				"source":"8,9,10,2,11,4"
 			}
 		],
 		"discoverer":[
@@ -224,42 +224,59 @@
 			},
 			{
 				"value":"THCA Supernova Survey",
-				"source":"2,10"
+				"source":"10,2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0379",
 				"error":"0.0012",
-				"source":"23"
+				"source":"22,23",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 4414",
-				"source":"4,8,9,2,10,11,13,12,14,15,17,16"
+				"source":"4,8,9,10,2,11,12,13,14,15,17,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+21:38:43",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+21:38:43.1",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"5.993",
+				"source":"1,10,11,2,22,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.331",
+				"source":"1,10,11,12,13,2,22,5,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:27:06",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:27:05.97",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -274,26 +291,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.1",
-				"source":"22,11",
+				"source":"11,22",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.24",
-				"source":"22,5"
+				"source":"22,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"22,5"
+				"source":"22,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/01/01",
-				"source":"22,5"
+				"source":"22,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -313,6 +333,10 @@
 				"value":"0.026006",
 				"source":"5",
 				"kind":"cmb"
+			},
+			{
+				"value":"0.025221",
+				"source":"12,13,14,16"
 			}
 		],
 		"velocity":[
@@ -328,7 +352,7 @@
 				"time":"53726.5",
 				"u_time":"MJD",
 				"magnitude":"18.3",
-				"source":"2,10"
+				"source":"10,2"
 			},
 			{
 				"time":"53730.78983",
@@ -14887,7 +14911,7 @@
 						"2.4700831e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -28241,7 +28265,7 @@
 						"1.7502781e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,

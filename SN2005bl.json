@@ -176,12 +176,12 @@
 		"comovingdist":[
 			{
 				"value":"109",
-				"source":"15,14",
+				"source":"14,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"120",
-				"source":"16,14",
+				"source":"14,16",
 				"unit":"Mpc"
 			}
 		],
@@ -189,7 +189,7 @@
 			{
 				"value":"+20:24:24.48",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+20:24:24.84",
@@ -199,7 +199,7 @@
 			{
 				"value":"+20:24:24.8",
 				"source":"9,11,12,13",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+20:24:24.80",
@@ -223,13 +223,14 @@
 			{
 				"value":"0.0251",
 				"error":"0.0013",
-				"source":"23"
+				"source":"22,23",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4070",
-				"source":"3,5,7,9,10,11,12,15,14,16"
+				"source":"3,5,7,9,10,11,12,14,15,16"
 			},
 			{
 				"value":"NGC 4059",
@@ -239,27 +240,44 @@
 		"hostdec":[
 			{
 				"value":"+20:24:35.2",
-				"source":"6"
+				"source":"6",
+				"unit":"degrees"
 			},
 			{
 				"value":"+20:24:39",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+20:24:35.4",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"17.12",
+				"source":"13,22,5,6,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.836",
+				"source":"13,14,15,22,5,6,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"12:04:11.35",
-				"source":"6,13"
+				"source":"6,13",
+				"unit":"hours"
 			},
 			{
 				"value":"12:04:12",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -274,20 +292,22 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"22,13",
+				"source":"13,22",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.18",
-				"source":"22,8"
+				"source":"22,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"22,8"
+				"source":"22,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -300,12 +320,12 @@
 			{
 				"value":"12:04:12.24",
 				"source":"5,8",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"12:04:12.26",
 				"source":"9,10,11,12,13",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -16034,7 +16054,7 @@
 						"1.824582E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -23197,7 +23217,7 @@
 						"4.525766E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"deredshifted":false,
@@ -36571,7 +36591,7 @@
 						"0.0"
 					]
 				],
-				"source":"19,4,20"
+				"source":"19,20,4"
 			},
 			{
 				"instrument":"CA-2.2m - CAFOS",
@@ -41150,7 +41170,7 @@
 						"5.228275E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"instrument":"CA-2.2m - CAFOS",
@@ -45725,7 +45745,7 @@
 						"5.567296E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"u_time":"MJD",
@@ -50303,7 +50323,7 @@
 						"5.228275E-17"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			},
 			{
 				"deredshifted":false,
@@ -74388,7 +74408,7 @@
 						"1.07e-16"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -81551,7 +81571,7 @@
 						"4.65343e-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -90710,7 +90730,7 @@
 						"1.581582E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"instrument":"TNG - DOLORES",
@@ -98285,7 +98305,7 @@
 						"1.758474E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"u_time":"MJD",
@@ -105443,7 +105463,7 @@
 						"1.06999968e-16"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			},
 			{
 				"u_time":"MJD",
@@ -113017,7 +113037,7 @@
 						"1.758474E-17"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			},
 			{
 				"deredshifted":true,
@@ -130045,7 +130065,7 @@
 						"8.509441E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"u_time":"MJD",
@@ -139907,7 +139927,7 @@
 						"8.509441219e-17"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			},
 			{
 				"instrument":"TNG - DOLORES",
@@ -149754,7 +149774,7 @@
 						"0."
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"u_time":"MJD",
@@ -159600,7 +159620,7 @@
 						"0"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			},
 			{
 				"instrument":"TNG - DOLORES",
@@ -169451,7 +169471,7 @@
 						"1.286903E-16"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"u_time":"MJD",
@@ -179301,7 +179321,7 @@
 						"1.286902715e-16"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			},
 			{
 				"deredshifted":false,
@@ -196475,7 +196495,7 @@
 						"9.060737E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"u_time":"MJD",
@@ -201181,7 +201201,7 @@
 						"9.060737E-17"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			},
 			{
 				"instrument":"VLT-UT1 - FORS2",
@@ -207852,7 +207872,7 @@
 						"2.525052E-17"
 					]
 				],
-				"source":"18,17"
+				"source":"17,18"
 			},
 			{
 				"u_time":"MJD",
@@ -214522,7 +214542,7 @@
 						"2.525052365e-17"
 					]
 				],
-				"source":"21,18"
+				"source":"18,21"
 			}
 		]
 	}

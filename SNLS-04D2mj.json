@@ -89,12 +89,12 @@
 			},
 			{
 				"value":"2240",
-				"source":"4,3",
+				"source":"3,4",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3050",
-				"source":"5,3",
+				"source":"3,5",
 				"unit":"Mpc"
 			},
 			{
@@ -125,7 +125,8 @@
 			{
 				"value":"0.0153",
 				"error":"0.0004",
-				"source":"9"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -134,10 +135,40 @@
 				"source":"2,3,4,5"
 			}
 		],
+		"hostdec":[
+			{
+				"value":"+02:34:37.4",
+				"source":"8",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.04272",
+				"source":"1,2,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.3053",
+				"source":"1,2,3,8"
+			}
+		],
+		"hostra":[
+			{
+				"value":"10:00:36.53",
+				"source":"8",
+				"unit":"hours",
+				"derived":true
+			}
+		],
 		"lumdist":[
 			{
 				"value":"3010",
-				"source":"8,10,2",
+				"source":"10,2,8",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -146,26 +177,29 @@
 		"maxabsmag":[
 			{
 				"value":"-17.6",
-				"source":"8,10,2",
+				"source":"10,2,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.77",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/01/05",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -180,24 +214,12 @@
 				"value":"0.513",
 				"source":"2",
 				"kind":"heliocentric"
-			},
-			{
-				"value":"0.587",
-				"source":"2,3"
-			},
-			{
-				"value":"0.866",
-				"source":"5,3"
-			},
-			{
-				"value":"2.05",
-				"source":"2,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"118000",
-				"source":"8,2",
+				"source":"2,8",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
@@ -13033,7 +13055,7 @@
 						"5.67976e-18"
 					]
 				],
-				"source":"7,6"
+				"source":"6,7"
 			}
 		]
 	}

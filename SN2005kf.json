@@ -115,7 +115,7 @@
 		"comovingdist":[
 			{
 				"value":"66",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -129,7 +129,7 @@
 			{
 				"value":"+26:55:32.4",
 				"source":"5,7,8,9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+26:55:32.41",
@@ -153,7 +153,8 @@
 			{
 				"value":"0.0343",
 				"error":"0.0025",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -170,28 +171,44 @@
 			{
 				"value":"+26:55:32",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+26:55:32.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"6.179",
+				"source":"1,12,2,5",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.948",
+				"source":"1,10,12,14,2,5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"07:47:26",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"07:47:26.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"67",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -199,26 +216,29 @@
 		"maxabsmag":[
 			{
 				"value":"-15",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.39",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/11/25",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -230,7 +250,7 @@
 			{
 				"value":"07:47:26.51",
 				"source":"5,6,7,8,9",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -242,7 +262,7 @@
 		"velocity":[
 			{
 				"value":"4500",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"km/s",
 				"derived":true
 			}

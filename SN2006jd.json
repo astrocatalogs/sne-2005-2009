@@ -119,7 +119,7 @@
 		"comovingdist":[
 			{
 				"value":"81.5",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -152,7 +152,8 @@
 			{
 				"value":"0.0478",
 				"error":"0.0046",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -165,28 +166,44 @@
 			{
 				"value":"+00:48:30",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:48:38.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"21.5",
+				"source":"1,12,2,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.34",
+				"source":"1,10,12,14,2,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:02:06",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:02:05.75",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"83",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -194,26 +211,29 @@
 		"maxabsmag":[
 			{
 				"value":"-15.5",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.05",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2007/12/18",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -14239,7 +14259,7 @@
 						"-1.897626e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -21402,7 +21422,7 @@
 						"1.258119e-16"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - B&C-duPont",
@@ -29605,7 +29625,7 @@
 						"1.807558e-16"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -36768,7 +36788,7 @@
 						"5.721225e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - B&C-duPont",
@@ -44971,7 +44991,7 @@
 						"3.839286e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"Magellan-Baade - IMACS",
@@ -62062,7 +62082,7 @@
 						"4.41235e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -69225,7 +69245,7 @@
 						"5.039215e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -76388,7 +76408,7 @@
 						"5.088727e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -83551,7 +83571,7 @@
 						"4.280263e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -92234,7 +92254,7 @@
 						"4.977455e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -99397,7 +99417,7 @@
 						"4.22831e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -106560,7 +106580,7 @@
 						"5.919386e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -115243,7 +115263,7 @@
 						"2.048215e-16"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-2",
@@ -126714,7 +126734,7 @@
 						"1.408322e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"Magellan-Baade - IMACS",
@@ -131913,7 +131933,7 @@
 						"1.310892e-17"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"Magellan-Baade - IMACS",
@@ -144888,7 +144908,7 @@
 						"-4.566298e-19"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"Gemini-N - GMOS",
@@ -171431,7 +171451,7 @@
 						"2.776579e-18"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			}
 		]
 	}

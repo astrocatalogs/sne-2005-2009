@@ -118,7 +118,7 @@
 		"comovingdist":[
 			{
 				"value":"71",
-				"source":"12,14,8,9,10",
+				"source":"10,12,14,8,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -155,7 +155,8 @@
 			{
 				"value":"0.0232",
 				"error":"0.0009",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -172,28 +173,44 @@
 			{
 				"value":"-05:36:02",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-05:36:02.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"2.707",
+				"source":"1,10,12,2,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.9171",
+				"source":"1,10,12,14,2,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:40:09",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:40:09.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"72",
-				"source":"12,14,8,9,10",
+				"source":"10,12,14,8,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -201,26 +218,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"12,14,8,9,10",
+				"source":"10,12,14,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.21",
-				"source":"12,4,5"
+				"source":"12,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"12,4,5"
+				"source":"12,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/11/21",
-				"source":"12,4,5"
+				"source":"12,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -7797,7 +7817,7 @@
 						"3.032599E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - Mod-spec",
@@ -13516,7 +13536,7 @@
 						"4.210484E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"CTIO-1.5m - LORAL",
@@ -18295,7 +18315,7 @@
 						"7.303422E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -25458,7 +25478,7 @@
 						"2.570787E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -32621,7 +32641,7 @@
 						"3.196652E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -39784,7 +39804,7 @@
 						"2.911995E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -43795,7 +43815,7 @@
 						"6.031924E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -51278,7 +51298,7 @@
 						"1.030531E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -56489,7 +56509,7 @@
 						"2.181481E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -64536,7 +64556,7 @@
 						"3.254656E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -70275,7 +70295,7 @@
 						"6.272847E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -108486,7 +108506,7 @@
 						"3.506888E-18"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -116573,7 +116593,7 @@
 						"0."
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -123308,7 +123328,7 @@
 						"3.473763E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -130791,7 +130811,7 @@
 						"3.319494E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -136002,7 +136022,7 @@
 						"-3.391709E-18"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -143165,7 +143185,7 @@
 						"1.164977E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -151260,7 +151280,7 @@
 						"2.412251E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -156999,7 +157019,7 @@
 						"2.97405e-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -195138,7 +195158,7 @@
 						"7.767478E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -203233,7 +203253,7 @@
 						"7.811063E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -209972,7 +209992,7 @@
 						"1.4326e-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -217135,7 +217155,7 @@
 						"2.544939E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -224298,7 +224318,7 @@
 						"1.003303E-16"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -231461,7 +231481,7 @@
 						"3.182624E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -238624,7 +238644,7 @@
 						"1.318237E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -245787,7 +245807,7 @@
 						"5.347343E-17"
 					]
 				],
-				"source":"5,11"
+				"source":"11,5"
 			}
 		]
 	}

@@ -116,7 +116,7 @@
 		"comovingdist":[
 			{
 				"value":"520",
-				"source":"1,14,5,8,9,11",
+				"source":"1,11,14,5,8,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -130,12 +130,12 @@
 			{
 				"value":"+46:56:53.88",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+46:56:53.8",
 				"source":"6,8,9,10",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+46:56:53.81",
@@ -163,7 +163,8 @@
 			{
 				"value":"0.0596",
 				"error":"0.0035",
-				"source":"13"
+				"source":"1,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -180,28 +181,44 @@
 			{
 				"value":"+46:56:53",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+46:56:53.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"3.881",
+				"source":"1,2,3,6",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.728",
+				"source":"1,11,14,2,3,5,6,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:00:47",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:00:47.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"583",
-				"source":"1,14,5,8,9,11",
+				"source":"1,11,14,5,8,9",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -210,14 +227,15 @@
 		"maxabsmag":[
 			{
 				"value":"-18.6",
-				"source":"1,14,5,8,9,11",
+				"source":"1,11,14,5,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.2",
-				"source":"1,8,9"
+				"source":"1,8,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -235,7 +253,7 @@
 			{
 				"value":"08:00:47.28",
 				"source":"5,6,7,8,9,10",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -249,7 +267,7 @@
 		"velocity":[
 			{
 				"value":"34100",
-				"source":"1,5,8,9,11",
+				"source":"1,11,5,8,9",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
@@ -8895,7 +8913,7 @@
 						"3.982440343e-17"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			}
 		]
 	}

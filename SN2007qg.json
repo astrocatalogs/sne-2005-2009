@@ -126,12 +126,12 @@
 		"comovingdist":[
 			{
 				"value":"1150",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1200",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			}
 		],
@@ -144,7 +144,7 @@
 			{
 				"value":"-00:25:47.316",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:25:46.99",
@@ -172,7 +172,8 @@
 			{
 				"value":"0.0321",
 				"error":"0.0013",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
@@ -186,35 +187,51 @@
 			},
 			{
 				"value":"SN 2007qg",
-				"source":"11,10"
+				"source":"10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:25:47",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:25:47.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"14.55",
+				"source":"1,14,2,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"61.74",
+				"source":"1,10,11,12,14,2,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:32:01",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:32:01.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"1687",
-				"source":"14,16,12",
+				"source":"12,14,16",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -222,14 +239,15 @@
 		"maxabsmag":[
 			{
 				"value":"-19.34",
-				"source":"14,16,12",
+				"source":"12,14,16",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.8",
-				"source":"14,7,8"
+				"source":"14,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -247,7 +265,7 @@
 			{
 				"value":"01:32:01.968",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -259,7 +277,7 @@
 		"velocity":[
 			{
 				"value":"79870",
-				"source":"14,12",
+				"source":"12,14",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -9028,7 +9046,7 @@
 						"3.899633354e-18"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			}
 		]
 	}

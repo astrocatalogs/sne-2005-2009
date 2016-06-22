@@ -97,84 +97,84 @@
 				"reference":"Ganeshalingam, Li, & Filippenko (2013)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"16",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"16",
+				"alias":"17",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"17",
+				"alias":"18",
 				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"18",
+				"alias":"19",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"19",
+				"alias":"20",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"20",
+				"alias":"21",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"21",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
 				"alias":"22",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2005be",
-				"source":"1,4,5,6,7,2,8,9,10,16,18,11"
+				"source":"1,4,5,6,7,2,8,9,10,17,19,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,6,7,2,8,9,16,4"
+				"source":"1,3,6,7,2,8,9,17,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"129",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"143",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"146",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"148",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			}
 		],
@@ -215,13 +215,14 @@
 			{
 				"value":"0.0294",
 				"error":"0.0012",
-				"source":"21"
+				"source":"21,22",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"2MASX J14593310+1640070",
-				"source":"4,11,10,12,13,14,15"
+				"source":"4,10,11,12,13,14,15"
 			},
 			{
 				"value":"A145932+1640",
@@ -240,28 +241,44 @@
 			{
 				"value":"+16:40:11",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+16:40:11.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"10.82",
+				"source":"1,2,21,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.538",
+				"source":"1,10,11,2,21,4,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:59:32",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"14:59:32.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"159.01",
-				"source":"20,22,4",
+				"source":"16,21,4",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -270,26 +287,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.767",
-				"source":"20,22,4",
+				"source":"16,21,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.24",
-				"source":"20,5"
+				"source":"21,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"20,5"
+				"source":"21,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/04/07",
-				"source":"20,5"
+				"source":"21,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -21555,7 +21575,7 @@
 						"1.0531977e-17"
 					]
 				],
-				"source":"18,17,19"
+				"source":"18,19,20"
 			},
 			{
 				"deredshifted":false,

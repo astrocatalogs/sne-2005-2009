@@ -116,13 +116,13 @@
 		"alias":[
 			{
 				"value":"SN2008J",
-				"source":"1,2,5,7,8,9,10,11,12"
+				"source":"1,2,5,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"IIn",
-				"source":"2,4,7,8,9,10,12"
+				"source":"2,4,7,8,10,9,12"
 			},
 			{
 				"value":"II",
@@ -132,7 +132,7 @@
 		"comovingdist":[
 			{
 				"value":"69.993",
-				"source":"15,17,12",
+				"source":"12,15,17",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -140,7 +140,7 @@
 		"dec":[
 			{
 				"value":"-10:50:38.5",
-				"source":"2,3,7,9,10,11",
+				"source":"2,3,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -152,26 +152,27 @@
 		"discoverdate":[
 			{
 				"value":"2008/01/15",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0194",
 				"error":"0.0003",
-				"source":"16"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"MCG -02-07-33",
-				"source":"7,8,9,10"
+				"source":"7,8,10,9"
 			},
 			{
 				"value":"PGC 9800",
@@ -182,22 +183,38 @@
 			{
 				"value":"-10:50:40",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-10:50:37.6",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"12.09",
+				"source":"10,11,15,2,3,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"4.038",
+				"source":"10,11,12,15,17,2,3,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:34:25",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"02:34:24.54",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -212,32 +229,35 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"15,11",
+				"source":"11,15",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.22",
-				"source":"15,5,6"
+				"source":"15,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"15,5,6"
+				"source":"15,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2008/01/25",
-				"source":"15,5,6"
+				"source":"15,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"02:34:24.20",
-				"source":"2,3,7,8,9,10,11",
+				"source":"2,3,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
@@ -260,7 +280,7 @@
 				"time":"54479.5",
 				"u_time":"MJD",
 				"magnitude":"15.8",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"54480.19",
@@ -4784,7 +4804,7 @@
 						"5.560867E-16"
 					]
 				],
-				"source":"6,12"
+				"source":"12,6"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -12267,7 +12287,7 @@
 						"7.976361E-17"
 					]
 				],
-				"source":"6,12"
+				"source":"12,6"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -17478,7 +17498,7 @@
 						"1.154933E-15"
 					]
 				],
-				"source":"6,12"
+				"source":"12,6"
 			},
 			{
 				"instrument":"ESO-NTT - Sofi",
@@ -26713,7 +26733,7 @@
 						"4.963177E-17"
 					]
 				],
-				"source":"6,12"
+				"source":"12,6"
 			},
 			{
 				"instrument":"LCO-duPont - B&C-duPont",
@@ -34916,7 +34936,7 @@
 						"5.374179E-16"
 					]
 				],
-				"source":"6,12"
+				"source":"12,6"
 			},
 			{
 				"instrument":"LCO-duPont - B&C-duPont",
@@ -41327,7 +41347,7 @@
 						"4.638926E-16"
 					]
 				],
-				"source":"6,12"
+				"source":"12,6"
 			},
 			{
 				"instrument":"LCO-duPont - B&C-duPont",
@@ -49530,7 +49550,7 @@
 						"7.761062E-16"
 					]
 				],
-				"source":"6,12"
+				"source":"12,6"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -64697,7 +64717,7 @@
 						"0.624878"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -80894,7 +80914,7 @@
 						"0.992176"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -97271,7 +97291,7 @@
 						"0.143515"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -113948,7 +113968,7 @@
 						"0.100117"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -131045,7 +131065,7 @@
 						"0.528207"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -149072,7 +149092,7 @@
 						"0.0922111"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -156384,7 +156404,7 @@
 						"0.389760"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -172641,7 +172661,7 @@
 						"0.0569030"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -181816,7 +181836,7 @@
 						"0.305094"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			}
 		]
 	}

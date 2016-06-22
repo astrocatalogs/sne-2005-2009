@@ -107,7 +107,7 @@
 		"comovingdist":[
 			{
 				"value":"67.5",
-				"source":"11,13,10",
+				"source":"10,11,13",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -144,7 +144,8 @@
 			{
 				"value":"0.0891",
 				"error":"0.0009",
-				"source":"12"
+				"source":"11,12",
+				"derived":true
 			}
 		],
 		"host":[
@@ -157,28 +158,44 @@
 			{
 				"value":"+09:11:25",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+09:11:25.3",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"22.84",
+				"source":"1,11,2,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.362",
+				"source":"1,10,11,13,2,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"20:30:43",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"20:30:42.78",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"68.5",
-				"source":"11,13,10",
+				"source":"10,11,13",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -186,26 +203,29 @@
 		"maxabsmag":[
 			{
 				"value":"-16.1",
-				"source":"11,13,10",
+				"source":"10,11,13",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.06",
-				"source":"11,4,5"
+				"source":"11,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"11,4,5"
+				"source":"11,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/04/09",
-				"source":"11,4,5"
+				"source":"11,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -9229,7 +9249,7 @@
 						"2.116095E-16"
 					]
 				],
-				"source":"5,10"
+				"source":"10,5"
 			},
 			{
 				"instrument":"Magellan-Baade - IMACS",
@@ -17432,7 +17452,7 @@
 						"1.597493E-16"
 					]
 				],
-				"source":"5,10"
+				"source":"10,5"
 			},
 			{
 				"instrument":"Magellan-Baade - IMACS",
@@ -25631,7 +25651,7 @@
 						"0."
 					]
 				],
-				"source":"5,10"
+				"source":"10,5"
 			},
 			{
 				"instrument":"LCO-duPont - WFCCD",
@@ -32794,7 +32814,7 @@
 						"8.432204E-17"
 					]
 				],
-				"source":"5,10"
+				"source":"10,5"
 			}
 		]
 	}

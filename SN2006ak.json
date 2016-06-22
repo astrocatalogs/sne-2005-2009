@@ -159,51 +159,51 @@
 		"alias":[
 			{
 				"value":"SN2006ak",
-				"source":"1,4,5,7,8,9,10,11,12,18,20"
+				"source":"1,4,5,7,8,10,9,11,12,18,20"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,7,8,9,10,11,18,4"
+				"source":"1,3,7,8,10,9,11,18,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"112",
-				"source":"13,12",
+				"source":"12,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"149",
-				"source":"14,12",
+				"source":"12,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"162",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"174",
-				"source":"17,12",
+				"source":"12,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"178",
-				"source":"17,12",
+				"source":"12,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"181",
-				"source":"17,12",
+				"source":"12,17",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+28:37:50.3",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -215,7 +215,7 @@
 		"discoverdate":[
 			{
 				"value":"2006/02/17",
-				"source":"7,8,9,10,11,4"
+				"source":"7,8,10,9,11,4"
 			}
 		],
 		"discoverer":[
@@ -225,20 +225,21 @@
 			},
 			{
 				"value":"MASTER",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0271",
 				"error":"0.0017",
-				"source":"23"
+				"source":"22,23",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"2MASX J11093314+2837393",
-				"source":"4,13,12,14,15,16,17"
+				"source":"4,12,13,14,15,16,17"
 			},
 			{
 				"value":"A110932+2837",
@@ -246,35 +247,51 @@
 			},
 			{
 				"value":"PGC 83454",
-				"source":"9,10,11"
+				"source":"10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+28:37:50",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+28:37:50.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"12.45",
+				"source":"1,10,11,2,22,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.512",
+				"source":"1,10,11,12,13,14,16,17,18,2,22,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:09:32",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"11:09:32.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"173",
-				"source":"22,24,4,18",
+				"source":"12,13,14,16,17,18,22,24,4",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -283,64 +300,43 @@
 		"maxabsmag":[
 			{
 				"value":"-18.4",
-				"source":"22,24,4,18",
+				"source":"12,13,14,16,17,18,22,24,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.75",
-				"source":"22,5,6"
+				"source":"22,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"22,5,6"
+				"source":"22,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/02/21",
-				"source":"22,5,6"
+				"source":"22,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"11:09:32.83",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0381",
-				"source":"4,18",
+				"source":"4,12,13,14,16,17,18",
 				"kind":"heliocentric"
-			},
-			{
-				"value":"0.0255",
-				"source":"13,12"
-			},
-			{
-				"value":"0.0339",
-				"source":"14,12"
-			},
-			{
-				"value":"0.0369",
-				"source":"16,12"
-			},
-			{
-				"value":"0.0397",
-				"source":"17,12"
-			},
-			{
-				"value":"0.0406",
-				"source":"17,12"
-			},
-			{
-				"value":"0.0413",
-				"source":"17,12"
 			}
 		],
 		"velocity":[
@@ -356,7 +352,7 @@
 				"time":"53782.5",
 				"u_time":"MJD",
 				"magnitude":"15.8",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"53787.8686",
@@ -13920,7 +13916,7 @@
 						"1.1667694e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,

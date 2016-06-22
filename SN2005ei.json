@@ -136,17 +136,17 @@
 		"comovingdist":[
 			{
 				"value":"385",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"541",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"572",
-				"source":"15,11",
+				"source":"11,15",
 				"unit":"Mpc"
 			}
 		],
@@ -164,7 +164,7 @@
 			{
 				"value":"+00:19:02.6112",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:19:03.00",
@@ -192,7 +192,8 @@
 			{
 				"value":"0.0496",
 				"error":"0.0044",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
@@ -206,29 +207,45 @@
 			},
 			{
 				"value":"SDSS J215647.63+001901.3",
-				"source":"12,11,13,14,15"
+				"source":"11,12,13,14,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:19:03",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:19:03.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"9.75",
+				"source":"1,10,16,2,6,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"16.1",
+				"source":"1,10,11,13,16,2,4,6,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"21:56:47",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"21:56:47.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -250,19 +267,22 @@
 		"maxappmag":[
 			{
 				"value":"19.91",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/09/03",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -279,17 +299,17 @@
 			{
 				"value":"21:56:47.76",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"21:56:47.52",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"21:56:47.64",
 				"source":"6,7,8,9,10",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

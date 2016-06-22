@@ -67,10 +67,16 @@
 				"reference":"Takáts et al. (2015)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"11",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"11",
+				"alias":"12",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
@@ -78,21 +84,21 @@
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"12",
+				"alias":"13",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13",
+				"alias":"14",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2009ib",
-				"source":"1,4,5,6,7,8,9,11"
+				"source":"1,4,5,6,7,8,9,12"
 			},
 			{
 				"value":"2MASS J04174008-6246402",
@@ -102,7 +108,7 @@
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"1,3,4,5,6,7,11"
+				"source":"1,3,4,5,6,7,12"
 			},
 			{
 				"value":"II",
@@ -135,7 +141,7 @@
 			{
 				"value":"-62:46:38.7",
 				"source":"4,6,7,8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-62:46:38.71",
@@ -163,7 +169,8 @@
 			{
 				"value":"0.0257",
 				"error":"0.0002",
-				"source":"13"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
@@ -176,22 +183,38 @@
 			{
 				"value":"-62:47:01",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-62:47:01.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"64.75",
+				"source":"1,13,2,4",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.188",
+				"source":"1,10,11,13,2,4,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:17:36",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"04:17:35.77",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -206,26 +229,29 @@
 		"maxabsmag":[
 			{
 				"value":"-16",
-				"source":"12,8",
+				"source":"13,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.7",
-				"source":"12,8"
+				"source":"13,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"12,8"
+				"source":"13,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2009/08/06",
-				"source":"12,8"
+				"source":"13,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -237,25 +263,25 @@
 			{
 				"value":"04:17:39.92",
 				"source":"4,5,6,7,8",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00448",
-				"source":"10,9"
+				"source":"10,11,9"
 			},
 			{
 				"value":"0.00482",
-				"source":"10,9"
+				"source":"10,11,9"
 			},
 			{
 				"value":"0.00534",
-				"source":"10,9"
+				"source":"10,11,9"
 			},
 			{
 				"value":"0.00435",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"velocity":[
@@ -12630,7 +12656,7 @@
 						"-5.053455E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"Gemini-S - GMOS-S",
@@ -24982,7 +25008,7 @@
 						"3.337513E-16"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -31810,7 +31836,7 @@
 						"7.421406E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -38638,7 +38664,7 @@
 						"4.887152E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - Sofi",
@@ -47886,7 +47912,7 @@
 						"1.242703E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -54710,7 +54736,7 @@
 						"1.014585E-16"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - Sofi",
@@ -58814,7 +58840,7 @@
 						"2.368437E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -65626,7 +65652,7 @@
 						"2.960272E-16"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -72446,7 +72472,7 @@
 						"3.278189E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -76538,7 +76564,7 @@
 						"5.701299E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"VLT-UT1 - FORS2",
@@ -84542,7 +84568,7 @@
 						"3.999733E-17"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -88634,7 +88660,7 @@
 						"1.185611E-16"
 					]
 				],
-				"source":"10,11"
+				"source":"10,12"
 			}
 		]
 	}

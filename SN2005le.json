@@ -132,7 +132,7 @@
 		"alias":[
 			{
 				"value":"SN2005le",
-				"source":"1,5,6,4,7,8,9,10,11,12"
+				"source":"1,5,6,4,7,8,10,9,11,12"
 			},
 			{
 				"value":"SDSS-II SN 9032",
@@ -142,40 +142,40 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,5,7,8,9,10,11"
+				"source":"1,3,4,5,7,8,10,9,11"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"730",
-				"source":"14,12",
+				"source":"12,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"990",
-				"source":"15,12",
+				"source":"12,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1010",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1040",
-				"source":"17,12",
+				"source":"12,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1060",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-00:29:36.8",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -186,17 +186,17 @@
 			{
 				"value":"-00:29:36.852",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:29:37.14",
 				"source":"6",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:29:37.1544",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:29:36.82",
@@ -207,7 +207,7 @@
 		"discoverdate":[
 			{
 				"value":"2005/11/02",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
@@ -217,14 +217,15 @@
 			},
 			{
 				"value":"SDSS",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0533",
 				"error":"0.0006",
-				"source":"19"
+				"source":"18,19",
+				"derived":true
 			}
 		],
 		"host":[
@@ -234,29 +235,45 @@
 			},
 			{
 				"value":"SDSS J223132.21-002937.2",
-				"source":"13,12,14,15,16,17"
+				"source":"12,13,14,15,16,17"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:29:36",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:29:36.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.423",
+				"source":"1,10,11,18,2,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"12.48",
+				"source":"1,10,11,12,14,18,2,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:31:32",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:31:32.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -278,13 +295,15 @@
 		"maxappmag":[
 			{
 				"value":"21.52",
-				"source":"18,4"
+				"source":"18,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"18,4"
+				"source":"18,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -296,7 +315,7 @@
 		"ra":[
 			{
 				"value":"22:31:32.29",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			},
 			{
@@ -307,7 +326,7 @@
 			{
 				"value":"22:31:32.4",
 				"source":"5,6,4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -1012,7 +1031,7 @@
 				"time":"53675.5",
 				"u_time":"MJD",
 				"magnitude":"22.3",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"53677.179029",

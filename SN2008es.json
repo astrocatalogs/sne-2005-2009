@@ -125,7 +125,7 @@
 		"alias":[
 			{
 				"value":"SN2008es",
-				"source":"1,4,5,7,8,9,10,11,12,14"
+				"source":"1,4,5,7,8,10,9,11,12,14"
 			},
 			{
 				"value":"ROTSE3 J115649.1+542725.7",
@@ -151,7 +151,7 @@
 			},
 			{
 				"value":"II Pec",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"comovingdist":[
@@ -165,7 +165,7 @@
 		"dec":[
 			{
 				"value":"+54:27:25.7",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -177,7 +177,7 @@
 		"discoverdate":[
 			{
 				"value":"2008/04/26",
-				"source":"8,9,10,11,14,15"
+				"source":"8,10,9,11,14,15"
 			}
 		],
 		"discoverer":[
@@ -187,14 +187,15 @@
 			},
 			{
 				"value":"ROTSE",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0102",
 				"error":"0.0005",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
@@ -207,22 +208,38 @@
 			{
 				"value":"+54:27:25",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+54:27:25.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"2.072",
+				"source":"1,10,11,16,2,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.112",
+				"source":"1,10,11,16,18,2,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:56:49",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"11:56:49.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -244,13 +261,15 @@
 		"maxappmag":[
 			{
 				"value":"17.75",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -262,7 +281,7 @@
 		"ra":[
 			{
 				"value":"11:56:49.13",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
@@ -274,7 +293,7 @@
 			},
 			{
 				"value":"0.206",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"value":"0.205",
@@ -295,7 +314,7 @@
 				"time":"54581.5",
 				"u_time":"MJD",
 				"magnitude":"17.7",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"54600.2434",
@@ -7774,7 +7793,7 @@
 						"1.67694e-16"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"instrument":"P200 - DBSP",
@@ -19291,7 +19310,7 @@
 						"3.80192e-16"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"instrument":"P200 - DBSP",
@@ -24158,7 +24177,7 @@
 						"1.03336e-17"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"instrument":"HET - HET-LRS",
@@ -29875,7 +29894,7 @@
 						"7.735e-17"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"deredshifted":false,
@@ -73387,7 +73406,7 @@
 						"0."
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"deredshifted":false,
@@ -94486,7 +94505,7 @@
 						"0."
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"deredshifted":false,
@@ -139478,7 +139497,7 @@
 						"5.97202e-18"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"instrument":"P200 - DBSP",
@@ -144590,7 +144609,7 @@
 						"-2.33725e-18"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"deredshifted":false,

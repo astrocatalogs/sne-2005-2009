@@ -3,18 +3,18 @@
 		"name":"SNSDF0503-18",
 		"sources":[
 			{
-				"name":"SIMBAD astronomical database",
-				"url":"http://simbad.u-strasbg.fr/",
-				"bibcode":"2000A&AS..143....9W",
-				"alias":"1",
-				"secondary":true,
-				"reference":"Wenger et al. (2000)"
-			},
-			{
 				"name":"2011MNRAS.417..916G",
 				"bibcode":"2011MNRAS.417..916G",
-				"alias":"2",
+				"alias":"1",
 				"reference":"Graur et al. (2011)"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"2",
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
@@ -26,26 +26,26 @@
 		"alias":[
 			{
 				"value":"SNSDF0503-18",
-				"source":"1,2"
+				"source":"1"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2"
+				"source":"1"
 			}
 		],
 		"dec":[
 			{
 				"value":"+27:28:52.84",
-				"source":"1,2",
+				"source":"1",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/03",
-				"source":"2",
+				"source":"1",
 				"kind":"host"
 			}
 		],
@@ -53,18 +53,14 @@
 			{
 				"value":"0.0134",
 				"error":"0.001",
-				"source":"3"
+				"source":"2,3",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
-				"value":"13:25:14.350",
-				"source":"1,2",
-				"unit":"hours"
-			},
-			{
 				"value":"13:25:14.35",
-				"source":"2",
+				"source":"1",
 				"unit":"hours"
 			}
 		]

@@ -83,7 +83,7 @@
 		"comovingdist":[
 			{
 				"value":"800",
-				"source":"8,10,4,2,6,7",
+				"source":"10,2,4,6,7,8",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -97,7 +97,7 @@
 			{
 				"value":"+00:34:04.5",
 				"source":"4,7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:34:04.51",
@@ -125,7 +125,8 @@
 			{
 				"value":"0.0237",
 				"error":"0.0004",
-				"source":"9"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -138,28 +139,44 @@
 			{
 				"value":"+00:34:04",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:34:04.0",
-				"source":"7"
+				"source":"7",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"5.449",
+				"source":"1,2,4,6,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"17.76",
+				"source":"1,10,2,4,6,7,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:10:45",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:10:45.00",
-				"source":"7"
+				"source":"7",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"960",
-				"source":"8,10,4,2,6,7",
+				"source":"10,2,4,6,7,8",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -168,20 +185,22 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"8,10,4,2,6,7",
+				"source":"10,2,4,6,7,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.5",
-				"source":"8,2,6"
+				"source":"2,6,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/12/20",
-				"source":"8,2,6"
+				"source":"2,6,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -193,7 +212,7 @@
 			{
 				"value":"01:10:45.36",
 				"source":"4,5,7",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -206,7 +225,7 @@
 		"velocity":[
 			{
 				"value":"52000",
-				"source":"8,4,2,6,7",
+				"source":"2,4,6,7,8",
 				"kind":"host",
 				"unit":"km/s",
 				"derived":true

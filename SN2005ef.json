@@ -124,7 +124,7 @@
 		"comovingdist":[
 			{
 				"value":"291",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			}
 		],
@@ -142,17 +142,17 @@
 			{
 				"value":"+00:40:44.62",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:40:44.234",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:40:44.4",
 				"source":"6,8,9,10",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:40:44.40",
@@ -180,7 +180,8 @@
 			{
 				"value":"0.025",
 				"error":"0.0007",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
@@ -194,29 +195,45 @@
 			},
 			{
 				"value":"2MASX J00582300+0040456",
-				"source":"12,11,13"
+				"source":"11,12,13"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:40:44",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:40:44.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"13.06",
+				"source":"1,10,14,2,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"16.63",
+				"source":"1,10,11,13,14,2,4,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:58:22",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"00:58:22.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -238,19 +255,22 @@
 		"maxappmag":[
 			{
 				"value":"19.56",
-				"source":"14,4"
+				"source":"14,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"14,4"
+				"source":"14,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/09/03",
-				"source":"14,4"
+				"source":"14,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -267,12 +287,12 @@
 			{
 				"value":"00:58:22.872",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"00:58:22.848",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

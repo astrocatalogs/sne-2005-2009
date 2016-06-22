@@ -116,12 +116,12 @@
 		"comovingdist":[
 			{
 				"value":"1000",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1030",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			}
 		],
@@ -134,12 +134,12 @@
 			{
 				"value":"+00:45:22.25",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:45:22.7",
 				"source":"5,7,8,9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:45:22.72",
@@ -167,7 +167,8 @@
 			{
 				"value":"0.071",
 				"error":"0.0012",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -181,29 +182,45 @@
 			},
 			{
 				"value":"SN 2007pi",
-				"source":"11,10"
+				"source":"10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:45:22",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:45:22.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.342",
+				"source":"1,12,2,5",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"16.34",
+				"source":"1,10,11,12,2,4,5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:46:49",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:46:49.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -225,7 +242,8 @@
 		"maxappmag":[
 			{
 				"value":"22.2",
-				"source":"12,7,8"
+				"source":"12,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -243,12 +261,12 @@
 			{
 				"value":"22:46:49.2",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"22:46:49.33",
 				"source":"5,6,7,8,9",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -258,8 +276,8 @@
 				"kind":"heliocentric"
 			},
 			{
-				"value":"0.247",
-				"source":"11,10"
+				"value":"0.302",
+				"source":"10,11"
 			}
 		],
 		"velocity":[

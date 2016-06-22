@@ -123,7 +123,7 @@
 			{
 				"value":"+10:30:27",
 				"source":"2",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -146,7 +146,8 @@
 			{
 				"value":"0.0215",
 				"error":"0.0007",
-				"source":"11"
+				"source":"10,11",
+				"derived":true
 			}
 		],
 		"host":[
@@ -167,22 +168,38 @@
 			{
 				"value":"+10:30:27",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+10:30:27.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"11.25",
+				"source":"1,10,2,5,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.399",
+				"source":"1,10,12,2,5,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:02:58",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"13:02:58.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -204,19 +221,22 @@
 		"maxappmag":[
 			{
 				"value":"17.61",
-				"source":"10,4"
+				"source":"10,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"10,4"
+				"source":"10,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2008/04/02",
-				"source":"10,4"
+				"source":"10,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -228,12 +248,12 @@
 			{
 				"value":"13:02:58.78",
 				"source":"5,6,9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"13:02:58.8",
 				"source":"2",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

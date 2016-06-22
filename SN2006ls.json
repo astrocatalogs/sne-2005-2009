@@ -97,30 +97,30 @@
 				"reference":"Campbell et al. (2013)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"16",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"16",
+				"alias":"17",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"17",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
 				"alias":"18",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2006ls",
-				"source":"1,4,5,6,7,8,9,10,11,12"
+				"source":"1,4,5,6,7,8,10,9,11,12"
 			},
 			{
 				"value":"SDSS-II SN 15508",
@@ -130,7 +130,7 @@
 		"claimedtype":[
 			{
 				"value":"I Pec",
-				"source":"1,3,7,9,10"
+				"source":"1,3,7,10,9"
 			},
 			{
 				"value":"Ia",
@@ -144,17 +144,17 @@
 		"comovingdist":[
 			{
 				"value":"535",
-				"source":"14,12",
+				"source":"12,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"611",
-				"source":"15,12",
+				"source":"12,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"614",
-				"source":"15,12",
+				"source":"12,15",
 				"unit":"Mpc"
 			}
 		],
@@ -167,17 +167,17 @@
 			{
 				"value":"-00:34:35.796",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:34:35.976",
 				"source":"6",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:34:35.7",
-				"source":"7,9,10,11",
-				"unit":"nospace"
+				"source":"7,10,9,11",
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:34:35.69",
@@ -188,7 +188,7 @@
 		"discoverdate":[
 			{
 				"value":"2006/10/17",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
@@ -198,14 +198,15 @@
 			},
 			{
 				"value":"SDSS Collaboration",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0258",
 				"error":"0.0008",
-				"source":"17"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
@@ -219,43 +220,61 @@
 			},
 			{
 				"value":"APMUKS(BJ) B014607.31-004928.2",
-				"source":"13,12,14,15"
+				"source":"12,13,14,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:34:32.699",
-				"source":"4"
+				"source":"4",
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:34:35",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:34:35.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.18",
+				"source":"1,17,2,4",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.41",
+				"source":"1,12,14,17,2,4"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:48:40.668",
-				"source":"4"
+				"source":"4",
+				"unit":"hours"
 			},
 			{
 				"value":"01:48:40",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:48:40.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"722.3",
-				"source":"16,18,4",
+				"source":"16,17,4",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -264,14 +283,15 @@
 		"maxabsmag":[
 			{
 				"value":"-17.79",
-				"source":"16,18,4",
+				"source":"16,17,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.5",
-				"source":"16,9,10"
+				"source":"10,17,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -288,13 +308,13 @@
 			},
 			{
 				"value":"01:48:40.56",
-				"source":"5,7,8,9,10,11",
-				"unit":"floatdegrees"
+				"source":"5,7,8,10,9,11",
+				"unit":"hours"
 			},
 			{
 				"value":"01:48:40.536",
 				"source":"6",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -308,7 +328,7 @@
 		"velocity":[
 			{
 				"value":"40960",
-				"source":"16,4",
+				"source":"17,4",
 				"kind":"host",
 				"unit":"km/s",
 				"derived":true
@@ -319,7 +339,7 @@
 				"time":"54024.5",
 				"u_time":"MJD",
 				"magnitude":"21.5",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		]
 	}

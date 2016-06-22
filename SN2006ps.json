@@ -114,7 +114,7 @@
 		"comovingdist":[
 			{
 				"value":"436",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -128,12 +128,12 @@
 			{
 				"value":"-01:06:42.912",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-01:06:42.9",
 				"source":"5,7,8,9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-01:06:42.91",
@@ -161,7 +161,8 @@
 			{
 				"value":"0.0239",
 				"error":"0.001",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -174,28 +175,44 @@
 			{
 				"value":"-01:06:42",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-01:06:42.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.721",
+				"source":"1,12,2,5",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"9.064",
+				"source":"1,10,12,14,2,5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:43:45",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:43:45.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"480",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -203,14 +220,15 @@
 		"maxabsmag":[
 			{
 				"value":"-16.2",
-				"source":"12,14,10",
+				"source":"10,12,14",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.2",
-				"source":"12,7,8"
+				"source":"12,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -228,12 +246,12 @@
 			{
 				"value":"01:43:45.288",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"01:43:45.30",
 				"source":"5,6,7,8,9",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -245,7 +263,7 @@
 		"velocity":[
 			{
 				"value":"28800",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -10070,7 +10088,7 @@
 						"5.495380034e-14"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -18827,7 +18845,7 @@
 						"3.992907611e-18"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			}
 		]
 	}

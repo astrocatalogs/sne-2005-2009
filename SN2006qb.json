@@ -112,12 +112,12 @@
 		"comovingdist":[
 			{
 				"value":"1340",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1360",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			}
 		],
@@ -130,7 +130,7 @@
 			{
 				"value":"-00:12:03.456",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:12:03.49",
@@ -158,7 +158,8 @@
 			{
 				"value":"0.0966",
 				"error":"0.0048",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -168,35 +169,51 @@
 			},
 			{
 				"value":"SN 2006qb",
-				"source":"11,10"
+				"source":"10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:12:03",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:12:03.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"9.763",
+				"source":"1,12,2,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"47.72",
+				"source":"1,10,11,12,2,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"03:28:14",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"03:28:14.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"1780",
-				"source":"12,14,11,10",
+				"source":"10,11,12,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -204,14 +221,15 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"12,14,11,10",
+				"source":"10,11,12,14",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.3",
-				"source":"12,7,8"
+				"source":"12,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -229,23 +247,19 @@
 			{
 				"value":"03:28:14.64",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.329",
-				"source":"11,10"
-			},
-			{
-				"value":"0.334",
-				"source":"11,10"
+				"source":"10,11"
 			}
 		],
 		"velocity":[
 			{
 				"value":"83000",
-				"source":"12,11,10",
+				"source":"10,11,12",
 				"unit":"km/s",
 				"derived":true
 			}

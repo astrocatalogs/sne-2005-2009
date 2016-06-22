@@ -93,7 +93,7 @@
 		"comovingdist":[
 			{
 				"value":"560",
-				"source":"9,11,3,5,6,7",
+				"source":"11,3,5,6,7,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -112,7 +112,7 @@
 			{
 				"value":"+24:40:22.44",
 				"source":"8",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -135,7 +135,8 @@
 			{
 				"value":"0.0192",
 				"error":"0.0012",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -152,28 +153,44 @@
 			{
 				"value":"+24:40:22",
 				"source":"3",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+24:40:22.0",
-				"source":"7"
+				"source":"7",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"9.313",
+				"source":"1,2,3,4,5,6,7,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"22.38",
+				"source":"1,11,2,3,4,5,6,7,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:51:10",
 				"source":"3",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"11:51:10.00",
-				"source":"7"
+				"source":"7",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"630",
-				"source":"9,11,3,5,6,7",
+				"source":"11,3,5,6,7,9",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -182,26 +199,29 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"9,11,3,5,6,7",
+				"source":"11,3,5,6,7,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.89",
-				"source":"9,8"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"9,8"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2008/12/06",
-				"source":"9,8"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -213,7 +233,7 @@
 			{
 				"value":"11:51:10.56",
 				"source":"8",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -226,7 +246,7 @@
 		"velocity":[
 			{
 				"value":"36000",
-				"source":"9,3,5,6,7",
+				"source":"3,5,6,7,9",
 				"kind":"host",
 				"unit":"km/s",
 				"derived":true
@@ -5353,6 +5373,46 @@
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"20.8318",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.439941",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"20.231001",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.47998",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"20.1854",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.52002",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"20.2258",
+				"upperlimit":true,
+				"includeshost":true,
+				"telescope":"Catalina Schmidt",
+				"source":"8"
+			},
+			{
+				"time":"57554.560059",
+				"u_time":"MJD",
+				"band":"C",
+				"magnitude":"20.207001",
 				"upperlimit":true,
 				"includeshost":true,
 				"telescope":"Catalina Schmidt",

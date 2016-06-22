@@ -123,7 +123,7 @@
 			{
 				"value":"+00:17:31.45",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:17:31.49",
@@ -151,7 +151,8 @@
 			{
 				"value":"0.1609",
 				"error":"0.0075",
-				"source":"12"
+				"source":"11,12",
+				"derived":true
 			}
 		],
 		"host":[
@@ -168,44 +169,60 @@
 			{
 				"value":"+00:17:31",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:17:31.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"1.03",
+				"source":"1,11,2,5,6,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"5.98",
+				"source":"1,10,11,2,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"03:52:14",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"03:52:14.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"1300",
-				"source":"11,13,4,2,7",
-				"kind":"spectroscopic",
+				"value":"2210",
+				"source":"10,11,13,9",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18",
-				"source":"11,13,4,2,7",
+				"value":"-18.9",
+				"source":"10,11,13,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.8",
-				"source":"11,2,7"
+				"source":"11,2,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -223,29 +240,19 @@
 			{
 				"value":"03:52:14.064",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.25",
-				"source":"4,2,7",
-				"kind":"spectroscopic"
-			},
-			{
-				"value":"0.42",
-				"source":"10,9"
-			},
-			{
-				"value":"0.46",
+				"value":"0.395",
 				"source":"10,9"
 			}
 		],
 		"velocity":[
 			{
-				"value":"66000",
-				"source":"11,4,2,7",
-				"kind":"spectroscopic",
+				"value":"96300",
+				"source":"10,11,9",
 				"unit":"km/s",
 				"derived":true
 			}

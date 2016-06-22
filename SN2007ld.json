@@ -130,12 +130,12 @@
 		"comovingdist":[
 			{
 				"value":"97",
-				"source":"3,10",
+				"source":"10,3",
 				"unit":"Mpc"
 			},
 			{
 				"value":"115",
-				"source":"3,10",
+				"source":"10,3",
 				"unit":"Mpc"
 			}
 		],
@@ -153,7 +153,7 @@
 			{
 				"value":"+00:00:13.8",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:00:14.00",
@@ -181,7 +181,8 @@
 			{
 				"value":"0.081",
 				"error":"0.0022",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
@@ -191,35 +192,51 @@
 			},
 			{
 				"value":"SDSS J204929.40+000016.8",
-				"source":"11,10,3"
+				"source":"10,11,3"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:00:14",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:00:14.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"8.85",
+				"source":"1,14,2,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"4.05",
+				"source":"1,10,12,14,2,3,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"20:49:29",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"20:49:29.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"120",
-				"source":"14,16,3,12",
+				"source":"12,14,16,3",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -227,20 +244,22 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"14,16,3,12",
+				"source":"12,14,16,3",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.91",
-				"source":"14,3"
+				"source":"14,3",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"14,3"
+				"source":"14,3",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -263,7 +282,7 @@
 			{
 				"value":"20:49:29.52",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -10845,7 +10864,7 @@
 						"4.523092899e-17"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			}
 		]
 	}

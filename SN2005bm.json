@@ -98,7 +98,7 @@
 		"comovingdist":[
 			{
 				"value":"445",
-				"source":"9,11,3,4,6,7",
+				"source":"11,3,4,6,7,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -112,12 +112,12 @@
 			{
 				"value":"+36:48:42.48",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+36:48:42.5",
 				"source":"4,6,7,8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+36:48:42.52",
@@ -145,7 +145,8 @@
 			{
 				"value":"0.016",
 				"error":"0.0009",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -162,28 +163,44 @@
 			{
 				"value":"+36:48:42",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+36:48:42.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"1.237",
+				"source":"1,2,4,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.42",
+				"source":"1,11,2,3,4,6,7,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"15:20:45",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"15:20:45.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"491",
-				"source":"9,11,3,4,6,7",
+				"source":"11,3,4,6,7,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -191,14 +208,15 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"9,11,3,4,6,7",
+				"source":"11,3,4,6,7,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.5",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -216,12 +234,12 @@
 			{
 				"value":"15:20:45.12",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"15:20:45.10",
 				"source":"4,5,6,7,8",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -233,7 +251,7 @@
 		"velocity":[
 			{
 				"value":"29300",
-				"source":"9,3,4,6,7",
+				"source":"3,4,6,7,9",
 				"unit":"km/s",
 				"derived":true
 			}

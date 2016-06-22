@@ -146,12 +146,12 @@
 			{
 				"value":"+00:21:23.18",
 				"source":"4,6",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:21:22.939",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -174,7 +174,8 @@
 			{
 				"value":"0.0303",
 				"error":"0.0012",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
@@ -195,22 +196,38 @@
 			{
 				"value":"+00:21:23",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:21:23.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"8.102",
+				"source":"1,13,2,5,6,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.041",
+				"source":"1,13,2,3,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:45:12",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:45:12.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -232,19 +249,22 @@
 		"maxappmag":[
 			{
 				"value":"20.12",
-				"source":"13,3"
+				"source":"13,3",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"13,3"
+				"source":"13,3",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/09/22",
-				"source":"13,3"
+				"source":"13,3",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -261,12 +281,12 @@
 			{
 				"value":"01:45:12.552",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"01:45:12.528",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -9999,7 +10019,7 @@
 						"2.677918492e-18"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -18756,7 +18776,7 @@
 						"2.043694513e-18"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			}
 		]
 	}

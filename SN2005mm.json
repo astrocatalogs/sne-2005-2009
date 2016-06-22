@@ -134,12 +134,12 @@
 		"comovingdist":[
 			{
 				"value":"1120",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1530",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			}
 		],
@@ -157,12 +157,12 @@
 			{
 				"value":"+01:08:43.872",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:08:43.692",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:08:43.91",
@@ -190,7 +190,8 @@
 			{
 				"value":"0.0214",
 				"error":"0.0006",
-				"source":"16"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
@@ -200,29 +201,45 @@
 			},
 			{
 				"value":"SDSS J001309.55+010844.6",
-				"source":"12,11,13,14"
+				"source":"11,12,13,14"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+01:08:43",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:08:43.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"8.299",
+				"source":"1,10,15,2,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"32.61",
+				"source":"1,10,11,13,15,2,4,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:13:09",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"00:13:09.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -244,13 +261,15 @@
 		"maxappmag":[
 			{
 				"value":"22.19",
-				"source":"15,4"
+				"source":"15,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"15,4"
+				"source":"15,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -273,12 +292,12 @@
 			{
 				"value":"00:13:09.5496",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"00:13:09.54",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

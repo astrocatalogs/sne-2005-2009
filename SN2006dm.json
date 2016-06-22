@@ -117,27 +117,27 @@
 		"alias":[
 			{
 				"value":"SN2006dm",
-				"source":"1,3,4,5,7,8,9,10,11,12,14"
+				"source":"1,3,4,5,7,8,10,9,11,12,14"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,6,7,8,9,10,11,14"
+				"source":"1,2,3,6,7,8,10,9,11,14"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"93.1",
-				"source":"13,12",
+				"source":"12,13",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-03:40:08.4",
-				"source":"7,9,10,11",
-				"unit":"nospace"
+				"source":"7,10,9,11",
+				"unit":"degrees"
 			},
 			{
 				"value":"-03:40:08.40",
@@ -148,26 +148,27 @@
 		"discoverdate":[
 			{
 				"value":"2006/07/03",
-				"source":"3,6,7,8,9,10,11"
+				"source":"3,6,7,8,10,9,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0326",
 				"error":"0.0011",
-				"source":"16"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"MCG -01-60-21",
-				"source":"3,6,7,8,9,10"
+				"source":"3,6,7,8,10,9"
 			},
 			{
 				"value":"PGC 72139",
@@ -175,44 +176,61 @@
 			},
 			{
 				"value":"ARP 295A",
-				"source":"13,12"
+				"source":"12,13"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-03:40:02.6",
-				"source":"4"
+				"source":"4",
+				"unit":"degrees"
 			},
 			{
 				"value":"-03:40:06",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-03:40:02.1",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"9.72",
+				"source":"10,11,15,4,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"4.29",
+				"source":"10,11,12,13,15,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"23:41:47.32",
-				"source":"4"
+				"source":"4",
+				"unit":"hours"
 			},
 			{
 				"value":"23:41:47",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"23:41:47.29",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"99.09",
-				"source":"15,17,3,14",
-				"kind":"heliocentric",
+				"value":"99.083",
+				"source":"12,13,15,17",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -220,40 +238,42 @@
 		"maxabsmag":[
 			{
 				"value":"-18.84",
-				"source":"15,17,3,14",
+				"source":"12,13,15,17",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.14",
-				"source":"15,3,6"
+				"source":"15,3,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"15,3,6"
+				"source":"15,3,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/07/13",
-				"source":"15,3,6"
+				"source":"15,3,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"23:41:47.84",
-				"source":"7,8,9,10,11",
-				"unit":"nospace"
+				"source":"7,8,10,9,11",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.02202",
-				"source":"3,14",
-				"kind":"heliocentric"
+				"value":"0.022019",
+				"source":"12,13"
 			}
 		],
 		"velocity":[
@@ -991,7 +1011,7 @@
 				"time":"53934.5",
 				"u_time":"MJD",
 				"magnitude":"16.4",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"53936.43",

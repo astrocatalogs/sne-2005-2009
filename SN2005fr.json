@@ -135,16 +135,16 @@
 				"reference":"Foley (2012)"
 			},
 			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"alias":"22",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
-				"alias":"23",
+				"alias":"22",
 				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"alias":"23",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -170,37 +170,37 @@
 		"comovingdist":[
 			{
 				"value":"902",
-				"source":"16,14",
+				"source":"14,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"942",
-				"source":"17,14",
+				"source":"14,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1230",
-				"source":"18,14",
+				"source":"14,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1280",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1320",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1350",
-				"source":"21,14",
+				"source":"14,21",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1370",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			}
 		],
@@ -223,17 +223,17 @@
 			{
 				"value":"-00:05:46.572",
 				"source":"7",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:05:47.004",
 				"source":"8",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:05:46.9896",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:05:46.72",
@@ -266,7 +266,8 @@
 			{
 				"value":"0.0298",
 				"error":"0.0007",
-				"source":"22"
+				"source":"1,23",
+				"derived":true
 			}
 		],
 		"host":[
@@ -276,35 +277,51 @@
 			},
 			{
 				"value":"SDSS J010821.96-000546.6",
-				"source":"15,14,16,17,18,19,20,21"
+				"source":"14,15,16,17,18,19,20,21"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:05:46",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:05:46.0",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.7616",
+				"source":"1,10,11,12,13,2,3,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.58",
+				"source":"1,10,11,12,13,14,16,2,3,7,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:08:22",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:08:22.00",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"1550",
-				"source":"1,23,7",
+				"source":"1,22,7",
 				"kind":"spectroscopic",
 				"unit":"Mpc",
 				"derived":true
@@ -313,20 +330,22 @@
 		"maxabsmag":[
 			{
 				"value":"-19.4",
-				"source":"1,23,7",
+				"source":"1,22,7",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.59",
-				"source":"1,5"
+				"source":"1,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"1,5"
+				"source":"1,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -354,12 +373,12 @@
 			{
 				"value":"01:08:22.008",
 				"source":"7,8",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"01:08:21.984",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -373,30 +392,6 @@
 				"value":"0.291",
 				"source":"7",
 				"kind":"spectroscopic"
-			},
-			{
-				"value":"0.215",
-				"source":"16,14"
-			},
-			{
-				"value":"0.225",
-				"source":"17,14"
-			},
-			{
-				"value":"0.313",
-				"source":"19,14"
-			},
-			{
-				"value":"0.323",
-				"source":"20,14"
-			},
-			{
-				"value":"0.332",
-				"source":"21,14"
-			},
-			{
-				"value":"0.337",
-				"source":"19,14"
 			}
 		],
 		"velocity":[

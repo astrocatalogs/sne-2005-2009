@@ -73,24 +73,24 @@
 				"reference":"Gupta et al. (2011)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"12",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"12",
+				"alias":"13",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
 				"alias":"14",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -148,7 +148,8 @@
 			{
 				"value":"0.0516",
 				"error":"0.0014",
-				"source":"13"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
@@ -169,28 +170,44 @@
 			{
 				"value":"-00:15:24",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:15:24.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"13.52",
+				"source":"1,13,2,4,5,6,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"75.83",
+				"source":"1,11,12,13,2,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:01:34",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:01:34.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"2300",
-				"source":"12,14,11,9",
+				"source":"11,12,13,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -198,14 +215,15 @@
 		"maxabsmag":[
 			{
 				"value":"-19.5",
-				"source":"12,14,11,9",
+				"source":"11,12,13,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.3",
-				"source":"12,6,7"
+				"source":"13,6,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -224,13 +242,13 @@
 		"redshift":[
 			{
 				"value":"0.409",
-				"source":"11,9"
+				"source":"11,12,9"
 			}
 		],
 		"velocity":[
 			{
 				"value":"98900",
-				"source":"12,11,9",
+				"source":"11,12,13,9",
 				"unit":"km/s",
 				"derived":true
 			}

@@ -126,12 +126,12 @@
 		"comovingdist":[
 			{
 				"value":"517",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"534",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			}
 		],
@@ -167,7 +167,8 @@
 			{
 				"value":"0.0272",
 				"error":"0.0007",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
@@ -181,43 +182,61 @@
 			},
 			{
 				"value":"SN 2007rj",
-				"source":"11,10"
+				"source":"10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:05:36.682",
-				"source":"4"
+				"source":"4",
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:05:33",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:05:33.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"3.371",
+				"source":"1,14,2,4,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.76",
+				"source":"1,10,11,12,14,2,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:53:58.769",
-				"source":"4"
+				"source":"4",
+				"unit":"hours"
 			},
 			{
 				"value":"01:53:58",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:53:58.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"419",
-				"source":"14,16,4,12",
+				"source":"12,14,16,4",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -226,14 +245,15 @@
 		"maxabsmag":[
 			{
 				"value":"-15.6",
-				"source":"14,16,4,12",
+				"source":"12,14,16,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.5",
-				"source":"14,7,8"
+				"source":"14,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -9029,7 +9049,7 @@
 						"7.594630077e-17"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -17786,7 +17806,7 @@
 						"8.290549581e-17"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			}
 		]
 	}

@@ -112,7 +112,7 @@
 		"alias":[
 			{
 				"value":"SN2007D",
-				"source":"1,4,5,6,7,8,9,10,11,12,13"
+				"source":"1,4,5,6,7,8,10,9,11,12,13"
 			}
 		],
 		"claimedtype":[
@@ -122,7 +122,7 @@
 			},
 			{
 				"value":"Ic",
-				"source":"8,9,10,11"
+				"source":"8,10,9,11"
 			},
 			{
 				"value":"Ic Pec",
@@ -132,7 +132,7 @@
 		"comovingdist":[
 			{
 				"value":"101.88",
-				"source":"14,16,12",
+				"source":"12,14,16",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -140,7 +140,7 @@
 		"dec":[
 			{
 				"value":"+37:36:26.4",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -152,7 +152,7 @@
 		"discoverdate":[
 			{
 				"value":"2007/01/09",
-				"source":"8,9,10,11"
+				"source":"8,10,9,11"
 			}
 		],
 		"discoverer":[
@@ -162,48 +162,65 @@
 			},
 			{
 				"value":"Tim Puckett et al.",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.2871",
 				"error":"0.0032",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 2653",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+37:36:29",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+37:36:28.9",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"10.96",
+				"source":"1,10,11,14,2,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"5.291",
+				"source":"1,10,11,12,14,16,2,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"03:18:38",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"03:18:38.20",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"104.24",
-				"source":"14,16,12",
+				"source":"12,14,16",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -211,20 +228,22 @@
 		"maxabsmag":[
 			{
 				"value":"-16.98",
-				"source":"14,16,12",
+				"source":"12,14,16",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.11",
-				"source":"14,5"
+				"source":"14,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"14,5"
+				"source":"14,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -236,7 +255,7 @@
 		"ra":[
 			{
 				"value":"03:18:38.71",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
@@ -259,7 +278,7 @@
 				"time":"54108.5",
 				"u_time":"MJD",
 				"magnitude":"17.9",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"54115.1",

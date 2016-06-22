@@ -128,7 +128,7 @@
 		"alias":[
 			{
 				"value":"SN2006fo",
-				"source":"1,4,5,6,7,8,9,2,10,11,14,16"
+				"source":"1,4,5,6,7,8,9,10,2,11,14,16"
 			},
 			{
 				"value":"SDSS-II SN 13195",
@@ -142,18 +142,18 @@
 			},
 			{
 				"value":"Ic",
-				"source":"5,6,9,2,10,11"
+				"source":"5,6,9,10,2,11"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"131",
-				"source":"13,12",
+				"source":"12,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"184",
-				"source":"13,12",
+				"source":"12,13",
 				"unit":"Mpc"
 			}
 		],
@@ -166,12 +166,12 @@
 			{
 				"value":"+00:37:03",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:37:03.036",
 				"source":"6",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:37:03.00",
@@ -182,7 +182,7 @@
 		"discoverdate":[
 			{
 				"value":"2006/09/16",
-				"source":"8,9,2,10,11"
+				"source":"8,9,10,2,11"
 			}
 		],
 		"discoverer":[
@@ -192,90 +192,109 @@
 			},
 			{
 				"value":"SDSS Collaboration",
-				"source":"2,10"
+				"source":"10,2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0235",
 				"error":"0.001",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 2019",
-				"source":"8,2,10,11"
+				"source":"8,10,2,11"
 			},
 			{
 				"value":"SN 2006fo",
-				"source":"13,12"
+				"source":"12,13"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:37:02.28",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:37:02",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:37:03.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"6.013",
+				"source":"1,10,11,17,2,5,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"3.741",
+				"source":"1,10,11,12,13,17,2,5,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:32:39.288",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"02:32:39",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"02:32:38.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"93.24",
-				"source":"17,19,5",
-				"kind":"host",
+				"value":"93.098",
+				"source":"12,13,17,19",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-16.53",
-				"source":"17,19,5",
+				"value":"-16.525",
+				"source":"12,13,17,19",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.32",
-				"source":"17,7"
+				"source":"17,7",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"17,7"
+				"source":"17,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/09/28",
-				"source":"17,7"
+				"source":"17,7",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -287,14 +306,13 @@
 			{
 				"value":"02:32:38.88",
 				"source":"5,6",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.02074",
-				"source":"5",
-				"kind":"host"
+				"value":"0.020709",
+				"source":"12,13"
 			}
 		],
 		"velocity":[
@@ -310,7 +328,7 @@
 				"time":"53999.5",
 				"u_time":"MJD",
 				"magnitude":"16.0",
-				"source":"2,10"
+				"source":"10,2"
 			},
 			{
 				"time":"54005.3",
@@ -11131,7 +11149,7 @@
 						"8.649785821e-17"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"deredshifted":false,
@@ -52076,7 +52094,7 @@
 						"1.537182483e-17"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"ESO-NTT - EMMI",
@@ -60833,7 +60851,7 @@
 						"7.585884739e-17"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"deredshifted":false,

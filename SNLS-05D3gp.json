@@ -75,12 +75,12 @@
 			},
 			{
 				"value":"2130",
-				"source":"4,3",
+				"source":"3,4",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2280",
-				"source":"5,3",
+				"source":"3,5",
 				"unit":"Mpc"
 			},
 			{
@@ -111,7 +111,8 @@
 			{
 				"value":"0.0076",
 				"error":"0.0003",
-				"source":"7"
+				"source":"6,7",
+				"derived":true
 			}
 		],
 		"host":[
@@ -120,37 +121,71 @@
 				"source":"2,3,4,5"
 			}
 		],
+		"hostdec":[
+			{
+				"value":"+52:43:28.7",
+				"source":"6",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.2766",
+				"source":"1,2,6",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.57",
+				"source":"1,2,3,4,5,6"
+			}
+		],
+		"hostra":[
+			{
+				"value":"14:22:42.33",
+				"source":"6",
+				"unit":"hours",
+				"derived":true
+			}
+		],
 		"lumdist":[
 			{
-				"value":"2720",
-				"source":"6,8,2,3",
+				"value":"3500",
+				"source":"2,3,4,5,6,8",
+				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-16.6",
-				"source":"6,8,2,3",
+				"value":"-17",
+				"source":"2,3,4,5,6,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"25.56",
-				"source":"6,2"
+				"source":"2,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"6,2"
+				"source":"2,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/04/06",
-				"source":"6,2"
+				"source":"2,6",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -162,26 +197,16 @@
 		],
 		"redshift":[
 			{
-				"value":"0.472",
-				"source":"2,3"
-			},
-			{
-				"value":"0.556",
-				"source":"4,3"
-			},
-			{
-				"value":"0.603",
-				"source":"5,3"
-			},
-			{
-				"value":"0.615",
-				"source":"2,3"
+				"value":"0.58",
+				"source":"2,3,4,5",
+				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
-				"value":"110000",
-				"source":"6,2,3",
+				"value":"130000",
+				"source":"2,3,4,5,6",
+				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
 			}

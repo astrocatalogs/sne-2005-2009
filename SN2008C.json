@@ -116,90 +116,90 @@
 				"reference":"Weyant et al. (2014)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"19",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"19",
+				"alias":"20",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"20",
+				"alias":"21",
 				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"2011Sci...333..856S",
 				"bibcode":"2011Sci...333..856S",
-				"alias":"21",
+				"alias":"22",
 				"reference":"Sternberg et al. (2011)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"22",
+				"alias":"23",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"23",
+				"alias":"24",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"24",
+				"alias":"25",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"25",
-				"reference":"Schlafly & Finkbeiner (2011)"
-			},
-			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
 				"alias":"26",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2008C",
-				"source":"1,4,5,6,8,9,10,11,12,13,14,19,22,15"
+				"source":"1,4,5,6,8,9,10,11,12,13,14,20,23,15"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,6,4,5,7,9,10,11,12,13,19"
+				"source":"1,3,6,4,5,7,9,10,11,12,13,20"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"65.1",
-				"source":"15,14",
+				"source":"14,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"69.5",
-				"source":"16,14",
+				"source":"14,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"70.9",
-				"source":"17,14",
+				"source":"14,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"75.1",
-				"source":"18,14",
+				"source":"14,18",
 				"unit":"Mpc"
 			}
 		],
@@ -217,7 +217,7 @@
 			{
 				"value":"+20:26:13.92",
 				"source":"6",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+20:26:13.56",
@@ -250,41 +250,58 @@
 			{
 				"value":"0.072",
 				"error":"0.0023",
-				"source":"25"
+				"source":"25,26",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 3611",
-				"source":"4,5,6,7,9,10,11,12,13,15,14,16,17,18"
+				"source":"4,5,6,7,9,10,11,12,13,14,15,16,17,18"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+20:26:15",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+20:26:14.9",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"7.169",
+				"source":"1,10,11,12,13,2,25,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.226",
+				"source":"1,10,11,12,13,14,15,16,2,20,25,6,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"06:57:12",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"06:57:11.72",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"74.492",
-				"source":"24,26,6,19",
+				"source":"14,16,19,20,25,6",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -293,26 +310,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.541",
-				"source":"24,26,6,19",
+				"source":"14,16,19,20,25,6",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.82",
-				"source":"24,8"
+				"source":"25,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"24,8"
+				"source":"25,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2008/01/04",
-				"source":"24,8"
+				"source":"25,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -329,14 +349,14 @@
 			{
 				"value":"06:57:11.52",
 				"source":"6,8",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.016621",
 				"error":"1.3e-05",
-				"source":"6,19",
+				"source":"6,14,16,20",
 				"kind":"host"
 			}
 		],
@@ -13810,7 +13830,7 @@
 						"9.2697644e-16"
 					]
 				],
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"deredshifted":true,
@@ -35439,7 +35459,7 @@
 						"2.3844697e-17"
 					]
 				],
-				"source":"22,20,23"
+				"source":"21,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -46179,7 +46199,7 @@
 						"1.7226515e-15"
 					]
 				],
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"deredshifted":false,
@@ -59603,7 +59623,7 @@
 						"2.8958193e-17"
 					]
 				],
-				"source":"22,20,23"
+				"source":"21,23,24"
 			},
 			{
 				"deredshifted":true,
@@ -78477,7 +78497,7 @@
 						"5.0902265e-16"
 					]
 				],
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"deredshifted":false,
@@ -91811,7 +91831,7 @@
 						"2.5465799e-17"
 					]
 				],
-				"source":"22,20,23"
+				"source":"21,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -102551,7 +102571,7 @@
 						"1.417804e-15"
 					]
 				],
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"deredshifted":false,
@@ -115975,7 +115995,7 @@
 						"2.5196518e-17"
 					]
 				],
-				"source":"22,20,23"
+				"source":"21,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -169216,7 +169236,7 @@
 						"1.587858e-15"
 					]
 				],
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"deredshifted":false,
@@ -182640,7 +182660,7 @@
 						"4.2354613e-17"
 					]
 				],
-				"source":"22,20,23"
+				"source":"21,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -193384,7 +193404,7 @@
 						"2.0393608e-15"
 					]
 				],
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"deredshifted":false,
@@ -206813,7 +206833,7 @@
 						"5.4656935e-17"
 					]
 				],
-				"source":"22,20,23"
+				"source":"21,23,24"
 			},
 			{
 				"deredshifted":true,
@@ -228899,7 +228919,7 @@
 						"1.1330583e-17"
 					]
 				],
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"deredshifted":false,
@@ -242233,7 +242253,7 @@
 						"8.0774098e-18"
 					]
 				],
-				"source":"22,20,23"
+				"source":"21,23,24"
 			}
 		]
 	}

@@ -94,7 +94,7 @@
 		"comovingdist":[
 			{
 				"value":"134",
-				"source":"9,11,3",
+				"source":"11,3,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -103,7 +103,7 @@
 			{
 				"value":"-26:27:03.5",
 				"source":"4,6,7,8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-26:27:03.49",
@@ -131,7 +131,8 @@
 			{
 				"value":"0.0292",
 				"error":"0.0011",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -147,37 +148,55 @@
 		"hostdec":[
 			{
 				"value":"-26:27:06.1",
-				"source":"3"
+				"source":"3",
+				"unit":"degrees"
 			},
 			{
 				"value":"-26:27:03",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-26:27:03.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"2.864",
+				"source":"3,4,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.806",
+				"source":"11,3,4,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"21:35:52.58",
-				"source":"3"
+				"source":"3",
+				"unit":"hours"
 			},
 			{
 				"value":"21:35:52",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"21:35:52.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"138",
-				"source":"9,11,3",
+				"source":"11,3,9",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -186,27 +205,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.3",
-				"source":"9,11,3",
+				"source":"11,3,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.4",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/05/18",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"21:35:52.5",
 				"source":"4,6,7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"21:35:52.50",
@@ -225,7 +246,7 @@
 		"velocity":[
 			{
 				"value":"8980",
-				"source":"9,3",
+				"source":"3,9",
 				"kind":"host",
 				"unit":"km/s",
 				"derived":true
