@@ -1,228 +1,238 @@
 {
 	"SN2008s3":{
-		"schema":"https://github.com/astrocatalogs/sne/blob/07f1aa00c396ea7c98a76b8de18028285b2e7b14/OSC-JSON-format.md",
+		"schema":"https://github.com/astrocatalogs/astrocats/blob/aaf96e3b3fbcf703610b756295a7120ec1ecc3f7/OSC-JSON-format.md",
 		"name":"SN2008s3",
 		"sources":[
 			{
-				"name":"SIMBAD astronomical database",
-				"url":"http://simbad.u-strasbg.fr/",
-				"bibcode":"2000A&AS..143....9W",
-				"alias":"1",
-				"secondary":true,
-				"reference":"Wenger et al. (2000)"
-			},
-			{
-				"name":"2012MNRAS.425.1789S",
-				"bibcode":"2012MNRAS.425.1789S",
-				"alias":"2",
-				"reference":"Silverman et al. (2012)"
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"1"
 			},
 			{
 				"name":"2013ApJ...770..107C",
 				"bibcode":"2013ApJ...770..107C",
-				"alias":"3",
-				"reference":"Childress et al. (2013)"
+				"reference":"Childress et al. (2013)",
+				"alias":"2"
 			},
 			{
-				"name":"SN Factory",
-				"url":"http://snfactory.lbl.gov/",
-				"alias":"4"
-			},
-			{
-				"name":"Latest Supernovae",
-				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
-				"secondary":true
-			},
-			{
-				"name":"WISeREP",
-				"url":"http://wiserep.weizmann.ac.il/",
-				"bibcode":"2012PASP..124..668Y",
-				"alias":"6",
-				"secondary":true,
-				"reference":"Yaron & Gal-Yam (2012)"
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
-				"alias":"7",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
+				"name":"2012MNRAS.425.1789S",
+				"bibcode":"2012MNRAS.425.1789S",
+				"reference":"Silverman et al. (2012)",
+				"alias":"3"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"8",
-				"reference":"Schlafly & Finkbeiner (2011)"
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"4"
 			},
 			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
-				"alias":"9",
-				"reference":"Planck Collaboration et al. (2015)"
+				"name":"2003yCat.2246....0C",
+				"bibcode":"2003yCat.2246....0C",
+				"reference":"Cutri et al. (2003)",
+				"alias":"5"
+			},
+			{
+				"name":"SN Factory",
+				"url":"http://snfactory.lbl.gov/",
+				"alias":"6"
+			},
+			{
+				"name":"Latest Supernovae",
+				"secondary":true,
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"7"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"8"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"9"
 			}
 		],
 		"alias":[
 			{
-				"value":"SNF20080825-006",
-				"source":"1,2,3,4,5,6"
+				"value":"SN2008s3",
+				"source":"3"
 			},
 			{
-				"value":"SN2008s3",
-				"source":"2"
+				"value":"SNF20080825-006",
+				"source":"2,3,6,7,9"
+			},
+			{
+				"value":"2MASS J23004648+0734586",
+				"source":"9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,4,5,6"
+				"source":"3,6,7,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"184.2",
-				"source":"3,7,9",
-				"unit":"Mpc",
-				"derived":true
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,8"
 			}
 		],
 		"dec":[
 			{
+				"value":"+07:34:58.61",
+				"u_value":"degrees",
+				"source":"5,9"
+			},
+			{
 				"value":"+07:34:42.0",
-				"source":"4,5",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"6,7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2008/08/25",
-				"source":"4,5,2"
+				"source":"3,6,7"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Nearby Supernova Factory",
-				"source":"4,5"
+				"source":"6,7"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0479",
-				"error":"0.0013",
-				"source":"7,8",
-				"derived":true
+				"derived":true,
+				"e_value":"0.0013",
+				"source":"4,8"
 			}
 		],
 		"host":[
 			{
 				"value":"2MASX J23004648+0734590",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+07:34:58.4",
-				"source":"3",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"2"
 			}
 		],
 		"hostoffsetang":[
 			{
-				"value":"22.33",
-				"source":"3,4,5,7",
-				"unit":"arcseconds",
-				"derived":true
+				"value":"0.2581",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"2,5,8,9"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"19.14",
-				"source":"3,4,5,7,9"
+				"value":"0.2212",
+				"source":"1,2,5,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"23:00:46.48",
-				"source":"3",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"192",
-				"source":"3,7,9",
+				"derived":true,
 				"kind":"host",
-				"unit":"Mpc",
-				"derived":true
+				"u_value":"Mpc",
+				"source":"1,2,8"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.32",
-				"source":"3,7,9",
-				"derived":true
+				"derived":true,
+				"source":"1,2,8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.1",
-				"source":"4,5,7",
-				"derived":true
+				"derived":true,
+				"source":"6,7,8"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2008/08/24",
-				"source":"4,5,7",
-				"derived":true
+				"derived":true,
+				"source":"6,7,8"
 			}
 		],
 		"ra":[
 			{
+				"value":"23:00:46.490",
+				"u_value":"hours",
+				"source":"5,9"
+			},
+			{
 				"value":"23:00:47.49",
-				"source":"4,5",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"6,7"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.04204",
-				"error":"0.002",
-				"source":"3",
-				"kind":"host"
+				"e_value":"0.002",
+				"kind":"host",
+				"source":"2"
 			}
 		],
 		"velocity":[
 			{
 				"value":"12340",
-				"source":"3,7",
 				"kind":"host",
-				"unit":"km/s",
-				"derived":true
+				"u_value":"km/s",
+				"source":"8"
 			}
 		],
 		"photometry":[
 			{
 				"time":"54702.5",
-				"u_time":"MJD",
 				"magnitude":"18.1",
-				"source":"4,5"
+				"u_time":"MJD",
+				"source":"6,7"
 			}
 		],
 		"spectra":[
 			{
-				"deredshifted":false,
-				"instrument":"Kast",
-				"u_time":"MJD",
 				"time":"54717.3",
-				"snr":"12.5096",
+				"filename":"sn2008s3-20080908.263-ui.flm",
+				"instrument":"Kast",
 				"observer":"Silverman, George",
 				"reducer":"Jeffrey Silverman",
-				"filename":"sn2008s3-20080908.263-ui.flm",
-				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
-				"errorunit":"Uncalibrated",
+				"snr":"12.5096",
+				"u_errors":"Uncalibrated",
+				"u_fluxes":"Uncalibrated",
+				"u_time":"MJD",
+				"u_wavelengths":"Angstrom",
 				"data":[
 					[
 						"3506.00",
@@ -1346,7 +1356,7 @@
 					],
 					[
 						"3954.00",
-						"-0.009666",
+						"-0.00966600",
 						"1.21834"
 					],
 					[
@@ -16336,7 +16346,7 @@
 					],
 					[
 						"9950.00",
-						"-0.00026095",
+						"-0.000260950",
 						"1.00000"
 					],
 					[
@@ -16651,7 +16661,7 @@
 					],
 					[
 						"10076.0",
-						"-0.0075583",
+						"-0.00755830",
 						"1.00000"
 					],
 					[
@@ -17646,7 +17656,7 @@
 					],
 					[
 						"10474.0",
-						"-0.0076928",
+						"-0.00769280",
 						"1.00000"
 					],
 					[
@@ -18325,7 +18335,7 @@
 						"1.00000"
 					]
 				],
-				"source":"2"
+				"source":"3"
 			}
 		]
 	}

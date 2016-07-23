@@ -1,3407 +1,3406 @@
 {
 	"CSS081001:015422-061627":{
-		"schema":"https://github.com/astrocatalogs/sne/blob/07f1aa00c396ea7c98a76b8de18028285b2e7b14/OSC-JSON-format.md",
+		"schema":"https://github.com/astrocatalogs/astrocats/blob/aaf96e3b3fbcf703610b756295a7120ec1ecc3f7/OSC-JSON-format.md",
 		"name":"CSS081001:015422-061627",
 		"sources":[
 			{
-				"name":"CRTS SN page",
-				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
 				"alias":"1"
 			},
 			{
-				"name":"Latest Supernovae",
-				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"2",
-				"secondary":true
+				"name":"Catalina Sky Survey",
+				"bibcode":"2009ApJ...696..870D",
+				"reference":"Drake et al. (2009)",
+				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
+				"alias":"2"
 			},
 			{
-				"name":"Catalina Sky Survey",
+				"name":"CRTS SN page",
 				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
-				"bibcode":"2009ApJ...696..870D",
-				"alias":"3",
-				"reference":"Drake et al. (2009)"
+				"alias":"3"
+			},
+			{
+				"name":"Latest Supernovae",
+				"secondary":true,
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"4"
 			},
 			{
 				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"4",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
-			},
-			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"alias":"5",
-				"reference":"Schlafly & Finkbeiner (2011)"
+				"url":"https://sne.space",
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"CSS081001:015422-061627",
-				"source":"1,2,3"
+				"source":"2,3,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"-06:16:26.7",
-				"source":"1,2",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"3,4"
 			},
 			{
 				"value":"-06:16:26.652",
-				"source":"3",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"2"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2008/10/01",
-				"source":"1,2"
+				"source":"3,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"CRTS",
-				"source":"1,2"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0206",
-				"error":"0.0003",
-				"source":"4,5",
-				"derived":true
+				"derived":true,
+				"e_value":"0.0003",
+				"source":"1,5"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.09",
-				"source":"3,4",
-				"derived":true
+				"derived":true,
+				"source":"2,5"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"3,4",
-				"derived":true
+				"derived":true,
+				"source":"2,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2008/10/01",
-				"source":"3,4",
-				"derived":true
+				"derived":true,
+				"source":"2,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"01:54:22.02",
-				"source":"1,2",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"3,4"
 			},
 			{
 				"value":"01:54:22.032",
-				"source":"3",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"2"
 			}
 		],
 		"photometry":[
 			{
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.5",
 				"e_magnitude":"1.0",
 				"host":true,
+				"magnitude":"19.5",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"53329.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3927",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.3927",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53329.480003",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.9069",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.9069",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53329.520004",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.041201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.041201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53329.560005",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.583401",
 				"e_magnitude":"0.165363",
 				"includeshost":true,
+				"magnitude":"19.583401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53389.439987",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.185699",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.185699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53389.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.143",
 				"e_magnitude":"0.135635",
 				"includeshost":true,
+				"magnitude":"19.143",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53389.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.6943",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.6943",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53626.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.924101",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.924101",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53651.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9505",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.9505",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53651.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4116",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.4116",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53651.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.420601",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.420601",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53651.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.799299",
 				"e_magnitude":"0.249262",
 				"includeshost":true,
+				"magnitude":"20.799299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53667.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4065",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.4065",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53667.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4317",
 				"e_magnitude":"0.200219",
 				"includeshost":true,
+				"magnitude":"20.4317",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53667.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.392799",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.392799",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53667.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3694",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.3694",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53677.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.421",
 				"e_magnitude":"0.128826",
 				"includeshost":true,
+				"magnitude":"19.421",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53677.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.660299",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.660299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53677.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.784901",
 				"e_magnitude":"0.152013",
 				"includeshost":true,
+				"magnitude":"19.784901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53677.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6507",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6507",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53704.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6402",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6402",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53704.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.636801",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.636801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53704.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.615601",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.615601",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53704.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.3645",
 				"e_magnitude":"0.124622",
 				"includeshost":true,
+				"magnitude":"19.3645",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53710.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5753",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5753",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53710.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.549999",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.549999",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53710.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5445",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5445",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53710.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.488199",
 				"e_magnitude":"0.128529",
 				"includeshost":true,
+				"magnitude":"19.488199",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53733.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4233",
 				"e_magnitude":"0.197541",
 				"includeshost":true,
+				"magnitude":"20.4233",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53733.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.231899",
 				"e_magnitude":"0.180845",
 				"includeshost":true,
+				"magnitude":"20.231899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53733.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4508",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.4508",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53733.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.4783",
 				"e_magnitude":"0.129032",
 				"includeshost":true,
+				"magnitude":"19.4783",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53742.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.190201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.190201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53742.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9175",
 				"e_magnitude":"0.157147",
 				"includeshost":true,
+				"magnitude":"19.9175",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53742.519989",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0963",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.0963",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53742.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1336",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.1336",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53767.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3978",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.3978",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53767.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.135599",
 				"e_magnitude":"0.177936",
 				"includeshost":true,
+				"magnitude":"20.135599",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53767.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0508",
 				"e_magnitude":"0.171071",
 				"includeshost":true,
+				"magnitude":"20.0508",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53767.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.334299",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.334299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"53997.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.083099",
 				"e_magnitude":"0.159406",
 				"includeshost":true,
+				"magnitude":"20.083099",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53997.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3248",
 				"e_magnitude":"0.177609",
 				"includeshost":true,
+				"magnitude":"20.3248",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53997.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.4459",
 				"e_magnitude":"0.119838",
 				"includeshost":true,
+				"magnitude":"19.4459",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"53997.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.984301",
 				"e_magnitude":"0.152956",
 				"includeshost":true,
+				"magnitude":"19.984301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54004.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.620501",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.620501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54004.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.649099",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.649099",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54004.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.264099",
 				"e_magnitude":"0.111786",
 				"includeshost":true,
+				"magnitude":"19.264099",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54004.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.107599",
 				"e_magnitude":"0.162884",
 				"includeshost":true,
+				"magnitude":"20.107599",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54010.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6964",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6964",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54010.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.111",
 				"e_magnitude":"0.165912",
 				"includeshost":true,
+				"magnitude":"20.111",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54010.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.053699",
 				"e_magnitude":"0.160156",
 				"includeshost":true,
+				"magnitude":"20.053699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54010.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4818",
 				"e_magnitude":"0.195007",
 				"includeshost":true,
+				"magnitude":"20.4818",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54025.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2651",
 				"e_magnitude":"0.17493",
 				"includeshost":true,
+				"magnitude":"20.2651",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54025.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5424",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5424",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54025.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4711",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.4711",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54025.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5238",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5238",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54056.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.148001",
 				"e_magnitude":"0.164194",
 				"includeshost":true,
+				"magnitude":"20.148001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54056.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.559099",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.559099",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54056.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5872",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5872",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54056.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.704901",
 				"e_magnitude":"0.211355",
 				"includeshost":true,
+				"magnitude":"20.704901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54062.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"21.029499",
 				"e_magnitude":"0.245047",
 				"includeshost":true,
+				"magnitude":"21.029499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54062.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5818",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5818",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54062.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.586901",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.586901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54062.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.049299",
 				"e_magnitude":"0.158381",
 				"includeshost":true,
+				"magnitude":"20.049299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54085.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3417",
 				"e_magnitude":"0.203951",
 				"includeshost":true,
+				"magnitude":"20.3417",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54085.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.323299",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.323299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54085.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7836",
 				"e_magnitude":"0.24577",
 				"includeshost":true,
+				"magnitude":"20.7836",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54085.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.352301",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.352301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54091.440002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.456301",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.456301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54091.480042",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.504601",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.504601",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54091.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5306",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5306",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54091.559998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5103",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5103",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54355.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.8461",
 				"e_magnitude":"0.230181",
 				"includeshost":true,
+				"magnitude":"20.8461",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54355.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.57",
 				"e_magnitude":"0.20424",
 				"includeshost":true,
+				"magnitude":"20.57",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54355.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.824699",
 				"e_magnitude":"0.145377",
 				"includeshost":true,
+				"magnitude":"19.824699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54355.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.497299",
 				"e_magnitude":"0.197805",
 				"includeshost":true,
+				"magnitude":"20.497299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54384.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6236",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6236",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54384.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.632299",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.632299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54384.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.616699",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.616699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54384.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.648001",
 				"e_magnitude":"0.20821",
 				"includeshost":true,
+				"magnitude":"20.648001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54388.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.3332",
 				"e_magnitude":"0.115976",
 				"includeshost":true,
+				"magnitude":"19.3332",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54388.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0306",
 				"e_magnitude":"0.158688",
 				"includeshost":true,
+				"magnitude":"20.0306",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54388.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.469999",
 				"e_magnitude":"0.193441",
 				"includeshost":true,
+				"magnitude":"20.469999",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54388.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.736799",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.736799",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54406.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3039",
 				"e_magnitude":"0.179822",
 				"includeshost":true,
+				"magnitude":"20.3039",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54406.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.8778",
 				"e_magnitude":"0.148846",
 				"includeshost":true,
+				"magnitude":"19.8778",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54406.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2878",
 				"e_magnitude":"0.179037",
 				"includeshost":true,
+				"magnitude":"20.2878",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54406.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5816",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5816",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54415.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.502399",
 				"e_magnitude":"0.125965",
 				"includeshost":true,
+				"magnitude":"19.502399",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54415.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.822201",
 				"e_magnitude":"0.143476",
 				"includeshost":true,
+				"magnitude":"19.822201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54415.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.732599",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.732599",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54415.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.747499",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.747499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54422.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.9046",
 				"e_magnitude":"0.236449",
 				"includeshost":true,
+				"magnitude":"20.9046",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54422.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.464701",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.464701",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54422.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.521799",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.521799",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54422.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9522",
 				"e_magnitude":"0.154321",
 				"includeshost":true,
+				"magnitude":"19.9522",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54466.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5676",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5676",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54466.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5634",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5634",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54466.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5338",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5338",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54466.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2295",
 				"e_magnitude":"0.174235",
 				"includeshost":true,
+				"magnitude":"20.2295",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54483.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.775801",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.775801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54483.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1964",
 				"e_magnitude":"0.177854",
 				"includeshost":true,
+				"magnitude":"20.1964",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54483.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.4641",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.4641",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54483.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.7609",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.7609",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54503.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1238",
 				"e_magnitude":"0.167367",
 				"includeshost":true,
+				"magnitude":"20.1238",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54503.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.481899",
 				"e_magnitude":"0.195768",
 				"includeshost":true,
+				"magnitude":"20.481899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54503.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.400101",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.400101",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54503.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3923",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.3923",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54509.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.846201",
 				"e_magnitude":"0.150135",
 				"includeshost":true,
+				"magnitude":"19.846201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54509.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.087",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.087",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54509.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.091999",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.091999",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54509.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0214",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.0214",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"54730.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.3001",
 				"e_magnitude":"0.115494",
 				"includeshost":true,
+				"magnitude":"19.3001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54730.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.3545",
 				"e_magnitude":"0.118923",
 				"includeshost":true,
+				"magnitude":"19.3545",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54730.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.328899",
 				"e_magnitude":"0.117801",
 				"includeshost":true,
+				"magnitude":"19.328899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54730.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.018101",
 				"e_magnitude":"0.100957",
 				"includeshost":true,
+				"magnitude":"19.018101",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54739.5",
-				"u_time":"MJD",
 				"magnitude":"18.3",
-				"source":"1,2"
+				"u_time":"MJD",
+				"source":"3,4"
 			},
 			{
 				"time":"54740.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.233801",
 				"e_magnitude":"0.074412",
 				"includeshost":true,
+				"magnitude":"18.233801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54740.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.4202",
 				"e_magnitude":"0.080466",
 				"includeshost":true,
+				"magnitude":"18.4202",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54740.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.088499",
 				"e_magnitude":"0.068753",
 				"includeshost":true,
+				"magnitude":"18.088499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54740.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.335501",
 				"e_magnitude":"0.077923",
 				"includeshost":true,
+				"magnitude":"18.335501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54748.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.5366",
 				"e_magnitude":"0.080386",
 				"includeshost":true,
+				"magnitude":"18.5366",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54748.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.568501",
 				"e_magnitude":"0.081176",
 				"includeshost":true,
+				"magnitude":"18.568501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54748.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.402399",
 				"e_magnitude":"0.076189",
 				"includeshost":true,
+				"magnitude":"18.402399",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54748.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.5331",
 				"e_magnitude":"0.081023",
 				"includeshost":true,
+				"magnitude":"18.5331",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54765.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.496901",
 				"e_magnitude":"0.079099",
 				"includeshost":true,
+				"magnitude":"18.496901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54765.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.5158",
 				"e_magnitude":"0.078481",
 				"includeshost":true,
+				"magnitude":"18.5158",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54765.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.474001",
 				"e_magnitude":"0.07786",
 				"includeshost":true,
+				"magnitude":"18.474001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54765.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.427",
 				"e_magnitude":"0.076032",
 				"includeshost":true,
+				"magnitude":"18.427",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54772.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.423901",
 				"e_magnitude":"0.077122",
 				"includeshost":true,
+				"magnitude":"18.423901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54772.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.6103",
 				"e_magnitude":"0.084423",
 				"includeshost":true,
+				"magnitude":"18.6103",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54772.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.4401",
 				"e_magnitude":"0.07927",
 				"includeshost":true,
+				"magnitude":"18.4401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54772.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.851601",
 				"e_magnitude":"0.09395",
 				"includeshost":true,
+				"magnitude":"18.851601",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54790.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.5201",
 				"e_magnitude":"0.079599",
 				"includeshost":true,
+				"magnitude":"18.5201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54790.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.1264",
 				"e_magnitude":"0.105513",
 				"includeshost":true,
+				"magnitude":"19.1264",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54790.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.061899",
 				"e_magnitude":"0.102319",
 				"includeshost":true,
+				"magnitude":"19.061899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54790.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.7153",
 				"e_magnitude":"0.088251",
 				"includeshost":true,
+				"magnitude":"18.7153",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54802.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.7363",
 				"e_magnitude":"0.095771",
 				"includeshost":true,
+				"magnitude":"18.7363",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54802.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.315001",
 				"e_magnitude":"0.120664",
 				"includeshost":true,
+				"magnitude":"19.315001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54802.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.8389",
 				"e_magnitude":"0.095441",
 				"includeshost":true,
+				"magnitude":"18.8389",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54802.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.7554",
 				"e_magnitude":"0.092972",
 				"includeshost":true,
+				"magnitude":"18.7554",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54831.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.3986",
 				"e_magnitude":"0.121362",
 				"includeshost":true,
+				"magnitude":"19.3986",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54831.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.306801",
 				"e_magnitude":"0.118793",
 				"includeshost":true,
+				"magnitude":"19.306801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54831.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.257099",
 				"e_magnitude":"0.111327",
 				"includeshost":true,
+				"magnitude":"19.257099",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"54831.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.104099",
 				"e_magnitude":"0.106785",
 				"includeshost":true,
+				"magnitude":"19.104099",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55060.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.342699",
 				"e_magnitude":"0.187602",
 				"includeshost":true,
+				"magnitude":"20.342699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55060.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.179199",
 				"e_magnitude":"0.11071",
 				"includeshost":true,
+				"magnitude":"19.179199",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55060.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.8351",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.8351",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55060.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.352301",
 				"e_magnitude":"0.188931",
 				"includeshost":true,
+				"magnitude":"20.352301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55090.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.074301",
 				"e_magnitude":"0.166938",
 				"includeshost":true,
+				"magnitude":"20.074301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55090.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.002199",
 				"e_magnitude":"0.160475",
 				"includeshost":true,
+				"magnitude":"20.002199",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55090.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.8022",
 				"e_magnitude":"0.232052",
 				"includeshost":true,
+				"magnitude":"20.8022",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55090.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.441999",
 				"e_magnitude":"0.197617",
 				"includeshost":true,
+				"magnitude":"20.441999",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55098.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.638901",
 				"e_magnitude":"0.215281",
 				"includeshost":true,
+				"magnitude":"20.638901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55098.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.603001",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.603001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55098.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.615",
 				"e_magnitude":"0.21567",
 				"includeshost":true,
+				"magnitude":"20.615",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55098.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.568501",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.568501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55119.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.8106",
 				"e_magnitude":"0.200571",
 				"includeshost":true,
+				"magnitude":"20.8106",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55119.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.8388",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.8388",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55119.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.131599",
 				"e_magnitude":"0.148941",
 				"includeshost":true,
+				"magnitude":"20.131599",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55119.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.8216",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.8216",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55131.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.222799",
 				"e_magnitude":"0.113435",
 				"includeshost":true,
+				"magnitude":"19.222799",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55131.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.7876",
 				"e_magnitude":"0.146426",
 				"includeshost":true,
+				"magnitude":"19.7876",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55131.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.9582",
 				"e_magnitude":"0.246796",
 				"includeshost":true,
+				"magnitude":"20.9582",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55131.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.130199",
 				"e_magnitude":"0.171435",
 				"includeshost":true,
+				"magnitude":"20.130199",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55146.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.609699",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.609699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55146.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3808",
 				"e_magnitude":"0.19243",
 				"includeshost":true,
+				"magnitude":"20.3808",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55146.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.652901",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.652901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55146.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6388",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6388",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55153.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.719801",
 				"e_magnitude":"0.222972",
 				"includeshost":true,
+				"magnitude":"20.719801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55153.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.686501",
 				"e_magnitude":"0.217252",
 				"includeshost":true,
+				"magnitude":"20.686501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55153.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.659201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.659201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55153.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.294901",
 				"e_magnitude":"0.182118",
 				"includeshost":true,
+				"magnitude":"20.294901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55180.440063",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1684",
 				"e_magnitude":"0.175059",
 				"includeshost":true,
+				"magnitude":"20.1684",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55180.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.321899",
 				"e_magnitude":"0.119762",
 				"includeshost":true,
+				"magnitude":"19.321899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55180.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.486",
 				"e_magnitude":"0.200531",
 				"includeshost":true,
+				"magnitude":"20.486",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55180.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2631",
 				"e_magnitude":"0.179963",
 				"includeshost":true,
+				"magnitude":"20.2631",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55476.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.161501",
 				"e_magnitude":"0.111458",
 				"includeshost":true,
+				"magnitude":"19.161501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55476.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.546",
 				"e_magnitude":"0.134554",
 				"includeshost":true,
+				"magnitude":"19.546",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55476.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.698799",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.698799",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55476.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.667101",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.667101",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55481.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6642",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6642",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55481.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7374",
 				"e_magnitude":"0.225391",
 				"includeshost":true,
+				"magnitude":"20.7374",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55481.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6737",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6737",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55481.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7201",
 				"e_magnitude":"0.223407",
 				"includeshost":true,
+				"magnitude":"20.7201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55488.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.015301",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.015301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55488.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0089",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.0089",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55488.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0555",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.0555",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55488.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.051201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.051201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55497.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.428499",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.428499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55497.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.653299",
 				"e_magnitude":"0.141224",
 				"includeshost":true,
+				"magnitude":"19.653299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55497.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.8181",
 				"e_magnitude":"0.15381",
 				"includeshost":true,
+				"magnitude":"19.8181",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55497.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.405001",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.405001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55501.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.7204",
 				"e_magnitude":"0.142769",
 				"includeshost":true,
+				"magnitude":"19.7204",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55501.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9631",
 				"e_magnitude":"0.161179",
 				"includeshost":true,
+				"magnitude":"19.9631",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55501.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.708401",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.708401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55501.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"18.5439",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"18.5439",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55508.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.252001",
 				"e_magnitude":"0.117386",
 				"includeshost":true,
+				"magnitude":"19.252001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55508.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0166",
 				"e_magnitude":"0.164002",
 				"includeshost":true,
+				"magnitude":"20.0166",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55508.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.557301",
 				"e_magnitude":"0.207989",
 				"includeshost":true,
+				"magnitude":"20.557301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55508.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.655899",
 				"e_magnitude":"0.138599",
 				"includeshost":true,
+				"magnitude":"19.655899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55516.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2192",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.2192",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55516.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7393",
 				"e_magnitude":"0.22772",
 				"includeshost":true,
+				"magnitude":"20.7393",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55516.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.253799",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.253799",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55516.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.698",
 				"e_magnitude":"0.222487",
 				"includeshost":true,
+				"magnitude":"20.698",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55536.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0546",
 				"e_magnitude":"0.168978",
 				"includeshost":true,
+				"magnitude":"20.0546",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55536.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.527201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.527201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55536.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5513",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5513",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55536.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4184",
 				"e_magnitude":"0.202845",
 				"includeshost":true,
+				"magnitude":"20.4184",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55544.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2556",
 				"e_magnitude":"0.184753",
 				"includeshost":true,
+				"magnitude":"20.2556",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55544.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.385201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.385201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55544.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.8883",
 				"e_magnitude":"0.15775",
 				"includeshost":true,
+				"magnitude":"19.8883",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55544.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.438801",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.438801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55590.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4575",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.4575",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55590.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.511299",
 				"e_magnitude":"0.218107",
 				"includeshost":true,
+				"magnitude":"20.511299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55590.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.022499",
 				"e_magnitude":"0.174723",
 				"includeshost":true,
+				"magnitude":"20.022499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55590.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.969801",
 				"e_magnitude":"0.17163",
 				"includeshost":true,
+				"magnitude":"19.969801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55600.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5256",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.5256",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55600.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7246",
 				"e_magnitude":"0.224503",
 				"includeshost":true,
+				"magnitude":"20.7246",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55600.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4984",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.4984",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55600.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.969299",
 				"e_magnitude":"0.160136",
 				"includeshost":true,
+				"magnitude":"19.969299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55828.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"21.2661",
 				"e_magnitude":"0.27671",
 				"includeshost":true,
+				"magnitude":"21.2661",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55828.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.6537",
 				"e_magnitude":"0.13479",
 				"includeshost":true,
+				"magnitude":"19.6537",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55828.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3002",
 				"e_magnitude":"0.180445",
 				"includeshost":true,
+				"magnitude":"20.3002",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55828.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.6364",
 				"e_magnitude":"0.133455",
 				"includeshost":true,
+				"magnitude":"19.6364",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55835.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.2015",
 				"e_magnitude":"0.11378",
 				"includeshost":true,
+				"magnitude":"19.2015",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55835.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4046",
 				"e_magnitude":"0.195768",
 				"includeshost":true,
+				"magnitude":"20.4046",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55835.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9002",
 				"e_magnitude":"0.155962",
 				"includeshost":true,
+				"magnitude":"19.9002",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55835.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6856",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6856",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55851.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0812",
 				"e_magnitude":"0.165669",
 				"includeshost":true,
+				"magnitude":"20.0812",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55851.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3967",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.3967",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55851.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.063999",
 				"e_magnitude":"0.16396",
 				"includeshost":true,
+				"magnitude":"20.063999",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55851.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1415",
 				"e_magnitude":"0.168581",
 				"includeshost":true,
+				"magnitude":"20.1415",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55861.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.068899",
 				"e_magnitude":"0.166534",
 				"includeshost":true,
+				"magnitude":"20.068899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55861.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0256",
 				"e_magnitude":"0.163789",
 				"includeshost":true,
+				"magnitude":"20.0256",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55861.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.555599",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.555599",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55861.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"21.024401",
 				"e_magnitude":"0.25606",
 				"includeshost":true,
+				"magnitude":"21.024401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55868.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.615601",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.615601",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55868.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6591",
 				"e_magnitude":"0.190857",
 				"includeshost":true,
+				"magnitude":"20.6591",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55868.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.371",
 				"e_magnitude":"0.105369",
 				"includeshost":true,
+				"magnitude":"19.371",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55868.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.5145",
 				"e_magnitude":"0.113464",
 				"includeshost":true,
+				"magnitude":"19.5145",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55882.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.5154",
 				"e_magnitude":"0.200531",
 				"includeshost":true,
+				"magnitude":"20.5154",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"55882.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.778601",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.778601",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55882.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.728201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.728201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"55882.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.202299",
 				"e_magnitude":"0.174259",
 				"includeshost":true,
+				"magnitude":"20.202299",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56189.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"21.290501",
 				"e_magnitude":"0.292474",
 				"includeshost":true,
+				"magnitude":"21.290501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56189.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.502501",
 				"e_magnitude":"0.131684",
 				"includeshost":true,
+				"magnitude":"19.502501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56189.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.791201",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.791201",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56189.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.295",
 				"e_magnitude":"0.188441",
 				"includeshost":true,
+				"magnitude":"20.295",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56196.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9195",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.9195",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56196.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9484",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.9484",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56196.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.933001",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.933001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56196.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.7465",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.7465",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56301.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2106",
 				"e_magnitude":"0.177258",
 				"includeshost":true,
+				"magnitude":"20.2106",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56301.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.822901",
 				"e_magnitude":"0.149198",
 				"includeshost":true,
+				"magnitude":"19.822901",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56301.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.944401",
 				"e_magnitude":"0.158514",
 				"includeshost":true,
+				"magnitude":"19.944401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56301.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7938",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.7938",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56540.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9611",
 				"e_magnitude":"0.169164",
 				"includeshost":true,
+				"magnitude":"19.9611",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56540.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.459499",
 				"e_magnitude":"0.134896",
 				"includeshost":true,
+				"magnitude":"19.459499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56540.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.808599",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.808599",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56540.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.3256",
 				"e_magnitude":"0.198867",
 				"includeshost":true,
+				"magnitude":"20.3256",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56548.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"17.9634",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"17.9634",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56548.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.814301",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.814301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56548.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9613",
 				"e_magnitude":"0.170275",
 				"includeshost":true,
+				"magnitude":"19.9613",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56548.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.583401",
 				"e_magnitude":"0.143447",
 				"includeshost":true,
+				"magnitude":"19.583401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56570.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9347",
 				"e_magnitude":"0.157429",
 				"includeshost":true,
+				"magnitude":"19.9347",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56570.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"21.1698",
 				"e_magnitude":"0.272135",
 				"includeshost":true,
+				"magnitude":"21.1698",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56570.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4907",
 				"e_magnitude":"0.201123",
 				"includeshost":true,
+				"magnitude":"20.4907",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56570.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.550699",
 				"e_magnitude":"0.205961",
 				"includeshost":true,
+				"magnitude":"20.550699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56577.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.65",
 				"e_magnitude":"0.219953",
 				"includeshost":true,
+				"magnitude":"20.65",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56577.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.5847",
 				"e_magnitude":"0.135827",
 				"includeshost":true,
+				"magnitude":"19.5847",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56577.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.5937",
 				"e_magnitude":"0.136069",
 				"includeshost":true,
+				"magnitude":"19.5937",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56577.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.884199",
 				"e_magnitude":"0.155414",
 				"includeshost":true,
+				"magnitude":"19.884199",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56597.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"21.1896",
 				"e_magnitude":"0.275878",
 				"includeshost":true,
+				"magnitude":"21.1896",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56597.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7882",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.7882",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56597.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7913",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.7913",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56597.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.794001",
 				"e_magnitude":"0.146745",
 				"includeshost":true,
+				"magnitude":"19.794001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56605.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.266199",
 				"e_magnitude":"0.11677",
 				"includeshost":true,
+				"magnitude":"19.266199",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56605.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.456301",
 				"e_magnitude":"0.12759",
 				"includeshost":true,
+				"magnitude":"19.456301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56605.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7211",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.7211",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56605.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.014999",
 				"e_magnitude":"0.164216",
 				"includeshost":true,
+				"magnitude":"20.014999",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56656.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.4147",
 				"e_magnitude":"0.196723",
 				"includeshost":true,
+				"magnitude":"20.4147",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56656.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.515499",
 				"e_magnitude":"0.131289",
 				"includeshost":true,
+				"magnitude":"19.515499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56656.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.754",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.754",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56656.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.047899",
 				"e_magnitude":"0.167097",
 				"includeshost":true,
+				"magnitude":"20.047899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56669.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0116",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.0116",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56669.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.004499",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.004499",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56669.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.7076",
 				"e_magnitude":"0.146336",
 				"includeshost":true,
+				"magnitude":"19.7076",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56669.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9349",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"19.9349",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56914.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.353001",
 				"e_magnitude":"0.121293",
 				"includeshost":true,
+				"magnitude":"19.353001",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56914.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.372",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.372",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56914.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.382401",
 				"e_magnitude":"0.192707",
 				"includeshost":true,
+				"magnitude":"20.382401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56914.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.366301",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.366301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56962.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.227699",
 				"e_magnitude":"0.179822",
 				"includeshost":true,
+				"magnitude":"20.227699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56962.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.794399",
 				"e_magnitude":"0.148026",
 				"includeshost":true,
+				"magnitude":"19.794399",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56962.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.047899",
 				"e_magnitude":"0.105655",
 				"includeshost":true,
+				"magnitude":"19.047899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56962.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.8396",
 				"e_magnitude":"0.151058",
 				"includeshost":true,
+				"magnitude":"19.8396",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56979.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.048401",
 				"e_magnitude":"0.165934",
 				"includeshost":true,
+				"magnitude":"20.048401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56979.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9755",
 				"e_magnitude":"0.160595",
 				"includeshost":true,
+				"magnitude":"19.9755",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"56979.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.557501",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.557501",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"56979.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.564199",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.564199",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"57297.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0002",
 				"e_magnitude":"0.160775",
 				"includeshost":true,
+				"magnitude":"20.0002",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57297.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.251801",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.251801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"57297.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.747101",
 				"e_magnitude":"0.222918",
 				"includeshost":true,
+				"magnitude":"20.747101",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57297.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.553301",
 				"e_magnitude":"0.131607",
 				"includeshost":true,
+				"magnitude":"19.553301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57304.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.668699",
 				"e_magnitude":"0.139441",
 				"includeshost":true,
+				"magnitude":"19.668699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57304.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.931801",
 				"e_magnitude":"0.157391",
 				"includeshost":true,
+				"magnitude":"19.931801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57304.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.525101",
 				"e_magnitude":"0.204782",
 				"includeshost":true,
+				"magnitude":"20.525101",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57304.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.6763",
 				"e_magnitude":"0.140323",
 				"includeshost":true,
+				"magnitude":"19.6763",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57328.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.715",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.715",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"57328.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.178301",
 				"e_magnitude":"0.171411",
 				"includeshost":true,
+				"magnitude":"20.178301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57328.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.678101",
 				"e_magnitude":"0.21567",
 				"includeshost":true,
+				"magnitude":"20.678101",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57328.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1464",
 				"e_magnitude":"0.169943",
 				"includeshost":true,
+				"magnitude":"20.1464",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57334.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.744699",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.744699",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"57334.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1938",
 				"e_magnitude":"0.173547",
 				"includeshost":true,
+				"magnitude":"20.1938",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57334.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.505301",
 				"e_magnitude":"0.199289",
 				"includeshost":true,
+				"magnitude":"20.505301",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57334.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.2113",
 				"e_magnitude":"0.175163",
 				"includeshost":true,
+				"magnitude":"20.2113",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57340.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.4013",
 				"e_magnitude":"0.121499",
 				"includeshost":true,
+				"magnitude":"19.4013",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57340.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.8738",
 				"e_magnitude":"0.151075",
 				"includeshost":true,
+				"magnitude":"19.8738",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57340.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.996401",
 				"e_magnitude":"0.159562",
 				"includeshost":true,
+				"magnitude":"19.996401",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57340.559814",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.934",
 				"e_magnitude":"0.155252",
 				"includeshost":true,
+				"magnitude":"19.934",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57359.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"19.9447",
 				"e_magnitude":"0.154801",
 				"includeshost":true,
+				"magnitude":"19.9447",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57359.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.0658",
 				"e_magnitude":"0.162864",
 				"includeshost":true,
+				"magnitude":"20.0658",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57359.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.7512",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.7512",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"57359.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.468599",
 				"e_magnitude":"0.194972",
 				"includeshost":true,
+				"magnitude":"20.468599",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57372.439941",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.6882",
-				"upperlimit":true,
 				"includeshost":true,
+				"magnitude":"20.6882",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"57372.47998",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.1775",
 				"e_magnitude":"0.172295",
 				"includeshost":true,
+				"magnitude":"20.1775",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57372.52002",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.417801",
 				"e_magnitude":"0.19205",
 				"includeshost":true,
+				"magnitude":"20.417801",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":"57372.560059",
-				"u_time":"MJD",
 				"band":"C",
-				"magnitude":"20.408899",
 				"e_magnitude":"0.191095",
 				"includeshost":true,
+				"magnitude":"20.408899",
 				"telescope":"Catalina Schmidt",
-				"source":"3"
+				"u_time":"MJD",
+				"source":"2"
 			}
 		]
 	}

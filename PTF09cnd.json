@@ -1,678 +1,680 @@
 {
 	"PTF09cnd":{
-		"schema":"https://github.com/astrocatalogs/sne/blob/07f1aa00c396ea7c98a76b8de18028285b2e7b14/OSC-JSON-format.md",
+		"schema":"https://github.com/astrocatalogs/astrocats/blob/aaf96e3b3fbcf703610b756295a7120ec1ecc3f7/OSC-JSON-format.md",
 		"name":"PTF09cnd",
 		"sources":[
 			{
-				"name":"SIMBAD astronomical database",
-				"url":"http://simbad.u-strasbg.fr/",
-				"bibcode":"2000A&AS..143....9W",
-				"alias":"1",
-				"secondary":true,
-				"reference":"Wenger et al. (2000)"
-			},
-			{
-				"name":"2011ApJ...727...15N",
-				"bibcode":"2011ApJ...727...15N",
-				"alias":"2",
-				"reference":"Neill et al. (2011)"
-			},
-			{
-				"name":"2014ApJ...796...87I",
-				"bibcode":"2014ApJ...796...87I",
-				"alias":"3",
-				"reference":"Inserra & Smartt (2014)"
-			},
-			{
-				"name":"2011Natur.474..484Q",
-				"bibcode":"2011Natur.474..484Q",
-				"alias":"4",
-				"reference":"Quimby et al. (2011)"
-			},
-			{
-				"name":"ATel 2241",
-				"url":"http://www.astronomerstelegram.org/?read=2241",
-				"bibcode":"2009ATel.2241....1C",
-				"alias":"5",
-				"reference":"Chandra et al. (2009)"
-			},
-			{
-				"name":"Latest Supernovae",
-				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
-				"secondary":true
-			},
-			{
-				"name":"2012PASP..124..668Y",
-				"bibcode":"2012PASP..124..668Y",
-				"alias":"7",
-				"reference":"Yaron & Gal-Yam (2012)"
-			},
-			{
 				"name":"2016arXiv160408207P",
 				"bibcode":"2016arXiv160408207P",
-				"alias":"8",
-				"reference":"Perley et al. (2016)"
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
-				"alias":"9",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
-			},
-			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"alias":"10",
-				"reference":"Schlafly & Finkbeiner (2011)"
+				"reference":"Perley et al. (2016)",
+				"alias":"1"
 			},
 			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
-				"alias":"11",
-				"reference":"Planck Collaboration et al. (2015)"
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"2"
+			},
+			{
+				"name":"2014ApJ...796...87I",
+				"bibcode":"2014ApJ...796...87I",
+				"reference":"Inserra & Smartt (2014)",
+				"alias":"3"
+			},
+			{
+				"name":"2012PASP..124..668Y",
+				"bibcode":"2012PASP..124..668Y",
+				"reference":"Yaron & Gal-Yam (2012)",
+				"alias":"4"
+			},
+			{
+				"name":"2011ApJ...727...15N",
+				"bibcode":"2011ApJ...727...15N",
+				"reference":"Neill et al. (2011)",
+				"alias":"5"
+			},
+			{
+				"name":"2011Natur.474..484Q",
+				"bibcode":"2011Natur.474..484Q",
+				"reference":"Quimby et al. (2011)",
+				"alias":"6"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"7"
+			},
+			{
+				"name":"ATel 2241",
+				"bibcode":"2009ATel.2241....1C",
+				"reference":"Chandra et al. (2009)",
+				"url":"http://www.astronomerstelegram.org/?read=2241",
+				"alias":"8"
+			},
+			{
+				"name":"Latest Supernovae",
+				"secondary":true,
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"9"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"10"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"PTF09cnd",
-				"source":"1,4,5,6,7,8"
+				"source":"1,4,6,8,9,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"SLSN-I",
-				"source":"8,7"
+				"source":"1,4"
 			},
 			{
 				"value":"Ic",
-				"source":"1,3"
+				"source":"3,11"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"1073",
-				"source":"11,8,9",
-				"unit":"Mpc",
-				"derived":true
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,10"
 			}
 		],
 		"dec":[
 			{
 				"value":"+51:29:16.1",
-				"source":"1,2",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"5,11"
 			},
 			{
 				"value":"+51:29:16.0",
-				"source":"5,6",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"8,9"
 			},
 			{
 				"value":"+51:29:16.01",
-				"source":"8",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2009/08/07",
-				"source":"5,6"
+				"source":"8,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"PTF",
-				"source":"5,6"
+				"source":"8,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0207",
-				"error":"0.0007",
-				"source":"10,9",
-				"derived":true
+				"derived":true,
+				"e_value":"0.0007",
+				"source":"7,10"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"1350",
-				"source":"11,8,9",
+				"derived":true,
 				"kind":"spectroscopic",
-				"unit":"Mpc",
-				"derived":true
+				"u_value":"Mpc",
+				"source":"1,2,10"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-22.18",
-				"source":"11,8,9",
-				"derived":true
+				"derived":true,
+				"source":"1,2,10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.47",
-				"source":"4,9",
-				"derived":true
+				"derived":true,
+				"source":"6,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"4,9",
-				"derived":true
+				"derived":true,
+				"source":"6,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2009/09/10",
-				"source":"8"
+				"source":"1"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:12:08.94",
-				"source":"1,2",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"5,11"
 			},
 			{
 				"value":"16:12:08.96",
-				"source":"5,6",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"8,9"
 			},
 			{
 				"value":"16:12:08.839",
-				"source":"8",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.2584",
-				"source":"8",
-				"kind":"spectroscopic"
+				"kind":"spectroscopic",
+				"source":"1"
 			}
 		],
 		"velocity":[
 			{
 				"value":"67720",
-				"source":"8,9",
 				"kind":"spectroscopic",
-				"unit":"km/s",
-				"derived":true
+				"u_value":"km/s",
+				"source":"10"
 			}
 		],
 		"photometry":[
 			{
 				"time":"55025.391",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"20.63",
 				"e_magnitude":"0.21",
+				"magnitude":"20.63",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55035.273",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"20.33",
 				"e_magnitude":"0.09",
+				"magnitude":"20.33",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55049.281",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"19.06",
 				"e_magnitude":"0.08",
+				"magnitude":"19.06",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55049.5",
-				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"5,6"
+				"u_time":"MJD",
+				"source":"8,9"
 			},
 			{
 				"time":"55052.301",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.95",
 				"e_magnitude":"0.05",
+				"magnitude":"18.95",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55054.347",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.84",
 				"e_magnitude":"0.04",
+				"magnitude":"18.84",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55056.273",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.79",
 				"e_magnitude":"0.03",
+				"magnitude":"18.79",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55059.151",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.64",
 				"e_magnitude":"0.02",
+				"magnitude":"18.64",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55059.153",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.62",
 				"e_magnitude":"0.02",
+				"magnitude":"18.62",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55060.201",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.58",
 				"e_magnitude":"0.02",
+				"magnitude":"18.58",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55060.204",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.59",
 				"e_magnitude":"0.01",
+				"magnitude":"18.59",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55061.155",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.57",
 				"e_magnitude":"0.01",
+				"magnitude":"18.57",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55061.158",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.57",
 				"e_magnitude":"0.01",
+				"magnitude":"18.57",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55061.289",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.65",
 				"e_magnitude":"0.03",
+				"magnitude":"18.65",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55062.149",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.52",
 				"e_magnitude":"0.01",
+				"magnitude":"18.52",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55062.151",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.54",
 				"e_magnitude":"0.01",
+				"magnitude":"18.54",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55062.164",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.66",
 				"e_magnitude":"0.03",
+				"magnitude":"18.66",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55063.148",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.51",
 				"e_magnitude":"0.01",
+				"magnitude":"18.51",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55063.15",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.53",
 				"e_magnitude":"0.01",
+				"magnitude":"18.53",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55064.146",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.49",
 				"e_magnitude":"0.01",
+				"magnitude":"18.49",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55064.148",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.48",
 				"e_magnitude":"0.01",
+				"magnitude":"18.48",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55066.145",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.47",
 				"e_magnitude":"0.02",
+				"magnitude":"18.47",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55066.147",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.46",
 				"e_magnitude":"0.01",
+				"magnitude":"18.46",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55067.144",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.43",
 				"e_magnitude":"0.01",
+				"magnitude":"18.43",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55067.146",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.44",
 				"e_magnitude":"0.01",
+				"magnitude":"18.44",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55067.246",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.45",
 				"e_magnitude":"0.02",
+				"magnitude":"18.45",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55068.143",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.41",
 				"e_magnitude":"0.01",
+				"magnitude":"18.41",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55068.145",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.41",
 				"e_magnitude":"0.01",
+				"magnitude":"18.41",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55069.142",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.39",
 				"e_magnitude":"0.01",
+				"magnitude":"18.39",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55069.145",
-				"u_time":"MJD",
 				"band":"r",
-				"magnitude":"18.38",
 				"e_magnitude":"0.01",
+				"magnitude":"18.38",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55081.75",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.29",
 				"e_magnitude":"0.04",
+				"magnitude":"18.29",
 				"telescope":"Wise",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55084.227",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.39",
 				"e_magnitude":"0.03",
+				"magnitude":"18.39",
 				"telescope":"P48",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55089.713",
-				"u_time":"MJD",
 				"band":"R",
-				"magnitude":"18.09",
 				"e_magnitude":"0.03",
+				"magnitude":"18.09",
 				"telescope":"Wise",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55098.715",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"18.47",
 				"e_magnitude":"0.09",
+				"magnitude":"18.47",
 				"telescope":"Wise",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55107.18",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"18.57",
 				"e_magnitude":"0.07",
+				"magnitude":"18.57",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55117.675",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"18.93",
 				"e_magnitude":"0.04",
+				"magnitude":"18.93",
 				"telescope":"Wise",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55123.147",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"18.95",
 				"e_magnitude":"0.04",
+				"magnitude":"18.95",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55124.113",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"18.98",
 				"e_magnitude":"0.06",
+				"magnitude":"18.98",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55128.5",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"19.24",
 				"e_magnitude":"0.08",
+				"magnitude":"19.24",
 				"telescope":"Wise",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55133.5",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"19.37",
 				"e_magnitude":"0.14",
+				"magnitude":"19.37",
 				"telescope":"Wise",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55137.135",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"19.28",
 				"e_magnitude":"0.17",
+				"magnitude":"19.28",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55138.084",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"19.68",
 				"e_magnitude":"0.14",
+				"magnitude":"19.68",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55142.11",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"19.64",
 				"e_magnitude":"0.09",
+				"magnitude":"19.64",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55145.5",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"19.81",
 				"e_magnitude":"0.06",
+				"magnitude":"19.81",
 				"telescope":"Wise",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55181.51",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"20.23",
 				"e_magnitude":"0.34",
+				"magnitude":"20.23",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55183.508",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"20.75",
 				"e_magnitude":"0.14",
+				"magnitude":"20.75",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55185.498",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"20.27",
 				"e_magnitude":"0.31",
+				"magnitude":"20.27",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55189.49",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"21.25",
 				"e_magnitude":"0.36",
+				"magnitude":"21.25",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55192.479",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"20.96",
 				"e_magnitude":"0.29",
+				"magnitude":"20.96",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55201.484",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"21.31",
 				"e_magnitude":"0.36",
+				"magnitude":"21.31",
 				"telescope":"P60",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			},
 			{
 				"time":"55267.572",
-				"u_time":"MJD",
 				"band":"B",
-				"magnitude":"23.32",
 				"e_magnitude":"0.04",
+				"magnitude":"23.32",
 				"telescope":"Keck",
-				"source":"4"
+				"u_time":"MJD",
+				"source":"6"
 			}
 		],
 		"spectra":[
 			{
-				"instrument":"Keck1 - LRIS",
-				"u_time":"MJD",
 				"time":"55068.0",
-				"observer":"Kasliwal, Arcavi, Mishra",
-				"reducer":"Robert Quimby",
 				"filename":"PTF09cnd_20090825_keck.dat",
-				"waveunit":"Angstrom",
-				"fluxunit":"erg/s/cm^2/Angstrom",
+				"instrument":"Keck1 - LRIS",
+				"observer":"Kasliwal, Arcavi, Mishra",
+				"redshift":"0.258",
+				"reducer":"Robert Quimby",
+				"reduction":"final",
+				"survey":"PTF",
+				"u_fluxes":"erg/s/cm^2/Angstrom",
+				"u_time":"MJD",
+				"u_wavelengths":"Angstrom",
 				"data":[
 					[
 						"3041.0931",
@@ -27855,17 +27857,20 @@
 						"4.8770441e-17"
 					]
 				],
-				"source":"4,7"
+				"source":"4,6"
 			},
 			{
-				"instrument":"Keck1 - LRIS",
-				"u_time":"MJD",
 				"time":"55238.0",
-				"observer":"S. Kulkarni, S. Tendulkar, R. Quimby",
-				"reducer":"Robert Quimby",
 				"filename":"PTF09cnd_20100211_keck.dat",
-				"waveunit":"Angstrom",
-				"fluxunit":"erg/s/cm^2/Angstrom",
+				"instrument":"Keck1 - LRIS",
+				"observer":"S. Kulkarni, S. Tendulkar, R. Quimby",
+				"redshift":"0.258",
+				"reducer":"Robert Quimby",
+				"reduction":"final",
+				"survey":"PTF",
+				"u_fluxes":"erg/s/cm^2/Angstrom",
+				"u_time":"MJD",
+				"u_wavelengths":"Angstrom",
 				"data":[
 					[
 						"3039.1394",
@@ -54824,7 +54829,7 @@
 						"-5.6576682e-20"
 					]
 				],
-				"source":"4,7"
+				"source":"4,6"
 			}
 		]
 	}

@@ -1,269 +1,283 @@
 {
 	"SCP-06U4":{
-		"schema":"https://github.com/astrocatalogs/sne/blob/07f1aa00c396ea7c98a76b8de18028285b2e7b14/OSC-JSON-format.md",
+		"schema":"https://github.com/astrocatalogs/astrocats/blob/aaf96e3b3fbcf703610b756295a7120ec1ecc3f7/OSC-JSON-format.md",
 		"name":"SCP-06U4",
 		"sources":[
 			{
-				"name":"SIMBAD astronomical database",
-				"url":"http://simbad.u-strasbg.fr/",
-				"bibcode":"2000A&AS..143....9W",
-				"alias":"1",
-				"secondary":true,
-				"reference":"Wenger et al. (2000)"
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"1"
 			},
 			{
 				"name":"2012ApJ...745...32B",
 				"bibcode":"2012ApJ...745...32B",
-				"alias":"2",
-				"reference":"Barbary et al. (2012)"
+				"reference":"Barbary et al. (2012)",
+				"alias":"2"
 			},
 			{
 				"name":"2012ApJ...746...85S",
 				"bibcode":"2012ApJ...746...85S",
-				"alias":"3",
-				"reference":"Suzuki et al. (2012)"
-			},
-			{
-				"name":"Supernova Cosmology Project",
-				"url":"http://supernova.lbl.gov/2009ClusterSurvey/",
-				"alias":"4"
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
-				"alias":"5",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
+				"reference":"Suzuki et al. (2012)",
+				"alias":"3"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6",
-				"reference":"Schlafly & Finkbeiner (2011)"
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"4"
 			},
 			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
-				"alias":"7",
-				"reference":"Planck Collaboration et al. (2015)"
+				"name":"Supernova Cosmology Project",
+				"url":"http://supernova.lbl.gov/2009ClusterSurvey/",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"SCP-06U4",
-				"source":"1,3,4"
+				"source":"3,5,7"
 			},
 			{
 				"value":"Julia",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4"
+				"source":"2,3,7"
+			},
+			{
+				"value":"Ia",
+				"kind":"spectroscopic/light curve",
+				"source":"5"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"3520",
-				"source":"3,5,7",
-				"unit":"Mpc",
-				"derived":true
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,3,6"
 			}
 		],
 		"dec":[
 			{
 				"value":"-36:32:45.73",
-				"source":"1,2",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"2,7"
 			},
 			{
 				"value":"-36:32:45.75",
-				"source":"3",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"3"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2006/07/23",
-				"source":"3,5",
-				"derived":true
+				"derived":true,
+				"source":"3,6"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0117",
-				"error":"0.0001",
-				"source":"5,6",
-				"derived":true
+				"derived":true,
+				"e_value":"0.0001",
+				"source":"4,6"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"7210",
-				"source":"3,5,7",
+				"derived":true,
 				"kind":"spectroscopic",
-				"unit":"Mpc",
-				"derived":true
+				"u_value":"Mpc",
+				"source":"1,3,6"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-20.6",
-				"source":"3,5,7",
-				"derived":true
+				"derived":true,
+				"source":"1,3,6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"23.71",
-				"source":"3,5",
-				"derived":true
+				"derived":true,
+				"source":"3,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"F850LP",
-				"source":"3,5",
-				"derived":true
+				"derived":true,
+				"source":"3,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/07/23",
-				"source":"3,5",
-				"derived":true
+				"derived":true,
+				"source":"3,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:45:29.429",
-				"source":"1,2",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"2,7"
 			},
 			{
 				"value":"23:45:29.430",
-				"source":"3",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"1.05",
-				"source":"3",
-				"kind":"spectroscopic"
+				"kind":"spectroscopic",
+				"source":"3"
+			},
+			{
+				"value":"1.05",
+				"kind":"host",
+				"source":"5"
+			},
+			{
+				"value":"1.05",
+				"kind":"cluster",
+				"source":"5"
 			}
 		],
 		"velocity":[
 			{
 				"value":"185000",
-				"source":"3,5",
 				"kind":"spectroscopic",
-				"unit":"km/s",
-				"derived":true
+				"u_value":"km/s",
+				"source":"6"
 			}
 		],
 		"photometry":[
 			{
 				"time":"53939.617",
-				"u_time":"MJD",
 				"band":"F850LP",
-				"magnitude":"23.709",
 				"e_magnitude":"0.067561",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"23.709",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"53939.652",
-				"u_time":"MJD",
 				"band":"F775W",
-				"magnitude":"23.9094",
 				"e_magnitude":"0.0574871",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"23.9094",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"53954.707",
-				"u_time":"MJD",
 				"band":"F850LP",
-				"magnitude":"24.2059",
 				"e_magnitude":"0.111358",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"24.2059",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"53954.715",
-				"u_time":"MJD",
 				"band":"F775W",
-				"magnitude":"24.4799",
 				"e_magnitude":"0.072738",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"24.4799",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"53961.438",
-				"u_time":"MJD",
 				"band":"F110W",
-				"magnitude":"24.033",
 				"e_magnitude":"0.12352",
-				"telescope":"Hubble",
 				"instrument":"NICMOS",
+				"magnitude":"24.033",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"53966.863",
-				"u_time":"MJD",
 				"band":"F850LP",
-				"magnitude":"24.773",
 				"e_magnitude":"0.17076",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"24.773",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"53966.902",
-				"u_time":"MJD",
 				"band":"F775W",
-				"magnitude":"25.329",
 				"e_magnitude":"0.25696",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"25.329",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"54010.527",
-				"u_time":"MJD",
 				"band":"F850LP",
-				"magnitude":"27.44",
 				"e_magnitude":"1.391",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"27.44",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"54010.535",
-				"u_time":"MJD",
 				"band":"F775W",
-				"magnitude":"28.09",
 				"e_magnitude":"1.149",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"28.09",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			},
 			{
 				"time":"54045.418",
-				"u_time":"MJD",
 				"band":"F775W",
-				"magnitude":"27.86",
 				"e_magnitude":"0.9616",
-				"telescope":"Hubble",
 				"instrument":"ACS",
+				"magnitude":"27.86",
+				"telescope":"Hubble",
+				"u_time":"MJD",
 				"source":"3"
 			}
 		]
