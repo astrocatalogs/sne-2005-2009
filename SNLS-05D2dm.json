@@ -4,16 +4,22 @@
 		"name":"SNLS-05D2dm",
 		"sources":[
 			{
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2006AJ....132.1126N",
 				"bibcode":"2006AJ....132.1126N",
 				"reference":"Neill et al. (2006)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -21,7 +27,7 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -29,26 +35,40 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"4"
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"SNLS-05D2dm",
-				"source":"4"
+				"source":"3,5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"kind":"spectroscopic",
+				"source":"3"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"2200",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,3,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+02:03:17.35",
 				"u_value":"degrees",
-				"source":"2,4"
+				"source":"3,5"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"2005",
-				"derived":true,
+				"value":"2005/03/12",
 				"source":"3"
 			}
 		],
@@ -57,14 +77,36 @@
 				"value":"0.0149",
 				"derived":true,
 				"e_value":"0.0002",
-				"source":"1,3"
+				"source":"2,4"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"3420",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:02:07.611",
 				"u_value":"hours",
-				"source":"2,4"
+				"source":"3,5"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.57",
+				"kind":"spectroscopic",
+				"source":"3"
+			}
+		],
+		"velocity":[
+			{
+				"value":"130000",
+				"u_value":"km/s",
+				"source":"4"
 			}
 		]
 	}
