@@ -79,15 +79,6 @@
 			{
 				"value":"Ib/c",
 				"source":"2"
-			},
-			{
-				"value":"Ia",
-				"probability":"1.0",
-				"source":"4"
-			},
-			{
-				"value":"Ia",
-				"source":"6,10"
 			}
 		],
 		"comovingdist":[
@@ -145,11 +136,25 @@
 				"source":"2"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"800",
+				"derived":true,
+				"source":"1,3,9"
+			}
+		],
 		"hostdec":[
 			{
 				"value":"-01:06:49.68",
 				"u_value":"degrees",
 				"source":"2"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"955",
+				"derived":true,
+				"source":"1,3,9"
 			}
 		],
 		"hostoffsetang":[
@@ -173,19 +178,32 @@
 				"source":"2"
 			}
 		],
+		"hostredshift":[
+			{
+				"value":"0.19",
+				"e_value":"0.01",
+				"source":"3"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"52000",
+				"source":"9"
+			}
+		],
 		"lumdist":[
 			{
 				"value":"961.125",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,9"
+				"source":"1,2,8,9"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.6439",
+				"value":"-18.4541",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,8,9"
 			}
 		],
 		"maxappmag":[
@@ -212,7 +230,7 @@
 			{
 				"value":"-18.6439",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,8,9"
 			}
 		],
 		"maxvisualappmag":[
@@ -251,9 +269,7 @@
 		"redshift":[
 			{
 				"value":"0.191046",
-				"e_value":"2.6e-05",
-				"kind":"spectroscopic",
-				"source":"2"
+				"source":"2,8"
 			}
 		],
 		"velocity":[
