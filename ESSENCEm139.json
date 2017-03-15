@@ -4,10 +4,28 @@
 		"name":"ESSENCEm139",
 		"sources":[
 			{
+				"name":"2016ApJS..224....3N",
+				"bibcode":"2016ApJS..224....3N",
+				"reference":"Narayan et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"1"
+				"alias":"2"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"3"
+			},
+			{
+				"name":"2007ApJ...666..674M",
+				"bibcode":"2007ApJ...666..674M",
+				"reference":"Miknaitis et al. (2007)",
+				"alias":"4"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -15,7 +33,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"2"
+				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -23,19 +41,31 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"3"
+				"alias":"6"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEm139",
-				"source":"3"
+				"source":"1,4,6,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"IIn",
-				"source":"3"
+				"source":"1,6"
+			},
+			{
+				"value":"II",
+				"source":"4,7"
 			}
 		],
 		"comovingdist":[
@@ -43,14 +73,66 @@
 				"value":"887.9",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,5"
+			}
+		],
+		"dec":[
+			{
+				"value":"-08:27:08.3",
+				"u_value":"degrees",
+				"source":"4,7"
+			},
+			{
+				"value":"-08:27:08.33",
+				"u_value":"degrees",
+				"source":"4"
+			},
+			{
+				"value":"-08:27:08.205",
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/10/06",
 				"derived":true,
-				"source":"2,3"
+				"source":"1,5"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.032",
+				"derived":true,
+				"e_value":"0.0009",
+				"source":"3,5"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"887.9",
+				"derived":true,
+				"source":"1,2,5"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"1075.5",
+				"derived":true,
+				"source":"1,2,5"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.2113",
+				"e_value":"0.0001",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"56770",
+				"source":"5"
 			}
 		],
 		"lumdist":[
@@ -58,31 +140,40 @@
 				"value":"1075.5",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,5"
+			}
+		],
+		"ra":[
+			{
+				"value":"23:23:57.83",
+				"u_value":"hours",
+				"source":"4,7"
+			},
+			{
+				"value":"23:23:57.823",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.2113",
-				"source":"3"
+				"e_value":"0.0001",
+				"kind":"host",
+				"source":"1"
 			}
 		],
 		"velocity":[
 			{
 				"value":"56770",
 				"u_value":"km/s",
-				"source":"2"
+				"source":"5"
 			}
 		],
 		"spectra":[
 			{
-				"time":"53649.0",
-				"filename":"ESSENCEm139_2005-10-06_deimos_1.ascii",
-				"instrument":"Keck2 - DEIMOS",
-				"observer":"Unknown",
-				"redshift":"0.2113",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"53649.3",
+				"filename":"m139_20051006.300_deimos_gapinterp.flm",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -4117,6 +4208,10 @@
 					],
 					[
 						"5582.00",
+						"4.93216e-20"
+					],
+					[
+						"5582.65",
 						"4.93216e-20"
 					],
 					[
@@ -15465,7 +15560,127 @@
 					],
 					[
 						"7426.70",
-						"0E-21"
+						"3.10116e-20"
+					],
+					[
+						"7427.35",
+						"3.10605e-20"
+					],
+					[
+						"7428.00",
+						"3.11094e-20"
+					],
+					[
+						"7428.65",
+						"3.11584e-20"
+					],
+					[
+						"7429.30",
+						"3.12073e-20"
+					],
+					[
+						"7429.95",
+						"3.12562e-20"
+					],
+					[
+						"7430.60",
+						"3.13051e-20"
+					],
+					[
+						"7431.25",
+						"3.1354e-20"
+					],
+					[
+						"7431.90",
+						"3.1403e-20"
+					],
+					[
+						"7432.55",
+						"3.14519e-20"
+					],
+					[
+						"7433.20",
+						"3.15008e-20"
+					],
+					[
+						"7433.85",
+						"3.15497e-20"
+					],
+					[
+						"7434.50",
+						"3.15986e-20"
+					],
+					[
+						"7435.15",
+						"3.16476e-20"
+					],
+					[
+						"7435.80",
+						"3.16965e-20"
+					],
+					[
+						"7436.45",
+						"3.17454e-20"
+					],
+					[
+						"7437.10",
+						"3.17943e-20"
+					],
+					[
+						"7437.75",
+						"3.18433e-20"
+					],
+					[
+						"7438.40",
+						"3.18922e-20"
+					],
+					[
+						"7439.05",
+						"3.19411e-20"
+					],
+					[
+						"7439.70",
+						"3.199e-20"
+					],
+					[
+						"7440.35",
+						"3.20389e-20"
+					],
+					[
+						"7441.00",
+						"3.20879e-20"
+					],
+					[
+						"7441.65",
+						"3.21368e-20"
+					],
+					[
+						"7442.30",
+						"3.21857e-20"
+					],
+					[
+						"7442.95",
+						"3.22346e-20"
+					],
+					[
+						"7443.60",
+						"3.22835e-20"
+					],
+					[
+						"7444.25",
+						"3.23325e-20"
+					],
+					[
+						"7444.90",
+						"3.23814e-20"
+					],
+					[
+						"7445.55",
+						"3.24303e-20"
+					],
+					[
+						"7446.20",
+						"3.24303e-20"
 					],
 					[
 						"7446.85",
@@ -27756,6 +27971,10 @@
 						"2.69113e-20"
 					],
 					[
+						"9443.65",
+						"2.69113e-20"
+					],
+					[
 						"9444.30",
 						"3.41791e-20"
 					],
@@ -31280,6 +31499,10 @@
 						"1.52856e-20"
 					],
 					[
+						"10016.9",
+						"1.52856e-20"
+					],
+					[
 						"10017.6",
 						"2.06985e-20"
 					],
@@ -31664,7 +31887,7 @@
 						"3.19428e-20"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}

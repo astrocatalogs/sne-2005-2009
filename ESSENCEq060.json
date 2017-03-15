@@ -4,10 +4,22 @@
 		"name":"ESSENCEq060",
 		"sources":[
 			{
+				"name":"2016ApJS..224....3N",
+				"bibcode":"2016ApJS..224....3N",
+				"reference":"Narayan et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"1"
+				"alias":"2"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"3"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -15,7 +27,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"2"
+				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -23,19 +35,19 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"3"
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEq060",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"comovingdist":[
@@ -43,14 +55,56 @@
 				"value":"615.9",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"dec":[
+			{
+				"value":"+00:44:47.120",
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2006/10/20",
 				"derived":true,
-				"source":"2,3"
+				"source":"1,4"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0274",
+				"derived":true,
+				"e_value":"0.0007",
+				"source":"3,4"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"615.9",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"704.68",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.1441",
+				"e_value":"0.0002",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"40120",
+				"source":"4"
 			}
 		],
 		"lumdist":[
@@ -58,31 +112,37 @@
 				"value":"704.68",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"ra":[
+			{
+				"value":"01:14:48.945",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.1441",
-				"source":"3"
+				"e_value":"0.0002",
+				"kind":"host",
+				"source":"1"
 			}
 		],
 		"velocity":[
 			{
 				"value":"40120",
 				"u_value":"km/s",
-				"source":"2"
+				"source":"4"
 			}
 		],
 		"spectra":[
 			{
-				"time":"54028.0",
-				"filename":"ESSENCEq060_2006-10-20_ldss-3_1.ascii",
-				"instrument":"Magellan-Clay - LDSS-3",
-				"observer":"Unknown",
-				"redshift":"0.1441",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"54028.153",
+				"filename":"q060_20061020.153_ldss3.flm",
+				"instrument":"LDSS-3",
+				"telescope":"Magellan Clay & Baade",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -12032,16 +12092,13 @@
 						"1.70272e-18"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			},
 			{
-				"time":"54031.0",
-				"filename":"ESSENCEq060_2006-10-23_fors1_2.ascii",
-				"instrument":"VLT-UT1 - FORS1",
-				"observer":"Unknown",
-				"redshift":"0.1441",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"54031.026",
+				"filename":"q060_20061023.026_fors1.flm",
+				"instrument":"FORS1",
+				"telescope":"VLT",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -15323,6 +15380,10 @@
 						"8.85383e-18"
 					],
 					[
+						"5895.78",
+						"8.85383e-18"
+					],
+					[
 						"5898.40",
 						"9.08606e-18"
 					],
@@ -17408,6 +17469,10 @@
 					],
 					[
 						"7263.42",
+						"6.51467e-18"
+					],
+					[
+						"7266.04",
 						"6.51467e-18"
 					],
 					[
@@ -19907,7 +19972,7 @@
 						"3.95022e-18"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}

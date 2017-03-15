@@ -102,18 +102,12 @@
 				"alias":"16"
 			},
 			{
-				"name":"NED-D",
-				"secondary":true,
-				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"17"
-			},
-			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"18"
+				"alias":"17"
 			},
 			{
 				"name":"WISeREP",
@@ -121,7 +115,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"19"
+				"alias":"18"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -129,6 +123,14 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"19"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
 				"alias":"20"
 			},
 			{
@@ -143,32 +145,28 @@
 		"alias":[
 			{
 				"value":"SN2008Q",
-				"source":"3,4,5,6,12,14,15,16,17,19,20,21"
+				"source":"3,4,5,6,12,14,15,16,18,19,20,21"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,6,9,11,12,14,16,20,21"
+				"source":"4,5,6,9,11,12,14,16,19,21"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"4.01791",
+				"value":"35.05",
+				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,17"
-			},
-			{
-				"value":"4.05509",
-				"u_value":"Mpc",
-				"source":"2,17"
+				"source":"1,5,17"
 			}
 		],
 		"dec":[
 			{
 				"value":"+09:33:01.5",
 				"u_value":"degrees",
-				"source":"6,10,12,16,20,21"
+				"source":"6,10,12,16,19,21"
 			},
 			{
 				"value":"+09:33:01.30",
@@ -202,7 +200,14 @@
 				"value":"0.0716",
 				"derived":true,
 				"e_value":"0.0009",
-				"source":"8,18"
+				"source":"8,17"
+			}
+		],
+		"errors":[
+			{
+				"extra":"comovingdist",
+				"kind":"bibcode",
+				"value":"1991ASSL..171...89H"
 			}
 		],
 		"host":[
@@ -212,14 +217,14 @@
 			},
 			{
 				"value":"NGC 0524",
-				"source":"2,17"
+				"source":"2,20"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"36",
 				"derived":true,
-				"source":"1,6,18"
+				"source":"1,6,17"
 			}
 		],
 		"hostdec":[
@@ -238,7 +243,7 @@
 			{
 				"value":"36.1",
 				"derived":true,
-				"source":"1,6,18"
+				"source":"1,6,17"
 			}
 		],
 		"hostoffsetang":[
@@ -246,13 +251,13 @@
 				"value":"142.4",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,10,12,14,16,18,20,21"
+				"source":"6,10,12,14,16,17,19,21"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"2.771",
-				"source":"1,2,6,10,12,14,16,17,18,20,21"
+				"value":"24.01",
+				"source":"1,5,6,10,12,14,16,17,19,21"
 			}
 		],
 		"hostra":[
@@ -293,63 +298,63 @@
 			{
 				"value":"-19",
 				"derived":true,
-				"source":"6,18"
+				"source":"6,17"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"13.24",
 				"derived":true,
-				"source":"3,18"
+				"source":"3,17"
 			}
 		],
 		"maxband":[
 			{
 				"value":"U",
 				"derived":true,
-				"source":"3,18"
+				"source":"3,17"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2008/02/06",
 				"derived":true,
-				"source":"3,18"
+				"source":"3,17"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-18.5",
 				"derived":true,
-				"source":"6,18"
+				"source":"6,17"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"13.74",
 				"derived":true,
-				"source":"4,18"
+				"source":"4,17"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"4,18"
+				"source":"4,17"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2008/02/07",
 				"derived":true,
-				"source":"4,18"
+				"source":"4,17"
 			}
 		],
 		"ra":[
 			{
 				"value":"01:24:57.23",
 				"u_value":"hours",
-				"source":"6,10,12,14,16,20,21"
+				"source":"6,10,12,14,16,19,21"
 			},
 			{
 				"value":"01:24:57.207",
@@ -359,12 +364,9 @@
 		],
 		"redshift":[
 			{
-				"value":"0.000908064",
-				"source":"1,2,17"
-			},
-			{
-				"value":"0.000916468",
-				"source":"1,2,17"
+				"value":"0.007935",
+				"kind":"heliocentric",
+				"source":"5"
 			}
 		],
 		"velocity":[

@@ -4,10 +4,28 @@
 		"name":"ESSENCEm003",
 		"sources":[
 			{
+				"name":"2016ApJS..224....3N",
+				"bibcode":"2016ApJS..224....3N",
+				"reference":"Narayan et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"1"
+				"alias":"2"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"3"
+			},
+			{
+				"name":"2007ApJ...666..674M",
+				"bibcode":"2007ApJ...666..674M",
+				"reference":"Miknaitis et al. (2007)",
+				"alias":"4"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -15,7 +33,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"2"
+				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -23,66 +41,147 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"3"
+				"alias":"6"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEm003",
-				"source":"3"
+				"source":"1,4,6,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"3"
+				"source":"1,6"
+			},
+			{
+				"value":"II",
+				"source":"4,7"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"918",
+				"value":"848.4",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,5"
+			}
+		],
+		"dec":[
+			{
+				"value":"-04:42:54.1",
+				"u_value":"degrees",
+				"source":"4,7"
+			},
+			{
+				"value":"-04:42:54.05",
+				"u_value":"degrees",
+				"source":"4"
+			},
+			{
+				"value":"-04:42:53.777",
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2005/10/04",
 				"derived":true,
-				"source":"2,3"
+				"source":"1,5"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0214",
+				"derived":true,
+				"e_value":"0.0004",
+				"source":"3,5"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"848.4",
+				"derived":true,
+				"source":"1,2,5"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"1019.3",
+				"derived":true,
+				"source":"1,2,5"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.2014",
+				"e_value":"0.0003",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"54400",
+				"source":"5"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"1120",
+				"value":"1019.3",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,5"
+			}
+		],
+		"ra":[
+			{
+				"value":"02:05:27.31",
+				"u_value":"hours",
+				"source":"4,7"
+			},
+			{
+				"value":"02:05:27.303",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.219",
-				"source":"3"
+				"e_value":"0.001",
+				"kind":"heliocentric",
+				"source":"4"
+			},
+			{
+				"value":"0.2014",
+				"e_value":"0.0003",
+				"kind":"host",
+				"source":"1"
 			}
 		],
 		"velocity":[
 			{
-				"value":"58600",
+				"value":"54400",
 				"u_value":"km/s",
-				"source":"2"
+				"source":"5"
 			}
 		],
 		"spectra":[
 			{
-				"time":"53647.0",
-				"filename":"ESSENCEm003_2005-10-04_fors1_1.ascii",
-				"instrument":"VLT-UT1 - FORS1",
-				"observer":"Unknown",
-				"redshift":"0.219",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"53647.229",
+				"filename":"m003_20051004.229_fors1.flm",
+				"instrument":"FORS1",
+				"telescope":"VLT",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -4756,6 +4855,10 @@
 						"6.46439e-19"
 					],
 					[
+						"7386.20",
+						"6.46439e-19"
+					],
+					[
 						"7388.80",
 						"4.39721e-19"
 					],
@@ -6904,6 +7007,10 @@
 						"4.68652e-19"
 					],
 					[
+						"8785.00",
+						"4.68652e-19"
+					],
+					[
 						"8787.60",
 						"1.45783e-18"
 					],
@@ -7044,7 +7151,7 @@
 						"6.45196e-20"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}

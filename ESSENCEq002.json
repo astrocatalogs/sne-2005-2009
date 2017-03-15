@@ -4,10 +4,22 @@
 		"name":"ESSENCEq002",
 		"sources":[
 			{
+				"name":"2016ApJS..224....3N",
+				"bibcode":"2016ApJS..224....3N",
+				"reference":"Narayan et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"1"
+				"alias":"2"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"3"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -15,7 +27,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"2"
+				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -23,66 +35,1603 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"3"
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEq002",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"1407",
+				"value":"1404",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"dec":[
+			{
+				"value":"-03:39:00.723",
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"2006/09/28",
+				"value":"2006/09/16",
 				"derived":true,
-				"source":"2,3"
+				"source":"1,4"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0201",
+				"derived":true,
+				"e_value":"0.0006",
+				"source":"3,4"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"1407",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"1894.8",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.3469",
+				"e_value":"0.0002",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"86730",
+				"source":"4"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"1894.8",
+				"value":"1889.7",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-19.269",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"21.79",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxband":[
+			{
+				"value":"I",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2006/09/28",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxvisualabsmag":[
+			{
+				"value":"-19.002",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"22.38",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"R",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"2006/09/28",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"ra":[
+			{
+				"value":"02:05:12.945",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
+				"value":"0.3461",
+				"kind":[
+					"spectroscopic",
+					"cmb"
+				],
+				"source":"1"
+			},
+			{
 				"value":"0.3469",
-				"source":"3"
+				"source":"5"
 			}
 		],
 		"velocity":[
 			{
-				"value":"86730",
+				"value":"86570",
 				"u_value":"km/s",
-				"source":"2"
+				"source":"4"
+			}
+		],
+		"photometry":[
+			{
+				"time":"53641.123200",
+				"band":"R",
+				"counts":"-1.236",
+				"e_lower_counts":"0.7756",
+				"e_upper_counts":"0.7756",
+				"e_upper_magnitude":"0.31232",
+				"magnitude":"24.083",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53641.142500",
+				"band":"I",
+				"counts":"1.4953",
+				"e_lower_counts":"1.7436",
+				"e_upper_counts":"1.7436",
+				"e_upper_magnitude":"0.31245",
+				"magnitude":"23.204",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53649.117900",
+				"band":"R",
+				"counts":"-1.420",
+				"e_lower_counts":"1.0240",
+				"e_upper_counts":"1.0240",
+				"e_upper_magnitude":"0.3120",
+				"magnitude":"23.78",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53698.103900",
+				"band":"R",
+				"counts":"-0.400",
+				"e_lower_counts":"0.7731",
+				"e_upper_counts":"0.7731",
+				"e_upper_magnitude":"0.3132",
+				"magnitude":"24.09",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53698.122600",
+				"band":"I",
+				"counts":"-0.125",
+				"e_lower_counts":"1.6569",
+				"e_upper_counts":"1.6569",
+				"e_upper_magnitude":"0.31235",
+				"magnitude":"23.259",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53704.123800",
+				"band":"R",
+				"counts":"-0.656",
+				"e_lower_counts":"0.4638",
+				"e_upper_counts":"0.4638",
+				"e_upper_magnitude":"0.31225",
+				"magnitude":"24.641",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53704.142600",
+				"band":"I",
+				"counts":"-0.312",
+				"e_lower_counts":"0.9247",
+				"e_upper_counts":"0.9247",
+				"e_upper_magnitude":"0.31230",
+				"magnitude":"23.892",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53728.103200",
+				"band":"R",
+				"counts":"-0.042",
+				"e_lower_counts":"0.8563",
+				"e_upper_counts":"0.8563",
+				"e_upper_magnitude":"0.31242",
+				"magnitude":"23.976",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53728.122300",
+				"band":"I",
+				"counts":"0.4289",
+				"e_lower_counts":"1.0417",
+				"e_upper_counts":"1.0417",
+				"e_upper_magnitude":"0.31240",
+				"magnitude":"23.763",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53733.123300",
+				"band":"R",
+				"counts":"-0.334",
+				"e_lower_counts":"0.5496",
+				"e_upper_counts":"0.5496",
+				"e_upper_magnitude":"0.31235",
+				"magnitude":"24.457",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53733.126800",
+				"band":"I",
+				"counts":"0.9675",
+				"e_lower_counts":"1.0166",
+				"e_upper_counts":"1.0166",
+				"e_upper_magnitude":"0.31228",
+				"magnitude":"23.789",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53735.074500",
+				"band":"R",
+				"counts":"-1.183",
+				"e_lower_counts":"0.5103",
+				"e_upper_counts":"0.5103",
+				"e_upper_magnitude":"0.31245",
+				"magnitude":"24.538",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53735.078000",
+				"band":"I",
+				"counts":"0.2986",
+				"e_lower_counts":"1.1035",
+				"e_upper_counts":"1.1035",
+				"e_upper_magnitude":"0.31228",
+				"magnitude":"23.700",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53738.074500",
+				"band":"R",
+				"counts":"-0.146",
+				"e_lower_counts":"0.5807",
+				"e_upper_counts":"0.5807",
+				"e_upper_magnitude":"0.31228",
+				"magnitude":"24.397",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53738.078000",
+				"band":"I",
+				"counts":"0.8287",
+				"e_lower_counts":"0.9828",
+				"e_upper_counts":"0.9828",
+				"e_upper_magnitude":"0.3132",
+				"magnitude":"23.83",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53994.290900",
+				"band":"R",
+				"counts":"8.4645",
+				"e_lower_counts":"0.5092",
+				"e_lower_magnitude":"0.067350",
+				"e_upper_counts":"0.5092",
+				"e_upper_magnitude":"0.063425",
+				"magnitude":"22.681",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"53994.320400",
+				"band":"I",
+				"counts":"9.8516",
+				"e_lower_counts":"1.0253",
+				"e_lower_magnitude":"0.11932",
+				"e_upper_counts":"1.0253",
+				"e_upper_magnitude":"0.10748",
+				"magnitude":"22.516",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54003.278500",
+				"band":"R",
+				"counts":"10.511",
+				"e_lower_counts":"0.8352",
+				"e_lower_magnitude":"0.089775",
+				"e_upper_counts":"0.8352",
+				"e_upper_magnitude":"0.08300",
+				"magnitude":"22.446",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54003.306500",
+				"band":"I",
+				"counts":"17.372",
+				"e_lower_counts":"1.2594",
+				"e_lower_magnitude":"0.08150",
+				"e_upper_counts":"1.2594",
+				"e_upper_magnitude":"0.07600",
+				"magnitude":"21.900",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54006.256400",
+				"band":"R",
+				"counts":"11.169",
+				"e_lower_counts":"0.6598",
+				"e_lower_magnitude":"0.06600",
+				"e_upper_counts":"0.6598",
+				"e_upper_magnitude":"0.06225",
+				"magnitude":"22.380",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54006.259900",
+				"band":"I",
+				"counts":"19.171",
+				"e_lower_counts":"1.2911",
+				"e_lower_magnitude":"0.07550",
+				"e_upper_counts":"1.2911",
+				"e_upper_magnitude":"0.07075",
+				"magnitude":"21.794",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54021.349200",
+				"band":"R",
+				"counts":"5.5462",
+				"e_lower_counts":"1.0724",
+				"e_lower_magnitude":"0.23330",
+				"e_upper_counts":"1.0724",
+				"e_upper_magnitude":"0.19192",
+				"magnitude":"23.140",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54023.274100",
+				"band":"R",
+				"counts":"4.4147",
+				"e_lower_counts":"0.6374",
+				"e_lower_magnitude":"0.16930",
+				"e_upper_counts":"0.6374",
+				"e_upper_magnitude":"0.14642",
+				"magnitude":"23.388",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54023.294200",
+				"band":"I",
+				"counts":"9.6524",
+				"e_lower_counts":"1.2660",
+				"e_lower_magnitude":"0.15265",
+				"e_upper_counts":"1.2660",
+				"e_upper_magnitude":"0.13365",
+				"magnitude":"22.538",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54027.299200",
+				"band":"R",
+				"counts":"1.7400",
+				"e_lower_counts":"0.6702",
+				"e_upper_counts":"0.6702",
+				"e_upper_magnitude":"0.3118",
+				"magnitude":"24.24",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54027.317800",
+				"band":"I",
+				"counts":"5.1823",
+				"e_lower_counts":"1.5186",
+				"e_lower_magnitude":"0.37650",
+				"e_upper_counts":"1.5186",
+				"e_upper_magnitude":"0.27902",
+				"magnitude":"23.214",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54031.313700",
+				"band":"R",
+				"counts":"1.2798",
+				"e_lower_counts":"0.6221",
+				"e_upper_counts":"0.6221",
+				"e_upper_magnitude":"0.31245",
+				"magnitude":"24.323",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54031.328800",
+				"band":"I",
+				"counts":"4.6943",
+				"e_lower_counts":"1.4234",
+				"e_lower_magnitude":"0.39225",
+				"e_upper_counts":"1.4234",
+				"e_upper_magnitude":"0.28755",
+				"magnitude":"23.321",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54037.286400",
+				"band":"I",
+				"counts":"3.3621",
+				"e_lower_counts":"1.3666",
+				"e_upper_counts":"1.3666",
+				"e_upper_magnitude":"0.31230",
+				"magnitude":"23.468",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54037.295700",
+				"band":"R",
+				"counts":"3.1214",
+				"e_lower_counts":"0.8264",
+				"e_lower_magnitude":"0.33392",
+				"e_upper_counts":"0.8264",
+				"e_upper_magnitude":"0.25502",
+				"magnitude":"23.764",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54039.279300",
+				"band":"R",
+				"counts":"0.4817",
+				"e_lower_counts":"0.9159",
+				"e_upper_counts":"0.9159",
+				"e_upper_magnitude":"0.3118",
+				"magnitude":"23.90",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54053.093600",
+				"band":"R",
+				"counts":"1.6447",
+				"e_lower_counts":"0.5641",
+				"e_upper_counts":"0.5641",
+				"e_upper_magnitude":"0.31240",
+				"magnitude":"24.429",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54053.113600",
+				"band":"I",
+				"counts":"1.9457",
+				"e_lower_counts":"0.8508",
+				"e_upper_counts":"0.8508",
+				"e_upper_magnitude":"0.31242",
+				"magnitude":"23.983",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54057.253600",
+				"band":"I",
+				"counts":"2.4123",
+				"e_lower_counts":"2.3032",
+				"e_upper_counts":"2.3032",
+				"e_upper_magnitude":"0.31225",
+				"magnitude":"22.901",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54069.226100",
+				"band":"R",
+				"counts":"-2.933",
+				"e_lower_counts":"1.3406",
+				"e_upper_counts":"1.3406",
+				"e_upper_magnitude":"0.31235",
+				"magnitude":"23.489",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54084.139400",
+				"band":"I",
+				"counts":"-10.88",
+				"e_lower_counts":"2.5275",
+				"e_upper_counts":"2.5275",
+				"e_upper_magnitude":"0.31225",
+				"magnitude":"22.800",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54088.111600",
+				"band":"R",
+				"counts":"-0.021",
+				"e_lower_counts":"0.5361",
+				"e_upper_counts":"0.5361",
+				"e_upper_magnitude":"0.31235",
+				"magnitude":"24.484",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54095.104700",
+				"band":"R",
+				"counts":"-0.771",
+				"e_lower_counts":"0.9014",
+				"e_upper_counts":"0.9014",
+				"e_upper_magnitude":"0.31235",
+				"magnitude":"23.920",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54095.107100",
+				"band":"I",
+				"counts":"-5.130",
+				"e_lower_counts":"1.4935",
+				"e_upper_counts":"1.4935",
+				"e_upper_magnitude":"0.31242",
+				"magnitude":"23.372",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54096.110200",
+				"band":"R",
+				"counts":"-1.047",
+				"e_lower_counts":"1.3170",
+				"e_upper_counts":"1.3170",
+				"e_upper_magnitude":"0.31230",
+				"magnitude":"23.508",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54098.118400",
+				"band":"R",
+				"counts":"-4.684",
+				"e_lower_counts":"1.4438",
+				"e_upper_counts":"1.4438",
+				"e_upper_magnitude":"0.31222",
+				"magnitude":"23.408",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54112.102500",
+				"band":"R",
+				"counts":"0.1375",
+				"e_lower_counts":"0.6224",
+				"e_upper_counts":"0.6224",
+				"e_upper_magnitude":"0.3115",
+				"magnitude":"24.32",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54112.106200",
+				"band":"I",
+				"counts":"-0.199",
+				"e_lower_counts":"1.4573",
+				"e_upper_counts":"1.4573",
+				"e_upper_magnitude":"0.31228",
+				"magnitude":"23.398",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54114.091600",
+				"band":"R",
+				"counts":"0.9130",
+				"e_lower_counts":"0.7924",
+				"e_upper_counts":"0.7924",
+				"e_upper_magnitude":"0.3122",
+				"magnitude":"24.06",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54114.094100",
+				"band":"I",
+				"counts":"0.0870",
+				"e_lower_counts":"1.9186",
+				"e_upper_counts":"1.9186",
+				"e_upper_magnitude":"0.31242",
+				"magnitude":"23.100",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54115.089000",
+				"band":"R",
+				"counts":"2.6639",
+				"e_lower_counts":"0.6725",
+				"e_lower_magnitude":"0.31590",
+				"e_upper_counts":"0.6725",
+				"e_upper_magnitude":"0.24440",
+				"magnitude":"23.936",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54351.315500",
+				"band":"R",
+				"counts":"0.9619",
+				"e_lower_counts":"0.6654",
+				"e_upper_counts":"0.6654",
+				"e_upper_magnitude":"0.3125",
+				"magnitude":"24.25",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54354.322400",
+				"band":"R",
+				"counts":"0.9706",
+				"e_lower_counts":"0.6623",
+				"e_upper_counts":"0.6623",
+				"e_upper_magnitude":"0.3112",
+				"magnitude":"24.25",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54357.360000",
+				"band":"R",
+				"counts":"0.1417",
+				"e_lower_counts":"0.9261",
+				"e_upper_counts":"0.9261",
+				"e_upper_magnitude":"0.3122",
+				"magnitude":"23.89",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54360.303400",
+				"band":"R",
+				"counts":"1.7220",
+				"e_lower_counts":"1.0449",
+				"e_upper_counts":"1.0449",
+				"e_upper_magnitude":"0.31248",
+				"magnitude":"23.760",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54363.320700",
+				"band":"I",
+				"counts":"-0.672",
+				"e_lower_counts":"1.8102",
+				"e_upper_counts":"1.8102",
+				"e_upper_magnitude":"0.31238",
+				"magnitude":"23.163",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54363.366100",
+				"band":"R",
+				"counts":"-0.212",
+				"e_lower_counts":"0.6306",
+				"e_upper_counts":"0.6306",
+				"e_upper_magnitude":"0.31238",
+				"magnitude":"24.308",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54377.275100",
+				"band":"R",
+				"counts":"0.1194",
+				"e_lower_counts":"0.7427",
+				"e_upper_counts":"0.7427",
+				"e_upper_magnitude":"0.3125",
+				"magnitude":"24.13",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54377.301300",
+				"band":"I",
+				"counts":"0.1917",
+				"e_lower_counts":"1.3007",
+				"e_upper_counts":"1.3007",
+				"e_upper_magnitude":"0.31240",
+				"magnitude":"23.522",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54379.291100",
+				"band":"R",
+				"counts":"0.2898",
+				"e_lower_counts":"1.0495",
+				"e_upper_counts":"1.0495",
+				"e_upper_magnitude":"0.31242",
+				"magnitude":"23.755",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54381.258000",
+				"band":"R",
+				"counts":"0.1116",
+				"e_lower_counts":"0.5345",
+				"e_upper_counts":"0.5345",
+				"e_upper_magnitude":"0.3128",
+				"magnitude":"24.49",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54381.291100",
+				"band":"I",
+				"counts":"-0.624",
+				"e_lower_counts":"1.3202",
+				"e_upper_counts":"1.3202",
+				"e_upper_magnitude":"0.31245",
+				"magnitude":"23.506",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54383.326800",
+				"band":"R",
+				"counts":"0.7963",
+				"e_lower_counts":"0.5712",
+				"e_upper_counts":"0.5712",
+				"e_upper_magnitude":"0.3135",
+				"magnitude":"24.42",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54385.327500",
+				"band":"I",
+				"counts":"-0.149",
+				"e_lower_counts":"1.6535",
+				"e_upper_counts":"1.6535",
+				"e_upper_magnitude":"0.31230",
+				"magnitude":"23.261",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54387.254800",
+				"band":"R",
+				"counts":"-2.655",
+				"e_lower_counts":"0.7037",
+				"e_upper_counts":"0.7037",
+				"e_upper_magnitude":"0.31240",
+				"magnitude":"24.189",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54393.258300",
+				"band":"R",
+				"counts":"0.3381",
+				"e_lower_counts":"0.7877",
+				"e_upper_counts":"0.7877",
+				"e_upper_magnitude":"0.3132",
+				"magnitude":"24.07",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54407.251700",
+				"band":"R",
+				"counts":"-0.907",
+				"e_lower_counts":"0.8235",
+				"e_upper_counts":"0.8235",
+				"e_upper_magnitude":"0.31235",
+				"magnitude":"24.018",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54407.270300",
+				"band":"I",
+				"counts":"2.3576",
+				"e_lower_counts":"2.3102",
+				"e_upper_counts":"2.3102",
+				"e_upper_magnitude":"0.31232",
+				"magnitude":"22.898",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54411.260700",
+				"band":"R",
+				"counts":"-0.657",
+				"e_lower_counts":"0.5960",
+				"e_upper_counts":"0.5960",
+				"e_upper_magnitude":"0.31232",
+				"magnitude":"24.369",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54411.275900",
+				"band":"I",
+				"counts":"0.9629",
+				"e_lower_counts":"1.2389",
+				"e_upper_counts":"1.2389",
+				"e_upper_magnitude":"0.31242",
+				"magnitude":"23.575",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54415.127500",
+				"band":"R",
+				"counts":"0.1101",
+				"e_lower_counts":"0.6320",
+				"e_upper_counts":"0.6320",
+				"e_upper_magnitude":"0.3135",
+				"magnitude":"24.31",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54417.071000",
+				"band":"R",
+				"counts":"-0.246",
+				"e_lower_counts":"0.5475",
+				"e_upper_counts":"0.5475",
+				"e_upper_magnitude":"0.31228",
+				"magnitude":"24.461",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54417.106800",
+				"band":"I",
+				"counts":"-1.428",
+				"e_lower_counts":"0.9666",
+				"e_upper_counts":"0.9666",
+				"e_upper_magnitude":"0.31232",
+				"magnitude":"23.844",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54419.069000",
+				"band":"R",
+				"counts":"0.0236",
+				"e_lower_counts":"0.5531",
+				"e_upper_counts":"0.5531",
+				"e_upper_magnitude":"0.3122",
+				"magnitude":"24.45",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54419.099300",
+				"band":"I",
+				"counts":"0.4760",
+				"e_lower_counts":"0.9265",
+				"e_upper_counts":"0.9265",
+				"e_upper_magnitude":"0.3122",
+				"magnitude":"23.89",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54421.101100",
+				"band":"R",
+				"counts":"-0.477",
+				"e_lower_counts":"0.6513",
+				"e_upper_counts":"0.6513",
+				"e_upper_magnitude":"0.31242",
+				"magnitude":"24.273",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54423.260200",
+				"band":"R",
+				"counts":"0.0310",
+				"e_lower_counts":"0.7000",
+				"e_upper_counts":"0.7000",
+				"e_upper_magnitude":"0.28",
+				"magnitude":"24",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54437.178900",
+				"band":"R",
+				"counts":"0.4570",
+				"e_lower_counts":"0.8124",
+				"e_upper_counts":"0.8124",
+				"e_upper_magnitude":"0.3118",
+				"magnitude":"24.03",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54437.200900",
+				"band":"I",
+				"counts":"-6.052",
+				"e_lower_counts":"1.4159",
+				"e_upper_counts":"1.4159",
+				"e_upper_magnitude":"0.31245",
+				"magnitude":"23.430",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54441.083100",
+				"band":"R",
+				"counts":"0.0487",
+				"e_lower_counts":"0.6107",
+				"e_upper_counts":"0.6107",
+				"e_upper_magnitude":"0.3118",
+				"magnitude":"24.34",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54441.111300",
+				"band":"I",
+				"counts":"2.6689",
+				"e_lower_counts":"1.2272",
+				"e_upper_counts":"1.2272",
+				"e_upper_magnitude":"0.31238",
+				"magnitude":"23.585",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54445.182600",
+				"band":"R",
+				"counts":"0.2168",
+				"e_lower_counts":"1.1090",
+				"e_upper_counts":"1.1090",
+				"e_upper_magnitude":"0.3135",
+				"magnitude":"23.70",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54447.125100",
+				"band":"R",
+				"counts":"0.0525",
+				"e_lower_counts":"0.5440",
+				"e_upper_counts":"0.5440",
+				"e_upper_magnitude":"0.318",
+				"magnitude":"24.5",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54447.128600",
+				"band":"I",
+				"counts":"-1.352",
+				"e_lower_counts":"1.1738",
+				"e_upper_counts":"1.1738",
+				"e_upper_magnitude":"0.31230",
+				"magnitude":"23.633",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54449.112200",
+				"band":"R",
+				"counts":"1.0479",
+				"e_lower_counts":"0.5346",
+				"e_upper_counts":"0.5346",
+				"e_upper_magnitude":"0.31232",
+				"magnitude":"24.487",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54449.115700",
+				"band":"I",
+				"counts":"0.5117",
+				"e_lower_counts":"1.0698",
+				"e_upper_counts":"1.0698",
+				"e_upper_magnitude":"0.31235",
+				"magnitude":"23.734",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54451.103300",
+				"band":"R",
+				"counts":"0.2694",
+				"e_lower_counts":"0.9909",
+				"e_upper_counts":"0.9909",
+				"e_upper_magnitude":"0.3132",
+				"magnitude":"23.82",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54464.090100",
+				"band":"R",
+				"counts":"0.9835",
+				"e_lower_counts":"0.5159",
+				"e_upper_counts":"0.5159",
+				"e_upper_magnitude":"0.3132",
+				"magnitude":"24.53",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54464.093600",
+				"band":"I",
+				"counts":"3.4258",
+				"e_lower_counts":"1.2237",
+				"e_upper_counts":"1.2237",
+				"e_upper_magnitude":"0.31232",
+				"magnitude":"23.588",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54467.107400",
+				"band":"R",
+				"counts":"0.9274",
+				"e_lower_counts":"0.6328",
+				"e_upper_counts":"0.6328",
+				"e_upper_magnitude":"0.3115",
+				"magnitude":"24.30",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54467.130400",
+				"band":"I",
+				"counts":"-1.322",
+				"e_lower_counts":"1.2116",
+				"e_upper_counts":"1.2116",
+				"e_upper_magnitude":"0.31240",
+				"magnitude":"23.599",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54469.105900",
+				"band":"R",
+				"counts":"1.0801",
+				"e_lower_counts":"0.4884",
+				"e_upper_counts":"0.4884",
+				"e_upper_magnitude":"0.31228",
+				"magnitude":"24.585",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54472.092000",
+				"band":"R",
+				"counts":"0.6019",
+				"e_lower_counts":"0.5759",
+				"e_upper_counts":"0.5759",
+				"e_upper_magnitude":"0.3135",
+				"magnitude":"24.41",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54472.144100",
+				"band":"I",
+				"counts":"-4.566",
+				"e_lower_counts":"1.5038",
+				"e_upper_counts":"1.5038",
+				"e_upper_magnitude":"0.31230",
+				"magnitude":"23.364",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
+			},
+			{
+				"time":"54474.120100",
+				"band":"R",
+				"counts":"-2.138",
+				"e_lower_counts":"0.7906",
+				"e_upper_counts":"0.7906",
+				"e_upper_magnitude":"0.31225",
+				"magnitude":"24.062",
+				"system":"Natural",
+				"telescope":"CTIO 4m",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"25.0",
+				"source":"1"
 			}
 		],
 		"spectra":[
 			{
-				"time":"54006.0",
-				"filename":"ESSENCEq002_2006-09-28_gmos_1.ascii",
-				"instrument":"Gemini-N - GMOS",
-				"observer":"Unknown",
-				"redshift":"0.3469",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"54006.349",
+				"filename":"q002_20060928.349_gmos_gapinterp.flm",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -1772,6 +3321,10 @@
 						"1.60408e-17"
 					],
 					[
+						"5716.00",
+						"1.60408e-17"
+					],
+					[
 						"5717.00",
 						"1.71299e-17"
 					],
@@ -1797,6 +3350,10 @@
 					],
 					[
 						"5723.00",
+						"1.62186e-17"
+					],
+					[
+						"5724.00",
 						"1.62186e-17"
 					],
 					[
@@ -1881,6 +3438,10 @@
 					],
 					[
 						"5745.00",
+						"1.78358e-17"
+					],
+					[
+						"5746.00",
 						"1.78358e-17"
 					],
 					[
@@ -3216,6 +4777,10 @@
 						"2.20406e-17"
 					],
 					[
+						"6080.00",
+						"2.20406e-17"
+					],
+					[
 						"6081.00",
 						"2.18871e-17"
 					],
@@ -3969,6 +5534,10 @@
 					],
 					[
 						"6269.00",
+						"2.14099e-17"
+					],
+					[
+						"6270.00",
 						"2.14099e-17"
 					],
 					[
@@ -5553,7 +7122,151 @@
 					],
 					[
 						"6666.00",
-						"0E-21"
+						"2.14137e-17"
+					],
+					[
+						"6667.00",
+						"2.14629e-17"
+					],
+					[
+						"6668.00",
+						"2.1463e-17"
+					],
+					[
+						"6669.00",
+						"2.1463e-17"
+					],
+					[
+						"6670.00",
+						"2.14631e-17"
+					],
+					[
+						"6671.00",
+						"2.14632e-17"
+					],
+					[
+						"6672.00",
+						"2.14633e-17"
+					],
+					[
+						"6673.00",
+						"2.14633e-17"
+					],
+					[
+						"6674.00",
+						"2.14634e-17"
+					],
+					[
+						"6675.00",
+						"2.14635e-17"
+					],
+					[
+						"6676.00",
+						"2.14635e-17"
+					],
+					[
+						"6677.00",
+						"2.14636e-17"
+					],
+					[
+						"6678.00",
+						"2.14637e-17"
+					],
+					[
+						"6679.00",
+						"2.14638e-17"
+					],
+					[
+						"6680.00",
+						"2.14638e-17"
+					],
+					[
+						"6681.00",
+						"2.14639e-17"
+					],
+					[
+						"6682.00",
+						"2.1464e-17"
+					],
+					[
+						"6683.00",
+						"2.14641e-17"
+					],
+					[
+						"6684.00",
+						"2.14641e-17"
+					],
+					[
+						"6685.00",
+						"2.14642e-17"
+					],
+					[
+						"6686.00",
+						"2.14643e-17"
+					],
+					[
+						"6687.00",
+						"2.14643e-17"
+					],
+					[
+						"6688.00",
+						"2.14644e-17"
+					],
+					[
+						"6689.00",
+						"2.14645e-17"
+					],
+					[
+						"6690.00",
+						"2.14646e-17"
+					],
+					[
+						"6691.00",
+						"2.14646e-17"
+					],
+					[
+						"6692.00",
+						"2.14647e-17"
+					],
+					[
+						"6693.00",
+						"2.14648e-17"
+					],
+					[
+						"6694.00",
+						"2.14648e-17"
+					],
+					[
+						"6695.00",
+						"2.14649e-17"
+					],
+					[
+						"6696.00",
+						"2.1465e-17"
+					],
+					[
+						"6697.00",
+						"2.14651e-17"
+					],
+					[
+						"6698.00",
+						"2.14651e-17"
+					],
+					[
+						"6699.00",
+						"2.14652e-17"
+					],
+					[
+						"6700.00",
+						"2.14653e-17"
+					],
+					[
+						"6701.00",
+						"2.14654e-17"
+					],
+					[
+						"6702.00",
+						"2.14654e-17"
 					],
 					[
 						"6703.00",
@@ -5921,6 +7634,10 @@
 					],
 					[
 						"6794.00",
+						"2.12352e-17"
+					],
+					[
+						"6795.00",
 						"2.12352e-17"
 					],
 					[
@@ -7036,6 +8753,10 @@
 						"2.11344e-17"
 					],
 					[
+						"7074.00",
+						"2.11344e-17"
+					],
+					[
 						"7075.00",
 						"2.24895e-17"
 					],
@@ -7788,6 +9509,10 @@
 						"2.00591e-17"
 					],
 					[
+						"7263.00",
+						"2.00591e-17"
+					],
+					[
 						"7264.00",
 						"2.03159e-17"
 					],
@@ -8149,6 +9874,10 @@
 					],
 					[
 						"7354.00",
+						"2.1135e-17"
+					],
+					[
+						"7355.00",
 						"2.1135e-17"
 					],
 					[
@@ -8960,6 +10689,10 @@
 						"2.17131e-17"
 					],
 					[
+						"7558.00",
+						"2.17131e-17"
+					],
+					[
 						"7559.00",
 						"2.19555e-17"
 					],
@@ -8989,6 +10722,10 @@
 					],
 					[
 						"7566.00",
+						"2.11114e-17"
+					],
+					[
+						"7567.00",
 						"2.11114e-17"
 					],
 					[
@@ -10005,6 +11742,10 @@
 					],
 					[
 						"7821.00",
+						"1.99051e-17"
+					],
+					[
+						"7822.00",
 						"1.99051e-17"
 					],
 					[
@@ -11113,7 +12854,131 @@
 					],
 					[
 						"8099.00",
-						"0E-21"
+						"2.07837e-17"
+					],
+					[
+						"8100.00",
+						"2.10017e-17"
+					],
+					[
+						"8101.00",
+						"2.10186e-17"
+					],
+					[
+						"8102.00",
+						"2.10355e-17"
+					],
+					[
+						"8103.00",
+						"2.10524e-17"
+					],
+					[
+						"8104.00",
+						"2.10693e-17"
+					],
+					[
+						"8105.00",
+						"2.10863e-17"
+					],
+					[
+						"8106.00",
+						"2.11032e-17"
+					],
+					[
+						"8107.00",
+						"2.11201e-17"
+					],
+					[
+						"8108.00",
+						"2.1137e-17"
+					],
+					[
+						"8109.00",
+						"2.11539e-17"
+					],
+					[
+						"8110.00",
+						"2.11709e-17"
+					],
+					[
+						"8111.00",
+						"2.11878e-17"
+					],
+					[
+						"8112.00",
+						"2.12047e-17"
+					],
+					[
+						"8113.00",
+						"2.12216e-17"
+					],
+					[
+						"8114.00",
+						"2.12385e-17"
+					],
+					[
+						"8115.00",
+						"2.12555e-17"
+					],
+					[
+						"8116.00",
+						"2.12724e-17"
+					],
+					[
+						"8117.00",
+						"2.12893e-17"
+					],
+					[
+						"8118.00",
+						"2.13062e-17"
+					],
+					[
+						"8119.00",
+						"2.13231e-17"
+					],
+					[
+						"8120.00",
+						"2.13401e-17"
+					],
+					[
+						"8121.00",
+						"2.1357e-17"
+					],
+					[
+						"8122.00",
+						"2.13739e-17"
+					],
+					[
+						"8123.00",
+						"2.13908e-17"
+					],
+					[
+						"8124.00",
+						"2.14077e-17"
+					],
+					[
+						"8125.00",
+						"2.14247e-17"
+					],
+					[
+						"8126.00",
+						"2.14416e-17"
+					],
+					[
+						"8127.00",
+						"2.14585e-17"
+					],
+					[
+						"8128.00",
+						"2.14754e-17"
+					],
+					[
+						"8129.00",
+						"2.14923e-17"
+					],
+					[
+						"8130.00",
+						"2.15093e-17"
 					],
 					[
 						"8131.00",
@@ -16292,6 +18157,10 @@
 						"1.63098e-17"
 					],
 					[
+						"9425.00",
+						"1.63098e-17"
+					],
+					[
 						"9426.00",
 						"1.4623e-17"
 					],
@@ -16592,16 +18461,13 @@
 						"1.04691e-17"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			},
 			{
-				"time":"54033.0",
-				"filename":"ESSENCEq002_2006-10-25_fors1_3.ascii",
-				"instrument":"VLT-UT1 - FORS1",
-				"observer":"Unknown",
-				"redshift":"0.3469",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"54033.242",
+				"filename":"q002_20061025.242_fors1.flm",
+				"instrument":"FORS1",
+				"telescope":"VLT",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -19892,6 +21758,10 @@
 					],
 					[
 						"5892.81",
+						"1.46659e-17"
+					],
+					[
+						"5895.42",
 						"1.46659e-17"
 					],
 					[
@@ -23251,6 +25121,10 @@
 						"1.5636e-17"
 					],
 					[
+						"8087.82",
+						"1.5636e-17"
+					],
+					[
 						"8090.43",
 						"1.57505e-17"
 					],
@@ -23280,6 +25154,10 @@
 					],
 					[
 						"8108.70",
+						"1.47033e-17"
+					],
+					[
+						"8111.31",
 						"1.47033e-17"
 					],
 					[
@@ -24483,7 +26361,7 @@
 						"1.81984e-17"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}
