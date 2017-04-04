@@ -10,34 +10,46 @@
 				"alias":"1"
 			},
 			{
+				"name":"2013ApJ...770..107C",
+				"bibcode":"2013ApJ...770..107C",
+				"reference":"Childress et al. (2013)",
+				"alias":"2"
+			},
+			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"3"
+				"alias":"4"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"reference":"Barbon et al. (2008)",
+				"alias":"5"
 			},
 			{
 				"name":"CBET 996",
 				"bibcode":"2007CBET..996....1B",
 				"reference":"Buton et al. (2007)",
 				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/000900/CBET000996.txt",
-				"alias":"4"
+				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"5"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -45,7 +57,15 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"7"
+				"alias":"9"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -53,19 +73,23 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"8"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2007fh",
-				"source":"2,4,5,6,8"
+				"source":"3,6,7,8,10,11"
+			},
+			{
+				"value":"SNF20070703-007",
+				"source":"2,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,4,5,6,8"
+				"source":"3,5,6,7,8,10,11"
 			}
 		],
 		"comovingdist":[
@@ -73,35 +97,35 @@
 				"value":"300",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,4,6,7"
+				"source":"1,3,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+21:18:58.9",
 				"u_value":"degrees",
-				"source":"2,4,6,8"
+				"source":"3,6,8,11"
 			},
 			{
 				"value":"+21:18:58.90",
 				"u_value":"degrees",
-				"source":"5"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2007/07/03",
-				"source":"2,4,5,6,8"
+				"source":"3,6,7,8,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"NSF",
-				"source":"8"
+				"source":"11"
 			},
 			{
 				"value":"Nearby Supernova Factory",
-				"source":"4,6"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -109,70 +133,81 @@
 				"value":"0.0444",
 				"derived":true,
 				"e_value":"0.001",
-				"source":"3,7"
+				"source":"4,9"
 			}
 		],
 		"host":[
 			{
 				"value":"A221641+2118",
-				"source":"8"
+				"source":"11"
 			}
 		],
 		"hostcomovingdist":[
 			{
-				"value":"300",
+				"value":"359.4",
 				"derived":true,
-				"source":"1,2,7"
+				"source":"1,2,9"
 			}
 		],
 		"hostdec":[
 			{
+				"value":"+21:18:57.6",
+				"u_value":"degrees",
+				"source":"2"
+			},
+			{
 				"value":"+21:18:58",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"11"
 			},
 			{
 				"value":"+21:18:58.0",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"hostlumdist":[
 			{
-				"value":"380",
+				"value":"389.15",
 				"derived":true,
-				"source":"1,2,7"
+				"source":"1,2,9"
 			}
 		],
 		"hostoffsetang":[
 			{
-				"value":"8.988",
+				"value":"3.21",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,4,5,6,7,8"
+				"source":"2,3,6,7,8,9,11"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"12.1",
-				"source":"1,2,4,5,6,7,8"
+				"value":"4.32",
+				"source":"1,2,3,6,7,8,9,11"
 			}
 		],
 		"hostra":[
 			{
+				"value":"22:16:41.85",
+				"u_value":"hours",
+				"source":"2"
+			},
+			{
 				"value":"22:16:41",
 				"u_value":"hours",
-				"source":"8"
+				"source":"11"
 			},
 			{
 				"value":"22:16:41.00",
 				"u_value":"hours",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"hostredshift":[
 			{
-				"value":"0.08",
+				"value":"0.08282",
+				"e_value":"5e-05",
 				"source":"2"
 			}
 		],
@@ -180,7 +215,7 @@
 			{
 				"value":"24000",
 				"kind":"host",
-				"source":"8"
+				"source":"11"
 			}
 		],
 		"lumdist":[
@@ -188,67 +223,63 @@
 				"value":"380",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,4,6,7"
+				"source":"1,3,9"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19",
 				"derived":true,
-				"source":"1,4,6,7"
+				"source":"1,3,9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.2",
 				"derived":true,
-				"source":"4,6,7"
+				"source":"6,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2007/07/02",
 				"derived":true,
-				"source":"4,6,7"
+				"source":"6,8,9"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19",
 				"derived":true,
-				"source":"1,4,6,7"
+				"source":"1,3,9"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"19.2",
 				"derived":true,
-				"source":"4,6,7"
+				"source":"6,8,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2007/07/02",
 				"derived":true,
-				"source":"4,6,7"
+				"source":"6,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:16:41.64",
 				"u_value":"hours",
-				"source":"2,4,5,6,8"
+				"source":"3,6,7,8,11"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.08",
 				"kind":"host",
-				"source":"2"
-			},
-			{
-				"value":"0.08",
-				"source":"4,6"
+				"source":"3"
 			}
 		],
 		"velocity":[
@@ -256,7 +287,7 @@
 				"value":"24000",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"8"
+				"source":"11"
 			}
 		],
 		"photometry":[
@@ -264,7 +295,7 @@
 				"time":"54283.5",
 				"magnitude":"19.2",
 				"u_time":"MJD",
-				"source":"4,6"
+				"source":"6,8"
 			}
 		]
 	}

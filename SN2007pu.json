@@ -35,22 +35,34 @@
 				"alias":"5"
 			},
 			{
+				"name":"2010ApJ...722..566L",
+				"bibcode":"2010ApJ...722..566L",
+				"reference":"Lampeitl et al. (2010)",
+				"alias":"6"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"reference":"Barbon et al. (2008)",
+				"alias":"7"
+			},
+			{
 				"name":"CBET 1135",
 				"bibcode":"2007CBET.1135....1B",
 				"reference":"Bassett et al. (2007)",
 				"url":"http://www.cbat.eps.harvard.edu/cbet/001100/CBET001135.txt",
-				"alias":"6"
+				"alias":"8"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"7"
+				"alias":"9"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8"
+				"alias":"10"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -58,7 +70,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"9"
+				"alias":"11"
 			},
 			{
 				"name":"WISeREP",
@@ -66,7 +78,15 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"10"
+				"alias":"12"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"13"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -74,7 +94,7 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"11"
+				"alias":"14"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -82,38 +102,47 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"alias":"15"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2007pu",
-				"source":"2,6,8,12"
+				"source":"2,3,8,9,10,12,13,15"
 			},
 			{
 				"value":"SDSS-II SN 19899",
-				"source":"2,3,7,10,11"
+				"source":"2,13,14"
+			},
+			{
+				"value":"CSS071117:224558-003854",
+				"source":"13"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,6,7,8,10,12"
+				"source":"2,3,7,8,9,10,12,13,15"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"363",
 				"u_value":"Mpc",
-				"source":"2,11"
+				"source":"2,14"
 			},
 			{
 				"value":"418",
 				"u_value":"Mpc",
-				"source":"2,11"
+				"source":"2,14"
 			}
 		],
 		"dec":[
+			{
+				"value":"-00:38:55.99",
+				"u_value":"degrees",
+				"source":"6,13"
+			},
 			{
 				"value":"-00:38:55.4496",
 				"u_value":"degrees",
@@ -127,28 +156,28 @@
 			{
 				"value":"-00:38:55.4",
 				"u_value":"degrees",
-				"source":"3,6,8,12"
+				"source":"3,8,10,15"
 			},
 			{
 				"value":"-00:38:55.39",
 				"u_value":"degrees",
-				"source":"7"
+				"source":"9"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2007/10/29",
-				"source":"3,6,7,8,12"
+				"source":"3,8,9,10,15"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"SDSS-II",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"SDSS Collaboration",
-				"source":"6,8"
+				"source":"8,10"
 			}
 		],
 		"ebv":[
@@ -156,7 +185,7 @@
 				"value":"0.0563",
 				"derived":true,
 				"e_value":"0.0009",
-				"source":"5,9"
+				"source":"5,11"
 			}
 		],
 		"host":[
@@ -166,7 +195,7 @@
 			},
 			{
 				"value":"A224558-0038",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"SDSS J224558.32-3855.9",
@@ -174,14 +203,14 @@
 			},
 			{
 				"value":"SN 2007pu",
-				"source":"2,11"
+				"source":"2,14"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"400",
 				"derived":true,
-				"source":"1,3,9"
+				"source":"1,3,11"
 			}
 		],
 		"hostdec":[
@@ -193,7 +222,7 @@
 			{
 				"value":"-00:38:55",
 				"u_value":"degrees",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"-00:38:55.0",
@@ -205,21 +234,21 @@
 			{
 				"value":"420",
 				"derived":true,
-				"source":"1,3,9"
+				"source":"1,3,11"
 			}
 		],
 		"hostoffsetang":[
 			{
-				"value":"3.638",
+				"value":"0.0112",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,9"
+				"source":"2,6,11,13"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"5.866",
-				"source":"2,9,11"
+				"value":"0.0181",
+				"source":"2,6,11,13,14"
 			}
 		],
 		"hostra":[
@@ -231,7 +260,7 @@
 			{
 				"value":"22:45:58",
 				"u_value":"hours",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"22:45:58.00",
@@ -249,7 +278,7 @@
 			{
 				"value":"27000",
 				"kind":"host",
-				"source":"12"
+				"source":"15"
 			}
 		],
 		"lumdist":[
@@ -257,28 +286,28 @@
 				"value":"432",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,9"
+				"source":"1,2,11"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.53",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.55",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,11"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g'",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,11"
 			}
 		],
 		"maxdate":[
@@ -291,31 +320,36 @@
 			{
 				"value":"-19.63",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,11"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"18.55",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,11"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"g'",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,11"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2007/11/14",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,11"
 			}
 		],
 		"ra":[
+			{
+				"value":"22:45:58.320",
+				"u_value":"hours",
+				"source":"6,13"
+			},
 			{
 				"value":"22:45:58.08",
 				"u_value":"hours",
@@ -324,7 +358,7 @@
 			{
 				"value":"22:45:58.15",
 				"u_value":"hours",
-				"source":"3,6,7,8,12"
+				"source":"3,8,9,10,15"
 			}
 		],
 		"redshift":[
@@ -340,7 +374,7 @@
 				"value":"27000",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"12"
+				"source":"15"
 			}
 		],
 		"photometry":[
@@ -11419,7 +11453,7 @@
 						"3.57849907e-14"
 					]
 				],
-				"source":"4,10"
+				"source":"4,12"
 			}
 		]
 	}
