@@ -77,17 +77,22 @@
 				"alias":"12"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://www.wis-tns.org/",
+				"alias":"13"
+			},
+			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"13"
+				"alias":"14"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"14"
+				"alias":"15"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -95,7 +100,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"15"
+				"alias":"16"
 			},
 			{
 				"name":"WISeREP",
@@ -103,7 +108,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"16"
+				"alias":"17"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -111,7 +116,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"17"
+				"alias":"18"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -119,7 +124,7 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"18"
+				"alias":"19"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -127,55 +132,60 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"19"
+				"alias":"20"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2007is",
-				"source":"4,5,6,12,13,14,16,17,18,19"
+				"source":"4,5,6,12,13,14,15,17,18,19,20"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,6,9,12,14,17,19"
+				"source":"4,5,6,9,12,13,15,18,20"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"116",
 				"u_value":"Mpc",
-				"source":"3,18"
+				"source":"3,19"
 			},
 			{
 				"value":"128",
 				"u_value":"Mpc",
-				"source":"2,18"
+				"source":"2,19"
 			}
 		],
 		"dec":[
 			{
 				"value":"+40:14:36.9",
 				"u_value":"degrees",
-				"source":"6,11,12,14,17,19"
+				"source":"6,11,12,15,18,20"
 			},
 			{
 				"value":"+40:14:36.40",
 				"u_value":"degrees",
 				"source":"4"
+			},
+			{
+				"value":"+40:14:36.89",
+				"u_value":"degrees",
+				"source":"13"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2007/09/14",
-				"source":"5,6,12,14,19"
+				"source":"5,6,12,13,15,20"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"12,14,19"
+				"source":"12,15,20"
 			}
 		],
 		"ebv":[
@@ -183,27 +193,27 @@
 				"value":"0.0159",
 				"derived":true,
 				"e_value":"0.001",
-				"source":"8,15"
+				"source":"8,16"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 10553",
-				"source":"2,3,4,5,6,12,14,18,19"
+				"source":"2,3,4,5,6,12,13,15,19,20"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"100",
 				"derived":true,
-				"source":"1,6,15"
+				"source":"1,6,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+40:14:42",
 				"u_value":"degrees",
-				"source":"19"
+				"source":"20"
 			},
 			{
 				"value":"+40:14:42.0",
@@ -215,7 +225,7 @@
 			{
 				"value":"140",
 				"derived":true,
-				"source":"1,6,15"
+				"source":"1,6,16"
 			}
 		],
 		"hostoffsetang":[
@@ -223,20 +233,20 @@
 				"value":"6.932",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,11,12,14,15,17,19"
+				"source":"6,11,12,15,16,18,20"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"3.786",
-				"source":"3,5,6,11,12,14,15,17,18,19"
+				"source":"3,5,6,11,12,15,16,18,19,20"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:47:15",
 				"u_value":"hours",
-				"source":"19"
+				"source":"20"
 			},
 			{
 				"value":"16:47:14.83",
@@ -254,7 +264,7 @@
 			{
 				"value":"9047",
 				"kind":"host",
-				"source":"19"
+				"source":"20"
 			}
 		],
 		"lumdist":[
@@ -262,68 +272,73 @@
 				"value":"134.32",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,15"
+				"source":"1,5,16"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.309",
 				"derived":true,
-				"source":"1,5,15"
+				"source":"1,5,16"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.3",
 				"derived":true,
-				"source":"12,14,15"
+				"source":"12,15,16"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2007/09/13",
 				"derived":true,
-				"source":"12,14,15"
+				"source":"12,15,16"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19.151",
 				"derived":true,
-				"source":"1,5,15"
+				"source":"1,5,16"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"16.49",
 				"derived":true,
-				"source":"4,15"
+				"source":"4,16"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"4,15"
+				"source":"4,16"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2007/09/25",
 				"derived":true,
-				"source":"4,15"
+				"source":"4,16"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:47:14.59",
 				"u_value":"hours",
-				"source":"6,11,12,14,17,19"
+				"source":"6,11,12,15,18,20"
 			},
 			{
 				"value":"16:47:14.607",
 				"u_value":"hours",
 				"source":"4"
+			},
+			{
+				"value":"16:47:14.590",
+				"u_value":"hours",
+				"source":"13"
 			}
 		],
 		"redshift":[
@@ -338,7 +353,7 @@
 				"value":"9047",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"19"
+				"source":"20"
 			}
 		],
 		"photometry":[
@@ -346,7 +361,7 @@
 				"time":"54356.5",
 				"magnitude":"16.3",
 				"u_time":"MJD",
-				"source":"12,14"
+				"source":"12,15"
 			},
 			{
 				"time":"54368.12215",
@@ -28570,7 +28585,7 @@
 						"2.0885496e-17"
 					]
 				],
-				"source":"7,10,13"
+				"source":"7,10,14"
 			},
 			{
 				"time":"54384.13",
@@ -41997,7 +42012,7 @@
 						"1.2188228e-17"
 					]
 				],
-				"source":"7,10,13"
+				"source":"7,10,14"
 			},
 			{
 				"time":"54388.2",
