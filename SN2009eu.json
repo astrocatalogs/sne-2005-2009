@@ -47,10 +47,15 @@
 				"alias":"7"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://www.wis-tns.org/",
+				"alias":"8"
+			},
+			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -58,7 +63,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
@@ -66,7 +71,7 @@
 				"reference":"Silverman et al. (2012)",
 				"secondary":true,
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"10"
+				"alias":"11"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -74,7 +79,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"11"
+				"alias":"12"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -82,19 +87,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2009eu",
-				"source":"4,6,8,10,11,12"
+				"source":"4,6,8,9,11,12,13"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,4,6,7,8,10,11,12"
+				"source":"1,2,4,6,7,8,9,11,12,13"
 			}
 		],
 		"comovingdist":[
@@ -102,26 +107,31 @@
 				"value":"134",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"3,6,8,9"
+				"source":"3,6,9,10"
 			}
 		],
 		"dec":[
 			{
 				"value":"+39:33:12.5",
 				"u_value":"degrees",
-				"source":"4,6,7,8,11,12"
+				"source":"4,6,7,9,12,13"
+			},
+			{
+				"value":"+39:33:12.49",
+				"u_value":"degrees",
+				"source":"8"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2009/05/21",
-				"source":"1,2,4,6,8,10,12"
+				"source":"1,2,4,6,8,9,11,13"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"6,8,12"
+				"source":"6,9,13"
 			}
 		],
 		"ebv":[
@@ -129,27 +139,27 @@
 				"value":"0.0089",
 				"derived":true,
 				"e_value":"0.0007",
-				"source":"5,9"
+				"source":"5,10"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 6166",
-				"source":"1,2,4,6,8,10,12"
+				"source":"1,2,4,6,8,9,11,13"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"140",
 				"derived":true,
-				"source":"3,4,9"
+				"source":"3,4,10"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+39:33:04",
 				"u_value":"degrees",
-				"source":"12"
+				"source":"13"
 			},
 			{
 				"value":"+39:33:05.0",
@@ -161,7 +171,7 @@
 			{
 				"value":"140",
 				"derived":true,
-				"source":"3,4,9"
+				"source":"3,4,10"
 			}
 		],
 		"hostoffsetang":[
@@ -169,20 +179,20 @@
 				"value":"37.19",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"4,6,7,8,9,11,12"
+				"source":"4,6,7,9,10,12,13"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"23.45",
-				"source":"3,4,6,7,8,9,11,12"
+				"source":"3,4,6,7,9,10,12,13"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:28:38",
 				"u_value":"hours",
-				"source":"12"
+				"source":"13"
 			},
 			{
 				"value":"16:28:38.35",
@@ -200,7 +210,7 @@
 			{
 				"value":"9100",
 				"kind":"host",
-				"source":"12"
+				"source":"13"
 			}
 		],
 		"lumdist":[
@@ -216,69 +226,74 @@
 			{
 				"value":"-18.6",
 				"derived":true,
-				"source":"4,9"
+				"source":"4,10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.22",
 				"derived":true,
-				"source":"2,9,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"2,9,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2009/06/02",
 				"derived":true,
-				"source":"2,9,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-18.2",
 				"derived":true,
-				"source":"4,9"
+				"source":"4,10"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"17.66",
 				"derived":true,
-				"source":"2,9,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"2,9,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2009/06/02",
 				"derived":true,
-				"source":"2,9,10"
+				"source":"2,10,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:28:41.13",
 				"u_value":"hours",
-				"source":"4,6,7,8,11,12"
+				"source":"4,6,7,9,12,13"
+			},
+			{
+				"value":"16:28:41.129",
+				"u_value":"hours",
+				"source":"8"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0304",
-				"source":"6,8"
+				"source":"6,9"
 			}
 		],
 		"velocity":[
@@ -286,7 +301,7 @@
 				"value":"9100",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"12"
+				"source":"13"
 			}
 		],
 		"photometry":[
@@ -294,7 +309,7 @@
 				"time":"54971.5",
 				"magnitude":"17.8",
 				"u_time":"MJD",
-				"source":"6,8"
+				"source":"6,9"
 			},
 			{
 				"time":"54978.42",
@@ -303,7 +318,7 @@
 				"magnitude":"18.228",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54978.42",
@@ -312,7 +327,7 @@
 				"magnitude":"17.742",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54978.42",
@@ -321,7 +336,7 @@
 				"magnitude":"17.772",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54978.42",
@@ -330,7 +345,7 @@
 				"magnitude":"17.793",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54978.42",
@@ -339,7 +354,7 @@
 				"magnitude":"18.073",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54980.36",
@@ -348,7 +363,7 @@
 				"magnitude":"17.987",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54980.36",
@@ -357,7 +372,7 @@
 				"magnitude":"17.575",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54980.36",
@@ -366,7 +381,7 @@
 				"magnitude":"17.547",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54980.36",
@@ -375,7 +390,7 @@
 				"magnitude":"17.525",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54982.40",
@@ -384,7 +399,7 @@
 				"magnitude":"17.339",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54984.43",
@@ -393,7 +408,7 @@
 				"magnitude":"17.658",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54984.43",
@@ -402,7 +417,7 @@
 				"magnitude":"17.329",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54984.43",
@@ -411,7 +426,7 @@
 				"magnitude":"17.219",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54984.43",
@@ -420,7 +435,7 @@
 				"magnitude":"17.552",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54986.35",
@@ -429,7 +444,7 @@
 				"magnitude":"17.745",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54986.35",
@@ -438,7 +453,7 @@
 				"magnitude":"17.297",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54986.35",
@@ -447,7 +462,7 @@
 				"magnitude":"17.278",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54986.35",
@@ -456,7 +471,7 @@
 				"magnitude":"17.466",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54990.40",
@@ -465,7 +480,7 @@
 				"magnitude":"17.694",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54991.37",
@@ -474,7 +489,7 @@
 				"magnitude":"18.617",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54991.37",
@@ -483,7 +498,7 @@
 				"magnitude":"17.636",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54991.37",
@@ -492,7 +507,7 @@
 				"magnitude":"17.563",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54991.37",
@@ -501,7 +516,7 @@
 				"magnitude":"17.751",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54993.37",
@@ -510,7 +525,7 @@
 				"magnitude":"18.717",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54993.37",
@@ -519,7 +534,7 @@
 				"magnitude":"17.750",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54993.37",
@@ -528,7 +543,7 @@
 				"magnitude":"17.553",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54993.37",
@@ -537,7 +552,7 @@
 				"magnitude":"17.803",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54996.34",
@@ -546,7 +561,7 @@
 				"magnitude":"19.366",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54996.34",
@@ -555,7 +570,7 @@
 				"magnitude":"17.681",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54996.34",
@@ -564,7 +579,7 @@
 				"magnitude":"17.728",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54996.34",
@@ -573,7 +588,7 @@
 				"magnitude":"18.067",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"54997.40",
@@ -582,7 +597,7 @@
 				"magnitude":"17.824",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55002.32",
@@ -591,7 +606,7 @@
 				"magnitude":"19.909",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55002.32",
@@ -600,7 +615,7 @@
 				"magnitude":"17.722",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55002.32",
@@ -609,7 +624,7 @@
 				"magnitude":"18.053",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55002.32",
@@ -618,7 +633,7 @@
 				"magnitude":"18.541",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55003.35",
@@ -627,7 +642,7 @@
 				"magnitude":"18.540",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55005.31",
@@ -636,7 +651,7 @@
 				"magnitude":"19.826",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55005.31",
@@ -645,7 +660,7 @@
 				"magnitude":"17.946",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55005.31",
@@ -654,7 +669,7 @@
 				"magnitude":"18.321",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55005.31",
@@ -663,7 +678,7 @@
 				"magnitude":"18.902",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55008.32",
@@ -672,7 +687,7 @@
 				"magnitude":"19.867",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55008.32",
@@ -681,7 +696,7 @@
 				"magnitude":"18.581",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55008.32",
@@ -690,7 +705,7 @@
 				"magnitude":"18.313",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55008.32",
@@ -699,7 +714,7 @@
 				"magnitude":"18.620",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55008.32",
@@ -708,7 +723,7 @@
 				"magnitude":"19.193",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55015.30",
@@ -717,7 +732,7 @@
 				"magnitude":"20.282",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55015.30",
@@ -726,7 +741,7 @@
 				"magnitude":"18.881",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55015.30",
@@ -735,7 +750,7 @@
 				"magnitude":"19.469",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55025.10",
@@ -744,7 +759,7 @@
 				"magnitude":"20.739",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55025.10",
@@ -753,7 +768,7 @@
 				"magnitude":"19.132",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55025.10",
@@ -762,7 +777,7 @@
 				"magnitude":"19.312",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55025.10",
@@ -771,7 +786,7 @@
 				"magnitude":"19.493",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55027.31",
@@ -780,7 +795,7 @@
 				"magnitude":"19.860",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.09",
@@ -789,7 +804,7 @@
 				"magnitude":"20.843",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.09",
@@ -798,7 +813,7 @@
 				"magnitude":"19.750",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.09",
@@ -807,7 +822,7 @@
 				"magnitude":"19.534",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.09",
@@ -816,7 +831,7 @@
 				"magnitude":"20.090",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.22",
@@ -825,7 +840,7 @@
 				"magnitude":"20.823",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.22",
@@ -834,7 +849,7 @@
 				"magnitude":"19.586",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.22",
@@ -843,7 +858,7 @@
 				"magnitude":"19.771",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55032.22",
@@ -852,7 +867,7 @@
 				"magnitude":"19.833",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55035.26",
@@ -861,7 +876,7 @@
 				"magnitude":"20.869",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55035.26",
@@ -870,7 +885,7 @@
 				"magnitude":"19.259",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55035.26",
@@ -879,7 +894,7 @@
 				"magnitude":"19.671",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55035.26",
@@ -888,7 +903,7 @@
 				"magnitude":"20.160",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55038.19",
@@ -897,7 +912,7 @@
 				"magnitude":"21.051",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55038.19",
@@ -906,7 +921,7 @@
 				"magnitude":"19.419",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55038.19",
@@ -915,7 +930,7 @@
 				"magnitude":"20.116",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55038.19",
@@ -924,7 +939,7 @@
 				"magnitude":"19.960",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55042.00",
@@ -933,7 +948,7 @@
 				"magnitude":"21.221",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55042.00",
@@ -942,7 +957,7 @@
 				"magnitude":"20.350",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55042.00",
@@ -951,7 +966,7 @@
 				"magnitude":"19.865",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55042.00",
@@ -960,7 +975,7 @@
 				"magnitude":"20.448",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55044.22",
@@ -969,7 +984,7 @@
 				"magnitude":"19.776",
 				"telescope":"kait4",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55047.01",
@@ -978,7 +993,7 @@
 				"magnitude":"21.247",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55047.01",
@@ -987,7 +1002,7 @@
 				"magnitude":"20.277",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55047.01",
@@ -996,7 +1011,7 @@
 				"magnitude":"19.974",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			},
 			{
 				"time":"55047.01",
@@ -1005,7 +1020,7 @@
 				"magnitude":"20.333",
 				"telescope":"nickel2",
 				"u_time":"MJD",
-				"source":"2,10"
+				"source":"2,11"
 			}
 		],
 		"spectra":[
@@ -19182,7 +19197,7 @@
 						"1.00000"
 					]
 				],
-				"source":"1,10"
+				"source":"1,11"
 			}
 		]
 	}
